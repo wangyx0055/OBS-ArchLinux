@@ -1,0 +1,14 @@
+<package name="lib32-gimp" project="home:mazdlc:gimp-plugins">
+  <title>lib32-gimp</title>
+  <description>lib32-gimp</description>
+  <build>
+    <disable arch="i586"/>
+  </build>
+  <publish>
+    <disable arch="i586"/>
+  </publish>
+  <useforbuild>
+    <disable arch="i586"/>
+  </useforbuild>
+</package>
+

@@ -1,0 +1,5 @@
+<directory name="steinberg-asio" rev="2" srcmd5="5ccba9b6f2cbe6ad5243e4b4e9435bc7" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="edda530c2e985fcf9ffea739741ba19a" />
+  <entry md5="ad8b0f2a00d481d0521ca7c70e241638" mtime="1446559010" name="PKGBUILD" size="655" />
+  <entry md5="d786d57129270741ac46ce0da6f68638" mtime="1446315348" name="_service" size="471" />
+</directory>

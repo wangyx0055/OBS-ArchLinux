@@ -1,0 +1,52 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/rakshasa/rtorrent.git</param>
+	<param name="versionformat">%cd.g%h</param>
+    <param name="filename">rtorrent</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  <service name="set_version"/>
+  
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="path">/pyroscope/rtorrent-ps/master/patches/command_pyroscope.cc</param>
+  </service>
+  
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="path">/pyroscope/rtorrent-ps/master/patches/ps-ui_pyroscope_all.patch</param>
+  </service>
+  
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="path">/pyroscope/rtorrent-ps/master/patches/pyroscope.patch</param>
+  </service>
+  
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="path">/pyroscope/rtorrent-ps/master/patches/ui_pyroscope.cc</param>
+  </service>
+  
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="path">/pyroscope/rtorrent-ps/master/patches/ui_pyroscope.h</param>
+  </service>
+  
+  
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="path">/pyroscope/rtorrent-ps/master/patches/ui_pyroscope.patch</param>
+  </service>
+  
+  
+</services>

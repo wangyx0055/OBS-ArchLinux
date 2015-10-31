@@ -1,0 +1,5 @@
+<package name="lib32-systemd" project="home:mazdlc:multilib">
+  <title>lib32-systemd</title>
+  <description></description>
+</package>
+

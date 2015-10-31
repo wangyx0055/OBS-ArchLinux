@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">download.drobilla.net</param>
+    <param name="path">/blop-lv2-1.0.0.tar.bz2</param>
+  </service>
+</services>

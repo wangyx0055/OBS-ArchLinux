@@ -1,0 +1,5 @@
+<package name="libfdk-aac" project="home:mazdlc:missing">
+  <title>libfdk-aac</title>
+  <description>Fraunhofer FDK AAC codec library</description>
+</package>
+

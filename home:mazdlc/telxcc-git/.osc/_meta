@@ -1,0 +1,5 @@
+<package name="telxcc-git" project="home:mazdlc">
+  <title>telxcc-git</title>
+  <description>TELeteXt Closed Captions decoder (produces subtitles in .SRT format from transport stream .TS files) (GIT version)</description>
+</package>
+

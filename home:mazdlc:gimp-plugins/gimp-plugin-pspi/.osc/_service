@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">the-tml.net</param>
+    <param name="path">/gimp/gimp-pspi-1.0.7.suse10.i386.tar.gz</param>
+  </service>
+</services>

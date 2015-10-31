@@ -1,0 +1,5 @@
+<directory name="lib32-cairo" rev="2" srcmd5="60ca2b8f48517048e55d7f4da618c1fd" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="98a58650c584953d7edde294e2704e5c" />
+  <entry md5="a7c3c3186456605ee409d709e56dfd05" mtime="1446637536" name="PKGBUILD" size="460" />
+  <entry md5="43475911e88b7a021d2847489a623776" mtime="1446438790" name="_service" size="247" />
+</directory>

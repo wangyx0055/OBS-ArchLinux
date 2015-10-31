@@ -1,0 +1,5 @@
+<package name="lib32-mesa" project="home:mazdlc:multilib">
+  <title>lib32-mesa</title>
+  <description>lib32-mesa</description>
+</package>
+

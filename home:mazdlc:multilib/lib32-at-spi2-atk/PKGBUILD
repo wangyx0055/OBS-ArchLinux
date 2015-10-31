@@ -1,0 +1,21 @@
+_pkgbase=at-spi2-atk
+pkgname=lib32-at-spi2-atk
+pkgver=2.18.1
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( at-spi2-atk lib32-at-spi2-core lib32-atk )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

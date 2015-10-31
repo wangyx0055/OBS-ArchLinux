@@ -1,0 +1,21 @@
+_pkgbase=p11-kit
+pkgname=lib32-p11-kit
+pkgver=0.23.1
+pkgrel=2
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-glibc lib32-libtasn1 lib32-libffi p11-kit )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

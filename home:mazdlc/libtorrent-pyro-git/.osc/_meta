@@ -1,0 +1,5 @@
+<package name="libtorrent-pyro-git" project="home:mazdlc">
+  <title>libtorrent-pyro-git</title>
+  <description>BitTorrent library written in C++ (git version)</description>
+</package>
+

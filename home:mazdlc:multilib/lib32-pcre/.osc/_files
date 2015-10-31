@@ -1,0 +1,5 @@
+<directory name="lib32-pcre" rev="3" srcmd5="06d98b1e01ecfbe3fbaf1775a477befa" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="b9e04b0b074a22a2d90f983aeaeedc3a" />
+  <entry md5="8f89597cb5b6dc0876b3c21ae057bc8e" mtime="1446723621" name="PKGBUILD" size="361" />
+  <entry md5="bba7e769152d595c890fc671dd896f9c" mtime="1446441610" name="_service" size="245" />
+</directory>

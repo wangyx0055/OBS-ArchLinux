@@ -1,0 +1,5 @@
+<directory name="portaudio" rev="1" srcmd5="b769d16673895020aaed760b60595ef0" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="a84d72fec91251b4131fa2cb7f307d15" />
+  <entry md5="228ab7adf4c4ef67198143a644c7944b" mtime="1446716322" name="PKGBUILD" size="341" />
+  <entry md5="1aab6a15d333815f6662f2d20b659f17" mtime="1446716323" name="_service" size="245" />
+</directory>

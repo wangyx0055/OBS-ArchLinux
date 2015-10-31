@@ -1,0 +1,21 @@
+_pkgbase=e2fsprogs
+pkgname=lib32-e2fsprogs
+pkgver=1.42.13
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-util-linux e2fsprogs )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

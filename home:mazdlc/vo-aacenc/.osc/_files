@@ -1,0 +1,6 @@
+<directory name="vo-aacenc" rev="5" srcmd5="150d7494291b1476c19516f9360dcfc9" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="466b3592f3a4fc42fd26059a2dd0702c" />
+  <entry md5="d1b765620de85f9a0786aec4bd08199c" mtime="1446542696" name="PKGBUILD" size="728" />
+  <entry md5="bb3e0b54ff46ee82946efa140afe6ebc" mtime="1446559508" name="_service" size="232" />
+  <entry md5="8842f2aeac51ffe994bca3271c7e5994" mtime="1446597038" name="bump.sh" size="512" />
+</directory>

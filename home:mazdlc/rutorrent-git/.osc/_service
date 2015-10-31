@@ -1,0 +1,38 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/Novik/ruTorrent.git</param>
+	<param name="versionformat">%cd.g%h</param>
+    <param name="filename">ruTorrent</param>
+  </service>
+  <service name="set_version"/>
+  
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/nelu/rutorrent-thirdparty-plugins.git</param>
+	<param name="version">1</param>
+    <param name="filename">extra</param>
+  </service>
+  
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/SanKen/rutorrent-titlebar.git</param>
+	<param name="version">1</param>
+    <param name="filename">titlebar</param>
+  </service>
+  
+  
+  
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  
+  
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="path">/weixiyen/jquery-filedrop/master/jquery.filedrop.js</param>
+  </service>
+  
+</services>

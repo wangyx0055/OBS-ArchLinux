@@ -1,0 +1,30 @@
+# Maintainer: maz-1 <ohmygod19993 at gmail dot com>
+pkgname=sfarkxtc
+_gitname=$pkgname
+pkgver=20150311
+pkgrel=1
+pkgdesc="Basic sfArk decompressor ."
+arch=(i686 x86_64)
+url="https://github.com/raboof/sfarkxtc"
+license=('GPL3')
+depends=('zlib' 'sfarklib')
+makedepends=('git')
+#source=('git+https://github.com/raboof/sfArkLib.git')
+source=${pkgname}-${pkgver}.tar.xz
+md5sums=('SKIP')
+
+prepare() {
+    cd  "$srcdir/${pkgname}-${pkgver}"
+    sed -i 's:/usr/local/:/usr/:g' Makefile
+}
+build() {
+  cd "$srcdir/${pkgname}-${pkgver}"
+  make
+}
+
+package() {
+  cd "$srcdir/${pkgname}-${pkgver}"
+
+  make DESTDIR="$pkgdir" install
+}
+

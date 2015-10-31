@@ -1,0 +1,5 @@
+<directory name="gimp-plugin-separate+" rev="1" srcmd5="8e08fbf6e51200a5d0ee48b445a9d48e" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="3d3a10c3cd9d967a7acb17afaee11696" />
+  <entry md5="111854f6cec1ce5e692eae872c87db75" mtime="1446625190" name="PKGBUILD" size="1001" />
+  <entry md5="0e14dc181cd25ced5cc85569849fb731" mtime="1446625191" name="_service" size="228" />
+</directory>

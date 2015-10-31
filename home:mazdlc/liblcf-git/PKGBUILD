@@ -1,0 +1,31 @@
+# Maintainer: carstene1ns <arch carsten-teibes de> - http://git.io/ctPKG
+
+pkgname=liblcf-git
+pkgver=0.3.1.r0.g3f72675
+pkgrel=1
+pkgdesc="Library to handle RPG Maker 2000/2003 and EasyRPG projects (development version)"
+arch=('i686' 'x86_64')
+url="https://easy-rpg.org/"
+license=('MIT')
+conflicts=('liblcf')
+provides=("liblcf=${pkgver%.r*}")
+depends=('gcc-libs' 'expat' 'icu')
+makedepends=('git')
+source=(liblcf-$pkgver.tar.xz)
+md5sums=('SKIP')
+
+build () {
+  cd liblcf-$pkgver
+
+  autoreconf -i
+  ./configure --prefix=/usr --enable-shared --disable-static
+  make
+}
+
+package () {
+  cd liblcf-$pkgver
+
+  make DESTDIR="$pkgdir/" install
+  # license
+  install -Dm644 COPYING "$pkgdir"/usr/share/licenses/$pkgname/COPYING
+}

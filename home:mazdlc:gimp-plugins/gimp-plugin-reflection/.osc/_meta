@@ -1,0 +1,5 @@
+<package name="gimp-plugin-reflection" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-reflection</title>
+  <description>gimp-plugin-reflection</description>
+</package>
+

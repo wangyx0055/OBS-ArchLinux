@@ -1,0 +1,5 @@
+<package name="lib32-libpng" project="home:mazdlc:multilib">
+  <title>lib32-libpng</title>
+  <description>lib32-libpng</description>
+</package>
+

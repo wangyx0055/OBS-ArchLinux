@@ -1,0 +1,5 @@
+<directory name="networkmanager-openswan" rev="1" srcmd5="b33c5b5792ed2a580d8a170c9d74d2b0" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="01445cf9a525c7869b9fe2ceea8f8e5f" />
+  <entry md5="32529cf36c98d54bc27936d6b65755ca" mtime="1446529528" name="PKGBUILD" size="1301" />
+  <entry md5="9c6b781ddcaea787bdb0275d0a478d98" mtime="1446529530" name="_service" size="268" />
+</directory>

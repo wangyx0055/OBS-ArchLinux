@@ -1,0 +1,66 @@
+# Maintainer: maz-1 <loveayawaka at gmail dot com>
+_pkgname=gimp-painter
+pkgname=$_pkgname-git
+pkgver=2.8.20151031
+pkgrel=1
+pkgdesc="Fork of GIMP aiming to add drawing and painting features to GIMP. Git version"
+arch=('i686' 'x86_64')
+url="http://www.gimp.org"
+license=('GPL' 'LGPL')
+groups=()
+depends=('lcms2' 'libwmf' 'webkitgtk2' 'libgexiv2' 'librsvg' 'libpng' 'fontconfig' 'desktop-file-utils' 'babl' 'libexif' 'libart-lgpl' 'pygtk' 'dbus-glib' 'gtk-doc' 'openexr' 'cairo' 'hicolor-icon-theme' 'gegl' 'jansson')
+makedepends=('gutenprint' 'intltool' 
+  'gnome-python' 'poppler-glib' 'pkgconfig' 
+  'alsa-lib' 'libtool' 'autoconf' 'automake' 
+  'libxslt' 'pango' 'curl' 'gettext' 'git' 'iso-codes')
+optdepends=('gimp-paint-studio: Extra brushes and accompanying tool presets'
+            'gutenprint: for sophisticated printing only as gimp has built-in cups print support'
+            'poppler-glib: for pdf support'
+            'alsa-lib: for MIDI event controller module'
+            'curl: for URI support'
+            'ghostscript: for postscript support'
+            )
+options=('!libtool' '!makeflags')
+provides=('gimp=2.8')
+conflicts=('gimp' 'gimp-painter')
+replaces=()
+backup=()
+install='gimp-painter.install'
+source="${_pkgname}-${pkgver}.tar.xz"
+md5sums=('SKIP' 'SKIP')
+# notice : checksum for install file is also required !
+
+_gitname=gimp-painter
+
+prepare() {
+    cd "$srcdir/${_pkgname}-${pkgver}"
+    sed -i 's/automake-1.10/automake-1.15/g' autogen.sh
+    sed -i 's/aclocal-1.10/aclocal-1.15/g' autogen.sh
+    sed -i 's/gegl-0.2/gegl-0.3/g' configure.ac
+}
+
+build() {
+  ls $srcdir
+  cd "$srcdir/${_pkgname}-${pkgver}"
+  gtkdocize
+  PYTHON=/usr/bin/python2 ./autogen.sh --prefix=/usr --sysconfdir=/etc \
+    --enable-mp --enable-gimp-console --enable-gimp-remote \
+    --enable-python --with-gif-compression=lzw --with-libcurl \
+    --without-aa --without-hal --without-gvfs --without-gnomevfs
+  make -j4
+}
+
+package() {
+  cd "$srcdir/${_pkgname}-${pkgver}"
+  make DESTDIR="$pkgdir/" install
+  sed -i 's|#!/usr/bin/env python|#!/usr/bin/env python2|' "${pkgdir}"/usr/lib/gimp/2.0/plug-ins/*.py
+  install -Dm644 ./libgimp/gimpmypaintbrushselect_pdb.h "${pkgdir}/usr/include/gimp-2.0/libgimp/gimpmypaintbrushselect_pdb.h"
+	GIMPBIN=` ls ${pkgdir}/usr/bin | grep -e 'gimp-2' `
+	GIMPCLIBIN=` ls ${pkgdir}/usr/bin | grep -e 'gimp-console-2' `
+	GIMPTOOL=` ls ${pkgdir}/usr/bin | grep -e 'gimptool-2' `
+  [ -f ${pkgdir}/usr/bin/gimp ] || ln -s $GIMPBIN ${pkgdir}/usr/bin/gimp
+  [ -f ${pkgdir}/usr/bin/gimp-console ] || ln -s $GIMPCLIBIN ${pkgdir}/usr/bin/gimp-console
+  [ -f ${pkgdir}/usr/bin/gimptool ] || ln -s $GIMPTOOL ${pkgdir}/usr/bin/gimptool
+  
+}
+

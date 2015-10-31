@@ -1,0 +1,5 @@
+<directory name="lib32-dconf" rev="1" srcmd5="40dfff8b3670287a4e0d72ca9a02f066" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="596cad1fde5cf88a6715880212590746" />
+  <entry md5="703cb77ab889a6d4422f78e8f6ed64a7" mtime="1446438311" name="PKGBUILD" size="377" />
+  <entry md5="5829fee8ee3d92081df1d0d7dba99e4c" mtime="1446438312" name="_service" size="247" />
+</directory>

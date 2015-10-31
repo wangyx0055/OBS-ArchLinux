@@ -1,0 +1,5 @@
+<directory name="lib32-glib-networking" rev="1" srcmd5="86fdaaf722d7ace10b2f3aa921457ec9" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="563b047bb0c7feb188005cfe04c08916" />
+  <entry md5="be97f112dadf012a1db1383849a2df81" mtime="1446439010" name="PKGBUILD" size="421" />
+  <entry md5="3540a808779c6e16b52f289d13356743" mtime="1446439012" name="_service" size="257" />
+</directory>

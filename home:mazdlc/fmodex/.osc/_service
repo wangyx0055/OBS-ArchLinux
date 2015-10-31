@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">www.dropbox.com</param>
+    <param name="path">/s/0z62kk2p79gs6bh/fmodapi44458linux.tar.gz?dl=1</param>
+  </service>
+</services>

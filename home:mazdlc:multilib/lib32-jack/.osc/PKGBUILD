@@ -1,0 +1,21 @@
+_pkgbase=jack
+pkgname=lib32-jack
+pkgver=0.124.1
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( jack lib32-db lib32-libsamplerate lib32-readline )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

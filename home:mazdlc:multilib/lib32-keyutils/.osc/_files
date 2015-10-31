@@ -1,0 +1,5 @@
+<directory name="lib32-keyutils" rev="1" srcmd5="91d4a64ab912c18846bcc6073f03fb2a" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="7a9bbbd771d4c68505c7c29fc7169025" />
+  <entry md5="d0ce97641b0cdfed5dc82d2c1fedff6a" mtime="1446442482" name="PKGBUILD" size="371" />
+  <entry md5="490a8bca868e0ff496fef90f973f3d26" mtime="1446442484" name="_service" size="249" />
+</directory>

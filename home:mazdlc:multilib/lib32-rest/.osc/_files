@@ -1,0 +1,5 @@
+<directory name="lib32-rest" rev="1" srcmd5="67697e96be2ab9e124aca007b9424e52" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="a6e1661c4449ee8c280253e44454bc2e" />
+  <entry md5="e9fe9c1ae13acf04eb1b5e7bc97ff021" mtime="1446438947" name="PKGBUILD" size="362" />
+  <entry md5="63d55ddc2f0461afa56b5947e7924b26" mtime="1446438948" name="_service" size="246" />
+</directory>

@@ -1,0 +1,5 @@
+<directory name="lib32-at-spi2-atk" rev="1" srcmd5="6e730d141e08d2a70bcbcb988cce8b5a" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="41835df0d3dfa0739bf9f40b5a340648" />
+  <entry md5="6a7be189bd4acabf79910573373546e0" mtime="1446438191" name="PKGBUILD" size="398" />
+  <entry md5="9eb4b09f33eb296d98b8cd2a1be53aad" mtime="1446438194" name="_service" size="253" />
+</directory>

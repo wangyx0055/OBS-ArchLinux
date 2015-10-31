@@ -1,0 +1,5 @@
+<package name="cutemarked-git" project="home:mazdlc">
+  <title>cutemarked-git</title>
+  <description>Qt Markdown Editor</description>
+</package>
+

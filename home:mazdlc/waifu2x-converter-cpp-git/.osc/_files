@@ -1,0 +1,7 @@
+<directory name="waifu2x-converter-cpp-git" rev="13" srcmd5="487c1212bd25aa23e0f5cadbb1f6932f" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="3dc83546cd030b6d532acac3622faa45" />
+  <entry md5="fb3461cf206470041a89effa983ee624" mtime="1446439701" name="PKGBUILD" size="1390" />
+  <entry md5="bb8c13f54ab47a7e42772de3128dfca4" mtime="1446714503" name="_service" size="486" />
+  <entry md5="a11cd7d420e2bba70218fd429face463" mtime="1446434269" name="arch_use_usr_share_for_models.patch" size="1687" />
+  <entry md5="bc1a849b7bc63dfa8d54497fa1297a00" mtime="1446434271" name="waifu2x.1.gz" size="1242" />
+</directory>

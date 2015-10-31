@@ -1,0 +1,7 @@
+<directory name="nvenc-api" rev="2" srcmd5="069a3886087752244fc3b6d945a5a7f5" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="fc070809277d11dc20f609d132ce1380" />
+  <entry md5="42d5a8448305704ee55390eb6c01c597" mtime="1446608938" name="LICENSE" size="13529" />
+  <entry md5="cbe8bee88ba3ef290e950dbc247af91d" mtime="1446608972" name="PKGBUILD" size="942" />
+  <entry md5="c90cab3ae9447991682be6ae2809995d" mtime="1446608942" name="_service" size="239" />
+  <entry md5="ac0494c1e7299a42f2204edc9f989c5d" mtime="1446608943" name="bump.sh" size="651" />
+</directory>

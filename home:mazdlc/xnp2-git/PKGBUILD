@@ -1,0 +1,32 @@
+# Maintainer: Emmanuel Gil Peyrot <linkmauve@linkmauve.fr>
+# Contributor: Score_Under <seejay.11@gmail.com>
+
+pkgname=xnp2-git
+_pkgname=xnp2
+pkgver=20150503.g9a0baa6
+pkgrel=1
+pkgdesc="X Neko Project II, a PC-9801 emulator"
+arch=('i686' 'x86_64')
+url="http://www.nonakap.org/np2/"
+license=('BSD')
+depends=('gtk2' 'sdl_mixer')
+makedepends=('unzip')
+provides=${_pkgname}
+conflicts=${_pkgname}
+#source=("git://github.com/nonakap/xnp2.git")
+source=$_pkgname-$pkgver.tar.xz
+md5sums=('SKIP')
+
+build() {
+  cd "$srcdir/$_pkgname-$pkgver/x11"
+  ./autogen.sh
+  ./configure --prefix=/usr --enable-ia32
+  make
+}
+
+package() {
+  cd "$srcdir/$_pkgname-$pkgver/x11"
+  make DESTDIR="$pkgdir/" install
+}
+
+# vim:set ts=2 sts=2 sw=2 et:

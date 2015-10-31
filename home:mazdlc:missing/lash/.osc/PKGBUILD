@@ -1,0 +1,20 @@
+pkgname=lash
+pkgver=0.6.0~rc2
+pkgrel=1
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( dbus gtk2 jack libxml2 python2 )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

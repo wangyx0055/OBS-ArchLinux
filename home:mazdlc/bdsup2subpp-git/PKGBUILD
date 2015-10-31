@@ -1,0 +1,34 @@
+# Maintainer: Gustavo Alvarez <sl1pkn07@gmail.com>
+
+pkgname=bdsup2subpp-git
+_gitname="bdsup2subpp"
+pkgver=1.0.2.0.g6c9b6b7
+pkgrel=1
+pkgdesc="Subtitle conversion tool for image based stream formats with scaling capabilities and some other nice features. (GIT version)"
+arch=('i686' 'x86_64')
+license=('Apache')
+url="http://forum.doom9.org/showthread.php?t=167051"
+depends=('libqxt')
+makedepends=('git' 'cmake')
+provides=('bdsup2subpp')
+conflicts=('bdsup2subpp')
+source=${_gitname}-$pkgver.tar.xz
+md5sums=('SKIP')
+
+
+
+build() {
+  cd "${_gitname}-$pkgver/src"
+
+  qmake-qt4
+  make
+}
+
+package() {
+  cd "${_gitname}-$pkgver/src"
+  install -Dm755 bdsup2sub++ "${pkgdir}/usr/bin/bdsup2subpp"
+  install -Dm644 help.htm "${pkgdir}/usr/share/doc/${_gitname}/help.htm"
+
+  install -Dm644 "${startdir}/bdsup2subpp.desktop" "${pkgdir}/usr/share/applications/bdsup2subpp.desktop"
+  install -Dm644 "${startdir}/bdsup2subpp.png" "${pkgdir}/usr/share/pixmaps/bdsup2subpp.png"
+}

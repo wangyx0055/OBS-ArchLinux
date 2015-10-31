@@ -1,0 +1,5 @@
+<directory name="lib32-polkit" rev="2" srcmd5="06c94c52d1e56abb850ff933d4f4e8a8" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="c80b1b7bfcfaac7c3210b667d262cbf9" />
+  <entry md5="a9255036b4d190c6a57d037e3f39bedc" mtime="1446723629" name="PKGBUILD" size="400" />
+  <entry md5="4f7c8597c22c414f42fc8586c5ba3d83" mtime="1446444452" name="_service" size="247" />
+</directory>

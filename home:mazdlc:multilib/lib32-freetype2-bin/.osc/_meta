@@ -1,0 +1,5 @@
+<package name="lib32-freetype2-bin" project="home:mazdlc:multilib">
+  <title>lib32-freetype2-bin</title>
+  <description>lib32-freetype2-bin</description>
+</package>
+

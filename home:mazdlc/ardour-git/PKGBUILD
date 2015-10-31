@@ -1,0 +1,58 @@
+# Maintainer: Boohbah <boohbah at gmail.com>
+# Contributor: SpepS <dreamspepser at yahoo.it>
+# Contributor: Bernardo Barros <bernardobarros at gmail.com>
+# Contributor: Uli Armbruster <uli_armbruster at web.de>
+# Contributor: Christopher Arndt <chris at chrisarndt.de>
+
+_pkgname=ardour
+pkgname="${_pkgname}-git"
+pkgver=4.2.r16.g041b31d
+pkgrel=1
+pkgdesc="A multichannel hard disk recorder and digital audio workstation"
+arch=('i686' 'x86_64')
+url="http://ardour.org/"
+license=('GPL')
+depends=('aubio' 'cwiid' 'gtkmm' 'liblo' 'liblrdf' 'libltc' 'lilv' 'suil'
+         'rubberband' 'taglib')
+makedepends=('git' 'python2' 'python' 'boost' 'cppunit' 'doxygen' 'graphviz')
+provides=("${_pkgname}")
+conflicts=("${_pkgname}")
+#source=("${_pkgname}::git://github.com/Ardour/ardour.git")
+source=${_pkgname}-${pkgver}.tar.xz
+md5sums=('SKIP')
+
+prepare() {
+  cp "${startdir}/revision.cc" "${srcdir}/${_pkgname}-${pkgver}/libs/ardour/revision.cc"
+}
+
+build() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  
+  python2 waf configure \
+    --prefix=/usr \
+    --configdir=/etc \
+    --docs \
+    --freedesktop \
+    --internal-shared-libs \
+    --libjack=weak \
+    --lv2 \
+    --lxvst \
+    --optimize \
+    --with-backends=jack,alsa,dummy \
+    --cxx11 \
+    --use-external-libs
+
+  python2 waf build $MAKEFLAGS
+}
+
+package() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+
+  python2 waf --destdir="${pkgdir}" install
+
+  # Install freedesktop.org compatibile applictaion starter desktop file
+  install -Dm644 "${startdir}/ardour.desktop" \
+    "${pkgdir}/usr/share/applications/ardour.desktop"
+}
+
+# vim:set ts=2 sw=2 et:

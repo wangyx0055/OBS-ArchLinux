@@ -1,0 +1,5 @@
+<directory name="lib32-libogg" rev="1" srcmd5="37a361f0918d52c3251aaa66e8df3058" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="93e0d4e6cdf584e6545684d20ae9401d" />
+  <entry md5="9edb2246b5d0175a570f60e486b06e3c" mtime="1446390719" name="PKGBUILD" size="365" />
+  <entry md5="6d8772665a5c6a9c29cce53c0875fe98" mtime="1446390726" name="_service" size="248" />
+</directory>

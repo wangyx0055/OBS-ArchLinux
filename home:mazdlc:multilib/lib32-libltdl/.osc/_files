@@ -1,0 +1,5 @@
+<directory name="lib32-libltdl" rev="3" srcmd5="bc851e3447983ccd89acb9854a089a7b" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="d2a7f7eeefc6d36009aacab391a080eb" />
+  <entry md5="d94b6aab243cf9e18c8d712fce8328e6" mtime="1446723402" name="PKGBUILD" size="465" />
+  <entry md5="edebee49e01c1f9e11823a69981b49b0" mtime="1446444734" name="_service" size="248" />
+</directory>

@@ -1,0 +1,36 @@
+# $Id: PKGBUILD 231421 2015-02-15 10:30:48Z lcarlier $
+# git://anongit.freedesktop.org/xorg/driver/xf86-video-ati
+
+_pkgname=xf86-video-ati
+pkgname=$_pkgname-git
+pkgver=7.5.0.g3a3f407
+epoch=1
+pkgrel=2
+pkgdesc="X.org ati video driver"
+arch=('i686' 'x86_64')
+url="http://xorg.freedesktop.org/"
+license=('custom')
+depends=('libdrm>=2.4.58' 'systemd' 'mesa-dri')
+makedepends=('xorg-server-devel' 'X-ABI-VIDEODRV_VERSION=19')
+conflicts=('xorg-server<1.16.0' 'X-ABI-VIDEODRV_VERSION<19' 'X-ABI-VIDEODRV_VERSION>=20')
+provides=$_pkgname
+conflicts=$_pkgname
+groups=('xorg-drivers' 'xorg')
+source=${_pkgname}-${pkgver}.tar.xz
+sha256sums=('SKIP')
+
+build() {
+  cd ${_pkgname}-${pkgver}
+  ./autogen.sh
+  ./configure --prefix=/usr \
+    --enable-glamor
+  make
+}
+
+package() {
+  cd ${_pkgname}-${pkgver}
+
+  make "DESTDIR=${pkgdir}" install
+  install -m755 -d "${pkgdir}/usr/share/licenses/${_pkgname}"
+  install -m644 COPYING "${pkgdir}/usr/share/licenses/${_pkgname}/"
+}

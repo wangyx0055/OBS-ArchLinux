@@ -1,0 +1,10 @@
+<directory name="mkxp-git" rev="15" srcmd5="5b00f9ddbf106fe8dd78762ab5c37d17" vrev="15">
+  <serviceinfo code="succeeded" xsrcmd5="9aac9f0441c4091624d3b7c6ffeff27f" />
+  <entry md5="0d4e2660a06d6b185cb9a26e3c54d330" mtime="1446306789" name="LiberationSans.ttf" size="4504992" />
+  <entry md5="830cb452cc983cc8cf92241bd6d42771" mtime="1446313920" name="PKGBUILD" size="2323" />
+  <entry md5="d9681290726eb82e468cfc2a75d1766a" mtime="1446714394" name="_service" size="671" />
+  <entry md5="244d09e7ea9c681e884fe40bb8632724" mtime="1446306795" name="add_cxx11_flag.patch" size="312" />
+  <entry md5="9e23aea0ac72dc352d8cb9fe9df8f499" mtime="1446306796" name="fix_library_name.patch" size="1578" />
+  <entry md5="6d82e0d079846dfdeb3d6c19692baa4c" mtime="1446306798" name="mkxp.install" size="316" />
+  <entry md5="ffd2000f26d56449ef66dcc53b860023" mtime="1446306802" name="static_link.patch" size="1652" />
+</directory>

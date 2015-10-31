@@ -1,0 +1,5 @@
+<directory name="lib32-qt4" rev="2" srcmd5="6abfee7baa5815d590c54851f2c4f5c1" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="20aea315e8b22e683de792b9f42837fb" />
+  <entry md5="0ffc6a69433fecd7a580bd080aff990c" mtime="1446963566" name="PKGBUILD" size="509" />
+  <entry md5="f6feeead036922d3047c0f93237e76c8" mtime="1446963690" name="_service" size="244" />
+</directory>

@@ -1,0 +1,5 @@
+<package name="delaycut-git" project="home:mazdlc">
+  <title>delaycut-git</title>
+  <description>AC-3, DTS, MPA and WAV audio delay and cutting</description>
+</package>
+

@@ -1,0 +1,5 @@
+<directory name="neroaacenc" rev="1" srcmd5="4fd23f3054b8fd775238cd13d8193457" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="7aa521043464aecc086bb3adac921007" />
+  <entry md5="fcbfa5eef519802da55f6e66157a22ed" mtime="1446963494" name="PKGBUILD" size="640" />
+  <entry md5="50f53b4d7bb01d1e983c6af28cbec533" mtime="1446963496" name="_service" size="213" />
+</directory>

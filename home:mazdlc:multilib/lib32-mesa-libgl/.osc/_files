@@ -1,0 +1,6 @@
+<directory name="lib32-mesa-libgl" rev="6" srcmd5="79d9438e913f7802567ff113af1c5877" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="b5953af3b9a5835905e1a3c196c41a92" />
+  <entry md5="c5260a4493c54161649cbb77fb55d141" mtime="1446441719" name="PKGBUILD" size="382" />
+  <entry md5="5ecf5d1470624ffe041b3b7f79d6c81d" mtime="1446379772" name="_service" size="252" />
+  <entry md5="69499eb7e4f5878e00588df5c027785b" mtime="1446723755" name="bump.sh" size="850" />
+</directory>

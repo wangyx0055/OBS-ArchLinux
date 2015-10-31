@@ -1,0 +1,6 @@
+<directory name="fmodex" rev="5" srcmd5="a2385382af692cc0b0924ba3dbef56d1" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="cc52756b7a4e4c80545dd74f392a2934" />
+  <entry md5="e7a62da59bafb57cbdea683190a3fd58" mtime="1397650327" name="PERMISSION" size="672" />
+  <entry md5="91501db4a5fa502dd26d2065b0171de6" mtime="1446814183" name="PKGBUILD" size="1231" />
+  <entry md5="d0920731dcab877918e9d7f44772fe0a" mtime="1446814143" name="_service" size="235" />
+</directory>

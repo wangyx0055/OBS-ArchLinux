@@ -1,0 +1,8 @@
+<directory name="qsanguoshav2-git" rev="17" srcmd5="f1dedc2e206a6f806423f12435ea0766" vrev="17">
+  <serviceinfo code="succeeded" xsrcmd5="09559a8cb297e5eb49a493afb15573dc" />
+  <entry md5="a901df625184e96f6d48948c9cb0e7c3" mtime="1446521366" name="PKGBUILD" size="1251" />
+  <entry md5="361678213041422580033bba0068cf0e" mtime="1446714444" name="_service" size="463" />
+  <entry md5="49ccb51ea1ba979f8c8b469b122f69d6" mtime="1446517487" name="qsanguosha" size="43" />
+  <entry md5="c8180a5a852ea23f194f49e60e2b0b02" mtime="1446517490" name="qsanguosha.desktop" size="547" />
+  <entry md5="5cf52145ae79d58807e66e7c43e7ead4" mtime="1446517491" name="sgs.png" size="10563" />
+</directory>

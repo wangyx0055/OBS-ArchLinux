@@ -1,0 +1,5 @@
+<package name="lib32-alsa-lib" project="home:mazdlc:multilib">
+  <title>lib32-alsa-lib</title>
+  <description>lib32-alsa-lib</description>
+</package>
+

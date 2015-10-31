@@ -1,0 +1,5 @@
+<directory name="lib32-mesa" rev="3" srcmd5="4f9bef193da1aaf13c68f04b13bac479" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="9d0e7084f2d772c19bd3e437e84c95c0" />
+  <entry md5="7abfdc25c1081e8c7f007d1051ba78e6" mtime="1446378076" name="PKGBUILD" size="494" />
+  <entry md5="5fb8d5f309773bd3eb98ca1769f60219" mtime="1446379786" name="_service" size="246" />
+</directory>

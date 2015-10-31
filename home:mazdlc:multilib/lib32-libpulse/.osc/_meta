@@ -1,0 +1,5 @@
+<package name="lib32-libpulse" project="home:mazdlc:multilib">
+  <title>lib32-libpulse</title>
+  <description>lib32-libpulse</description>
+</package>
+

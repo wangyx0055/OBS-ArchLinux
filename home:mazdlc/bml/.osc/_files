@@ -1,0 +1,6 @@
+<directory name="bml" rev="1" srcmd5="6ed3fdaf90beb008c8fb1b30355d1312" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="14239c417350a9eeccefd19f1703b378" />
+  <entry md5="4e44667960e4bdebc256afdae60073ca" mtime="1446952914" name="PKGBUILD" size="567" />
+  <entry md5="6ec878c5b08f4c07ab37a08ad0e95952" mtime="1446952916" name="_service" size="246" />
+  <entry md5="fae93ad9c12bdcb6f1d7e7edd2546eb5" mtime="1446952917" name="bump.sh" size="498" />
+</directory>

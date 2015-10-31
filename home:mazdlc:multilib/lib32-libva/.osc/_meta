@@ -1,0 +1,5 @@
+<package name="lib32-libva" project="home:mazdlc:multilib">
+  <title>lib32-libva</title>
+  <description>lib32-libva</description>
+</package>
+

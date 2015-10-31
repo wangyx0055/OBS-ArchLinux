@@ -1,0 +1,11 @@
+pkgname=lib32-jack
+pkgver=1.0
+pkgrel=1
+pkgdesc="null package for obs"
+arch=('i686')
+url="http://www.archlinux.org"
+license=('see original')
+
+package() {
+	touch /etc/${pkgname}.null
+}

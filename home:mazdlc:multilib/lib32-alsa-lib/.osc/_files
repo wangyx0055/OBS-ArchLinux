@@ -1,0 +1,5 @@
+<directory name="lib32-alsa-lib" rev="6" srcmd5="3aa0dbac664295ff3ecd0310d816dcc6" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="b7aa7fdf15dfafb5b2ceff4002ba7afe" />
+  <entry md5="d0dbf40a08194ec1d93c045f54e953ed" mtime="1446376735" name="PKGBUILD" size="388" />
+  <entry md5="7cbe10ed62dd40496e3651442c7a5148" mtime="1446379441" name="_service" size="250" />
+</directory>

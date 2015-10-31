@@ -1,0 +1,5 @@
+<package name="lib32-libgusb" project="home:mazdlc:multilib">
+  <title>lib32-libgusb</title>
+  <description></description>
+</package>
+

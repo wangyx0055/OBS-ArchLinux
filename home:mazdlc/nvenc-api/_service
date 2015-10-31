@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">developer.download.nvidia.com</param>
+    <param name="path">/compute/nvenc/v5.0/nvenc_5.0.1_sdk.zip</param>
+  </service>
+</services>

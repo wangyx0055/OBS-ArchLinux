@@ -1,0 +1,6 @@
+<directory name="libaacplus" rev="3" srcmd5="e97df4a3f1560320614b100320af34d2" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="78d427da7ffcd9837e76d0684ec5c82d" />
+  <entry md5="13a9246443d5f0abe62bcc31a45134c0" mtime="1446322855" name="PKGBUILD" size="1183" />
+  <entry md5="2efbdf0d2b4d9db33e984528cca4b9e1" mtime="1446322335" name="_service" size="965" />
+  <entry md5="c1492f0e6ac4db85008f1009bcd18a75" mtime="1446322857" name="fix_for_obs.patch" size="596" />
+</directory>

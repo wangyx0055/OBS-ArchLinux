@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">git://github.com/eplightning/audiothumbs-frameworks.git</param>
+    <param name="scm">git</param>
+    <param name="versionformat">%cd.g%h</param>
+    <param name="versionprefix">3</param>
+    <param name="filename">audiothumbs-frameworks</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

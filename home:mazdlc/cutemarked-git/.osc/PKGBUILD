@@ -1,0 +1,39 @@
+# Maintainer: Aetf <aetf at unlimitedcodeworks dot xyz>
+
+_gitname=CuteMarkEd
+pkgname=cutemarked-git
+pkgver=20151105
+pkgrel=2
+pkgdesc="Qt Markdown Editor"
+url="https://github.com/cloose/CuteMarkEd"
+arch=('i686' 'x86_64')
+license=( "GPL2" )
+depends=( "qt5-webkit" "hunspell" "discount>=2.1.7" "desktop-file-utils" "hicolor-icon-theme")
+makedepends=( 'git' 'qt5-tools' )
+provides=('cutemarked')
+conflicts=('cutemarked')
+source=("$_gitname-$pkgver.tar.xz")
+md5sums=('SKIP')
+install=$pkgname.install
+
+_pkgver() {
+  cd $srcdir/$_gitname-$pkgver
+  git describe --tags --long | sed -r "s/^v//;s/([^-]*-g)/r\\1/;s/-/./g"
+}
+
+prepare() {
+  cd $srcdir/$_gitname-$pkgver
+  mkdir -p build
+}
+
+build() {
+  cd $srcdir/$_gitname-$pkgver/build
+  
+  qmake ..
+  make
+}
+
+package() {
+  cd $srcdir/$_gitname-$pkgver/build
+  make INSTALL_ROOT="$pkgdir" install
+}

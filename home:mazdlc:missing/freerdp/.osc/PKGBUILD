@@ -1,0 +1,20 @@
+pkgname=freerdp
+pkgver=1.2.0_beta1+android9
+pkgrel=2
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( openssl libxcursor libcups alsa-lib libxext libxdamage ffmpeg libxkbfile libxinerama libxv libpulse libxkbfile libxrender libxfixes gst-plugins-base-libs )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

@@ -1,0 +1,40 @@
+# Maintainer: Alois Nespor <info@aloisnespor.info>
+# Contributor: speps <speps dot aur dot archlinux dot org>
+
+_pkgname=rssguard
+pkgname=$_pkgname-git
+pkgver=2.5.2
+pkgrel=1
+pkgdesc="A simple (yet powerful) Qt5 feed reader."
+arch=('i686' 'x86_64')
+url="https://bitbucket.org/skunkos/rssguard"
+license=('GPL3')
+depends=('qt5-webkit')
+makedepends=('cmake' 'qt5-tools')
+optdepends=('mariadb: MySQL/MariaDB storage backend support')
+provides=('rss-guard' $_pkgname)
+conflicts=('rss-guard' $_pkgname)
+replaces=('rss-guard')
+install="$_pkgname.install"
+source=("rssguard-$pkgver.tar.xz")
+
+prepare() {
+  cd rssguard-$pkgver
+  [ -d b ] || mkdir b
+  cd resources/scripts
+  rm -r transka
+  tar xvpJf $startdir/transka-1.tar.xz
+  mv transka-1 transka
+}
+
+build() {
+  cd rssguard-$pkgver/b
+  cmake ../ -DUSE_QT_5=ON -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=release
+  make
+}
+
+package() {
+  cd rssguard-$pkgver/b
+  make DESTDIR="$pkgdir/" install
+}
+sha256sums=('SKIP')

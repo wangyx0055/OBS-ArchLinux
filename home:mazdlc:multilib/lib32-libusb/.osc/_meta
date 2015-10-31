@@ -1,0 +1,5 @@
+<package name="lib32-libusb" project="home:mazdlc:multilib">
+  <title>lib32-libusb</title>
+  <description></description>
+</package>
+

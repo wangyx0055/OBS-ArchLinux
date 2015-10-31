@@ -1,0 +1,6 @@
+<directory name="gimp-plugin-deskew-git" rev="2" srcmd5="f0f18e80f60c22f18abfa9f187e67e2b" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="a4f030fc49a40f90a5a0b0257977a512" />
+  <entry md5="7f276d6871147c6697fb9e6d8d5ba903" mtime="1446625035" name="PKGBUILD" size="1130" />
+  <entry md5="846fab424b4d59621da65943460c21a7" mtime="1446622967" name="_service" size="473" />
+  <entry md5="90ce5c6a84fb8b67a034badad0dd6758" mtime="1446622969" name="autogen.sh.patch" size="1253" />
+</directory>

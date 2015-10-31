@@ -1,0 +1,5 @@
+<directory name="usbredir" rev="1" srcmd5="451076a91b6fec35c74a4634e138e6d4" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="34af498d43ef199ae944e92942a71ccb" />
+  <entry md5="ac70f8f56dbde62bcb5bb3573dd732dc" mtime="1446701189" name="PKGBUILD" size="325" />
+  <entry md5="28e226ea5d44e8bbb3edbfe4a2b20f62" mtime="1446701190" name="_service" size="244" />
+</directory>

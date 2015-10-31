@@ -1,0 +1,21 @@
+_pkgbase=libxcb
+pkgname=lib32-libxcb
+pkgver=1.11.1
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-libxdmcp lib32-libxau libxcb )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

@@ -1,0 +1,12 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">www.steinberg.net</param>
+    <param name="path">/sdk_downloads/asiosdk2.3.zip</param>
+  </service>
+  <service name="verify_file">
+    <param name="file">_service:download_url:asiosdk2.3.zip</param>
+    <param name="verifier">sha256</param>
+    <param name="checksum">69225020e9144af568784c6076b55939a55369edaf0ffcdf4d5e5b5898f31b9b</param>
+  </service>
+</services>

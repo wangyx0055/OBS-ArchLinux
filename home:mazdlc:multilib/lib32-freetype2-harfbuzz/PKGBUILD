@@ -1,0 +1,16 @@
+_pkgbase=freetype2-harfbuzz
+pkgname=lib32-freetype2-harfbuzz
+pkgver=1.0
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-freetype2-bin lib32-harfbuzz-bin )
+provides=(lib32-freetype2=2.6.1 lib32-harfbuzz=1.0.6 )
+conflicts=(lib32-freetype2 lib32-harfbuzz)
+url="http://www.archlinux.org"
+license=('see original')
+
+
+package() {
+	true
+}

@@ -1,0 +1,5 @@
+<package name="deadbeef-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-git</title>
+  <description>Music player based on GTK2 (devel branch)</description>
+</package>
+

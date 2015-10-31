@@ -1,0 +1,11 @@
+<directory name="transmission-sequential-qt" rev="3" srcmd5="d926cc698a7172d9860481c7edd260e0" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="6f93edff17ac28af933e26ffc5673c90" />
+  <entry md5="fed26e2bceae789d03fea45a95db1011" mtime="1446526545" name="PKGBUILD" size="3994" />
+  <entry md5="fe07cd5557460a5853a460786b27259f" mtime="1446525167" name="_service" size="222" />
+  <entry md5="e2324ed4e9a82fad9b162ca13c8e9f5e" mtime="1446525170" name="i18n.patch" size="92113" />
+  <entry md5="cbbee2c84c25183d7322babfc8ab11e3" mtime="1446525172" name="sequential.patch" size="24014" />
+  <entry md5="af926d818bcc1d322f6cb090ac86f2df" mtime="1446525173" name="transmission-cli.install" size="432" />
+  <entry md5="45ab05125b7409da2768c18182818bb0" mtime="1446525175" name="transmission-gtk.install" size="174" />
+  <entry md5="ba78d51929b4a3663fc3cf75ba0d58c5" mtime="1446525177" name="transmission-qt.install" size="118" />
+  <entry md5="d08f9f388dbb4270926a43cfe481154a" mtime="1446525179" name="upnp.patch" size="517" />
+</directory>

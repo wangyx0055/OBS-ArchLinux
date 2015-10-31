@@ -1,0 +1,8 @@
+<package name="unshield-git" project="home:mazdlc">
+  <title>unshield-git</title>
+  <description>Extracts CAB files from InstallShield installers</description>
+  <build>
+    <enable arch="x86_64" repository="Arch_Extra"/>
+  </build>
+</package>
+

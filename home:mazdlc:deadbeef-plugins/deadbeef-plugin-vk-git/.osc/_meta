@@ -1,0 +1,5 @@
+<package name="deadbeef-plugin-vk-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugin-vk-git</title>
+  <description>DeadBeef VKontakte plugin</description>
+</package>
+

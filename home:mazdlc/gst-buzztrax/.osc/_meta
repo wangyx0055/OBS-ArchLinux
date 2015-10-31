@@ -1,0 +1,5 @@
+<package name="gst-buzztrax" project="home:mazdlc">
+  <title>gst-buzztrax</title>
+  <description>Buzztrax gstreamer extensions (former Buzztard)</description>
+</package>
+

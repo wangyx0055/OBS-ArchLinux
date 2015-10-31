@@ -1,0 +1,5 @@
+<package name="deadbeef-jack-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-jack-git</title>
+  <description>Jack input plugin for the DeaDBeeF music player</description>
+</package>
+

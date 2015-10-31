@@ -1,0 +1,5 @@
+<directory name="lib32-pixman" rev="1" srcmd5="601dbac10d353194f951049a853e2e23" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="9107bed2eb283d1b70327e32a1fc02f7" />
+  <entry md5="5aa067091baa0283679ba746dce3c416" mtime="1446442389" name="PKGBUILD" size="366" />
+  <entry md5="49e3bad948c744fceaa1c36d6833b224" mtime="1446442391" name="_service" size="247" />
+</directory>

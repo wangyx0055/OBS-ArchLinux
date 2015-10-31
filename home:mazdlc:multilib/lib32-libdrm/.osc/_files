@@ -1,0 +1,5 @@
+<directory name="lib32-libdrm" rev="1" srcmd5="324d35729766756c176d3a06613cbe0c" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="9c4867b3a3670aa2ad109455ff2a94e4" />
+  <entry md5="526968d13a9aec09cb215190b7951f60" mtime="1446385837" name="PKGBUILD" size="373" />
+  <entry md5="04585f82b62fd95bbdf084208024470e" mtime="1446385839" name="_service" size="248" />
+</directory>

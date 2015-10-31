@@ -1,0 +1,5 @@
+<directory name="plib" rev="1" srcmd5="981acbfecb48e9d4890cde87e3b59714" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="3618aebae984e0320a6291089f027bb4" />
+  <entry md5="dc355383ad4f7a29c7de6fe45f545413" mtime="1446602736" name="PKGBUILD" size="302" />
+  <entry md5="b11eeb248ab52c0013ce10ee5ba3f125" mtime="1446602738" name="_service" size="239" />
+</directory>

@@ -1,0 +1,6 @@
+<directory name="gst-buzztrax" rev="2" srcmd5="034da1404d8d46f5bfb46cab0b755435" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="a02ce7a71b19069585d70a63b6f264cf" />
+  <entry md5="e446bff70d7ebc2e93ce9bfccaf5fdd5" mtime="1446953146" name="PKGBUILD" size="683" />
+  <entry md5="bdc0c45041ddaf13b8bed29ae81c51ec" mtime="1446953344" name="_service" size="265" />
+  <entry md5="5c01284c4ff45d32e8a30f2ddd981cb4" mtime="1446953155" name="bump.sh" size="544" />
+</directory>

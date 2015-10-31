@@ -1,0 +1,20 @@
+_pkgbase=giflib
+pkgname=lib32-giflib
+pkgver=5.1.1
+pkgrel=1
+pkgdesc="An alternative implementation of Linux sound support (32 bit)"
+arch=('x86_64')
+depends=( giflib lib32-glibc )
+url="http://sourceforge.net/projects/giflib/"
+license=('GPL')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+}

@@ -1,0 +1,5 @@
+<directory name="framecounter" rev="1" srcmd5="59060b75608b97fd3ff96581ceba90dd" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="9e67afdf39b1e484bfd6e50e955e71b2" />
+  <entry md5="3db313e5fd439c800e80674cf3919447" mtime="1446959444" name="PKGBUILD" size="548" />
+  <entry md5="2a2a0024ffb6c879b6029c962ee3978a" mtime="1446959446" name="_service" size="236" />
+</directory>

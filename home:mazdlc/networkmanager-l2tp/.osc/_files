@@ -1,0 +1,7 @@
+<directory name="networkmanager-l2tp" rev="3" srcmd5="fec36213e60c834f678f5943ddafcbea" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="d7bed55512cc1240c12a6ec5487709c8" />
+  <entry md5="8d7bb426a2ce8a1fcae5b30995ad9551" mtime="1446529891" name="PKGBUILD" size="929" />
+  <entry md5="b2fd69282bd6813cbda8cac9193aa4cf" mtime="1446529466" name="_service" size="233" />
+  <entry md5="2f83b88d4669d2ce3484f7badc17f86c" mtime="1446560546" name="bump.sh" size="478" />
+  <entry md5="58dc6b9db5701ae3b70250c499e6e6dc" mtime="1446560548" name="temp_service" size="233" />
+</directory>

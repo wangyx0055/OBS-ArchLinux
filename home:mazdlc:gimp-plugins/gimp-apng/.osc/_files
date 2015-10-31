@@ -1,0 +1,5 @@
+<directory name="gimp-apng" rev="4" srcmd5="6b4323223782ef0fe293e428a6cb9bd2" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="ab80ff5c782855da2253ae133fa252ca" />
+  <entry md5="32afff75cf85dd23e929e0890f3ea963" mtime="1446624202" name="PKGBUILD" size="1543" />
+  <entry md5="6125d4a3f014690a34ccf3e03732694a" mtime="1446624371" name="_service" size="258" />
+</directory>

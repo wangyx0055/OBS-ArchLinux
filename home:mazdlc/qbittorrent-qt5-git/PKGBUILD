@@ -1,0 +1,56 @@
+# Maintainer: Alfredo Ramos <alfredo dot ramos at yandex dot com>
+# Contributor: Lane Wiscombe <lane dot wiscombe at gmail dot com>
+
+_pkgname=qbittorrent
+pkgname=${_pkgname}-qt5-git
+_gitname=qBittorrent
+pkgver=3.3.0beta.r6290.g0507876
+pkgrel=1
+pkgdesc='A bittorrent client based on libtorrent-rasterbar. Qt5 UI. Development version.'
+arch=('i686' 'x86_64')
+url='http://www.qbittorrent.org/'
+license=('GPL2')
+
+depends=('qt5-base' 'xdg-utils' 'desktop-file-utils' 'hicolor-icon-theme' 'libtorrent-rasterbar')
+optdepends=('python: for the search engine')
+makedepends=('git' 'boost' 'which' 'qt5-tools')
+provides=("${_pkgname}=${pkgver}")
+conflicts=("${_pkgname}" "${_pkgname}-git")
+
+install=${pkgname}.install
+
+#source=("git+https://github.com/${_pkgname}/${_gitname}.git")
+source=${_gitname}-${pkgver}.tar.xz
+sha512sums=('SKIP')
+
+prepare() {	
+	# Create build directory
+	mkdir -p ${srcdir}/build
+}
+
+build() {
+	# Number of jobs
+	declare -i njobs=$(nproc)
+	
+	if [[ ${njobs} -ge 8 ]]; then
+		njobs=$(( $njobs - 2 ))
+	fi
+
+	# Building package
+	cd ${srcdir}/build
+	
+	../${_gitname}-${pkgver}/configure \
+		--prefix=/usr \
+		--with-qt5
+	qmake-qt5 ../${_gitname}-${pkgver} \
+		CONFIG+=release \
+		CONFIG+=c++14 \
+		-spec linux-g++
+	make -j${njobs}
+}
+
+package() {
+	# Installing package
+	cd ${srcdir}/build
+	make INSTALL_ROOT=${pkgdir} install
+}

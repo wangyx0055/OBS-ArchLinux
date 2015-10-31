@@ -1,0 +1,5 @@
+<package name="dcaenc" project="home:mazdlc">
+  <title>dcaenc</title>
+  <description>DTS audio encoding</description>
+</package>
+

@@ -1,0 +1,5 @@
+<directory name="lib32-gimp" rev="1" srcmd5="f3ab948f648a941665e1c04ab7ebd3f4" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="3a986c1a3ec974576bbaca9d2921c1e9" />
+  <entry md5="5e3f0c9abe6fc78fdb21e46a4a262bee" mtime="1446625990" name="PKGBUILD" size="654" />
+  <entry md5="153af81a00d81730512e172dd92a8e31" mtime="1446625992" name="_service" size="237" />
+</directory>

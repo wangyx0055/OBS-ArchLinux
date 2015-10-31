@@ -1,0 +1,20 @@
+_pkgbase=mpg123
+pkgname=lib32-mpg123
+pkgver=1.22.4
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( mpg123 lib32-libtool lib32-glibc lib32-alsa-lib )
+url="https://www.archlinux.org"
+license=('see original package')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+}

@@ -1,0 +1,5 @@
+<package name="lib32-libxmu" project="home:mazdlc:multilib">
+  <title>lib32-libxmu</title>
+  <description>lib32-libxmu</description>
+</package>
+

@@ -1,0 +1,5 @@
+<package name="lib32-libdrm" project="home:mazdlc:multilib">
+  <title>lib32-libdrm</title>
+  <description></description>
+</package>
+

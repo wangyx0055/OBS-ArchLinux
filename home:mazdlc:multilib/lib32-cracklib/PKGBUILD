@@ -1,0 +1,21 @@
+_pkgbase=cracklib
+pkgname=lib32-cracklib
+pkgver=2.9.4
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( cracklib lib32-zlib )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

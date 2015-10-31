@@ -1,0 +1,7 @@
+<directory name="kmozillahelper-frameworks" rev="1" srcmd5="e60b1c68df1b374cd09909ebd9e33460" vrev="1">
+  <entry md5="891295515642feb48596b04c0b62daf0" mtime="1443316032" name="CMakeLists.txt" size="737" />
+  <entry md5="4fe0b5c7954d7f540d7ac0b6cb654921" mtime="1446327236" name="PKGBUILD" size="880" />
+  <entry md5="9f55423a57baafbfd1377dfece41c2e8" mtime="1443316035" name="kmozillahelper.notifyrc" size="3808" />
+  <entry md5="09b4731c5687f3af2f1b8853b27d2df8" mtime="1443316036" name="main.cpp" size="21655" />
+  <entry md5="3e7829d75332b8446bde9358b758be23" mtime="1443316036" name="main.h" size="2759" />
+</directory>

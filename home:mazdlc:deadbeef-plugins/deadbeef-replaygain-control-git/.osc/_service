@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">git://github.com/cboxdoerfer/ddb_replaygain_control.git</param>
+    <param name="scm">git</param>
+    <param name="versionformat">%cd.g%h</param>
+    <param name="versionprefix">6</param>
+    <param name="filename">ddb_replaygain_control</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

@@ -1,0 +1,8 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">docs.google.com</param>
+    <param name="path">/uc?authuser=0&amp;id=0B0VmPcEZTp8NekJxLUVJRWMwejQ&amp;export=download</param>
+    <param name="filename">tsmuxer-2.6.11.tar.gz</param>
+  </service>
+</services>

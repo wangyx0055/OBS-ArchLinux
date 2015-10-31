@@ -1,0 +1,40 @@
+# Maintainer: maz-1 <ohmygod19993 at gmail dot com>
+_pkgname=rlvm
+pkgname=${_pkgname}-git
+pkgver=20150819
+pkgrel=1
+pkgdesc="RealLive clone for Linux and OSX. Git version."
+arch=(i686 x86_64)
+url="http://www.elliotglaysher.org/rlvm/"
+license=('GPL')
+depends=(boost-libs glew libmad sdl_mixer sdl_image sdl_ttf guichan gtk2)
+makedepends=(scons boost)
+provides=(rlvm)
+conflicts=(rlvm)
+source=("${_pkgname}-${pkgver}.tar.xz" )
+# 'detect_guichan.patch'
+md5sums=('SKIP')
+# 'caf806e9f037ba95a747a0aefde7fd9d'
+
+prepare() {
+  cd "$srcdir/${_pkgname}-${pkgver}"
+  rm -r "$srcdir/${_pkgname}-${pkgver}/vendor/guichan"
+  patch -p1 < "$startdir/detect_guichan.patch"
+}
+
+build() {
+  cd "$srcdir/${_pkgname}-${pkgver}"
+  scons --release
+}
+
+package() {
+  cd "$srcdir/${_pkgname}-${pkgver}"
+
+  install -D "$srcdir/${_pkgname}-${pkgver}/build/release/rlvm" "$pkgdir/usr/bin/rlvm"
+  install -D "$srcdir/${_pkgname}-${pkgver}/src/platforms/gtk/rlvm.desktop" "$pkgdir/usr/share/applications/rlvm.desktop"
+  for r in 16 24 32 48 128 256; do
+    install -d "$pkgdir/usr/share/icons/hicolor/${r}x$r"
+    install -D "$srcdir/${_pkgname}-${pkgver}/resources/$r/rlvm.png" "$pkgdir/usr/share/icons/hicolor/${r}x$r/apps/rlvm.png"
+  done
+}
+

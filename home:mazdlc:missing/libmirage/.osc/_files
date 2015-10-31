@@ -1,0 +1,5 @@
+<directory name="libmirage" rev="1df0eb0c8c0040fe175aa3f7dc1c666a" srcmd5="1df0eb0c8c0040fe175aa3f7dc1c666a">
+  <linkinfo baserev="06c62355861e1aa326eb217cedc9489d" lsrcmd5="cde2c3869059c9da09b18d86b799d689" package="libmirage" project="home:roman-neuhauser:arch-community" srcmd5="06c62355861e1aa326eb217cedc9489d" />
+  <entry md5="dd9b68502ec32f5672ebc4b405492152" mtime="1446610435" name="PKGBUILD" size="385" />
+  <entry md5="f781072ffd8039e772bf6d138a32ef9c" mtime="1446610437" name="_service" size="245" />
+</directory>

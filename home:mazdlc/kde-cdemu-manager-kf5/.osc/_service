@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">www.kde-apps.org</param>
+    <param name="path">/CONTENT/content-files/99752-kde_cdemu-0.5.0.tar.bz2</param>
+  </service>
+</services>

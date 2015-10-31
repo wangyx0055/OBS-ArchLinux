@@ -1,0 +1,5 @@
+<package name="lib32-libffi" project="home:mazdlc:multilib">
+  <title>lib32-libffi</title>
+  <description></description>
+</package>
+

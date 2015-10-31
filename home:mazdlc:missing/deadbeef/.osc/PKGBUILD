@@ -1,0 +1,20 @@
+pkgname=deadbeef
+pkgver=0.6.2
+pkgrel=4
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( alsa-lib hicolor-icon-theme desktop-file-utils )
+url="http://www.archlinux.org"
+license=('see original')
+source=("pkg.tar.xz")
+md5sums=('SKIP')
+noextract="pkg.tar.xz"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/pkg.tar.xz"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

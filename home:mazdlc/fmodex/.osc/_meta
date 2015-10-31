@@ -1,0 +1,5 @@
+<package name="fmodex" project="home:mazdlc">
+  <title>fmodex</title>
+  <description>An advanced audio engine</description>
+</package>
+

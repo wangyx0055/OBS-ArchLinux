@@ -1,0 +1,5 @@
+<directory name="lib32-libxfixes" rev="1" srcmd5="0513cd8a8c24aebf714a127c82377503" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="3e2f2d4a8b40af87175860b3eaad14aa" />
+  <entry md5="a1043a2a542bfb282a1c0ea6cb2fe6cd" mtime="1446385777" name="PKGBUILD" size="375" />
+  <entry md5="ba0b62f6b4a2cd55552c34a27cbe9c25" mtime="1446385780" name="_service" size="251" />
+</directory>

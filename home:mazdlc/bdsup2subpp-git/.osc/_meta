@@ -1,0 +1,5 @@
+<package name="bdsup2subpp-git" project="home:mazdlc">
+  <title>bdsup2subpp-git</title>
+  <description>subtitle converison for image based stream formats</description>
+</package>
+

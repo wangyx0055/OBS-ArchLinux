@@ -1,0 +1,14 @@
+<package name="gimp-plugin-pspi" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-pspi</title>
+  <description>gimp-plugin-pspi</description>
+  <build>
+    <disable arch="i586"/>
+  </build>
+  <publish>
+    <disable arch="i586"/>
+  </publish>
+  <useforbuild>
+    <disable arch="i586"/>
+  </useforbuild>
+</package>
+

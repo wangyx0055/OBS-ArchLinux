@@ -1,0 +1,20 @@
+_pkgbase=libxxf86vm
+pkgname=lib32-libxxf86vm 
+pkgver=1.1.4
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-libxext libxxf86vm )
+url="https://www.archlinux.org"
+license=('see original package')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+}

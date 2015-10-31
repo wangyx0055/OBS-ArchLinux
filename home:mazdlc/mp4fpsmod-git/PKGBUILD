@@ -1,0 +1,34 @@
+# Maintainer: Kyle Bloss <kylebloss[at]pelpix[dot]info>
+
+pkgname=mp4fpsmod-git
+_pkgname=mp4fpsmod
+pkgver=0.14
+pkgrel=2
+pkgdesc="Simple CLI MP4 time code editor"
+arch=('any')
+license=('custom')
+source=${_pkgname}-${pkgver}.tar.xz
+url="https://sites.google.com/site/qaacpage/junk"
+provides=('mp4fpsmod=0.14')
+conflicts=('mp4fpsmod')
+makedepends=('git')
+md5sums=('SKIP')
+
+prepare() {
+  cd "$srcdir/$_pkgname-${pkgver}"
+  ./bootstrap.sh
+}
+
+build() {
+  cd "$srcdir/$_pkgname-${pkgver}/"
+  ./configure --prefix=/usr
+  make
+
+  strip mp4fpsmod
+}
+
+package() {
+  cd "$srcdir/$_pkgname-${pkgver}"
+
+  make DESTDIR="${pkgdir}" install
+}

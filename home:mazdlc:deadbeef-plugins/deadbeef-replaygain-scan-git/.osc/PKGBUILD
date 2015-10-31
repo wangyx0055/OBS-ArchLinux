@@ -1,0 +1,31 @@
+# Maintainer: Peter Lamby <peterlamby@web.de>
+pkgname=deadbeef-replaygain-scan-git
+_gitname=ddb_misc_replaygain_scan
+pkgver=10.154527e
+pkgrel=1
+pkgdesc="Replay scan control plugin for DeadBeeF music player."
+arch=('i686' 'x86_64')
+url="https://github.com/Soukyuu/ddb_misc_replaygain_scan"
+license=('GPL2')
+provides=(deadbeef-replaygain-scan)
+conflicts=(deadbeef-replaygain-scan)
+depends=('deadbeef')
+optdepends=('gtk2: For gtk2 ui support.'
+            'gtk3: For gtk3 ui support.')
+            
+provides=deadbeef-replaygain-scan
+conflicts=deadbeef-replaygain-scan
+makedepends=('gtk2' 'gtk3')
+source=$_gitname-$pkgver.tar.xz
+md5sums=('SKIP')
+
+build() {
+  cd "${srcdir}/$_gitname-$pkgver"
+  make
+}
+
+package() {
+  cd "${srcdir}/$_gitname-$pkgver"
+  install -dm 755 "$pkgdir/usr/lib/deadbeef"
+  cp ddb*.so "$pkgdir/usr/lib/deadbeef"
+}

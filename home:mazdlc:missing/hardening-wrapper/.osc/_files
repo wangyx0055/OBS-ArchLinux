@@ -1,0 +1,5 @@
+<directory name="hardening-wrapper" rev="2" srcmd5="4b861b3c99f3876d33ff84dfc616a382" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="9d235234644122d225a12af501a33f3e" />
+  <entry md5="84db3470afef5352207e783bd87a43f7" mtime="1446431923" name="PKGBUILD" size="329" />
+  <entry md5="ec6958bc074a89292b869f09f6edc9a9" mtime="1446431925" name="_service" size="254" />
+</directory>

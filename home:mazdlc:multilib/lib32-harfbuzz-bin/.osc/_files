@@ -1,0 +1,6 @@
+<directory name="lib32-harfbuzz-bin" rev="3" srcmd5="d4787ce5f20dcbf4e0befea3f7dd71bf" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="d5b3f6a1c31714482f13878db2e890ef" />
+  <entry md5="8b76721561a1593d712a558cbc4616fd" mtime="1446723565" name="PKGBUILD" size="385" />
+  <entry md5="35a6354fb6129d48b2a9d21176de006b" mtime="1446445959" name="_service" size="249" />
+  <entry md5="6046b6f08b51600355d2cd5ae4a7b551" mtime="1446723610" name="bump.sh" size="854" />
+</directory>

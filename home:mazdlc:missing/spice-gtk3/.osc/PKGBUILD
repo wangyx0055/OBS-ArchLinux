@@ -1,0 +1,20 @@
+pkgname=spice-gtk3
+pkgver=0.30
+pkgrel=1
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( celt0.5.1 dbus-glib gtk3 libcacard libpulse usbredir libsoup )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

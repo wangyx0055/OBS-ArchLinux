@@ -1,0 +1,5 @@
+<package name="deadbeef-replaygain-scan-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-replaygain-scan-git</title>
+  <description>Replay scan control plugin for DeadBeeF music player.</description>
+</package>
+

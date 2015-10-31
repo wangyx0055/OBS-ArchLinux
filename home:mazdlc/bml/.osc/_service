@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">downloads.sourceforge.net</param>
+    <param name="path">/buzztard/buzz%20machine%20loader/bml-0.8.0.tar.gz</param>
+  </service>
+</services>

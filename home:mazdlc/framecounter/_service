@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">www.selur.de</param>
+    <param name="path">/sites/default/files/hybrid_downloads/FrameCounter.7z</param>
+  </service>
+</services>

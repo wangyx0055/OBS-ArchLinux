@@ -1,0 +1,21 @@
+_pkgbase=krb5
+pkgname=lib32-krb5
+pkgver=1.13.2
+pkgrel=2
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-e2fsprogs lib32-libldap lib32-keyutils krb5 )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

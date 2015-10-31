@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/scorpp/db-vk.git</param>
+	<param name="versionformat">%cd.g%h</param>
+	<param name="versionprefix">0.2.2</param>
+    <param name="filename">db-vk</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  <service name="set_version"/>
+</services>

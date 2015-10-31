@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">aepatrakov.narod.ru</param>
+    <param name="path">/olderfiles/1/dcaenc-2.tar.gz</param>
+  </service>
+</services>

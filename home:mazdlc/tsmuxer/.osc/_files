@@ -1,0 +1,8 @@
+<directory name="tsmuxer" rev="2" srcmd5="e31a5e13b7af06038114020b9eb15004" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="2216e98697c6e0f460c09dc3757f0854" />
+  <entry md5="474c138470249933af8ce7d9a23bfade" mtime="1446962865" name="PKGBUILD" size="1188" />
+  <entry md5="aa336024401c7251f87860b7f226236f" mtime="1446967349" name="_service" size="314" />
+  <entry md5="449d7ffaefedda9ae773b4e718f65c76" mtime="1446962867" name="tsMuxerGUI.desktop" size="230" />
+  <entry md5="d315513d8ab333d958dd44a43939b7f0" mtime="1446962870" name="tsMuxerGUI.png" size="43305" />
+  <entry md5="3e3070b21096f4680aa4fba8c0b8694d" mtime="1446962872" name="tsmuxer-ng.install" size="124" />
+</directory>

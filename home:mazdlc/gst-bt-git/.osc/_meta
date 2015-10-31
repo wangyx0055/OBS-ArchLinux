@@ -1,0 +1,5 @@
+<package name="gst-bt-git" project="home:mazdlc">
+  <title>gst-bt-git</title>
+  <description>GStreamer plug-in which provides BitTorrent sources</description>
+</package>
+

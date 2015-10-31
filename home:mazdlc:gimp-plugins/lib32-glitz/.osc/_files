@@ -1,0 +1,5 @@
+<directory name="lib32-glitz" rev="1" srcmd5="998b5533d3f1d5c535f2a801f0c652b7" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="be6987e13b98b1a899091e37b1f7a5b5" />
+  <entry md5="b20b32522cb349285f04303541c206d5" mtime="1446625766" name="PKGBUILD" size="589" />
+  <entry md5="ee2c1867ae7ec6ce510e68f793e512e1" mtime="1446625770" name="_service" size="240" />
+</directory>

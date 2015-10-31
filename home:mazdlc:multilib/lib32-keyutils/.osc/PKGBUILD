@@ -1,0 +1,21 @@
+_pkgbase=keyutils
+pkgname=lib32-keyutils
+pkgver=1.5.9
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-glibc keyutils )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

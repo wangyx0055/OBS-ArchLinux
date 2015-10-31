@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">downloads.sourceforge.net</param>
+    <param name="path">/project/gimp-apng/gimp-apng-dev/0.1.0/gimp-apng-0.1.0.tar.bz2</param>
+  </service>
+</services>

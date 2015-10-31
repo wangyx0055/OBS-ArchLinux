@@ -1,0 +1,21 @@
+_pkgbase=colord
+pkgname=lib32-colord
+pkgver=1.2.12
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( colord lib32-dconf lib32-libgudev lib32-libgusb lib32-lcms2 lib32-polkit lib32-sqlite )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

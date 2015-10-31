@@ -1,0 +1,5 @@
+<directory name="lib32-pam" rev="1" srcmd5="e07434e277a1cacf40eb8325557b0590" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="3d58deabe6139134fc9c0fea2cd3935f" />
+  <entry md5="291c1724351a5e0fa0f85c56783d5fb1" mtime="1446438451" name="PKGBUILD" size="374" />
+  <entry md5="600db057797af42152af86cdd28e4841" mtime="1446438452" name="_service" size="245" />
+</directory>

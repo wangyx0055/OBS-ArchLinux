@@ -1,0 +1,5 @@
+<directory name="lib32-libepoxy" rev="2" srcmd5="e4ee9306069a468a9aca15dd17c487fb" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="106f11ce626d601402f4e0d00d41e027" />
+  <entry md5="0bf80bcef31d648ca6c5232c7cc26775" mtime="1446723367" name="PKGBUILD" size="362" />
+  <entry md5="44954637eab20dfc30285523acac77a5" mtime="1446438610" name="_service" size="250" />
+</directory>

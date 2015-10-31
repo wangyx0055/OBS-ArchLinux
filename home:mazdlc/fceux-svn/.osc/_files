@@ -1,0 +1,6 @@
+<directory name="fceux-svn" rev="3" srcmd5="e582af7a4e129c0fb0fb5cfa804f9d98" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="e8b4e05ff23fb441d83a9df0c65c252f" />
+  <entry md5="f46ae514b9774aaeff3a1cc2e22b09aa" mtime="1446522685" name="PKGBUILD" size="996" />
+  <entry md5="5c8c31daaa12067503b5b1be55c0ebda" mtime="1446522687" name="_service" size="461" />
+  <entry md5="17ce10bb5687a306cc7069b9428bbdd6" mtime="1446522018" name="fceux.install" size="255" />
+</directory>

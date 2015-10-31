@@ -1,0 +1,5 @@
+<package name="lib32-llvm-libs" project="home:mazdlc:multilib">
+  <title>lib32-llvm-libs</title>
+  <description></description>
+</package>
+

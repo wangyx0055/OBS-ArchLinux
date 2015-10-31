@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">repository.mein-neues-blog.de:9000</param>
+    <param name="path">/archive/tragtor-0.9.2_all.tar.gz</param>
+  </service>
+</services>

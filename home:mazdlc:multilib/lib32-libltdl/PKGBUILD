@@ -1,0 +1,24 @@
+_pkgbase=libltdl
+pkgname=lib32-libltdl
+pkgver=2.4.6
+pkgrel=3
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( sh tar lib32-glibc libtool )
+provides=("lib32-libtool=$pkgver")
+conflicts=('lib32-libtool')
+replaces=('lib32-libtool')
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

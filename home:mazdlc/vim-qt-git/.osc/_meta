@@ -1,0 +1,5 @@
+<package name="vim-qt-git" project="home:mazdlc">
+  <title>vim-qt-git</title>
+  <description>An experimental Qt GUI for Vim</description>
+</package>
+

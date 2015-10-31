@@ -1,0 +1,27 @@
+pkgname=mplayer
+pkgver=37379
+pkgrel=5
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=(xvidcore libmng libxss libgl smbclient
+aalib jack libcaca faac faad2 lirc libxvmc
+enca libvdpau opencore-amr libdca a52dec
+schroedinger libvpx libpulse fribidi
+unzip mesa live-media yasm git fontconfig
+mpg123 ladspa libass libbluray libcdio-paranoia
+opus subversion x264 libx264 rtmpdump gnutls gsm libdvdcss
+libdvdread libdvdnav)
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

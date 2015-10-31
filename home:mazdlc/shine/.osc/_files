@@ -1,0 +1,6 @@
+<directory name="shine" rev="1" srcmd5="5255841d427cef2b8f3ddd3cf57bded7" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="8fa133697eaa169e4195fef6233da4ab" />
+  <entry md5="d10c2e4b178d53c5a06381b6798f87d9" mtime="1446607799" name="PKGBUILD" size="734" />
+  <entry md5="52a760011be783de471c85a3ad8505c8" mtime="1446607801" name="_service" size="217" />
+  <entry md5="94a66169127130f23878c8a91525d506" mtime="1446607803" name="bump.sh" size="473" />
+</directory>

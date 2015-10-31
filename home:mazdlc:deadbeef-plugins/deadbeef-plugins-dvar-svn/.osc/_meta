@@ -1,0 +1,5 @@
+<package name="deadbeef-plugins-dvar-svn" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugins-dvar-svn</title>
+  <description>DeaDBeeF vfs archive reader plugin, provides gzip, 7z and rar support</description>
+</package>
+

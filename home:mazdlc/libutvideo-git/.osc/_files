@@ -1,0 +1,6 @@
+<directory name="libutvideo-git" rev="8" srcmd5="978ea86e9ec5d6bc4d1da74dff797d9d" vrev="8">
+  <serviceinfo code="succeeded" xsrcmd5="8bc8dafc5027559c527246bd02af646f" />
+  <entry md5="5dce32876261eeb2a6982fa5a60c80a9" mtime="1446609209" name="PKGBUILD" size="719" />
+  <entry md5="74ebb3a9935c8f4a5ff7de169b1a19a3" mtime="1446714380" name="_service" size="502" />
+  <entry md5="5717d5519dccba2f631982b47161c91c" mtime="1446806438" name="bump.sh" size="476" />
+</directory>

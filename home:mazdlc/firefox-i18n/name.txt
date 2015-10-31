@@ -1,0 +1,3 @@
+cat urls.txt|grep -oP '(?<=xpi/)\S*$'|sed 's:\.xpi::g'|while read line;do printf " 'firefox-kde-opensuse-i18n-$line'";done
+
+

@@ -1,0 +1,5 @@
+<directory name="deadbeef-replaygain-scan-git" rev="1" srcmd5="dc6e352be32108549b0bda3c9d856b18" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="4212d6a672121c1b38ce6cb3b8afe93b" />
+  <entry md5="3adcce30b81aa675542aaffb4c9da706" mtime="1446983680" name="PKGBUILD" size="832" />
+  <entry md5="653727335a5b7cd37e19c494486aaf33" mtime="1446714156" name="_service" size="485" />
+</directory>

@@ -1,0 +1,11 @@
+<directory name="n2n-git" rev="20" srcmd5="151949a0bce18500e6cd5db2adf4e059" vrev="20">
+  <serviceinfo code="succeeded" xsrcmd5="b36949becfcc4934483064c88d13a482" />
+  <entry md5="c37ee89f09746306045109d718c873fd" mtime="1446523951" name="PKGBUILD" size="1253" />
+  <entry md5="d3aeef9c103da766a366f5ff6221761a" mtime="1446715955" name="_service" size="418" />
+  <entry md5="2ece2e5b7d8180c8a157df4394014efe" mtime="1446523955" name="edge.conf.example" size="678" />
+  <entry md5="3f7f42b27ab24e206e58f7147e726f07" mtime="1446523956" name="edge.sh" size="611" />
+  <entry md5="9f1b096a3a2a2c1492cf553b36c478e8" mtime="1446523958" name="n2n-edge@.service" size="161" />
+  <entry md5="12c1fd79cc6584defe2837a154f95acc" mtime="1446523960" name="n2n-supernode.service" size="170" />
+  <entry md5="5af8895c46608a443ff48ea9c5041e1a" mtime="1446523961" name="supernode.conf" size="52" />
+  <entry md5="9eab67d3412dba7c004a22bd90fbbd77" mtime="1446523963" name="supernode.sh" size="77" />
+</directory>

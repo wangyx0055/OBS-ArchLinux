@@ -1,0 +1,5 @@
+<directory name="lib32-librsvg" rev="1" srcmd5="b329f42e0fee294f4c604b523a2c8fe7" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="8a440ec80c5f623cb0086959556c38b5" />
+  <entry md5="e517bcfa3b23a24830ac7ea965a6e9f2" mtime="1446438642" name="PKGBUILD" size="403" />
+  <entry md5="cd779d60816b512e014c6b6d5ea5dbc1" mtime="1446438649" name="_service" size="249" />
+</directory>

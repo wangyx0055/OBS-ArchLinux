@@ -1,0 +1,5 @@
+<directory name="dkms" rev="5" srcmd5="8c46771e9a3671df73be4a835836f297" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="dd5ef56052d84b686fee5e56f45ccd37" />
+  <entry md5="22218393bd95a6ec20fe8a46be4b1c72" mtime="1446701507" name="PKGBUILD" size="350" />
+  <entry md5="5e3e2c0af24e091113d4c1ae35afdfde" mtime="1446701524" name="_service" size="238" />
+</directory>

@@ -1,0 +1,28 @@
+_pkgbase=gcc-multilib
+pkgname=gcc-multilib
+pkgver=5.2.0
+pkgrel=2
+pkgdesc="The GNU Compiler Collection - C and C++ frontends for multilib"
+arch=('x86_64')
+depends=( binutils gcc-libs-multilib libmpc )
+url="http://gcc.gnu.org"
+license=('custom, FDL, GPL, LGPL')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+install=gcc.install
+
+build() {
+        cd ${srcdir}
+        mkdir build
+        cd build
+        tar xvpJf "$startdir/index.html"
+        rm -f ./.MTREE
+	rm -f ./.PKGINFO
+	rm -f ./.INSTALL
+}
+
+package() {
+	cd ${pkgdir}
+	cp -r ${srcdir}/build/* ./
+}

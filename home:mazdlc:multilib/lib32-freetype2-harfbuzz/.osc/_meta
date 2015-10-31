@@ -1,0 +1,5 @@
+<package name="lib32-freetype2-harfbuzz" project="home:mazdlc:multilib">
+  <title>lib32-freetype2-harfbuzz</title>
+  <description></description>
+</package>
+

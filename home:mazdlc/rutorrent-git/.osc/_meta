@@ -1,0 +1,5 @@
+<package name="rutorrent-git" project="home:mazdlc">
+  <title>rutorrent-git</title>
+  <description>Web frontend to rTorrent in PHP designed to resemble uTorrent</description>
+</package>
+

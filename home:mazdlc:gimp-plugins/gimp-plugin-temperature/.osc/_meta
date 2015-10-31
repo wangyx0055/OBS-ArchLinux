@@ -1,0 +1,5 @@
+<package name="gimp-plugin-temperature" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-temperature</title>
+  <description>gimp-plugin-temperature</description>
+</package>
+

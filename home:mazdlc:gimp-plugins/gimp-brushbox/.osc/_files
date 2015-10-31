@@ -1,0 +1,5 @@
+<directory name="gimp-brushbox" rev="8" srcmd5="565185e81e4490768a4e756774a5c4f6" vrev="8">
+  <serviceinfo code="succeeded" xsrcmd5="31fd885a76c3c39ffee0b1b1af2da4ff" />
+  <entry md5="d14a36e7eef2f155bec446f41ecf2fae" mtime="1446624627" name="PKGBUILD" size="926" />
+  <entry md5="014fe03d85185dbda726a1c891151b01" mtime="1446624581" name="_service" size="232" />
+</directory>

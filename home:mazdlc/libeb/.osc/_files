@@ -1,0 +1,6 @@
+<directory name="libeb" rev="1" srcmd5="2669f1c40db7fb29a8a3301f4e0e58d4" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="9c0e6705f8d11c7f589910400a518337" />
+  <entry md5="e8b2d61cd0f4eb923330629b474785fd" mtime="1446698561" name="PKGBUILD" size="980" />
+  <entry md5="671bfd11917598207dca8132686e0c8b" mtime="1446698563" name="_service" size="212" />
+  <entry md5="ae0de3a8808160542dc4973a6ace0e22" mtime="1446698565" name="bump.sh" size="576" />
+</directory>

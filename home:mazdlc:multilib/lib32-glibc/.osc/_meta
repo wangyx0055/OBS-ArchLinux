@@ -1,0 +1,5 @@
+<package name="lib32-glibc" project="home:mazdlc:multilib">
+  <title>lib32-glibc</title>
+  <description></description>
+</package>
+

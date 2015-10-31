@@ -1,0 +1,21 @@
+_pkgbase=db
+pkgname=lib32-db
+pkgver=5.3.28
+pkgrel=2
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( db lib32-gcc-libs )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

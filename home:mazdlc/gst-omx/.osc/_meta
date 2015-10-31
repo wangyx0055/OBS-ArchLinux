@@ -1,0 +1,5 @@
+<package name="gst-omx" project="home:mazdlc">
+  <title>gst-omx</title>
+  <description>Gstreamer OpenMAX IL wrapper Plugin</description>
+</package>
+

@@ -1,0 +1,5 @@
+<package name="libqxt" project="home:mazdlc">
+  <title>libqxt</title>
+  <description>provides a suite of cross-platform utility classes to add functionality not readily available in the Qt toolkit</description>
+</package>
+

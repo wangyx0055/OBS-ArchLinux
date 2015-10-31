@@ -1,0 +1,5 @@
+<directory name="libnewt" rev="2" srcmd5="f2d192b27388746c27f4f3824843cea5" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="2a3eea1c84979d812848273743cd67de" />
+  <entry md5="39c740327d5c3e4c46dbf78ed07b8be2" mtime="1446891049" name="PKGBUILD" size="336" />
+  <entry md5="27bf801c5516d64651329a834ac3c5f0" mtime="1446805639" name="_service" size="243" />
+</directory>

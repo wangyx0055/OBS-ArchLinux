@@ -1,0 +1,5 @@
+<package name="deadbeef-qt-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-qt-git</title>
+  <description>Qt4 GUI for DeaDBeeF.</description>
+</package>
+

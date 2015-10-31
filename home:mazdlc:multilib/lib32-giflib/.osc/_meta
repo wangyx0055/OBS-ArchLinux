@@ -1,0 +1,5 @@
+<package name="lib32-giflib" project="home:mazdlc:multilib">
+  <title>lib32-giflib</title>
+  <description>A library for reading and writing gif images (32-bit)</description>
+</package>
+

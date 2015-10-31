@@ -1,0 +1,7 @@
+<directory name="ffmpeg-full-extra" rev="15" srcmd5="ea3e338a634428a869ff9fbab458f9d2" vrev="15">
+  <serviceinfo code="succeeded" xsrcmd5="56f19671018c075686cc68c487269762" />
+  <entry md5="40ad12aad1b55de80c1732d9ca0a4b59" mtime="1446606256" name="PKGBUILD" size="6687" />
+  <entry md5="4ec62a19aea656375174c04979e05563" mtime="1389464350" name="UNREDISTRIBUTABLE.txt" size="132" />
+  <entry md5="4fb349ba9ddb7384cb917a2f92059ed0" mtime="1446447337" name="_service" size="211" />
+  <entry md5="8e24bc0f47256775cea42bcce5038b60" mtime="1446540199" name="bump.sh" size="521" />
+</directory>

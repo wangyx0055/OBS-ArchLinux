@@ -1,0 +1,20 @@
+pkgname=libvirt
+pkgver=1.2.21
+pkgrel=1
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( e2fsprogs gnutls iptables libxml2 parted polkit python2 avahi yajl libpciaccess udev dbus libxau libxdmcp libpcap libcap-ng curl libsasl libgcrypt libgpg-error openssl libxcb gcc-libs iproute2 libnl libx11 numactl gettext ceph libssh2 netcf )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

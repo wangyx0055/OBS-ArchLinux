@@ -1,0 +1,12 @@
+diff -Naur a/src/Makefile.am b/src/Makefile.am
+--- a/src/Makefile.am	2010-11-11 05:27:41.000000000 +0800
++++ b/src/Makefile.am	2015-11-01 04:05:20.014178695 +0800
+@@ -218,7 +218,7 @@
+ 	chmod og-w $(top_srcdir)/26410-800.doc
+ 
+ $(srcdir)/26410-800.zip:
+-	cd $(srcdir) && $(DOWNLOADER_PROG) http://www.3gpp.org/ftp/Specs/archive/26_series/26.410/26410-800.zip
++	cd $(srcdir) && cp ../../26410-800.zip ./
+ 
+ extraclean:
+ 	rm -f $(distdir)/($(library_sources_used)) $(distdir)/($(library_headers_used)) $(distdir)/26410-800.zip $(distdir)/../26410-800.doc $(distdir)/26410-800_ANSI-C_source_code.zip

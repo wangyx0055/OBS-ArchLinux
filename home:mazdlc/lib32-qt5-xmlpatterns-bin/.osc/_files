@@ -1,0 +1,6 @@
+<directory name="lib32-qt5-xmlpatterns-bin" rev="1" srcmd5="532e9eeec21f6835a711c40d0d2a15e6" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="4b625f85e8ec782750178be3fefc3977" />
+  <entry md5="8ea34fb5330b9822f264db1014abb674" mtime="1446908012" name="PKGBUILD" size="631" />
+  <entry md5="16b08cf2068bf74fd4c34e00ff9744d4" mtime="1446908018" name="_service" size="291" />
+  <entry md5="82f3d1025cd8469c908c080919548b30" mtime="1446908020" name="bump.sh" size="898" />
+</directory>

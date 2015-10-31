@@ -1,0 +1,5 @@
+<package name="lib32-libgcrypt" project="home:mazdlc:multilib">
+  <title>lib32-libgcrypt</title>
+  <description></description>
+</package>
+

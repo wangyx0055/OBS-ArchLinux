@@ -1,0 +1,5 @@
+<package name="lib32-libcap" project="home:mazdlc:multilib">
+  <title>lib32-libcap</title>
+  <description></description>
+</package>
+

@@ -1,0 +1,5 @@
+<directory name="perl-parse-yapp" rev="4" srcmd5="19c6de542176364ec599807bc3ebd789" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="40e5c7ad54d1137abf474a180f23c7e0" />
+  <entry md5="a7a9a1b65e05b0bc917bccc5124b63d9" mtime="1446732831" name="PKGBUILD" size="328" />
+  <entry md5="8b26730c7ca25cb1535efe25ae20f195" mtime="1446717415" name="_service" size="248" />
+</directory>

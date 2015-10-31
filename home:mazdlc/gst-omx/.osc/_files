@@ -1,0 +1,6 @@
+<directory name="gst-omx" rev="1" srcmd5="235e60d8d46d0be6d0570db11aa0e3c7" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="1fe6916f71d64cba9d0d135da4b58f4c" />
+  <entry md5="c9438c3db9d9a847cdb13d8f5c8821e0" mtime="1446952630" name="PKGBUILD" size="869" />
+  <entry md5="743f285e328c7baacdd4418215d3cbc3" mtime="1446952632" name="_service" size="229" />
+  <entry md5="d95ff5e8b2da5a248b153c947c75288b" mtime="1446952634" name="bump.sh" size="488" />
+</directory>

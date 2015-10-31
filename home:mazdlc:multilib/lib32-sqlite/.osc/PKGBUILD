@@ -1,0 +1,21 @@
+pkgname=lib32-sqlite
+pkgver=3.9.1
+pkgrel=1
+pkgdesc="library for obs"
+arch=('x86_64')
+depends=( lib32-glibc sqlite )
+provides=("lib32-sqlite3=$pkgver")
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

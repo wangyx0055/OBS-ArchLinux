@@ -1,0 +1,5 @@
+<directory name="lib32-libsm" rev="3" srcmd5="fd1f34cbe8626ccb4b449e18e2844ebf" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="8373bd557266504fe0e46cf35feb7dce" />
+  <entry md5="d2b4f46052c18b088155870728fc00b8" mtime="1446385657" name="PKGBUILD" size="380" />
+  <entry md5="0abdd65abd94f27fd7d72911aef9d298" mtime="1446469179" name="_service" size="246" />
+</directory>

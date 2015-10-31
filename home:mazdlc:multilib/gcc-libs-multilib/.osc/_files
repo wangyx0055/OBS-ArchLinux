@@ -1,0 +1,6 @@
+<directory name="gcc-libs-multilib" rev="4" srcmd5="3139b5e7cdb626214a39f3affac39f5d" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="61716e60044ad97d4b370e54f6369ee4" />
+  <entry md5="bc2492cb6f8d0ccc164da9563da3fefa" mtime="1446723337" name="PKGBUILD" size="393" />
+  <entry md5="14e156613b65cc93eb2f436f205b7222" mtime="1446433288" name="_service" size="252" />
+  <entry md5="f436b83e6ca0ba780337a5a0b1fbfd7c" mtime="1446724329" name="bump.sh" size="852" />
+</directory>

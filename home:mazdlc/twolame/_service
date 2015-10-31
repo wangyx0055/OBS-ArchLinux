@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">downloads.sourceforge.net</param>
+    <param name="path">/twolame/twolame-0.3.13.tar.gz</param>
+  </service>
+</services>

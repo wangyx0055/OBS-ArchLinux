@@ -1,0 +1,5 @@
+<directory name="lib32-libjpeg-turbo" rev="5" srcmd5="f0a0cb0ec60f6eec349caae52517be12" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="308b874fc4ebb4f938f4176e222ca163" />
+  <entry md5="586d818ab60b3f969bf912bfbd9d8e44" mtime="1446442055" name="PKGBUILD" size="528" />
+  <entry md5="0f00ccc7b393393990d7f6f80965481e" mtime="1446386162" name="_service" size="255" />
+</directory>

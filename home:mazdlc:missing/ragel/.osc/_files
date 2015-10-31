@@ -1,0 +1,5 @@
+<directory name="ragel" rev="1" srcmd5="50efda70577bfb4a2f02b7daa26cb5b8" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="641bbc5d57ac6ac2bdae064df12856ab" />
+  <entry md5="42ca91fa49a9e4863abac814787f9118" mtime="1446716297" name="PKGBUILD" size="324" />
+  <entry md5="482550c73341f1cf8adb758fd222db4c" mtime="1446716299" name="_service" size="241" />
+</directory>

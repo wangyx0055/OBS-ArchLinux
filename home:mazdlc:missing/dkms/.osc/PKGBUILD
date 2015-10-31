@@ -1,0 +1,20 @@
+pkgname=dkms
+pkgver=2.2.0.3+git151023
+pkgrel=1
+pkgdesc="package for obs"
+arch=('any')
+depends=( bash kmod gcc make patch )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

@@ -1,0 +1,10 @@
+diff -Naur a/lib/Emulation.h b/lib/Emulation.h
+--- a/lib/Emulation.h	2015-11-07 12:28:11.716873122 +0800
++++ b/lib/Emulation.h	2015-11-07 12:27:06.000000000 +0800
+@@ -1,3 +1,6 @@
++#ifndef Q_DECL_OVERRIDE
++#define Q_DECL_OVERRIDE
++#endif
+ /*
+     This file is part of Konsole, an X terminal.
+ 

@@ -1,0 +1,5 @@
+<directory name="virt-manager-git" rev="7" srcmd5="2508531d35ff6f825ec2de480b12409a" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="628f4ccdf73b50d2bd0fe923541814bb" />
+  <entry md5="6bf638276b27ff363e96a7ab9bea791b" mtime="1446859266" name="PKGBUILD" size="2094" />
+  <entry md5="5ed2c3699cfb65460fb9a88735d5b359" mtime="1446859266" name="_service" size="463" />
+</directory>

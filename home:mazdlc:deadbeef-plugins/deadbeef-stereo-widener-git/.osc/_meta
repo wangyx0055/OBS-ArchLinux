@@ -1,0 +1,5 @@
+<package name="deadbeef-stereo-widener-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-stereo-widener-git</title>
+  <description>stereo widener plugin for the DeaDBeeF music player</description>
+</package>
+

@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">gstreamer.freedesktop.org</param>
+    <param name="path">/src/gst-omx/gst-omx-1.2.0.tar.xz</param>
+  </service>
+</services>

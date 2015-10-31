@@ -1,0 +1,5 @@
+<package name="lib32-harfbuzz-bin" project="home:mazdlc:multilib">
+  <title>lib32-harfbuzz-bin</title>
+  <description>lib32-harfbuzz-bin</description>
+</package>
+

@@ -1,0 +1,20 @@
+_pkgbase=gcc-libs-multilib
+pkgname=gcc-libs-multilib
+pkgver=5.2.0
+pkgrel=2
+pkgdesc="Runtime libraries shipped by GCC for multilib"
+arch=('x86_64')
+depends=( glibc lib32-gcc-libs )
+url="http://gcc.gnu.org"
+license=('custom, FDL, GPL, LGPL')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+}

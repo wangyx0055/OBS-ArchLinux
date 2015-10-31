@@ -1,0 +1,5 @@
+<directory name="capstone" rev="1" srcmd5="89f9c94aaa0e81bcbdd5f5ab10b276ac" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="2e6ee0310f0b812b7387bf53eef302f7" />
+  <entry md5="9fa89b3dfec871c238e67d5ea831c728" mtime="1446603832" name="PKGBUILD" size="324" />
+  <entry md5="3f3a290f225236a274910a6faa9c66fc" mtime="1446603834" name="_service" size="242" />
+</directory>

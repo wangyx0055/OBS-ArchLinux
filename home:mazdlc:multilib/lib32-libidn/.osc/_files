@@ -1,0 +1,6 @@
+<directory name="lib32-libidn" rev="4" srcmd5="486932afdab19247a8511b094c8385da" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="17b916b3e32fb4e7e6337f8a6ba964ae" />
+  <entry md5="19e48d7f305454f46f840ab008a8aae5" mtime="1446598121" name="PKGBUILD" size="364" />
+  <entry md5="d51f021ce08e7d617850f0ff523436b0" mtime="1446382730" name="_service" size="248" />
+  <entry md5="33b92dd517303d87a439ab3a355c0227" mtime="1446382336" name="add.sh" size="733" />
+</directory>

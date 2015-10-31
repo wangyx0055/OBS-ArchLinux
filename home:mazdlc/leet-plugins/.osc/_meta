@@ -1,0 +1,5 @@
+<package name="leet-plugins" project="home:mazdlc">
+  <title>leet-plugins</title>
+  <description>LADSPA plugins especially for use with Ardour</description>
+</package>
+

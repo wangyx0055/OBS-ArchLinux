@@ -1,0 +1,20 @@
+_pkgbase=mesa
+pkgname=lib32-mesa
+pkgver=11.0.4
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-elfutils lib32-expat lib32-libdrm lib32-libtxc_dxtn lib32-libxdamage lib32-libxshmfence lib32-libxxf86vm lib32-llvm-libs lib32-systemd lib32-wayland mesa )
+url="https://www.archlinux.org"
+license=('see original package')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+}

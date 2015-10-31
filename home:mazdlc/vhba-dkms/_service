@@ -1,0 +1,12 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">downloads.sourceforge.net</param>
+    <param name="path">/cdemu/vhba-module-20140928.tar.bz2</param>
+  </service>
+  <service name="verify_file">
+    <param name="file">_service:download_url:vhba-module-20140928.tar.bz2</param>
+    <param name="verifier">sha256</param>
+    <param name="checksum">45f56e4972b5aa7175903307901ca42d29da6fc8f92ab4c47007f53bc5bb55a2</param>
+  </service>
+</services>

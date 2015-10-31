@@ -1,0 +1,5 @@
+<directory name="lib32-libxdmcp" rev="1" srcmd5="0d2cd5d92c48bebf5c0350c10983ef63" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="d38c9e59c3518834cfceaa01883668ff" />
+  <entry md5="c909fc7b60bbe9a1036ed49f35be6683" mtime="1446435113" name="PKGBUILD" size="371" />
+  <entry md5="bdc8329709144ff20a92e51f4a6c7c4d" mtime="1446435115" name="_service" size="249" />
+</directory>

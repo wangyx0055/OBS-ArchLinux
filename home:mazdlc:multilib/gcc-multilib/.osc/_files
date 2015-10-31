@@ -1,0 +1,6 @@
+<directory name="gcc-multilib" rev="2" srcmd5="d2a8c61f93ae69e8b3b4c6b1ea665402" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="122335485c63a5aa521234181c404e3f" />
+  <entry md5="19331dab32d4eaec26c2a290f9a5ad25" mtime="1446723143" name="PKGBUILD" size="569" />
+  <entry md5="6f1fb47404af1765d3a0e5d62bea8256" mtime="1446448103" name="_service" size="247" />
+  <entry md5="8861c44ae48c99832b0aeb0b4ad7bfb4" mtime="1398545126" name="gcc.install" size="469" />
+</directory>

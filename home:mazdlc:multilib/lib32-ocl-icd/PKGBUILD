@@ -1,0 +1,23 @@
+pkgname=lib32-ocl-icd
+pkgver=2.2.7
+pkgrel=1
+pkgdesc="library for obs"
+arch=('x86_64')
+depends=( lib32-glibc ocl-icd )
+provides=('lib32-libcl' 'lib32-opencl-loader')
+conflicts=('lib32-libcl')
+replaces=('lib32-libcl')
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

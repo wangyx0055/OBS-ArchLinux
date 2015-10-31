@@ -1,0 +1,8 @@
+<directory name="gimp-paint-studio" rev="2" srcmd5="7cfb6a51725d2d53e39e02a9ee61ea3a" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="850bbcb836706a906e171802f2e92685" />
+  <entry md5="6aa6d7145a6041193bcca0f915152ef0" mtime="1446622370" name="LICENSE" size="6105" />
+  <entry md5="8b9d90aed40e76df1842b0a98f280d87" mtime="1446622371" name="PKGBUILD" size="1340" />
+  <entry md5="3cd48dba061e05a4989bd5d859952b06" mtime="1446626249" name="_service" size="235" />
+  <entry md5="40d8f558fede6c84c94a4eb4010c8b4c" mtime="1446622395" name="gps.install" size="198" />
+  <entry md5="72e1b69685fdc6c3f8053e90c392ff93" mtime="1446622397" name="sessionrc" size="4688" />
+</directory>

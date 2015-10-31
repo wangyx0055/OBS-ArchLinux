@@ -1,0 +1,5 @@
+<directory name="lib32-sqlite" rev="3" srcmd5="ac14282c94106c99db5b332875c495ca" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="a36b01174c94809c02cb2a3f61a7f7d3" />
+  <entry md5="00ef48c387f879d79bfc37f7ee460e1a" mtime="1446964781" name="PKGBUILD" size="378" />
+  <entry md5="150b3d8217a6b76bbc7a284f3b5dc0f6" mtime="1446964110" name="_service" size="247" />
+</directory>

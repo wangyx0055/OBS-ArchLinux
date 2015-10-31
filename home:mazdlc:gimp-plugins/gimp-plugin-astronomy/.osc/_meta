@@ -1,0 +1,5 @@
+<package name="gimp-plugin-astronomy" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-astronomy</title>
+  <description>gimp-plugin-astronomy</description>
+</package>
+

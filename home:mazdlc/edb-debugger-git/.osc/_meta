@@ -1,0 +1,5 @@
+<package name="edb-debugger-git" project="home:mazdlc">
+  <title>edb-debugger-git</title>
+  <description>EDB (Evan's Debugger) is a binary mode debugger with the goal of having usability on par with OllyDbg. Git version</description>
+</package>
+

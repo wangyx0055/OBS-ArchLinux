@@ -1,0 +1,25 @@
+<directory name="firefox-kde-opensuse" rev="10" srcmd5="628df899651676dcc0723e6f803cfe37" vrev="10">
+  <serviceinfo code="succeeded" xsrcmd5="ec2b3e568daeb969bec641e5b207416e" />
+  <entry md5="8ebf3c9c5309fd88b16b946c8145f674" mtime="1446969058" name="PKGBUILD" size="6881" />
+  <entry md5="05bee6f8657c9085896ed115e42fa67b" mtime="1446901249" name="_service" size="259" />
+  <entry md5="fe24f5ea463013bb7f1c12d12dce41b2" mtime="1424791495" name="add_missing_pgo_rule.patch" size="316" />
+  <entry md5="0a8dd69352759b7544ca65403147752f" mtime="1446978553" name="bump.sh" size="830" />
+  <entry md5="3a236a2a39a60d622cf928655e68657f" mtime="1373197097" name="cairo-shared.patch" size="1492" />
+  <entry md5="6bf26e2c182dabcba78f08a84a37192c" mtime="1441219925" name="firefox-branded-icons.patch" size="2936" />
+  <entry md5="6e335a517c68488941340ee1c23f97b0" mtime="1409918216" name="firefox-fixed-loading-icon.png" size="12184" />
+  <entry md5="dbf14588e85812ee769bd735823a0146" mtime="1398859382" name="firefox-install-dir.patch" size="679" />
+  <entry md5="544edcad53c4606dd06208a0041833b1" mtime="1446969322" name="firefox-kde.patch" size="82557" />
+  <entry md5="648958ae7db60bc16dca3f847ee9791b" mtime="1441219929" name="firefox-no-default-ualocale.patch" size="1185" />
+  <entry md5="9b02198df96be08f2a0a323ac2e6c2a2" mtime="1428219601" name="firefox.desktop" size="13148" />
+  <entry md5="09c2e231623402602eb8b257dbf4d623" mtime="1369472910" name="firefox.install" size="175" />
+  <entry md5="05bb69d25fb3572c618e3adf1ee7b670" mtime="1373196940" name="kde.js" size="86" />
+  <entry md5="2d28bf5d46a801129e1c8117885adfa9" mtime="1446695137" name="mozconfig" size="1570" />
+  <entry md5="0967bcda9a71f2e5dec7b69c6ba98615" mtime="1446969325" name="mozilla-kde.patch" size="134344" />
+  <entry md5="4b6c9c35110f5e59fc87e1c8f3c33001" mtime="1441220025" name="mozilla-language.patch" size="1765" />
+  <entry md5="0c684360f1df4536512d51873c1d243d" mtime="1403523291" name="mozilla-nongnome-proxies.patch" size="1779" />
+  <entry md5="76af2dc85e02f87dda354fd886a34a03" mtime="1430041670" name="pgo_fix_missing_kdejs.patch" size="497" />
+  <entry md5="8c1578232b7a60fa1caa9a0b322d1e2b" mtime="1409918217" name="rhbz-966424.patch" size="825" />
+  <entry md5="52e52f840a49eb1d14be1c0065b03a93" mtime="1358102257" name="shared-libs.patch" size="527" />
+  <entry md5="f766bb369d46862d9a9cf08728f9e986" mtime="1446969061" name="unity-menubar.patch" size="178850" />
+  <entry md5="0d053487907de4376d67d8f499c5502b" mtime="1346003970" name="vendor.js" size="328" />
+</directory>

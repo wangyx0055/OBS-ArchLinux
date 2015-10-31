@@ -1,0 +1,6 @@
+<directory name="lib32-llvm-libs" rev="5" srcmd5="6f5610430e0141b6a082021358bc6fbf" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="9e5fa74c93612fdeda7033c2fb468071" />
+  <entry md5="edae731dc4e52550b5b08dc8205de42f" mtime="1446723677" name="PKGBUILD" size="413" />
+  <entry md5="3164f55c21be0d97cb5ed3cbb85f2f6a" mtime="1446387932" name="_service" size="251" />
+  <entry md5="64c687d7f13ee0bb7eff1a7648b6ebb5" mtime="1446723679" name="bump.sh" size="850" />
+</directory>

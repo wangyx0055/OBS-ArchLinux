@@ -1,0 +1,5 @@
+<directory name="lib32-gcc-libs" rev="3" srcmd5="a38d8b1461a4781f06b0da1641e0eddf" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="cf47c81f3476e474079bf3e0f32af7fd" />
+  <entry md5="f34e28dbea1503fe8c83d09e1d22bff3" mtime="1446433379" name="PKGBUILD" size="362" />
+  <entry md5="ca1f76f25afc61f6001c90e944d3959d" mtime="1446433332" name="_service" size="250" />
+</directory>

@@ -1,0 +1,18 @@
+<project name="home:mazdlc:missing-i686">
+  <package name="libsodium" state=" " />
+  <package name="opencl-headers" state=" " />
+  <package name="zeromq" state=" " />
+  <package name="libpgm" state=" " />
+  <package name="fmodex" state=" " />
+  <package name="guichan" state=" " />
+  <package name="hardening-wrapper" state=" " />
+  <package name="jansson" state=" " />
+  <package name="libfdk-aac" state=" " />
+  <package name="libgexiv2" state=" " />
+  <package name="plib" state=" " />
+  <package name="capstone" state=" " />
+  <package name="ffmpeg" state=" " />
+  <package name="frei0r-plugins" state=" " />
+  <package name="gavl" state=" " />
+  <package name="ffms2" state=" " />
+</project>

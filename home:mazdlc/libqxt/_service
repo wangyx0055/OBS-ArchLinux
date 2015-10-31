@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">bitbucket.org</param>
+    <param name="path">/libqxt/libqxt/get/v0.6.2.tar.bz2</param>
+  </service>
+</services>

@@ -1,0 +1,14 @@
+<package name="beignet" project="home:mazdlc">
+  <title>beignet</title>
+  <description>A GPGPU System for Intel Ivybridge GPUs</description>
+  <build>
+    <disable arch="i586"/>
+  </build>
+  <publish>
+    <disable arch="i586"/>
+  </publish>
+  <useforbuild>
+    <disable arch="i586"/>
+  </useforbuild>
+</package>
+

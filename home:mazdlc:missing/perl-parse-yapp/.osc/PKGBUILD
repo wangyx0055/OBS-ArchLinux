@@ -1,0 +1,20 @@
+pkgname=perl-parse-yapp
+pkgver=1.05
+pkgrel=6
+pkgdesc="package for obs"
+arch=('any')
+depends=( perl )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

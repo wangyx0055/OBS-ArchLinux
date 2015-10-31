@@ -1,0 +1,28 @@
+# Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
+
+_pkgname=scrub
+pkgname=$_pkgname-git
+pkgver=2.6.1
+pkgrel=1
+pkgdesc="Iteratively writes patterns on files or disk devices to make retreiving the data more difficult"
+arch=('i686' 'x86_64')
+provides=$_pkgname
+conflicts=$_pkgname
+url="http://code.google.com/p/diskscrub/"
+license=('GPL')
+source=($_pkgname-$pkgver.tar.xz)
+sha256sums=('SKIP')
+
+build() {
+  cd "${srcdir}"/$_pkgname-$pkgver
+
+  ./autogen.sh
+  ./configure --prefix=/usr --mandir=/usr/share/man
+  make
+}
+
+package () {
+  cd "${srcdir}"/$_pkgname-$pkgver
+
+  make DESTDIR="${pkgdir}" install
+}

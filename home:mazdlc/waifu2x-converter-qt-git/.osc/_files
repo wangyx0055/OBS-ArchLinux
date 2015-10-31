@@ -1,0 +1,7 @@
+<directory name="waifu2x-converter-qt-git" rev="21" srcmd5="f507d407af212940a0e1e6094d258813" vrev="21">
+  <serviceinfo code="succeeded" xsrcmd5="ed9c84cf8680ea4ac9eed14bcb0bd7a0" />
+  <entry md5="446912daf4394c3efe20d7fc8be899f2" mtime="1446518980" name="PKGBUILD" size="980" />
+  <entry md5="c49b8226484b5857f457cf28143fd1e9" mtime="1446714510" name="_service" size="478" />
+  <entry md5="9fb5356615674e93caa8520e6f3717f5" mtime="1446518140" name="waifu2x-converter-qt.desktop" size="230" />
+  <entry md5="08f2ccd67e567d0fa9feb53c15b9de46" mtime="1446518142" name="waifu2x.png" size="10355" />
+</directory>

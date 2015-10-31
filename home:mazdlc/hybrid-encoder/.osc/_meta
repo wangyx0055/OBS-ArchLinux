@@ -1,0 +1,5 @@
+<package name="hybrid-encoder" project="home:mazdlc">
+  <title>hybrid-encoder</title>
+  <description>A very complete gui for video encoding</description>
+</package>
+

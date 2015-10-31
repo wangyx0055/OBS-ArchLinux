@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">dl.sourceforge.jp</param>
+    <param name="path">/separate-plus/47873/separate+-0.5.8.zip</param>
+  </service>
+</services>

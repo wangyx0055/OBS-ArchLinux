@@ -1,0 +1,5 @@
+<directory name="lib32-acl" rev="3" srcmd5="0c6f5d9eae67cd334bb52d06395ab066" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="3e0a8b72c62c800f19c0acb9e738436d" />
+  <entry md5="c606b5cf72427d8e48f75784ca842d67" mtime="1446723158" name="PKGBUILD" size="356" />
+  <entry md5="e9f23d20bf0efe962059f896778e5826" mtime="1446436609" name="_service" size="245" />
+</directory>

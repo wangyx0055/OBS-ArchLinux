@@ -1,0 +1,14 @@
+<package name="festige" project="home:mazdlc">
+  <title>festige</title>
+  <description>A GUI for fst and dssi-vst, allowing you to run Windows VST plugins on Linux.</description>
+  <build>
+    <disable arch="i586"/>
+  </build>
+  <publish>
+    <disable arch="i586"/>
+  </publish>
+  <useforbuild>
+    <disable arch="i586"/>
+  </useforbuild>
+</package>
+

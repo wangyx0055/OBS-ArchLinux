@@ -1,0 +1,5 @@
+<directory name="lib32-libtasn1" rev="3" srcmd5="aa3b0f27fda64e825a9623cb70bc4d7c" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="4f01f03e183e9fb8bb74f0785793c108" />
+  <entry md5="b13d9faa13b9f46d8cb20cffc57485fd" mtime="1446384167" name="PKGBUILD" size="369" />
+  <entry md5="907c1ccefc4d592fd1bce8fa09cea84e" mtime="1446384168" name="_service" size="250" />
+</directory>

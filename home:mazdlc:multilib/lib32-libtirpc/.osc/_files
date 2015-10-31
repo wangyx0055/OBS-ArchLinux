@@ -1,0 +1,5 @@
+<directory name="lib32-libtirpc" rev="2" srcmd5="64433c32b6246d43c4c817e37a55cba7" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="b1885313c23b9533bb33a711060871c0" />
+  <entry md5="aadf8b45c9b3578c0fa14ba3780c326d" mtime="1446904300" name="PKGBUILD" size="370" />
+  <entry md5="1256195c9241e669a6d5679cc906b3db" mtime="1446443448" name="_service" size="249" />
+</directory>

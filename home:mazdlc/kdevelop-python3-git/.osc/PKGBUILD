@@ -1,0 +1,38 @@
+# Contributor: Sven Brauch <svenbrauch@gmail.com>
+
+pkgname=kdevelop-python3-git
+pkgver=v1.7.1.py3.r184.gcffa9e4
+pkgrel=1
+pkgdesc="Python language plugin for KDevelop - Git build, Python 3 version"
+arch=('i686' 'x86_64')
+url="http://www.kdevelop.org/"
+license=('GPL')
+groups=('kde' 'kdevelop-plugins')
+depends=('kdevplatform-git' 'kdevelop-git' 'python')
+makedepends=('cmake' 'automoc4' 'git' 'python' 'kdoctools' 'extra-cmake-modules-git')
+source=(kdev-python-$pkgver.tar.xz)
+provides=('kdevelop-python')
+conflicts=('kdevelop-python')
+md5sums=('SKIP')
+
+
+build() {
+    cd "$srcdir/kdev-python-$pkgver"
+
+    mkdir -p "$srcdir/kdev-python-$pkgver/build"
+    cd "$srcdir/kdev-python-$pkgver/build"
+
+    cmake ../ \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DLIB_INSTALL_DIR=lib \
+        -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
+
+    make
+}
+
+package() {
+    cd "$srcdir/kdev-python-$pkgver/build"
+
+    make DESTDIR="$pkgdir/" install
+}

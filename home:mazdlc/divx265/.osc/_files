@@ -1,0 +1,7 @@
+<directory name="divx265" rev="3" srcmd5="5aa8366939765d79ca2472ab29d512bb" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="a71e0b5316f958e0b5c8fa992d376178" />
+  <entry md5="d24e50a151d8951b0e996ce60b70c6d4" mtime="1446958287" name="DivX265.1" size="2708" />
+  <entry md5="b80a33d41067c19bee6459a4129d245b" mtime="1446959102" name="PKGBUILD" size="657" />
+  <entry md5="38f95ca6100a7419d029f5270831611b" mtime="1446958290" name="_service" size="207" />
+  <entry md5="9e89d399b314540ea57c46286ac5a662" mtime="1446958292" name="bump.sh" size="557" />
+</directory>

@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">gps-gimp-paint-studio.googlecode.com</param>
+    <param name="path">/files/GPS%202_0%20final.zip</param>
+  </service>
+</services>

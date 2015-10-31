@@ -1,0 +1,12 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">unarchiver.c3.cx</param>
+    <param name="path">/downloads/unar1.9.1_src.zip</param>
+  </service>
+  <service name="verify_file">
+    <param name="file">_service:download_url:unar1.9.1_src.zip</param>
+    <param name="verifier">sha256</param>
+    <param name="checksum">28045fb688563c002b7c2807e80575d3f9af8eb024739f9ab836f681bb8e822c</param>
+  </service>
+</services>

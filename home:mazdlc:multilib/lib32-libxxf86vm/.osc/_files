@@ -1,0 +1,5 @@
+<directory name="lib32-libxxf86vm" rev="4" srcmd5="3b315ef5400cf6ee88b893827d19a1d9" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="6eaba689b5327fde8740f4c1971bedc2" />
+  <entry md5="058a98591b3a8ce6d87c015732ad2df4" mtime="1446377949" name="PKGBUILD" size="371" />
+  <entry md5="023a54b22554bf6e69f70a55ec6b804a" mtime="1446379810" name="_service" size="252" />
+</directory>

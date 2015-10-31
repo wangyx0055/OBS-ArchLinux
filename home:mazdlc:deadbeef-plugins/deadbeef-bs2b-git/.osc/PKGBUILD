@@ -1,0 +1,31 @@
+# Maintainer: Peter Lamby <peterlamby@web.de>
+pkgname=deadbeef-bs2b-git
+_gitname=bs2b
+pkgver=8.cc336f1
+pkgrel=1
+pkgdesc="bs2b plugin for the DeaDBeeF music player"
+arch=('i686' 'x86_64')
+url="https://github.com/Alexey-Yakovenko/bs2b"
+license=('GPL2')
+depends=('deadbeef' 'libbs2b')
+provides=deadbeef-bs2b
+conflicts=deadbeef-bs2b
+source=$_gitname-$pkgver.tar.xz
+md5sums=('SKIP')
+
+
+prepare() {
+        cd "$srcdir/$_gitname-$pkgver"
+        patch -p1 < ${startdir}/bs2b.diff
+}
+
+build() {
+  cd "${srcdir}/$_gitname-$pkgver"
+  make
+}
+
+package() {
+  cd "${srcdir}/$_gitname-$pkgver"
+
+  install -Dm 755 ddb_bs2b.so "$pkgdir/usr/lib/deadbeef/ddb_bs2b.so"
+}

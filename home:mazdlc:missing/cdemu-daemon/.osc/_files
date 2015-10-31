@@ -1,0 +1,5 @@
+<directory name="cdemu-daemon" rev="3" srcmd5="73bcff374c597cd20b0f887371bf33f7" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="5913cd191382daa066719c7d699b5d4b" />
+  <entry md5="a4e0848e7ffcc441a9b630f8c8ac9903" mtime="1446804617" name="PKGBUILD" size="345" />
+  <entry md5="e837b34f6dc06f8317226c1448438e34" mtime="1446780444" name="_service" size="248" />
+</directory>

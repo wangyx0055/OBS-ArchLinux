@@ -1,0 +1,20 @@
+_pkgbase=libpulse
+pkgname=lib32-libpulse
+pkgver=7.1
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( libpulse  lib32-json-c lib32-libasyncns lib32-libcap lib32-libdbus lib32-libsm lib32-libsndfile lib32-libxtst lib32-systemd )
+url="https://www.archlinux.org"
+license=('see original package')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+}

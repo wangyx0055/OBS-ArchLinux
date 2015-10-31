@@ -1,0 +1,5 @@
+<package name="gimp-plugin-wavelet-sharpen" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-wavelet-sharpen</title>
+  <description>gimp-plugin-wavelet-sharpen</description>
+</package>
+

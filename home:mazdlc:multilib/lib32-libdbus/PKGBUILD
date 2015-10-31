@@ -1,0 +1,24 @@
+_pkgbase=libdbus
+pkgname=lib32-libdbus
+pkgver=1.10.0
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-glibc lib32-expat libdbus )
+provides=('lib32-dbus-core' 'lib32-dbus')
+conflicts=('lib32-dbus-core' 'lib32-dbus')
+replaces=('lib32-dbus-core' 'lib32-dbus')
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

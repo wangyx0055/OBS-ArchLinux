@@ -1,0 +1,5 @@
+<directory name="netcf" rev="2" srcmd5="dcf21b99ab40570fb0f5de63cc165573" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="d75d0265bee54da81a9d338f27f27103" />
+  <entry md5="9a82bf4db4c4aaa9aaac68bc6a33b7a8" mtime="1446732809" name="PKGBUILD" size="353" />
+  <entry md5="06df565e334b24202aa85a8d5addd772" mtime="1446701165" name="_service" size="241" />
+</directory>

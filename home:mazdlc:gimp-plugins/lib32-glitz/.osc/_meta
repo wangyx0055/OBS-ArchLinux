@@ -1,0 +1,14 @@
+<package name="lib32-glitz" project="home:mazdlc:gimp-plugins">
+  <title>lib32-glitz</title>
+  <description>lib32-glitz</description>
+  <build>
+    <disable arch="i586"/>
+  </build>
+  <publish>
+    <disable arch="i586"/>
+  </publish>
+  <useforbuild>
+    <disable arch="i586"/>
+  </useforbuild>
+</package>
+

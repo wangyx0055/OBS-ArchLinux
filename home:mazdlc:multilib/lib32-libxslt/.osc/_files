@@ -1,0 +1,5 @@
+<directory name="lib32-libxslt" rev="4" srcmd5="36c8bf60638d84457194bba913a98b3b" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="0f941d44939fa04177bf3e93807eb2d6" />
+  <entry md5="aa8322f432d85baa1310c7d59b5ba0b1" mtime="1446723550" name="PKGBUILD" size="379" />
+  <entry md5="3a57855ab4ec9123f81c7885077613fe" mtime="1446379687" name="_service" size="249" />
+</directory>

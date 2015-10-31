@@ -1,0 +1,5 @@
+<directory name="lash" rev="1" srcmd5="4d9729ac4cba4ed54376ea381b4dc900" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="556e13eb8a074a83ac5638be2e682435" />
+  <entry md5="0cfe4134cb0def32875b52a7599cba32" mtime="1446955941" name="PKGBUILD" size="351" />
+  <entry md5="c4861fd668f94f93f46c3600325b01ee" mtime="1446955942" name="_service" size="240" />
+</directory>

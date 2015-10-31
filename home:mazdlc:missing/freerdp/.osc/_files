@@ -1,0 +1,5 @@
+<directory name="freerdp" rev="2" srcmd5="63e4dce7e31d602ea211c50bc55527a3" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="84e51e44ad33f2d56aeebefc694ffee7" />
+  <entry md5="0993d1e662ce37511a77be04a13d6b2e" mtime="1446804635" name="PKGBUILD" size="488" />
+  <entry md5="7723613e6e27010fa5151b67606489f5" mtime="1446780467" name="_service" size="243" />
+</directory>

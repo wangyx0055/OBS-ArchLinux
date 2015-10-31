@@ -1,0 +1,5 @@
+<package name="lib32-elfutils" project="home:mazdlc:multilib">
+  <title>lib32-elfutils</title>
+  <description></description>
+</package>
+

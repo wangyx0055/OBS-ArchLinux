@@ -1,0 +1,83 @@
+# Maintainer: skydrome <skydrome@i2pmail.org>
+# Contributor: skydrome <skydrome@i2pmail.org>
+
+# Compile a debug build?
+_debug=n
+
+# Compile from a specific commit?
+#_commit=6a3234e  #0.9.4
+#_commit=3019261  #0.9.5
+_commit=HEAD
+
+pkgname=rtorrent-pyro-git
+pkgver=20150908
+pkgrel=1
+pkgdesc="Ncurses BitTorrent client based on libTorrent - rTorrent-git with Pyroscope patches"
+url="https://github.com/pyroscope/rtorrent-ps"
+license=('GPL')
+arch=('i686' 'x86_64')
+depends=('libtorrent-pyro-git' 'libsigc++' 'ncurses' 'curl' 'xmlrpc-c')
+makedepends=('git' 'cppunit')
+optdepends=('ttf-dejavu: for utf8 glyphs'
+            'ttf-everson-mono'
+            'ttf-unifont'
+            'ttf-andale-mono')
+conflicts=('rtorrent' 'rtorrent-git')
+provides=('rtorrent')
+install='pyroscope.install'
+backup=('usr/share/doc/rtorrent/rtorrent.rc.sample')
+
+[[ $_debug = 'n' ]] &&
+    _debug='--disable-debug' || options=(!strip)
+
+_url="https://raw.githubusercontent.com/pyroscope/rtorrent-ps/master/patches"
+# source=("git://github.com/rakshasa/rtorrent.git#commit=$_commit")
+source=rtorrent-$pkgver.tar.xz
+md5sums=('SKIP')
+
+
+prepare() {
+    cd "$srcdir/rtorrent-$pkgver"
+    
+    sed -i src/ui/download_list.cc \
+        -e 's:rTorrent \" VERSION:rTorrent-PS " VERSION:'
+    sed -i doc/scripts/update_commands_0.9.sed \
+        -e "s:':\":g"
+    sed -i ${startdir}/command_pyroscope.cc \
+        -e 's:view_filter:view.filter:' \
+        -e 's:RT_HEX_VERSION < 0x000904:RT_HEX_VERSION > 0x000904:'
+
+    for i in ${startdir}/*.patch; do
+        sed -f doc/scripts/update_commands_0.9.sed -i "$i"
+        msg "Patching $i"
+        patch -uNp1 -i "$i"
+    done
+    for i in ${startdir}/*.{cc,h}; do
+        sed -f doc/scripts/update_commands_0.9.sed -i "$i"
+        ln -s "$i" src
+    done
+
+    ./autogen.sh
+}
+
+build() {
+    cd "$srcdir/rtorrent-$pkgver"
+    #export CC=clang
+    #export CXX=clang++
+    export libtorrent_LIBS="-L/usr/lib -ltorrent"
+
+    ./configure $_debug \
+        --prefix=/usr \
+        --with-xmlrpc-c
+
+    make
+}
+
+package() {
+    cd "$srcdir/rtorrent-$pkgver"
+    make DESTDIR="$pkgdir" install
+
+    install -Dm644 "$startdir"/rtorrent.rc.sample "${pkgdir}/usr/share/doc/rtorrent/rtorrent.rc.sample"
+    install -Dm644 doc/faq.xml        "${pkgdir}/usr/share/doc/rtorrent/faq.xml"
+    install -Dm644 doc/old/rtorrent.1 "${pkgdir}/usr/share/man/man1/rtorrent.1"
+}

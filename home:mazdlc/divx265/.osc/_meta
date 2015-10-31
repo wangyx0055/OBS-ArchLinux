@@ -1,0 +1,5 @@
+<package name="divx265" project="home:mazdlc">
+  <title>divx265</title>
+  <description>Free for non commercial use H265/HEVC video encoder</description>
+</package>
+

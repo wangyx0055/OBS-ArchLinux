@@ -1,0 +1,17 @@
+<project name="home:mazdlc:deadbeef-plugins">
+  <package name="deadbeef-bs2b-git" state=" " />
+  <package name="deadbeef-git" state=" " />
+  <package name="deadbeef-jack-git" state=" " />
+  <package name="deadbeef-mpris2-plugin-hg" state=" " />
+  <package name="deadbeef-plugin-customizabletb-git" state=" " />
+  <package name="deadbeef-plugin-fb-git" state=" " />
+  <package name="deadbeef-plugin-infobar-ng-hg" state=" " />
+  <package name="deadbeef-plugin-vk-git" state=" " />
+  <package name="deadbeef-plugins-dvar-svn" state=" " />
+  <package name="deadbeef-replaygain-control-git" state=" " />
+  <package name="deadbeef-replaygain-scan-git" state=" " />
+  <package name="deadbeef-stereo-widener-git" state=" " />
+  <package name="deadbeef-opus-git" state=" " />
+  <package name="libbs2b" state=" " />
+  <package name="deadbeef-qt-git" state=" " />
+</project>

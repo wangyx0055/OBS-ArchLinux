@@ -1,0 +1,5 @@
+<directory name="lib32-atk" rev="1" srcmd5="7a2436f00bd014f74042255f0a1475c7" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="e5b3fb48866f0321430a04d126f4c2a1" />
+  <entry md5="f7aa71b12660ac815f5f8df7700bdf79" mtime="1446438276" name="PKGBUILD" size="357" />
+  <entry md5="1881b9d005f9a24ee666186fd5511671" mtime="1446438278" name="_service" size="245" />
+</directory>

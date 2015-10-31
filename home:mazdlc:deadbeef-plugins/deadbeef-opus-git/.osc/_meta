@@ -1,0 +1,5 @@
+<package name="deadbeef-opus-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-opus-git</title>
+  <description>Opus decoder plugin for the DeaDBeeF music player</description>
+</package>
+

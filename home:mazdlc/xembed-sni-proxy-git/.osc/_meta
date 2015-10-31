@@ -1,0 +1,5 @@
+<package name="xembed-sni-proxy-git" project="home:mazdlc">
+  <title>xembed-sni-proxy-git</title>
+  <description>Convert XEmbed system tray icons to SNI icons. With white background.</description>
+</package>
+

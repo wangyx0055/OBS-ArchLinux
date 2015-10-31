@@ -1,0 +1,8 @@
+<directory name="libsmi" rev="1533fbb1f3a340ff126280dbfe28ea7a" srcmd5="1533fbb1f3a340ff126280dbfe28ea7a">
+  <linkinfo baserev="6752ff602fa5fefc30082873be6c3a77" lsrcmd5="e834922529de48b52838fc1f99142e61" package="libsmi" project="home:mazdlc:missing" srcmd5="6752ff602fa5fefc30082873be6c3a77" />
+  <entry md5="ca8baacdc29278e35d5e64596aed0286" mtime="1446474821" name="LICENSE" size="4253" />
+  <entry md5="52ff778d95f8f2201ea26a853a035b56" mtime="1446561575" name="PKGBUILD" size="945" />
+  <entry md5="5c834c886c3cceb5eac468cbfa128e52" mtime="1446561577" name="_service" size="236" />
+  <entry md5="8e0ee8bbf51a4c49df773b885272d14a" mtime="1446561579" name="bump.sh" size="467" />
+  <entry md5="3e21c361be5aa557a7df70ce0673e632" mtime="1446475565" name="libsmi.install" size="254" />
+</directory>

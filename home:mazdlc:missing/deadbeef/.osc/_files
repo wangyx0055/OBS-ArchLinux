@@ -1,0 +1,5 @@
+<directory name="deadbeef" rev="5" srcmd5="ec06833d6fe591bae022330f28c72170" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="9c5f63063a022d45f66f9c8fbebd2758" />
+  <entry md5="abbfbf01d124671ccfe78ed1edf74209" mtime="1446900514" name="PKGBUILD" size="367" />
+  <entry md5="90e0f265917801e27725d9180e3bab49" mtime="1446900422" name="_service" size="290" />
+</directory>

@@ -1,0 +1,42 @@
+# Maintainer: Michael Mansell <michael.mansell@gmail.com>
+# Maintainer: Gosha Tugai [SAL9000] <gosha.tugai@gmail.com>
+# Contributor: Ross Melin <rdmelin@gmail.com>
+
+# 1.1-2 : Updated autogen.sh.patch to handle newer versions of automake.
+
+pkgname=gimp-plugin-deskew-git
+pkgver=1.1
+pkgrel=2
+pkgdesc="Auto straighten lines of text in scanned documents"
+arch=('i686' 'x86_64')
+#(old) url="http://www.cubewano.org/gimp-deskew-plugin/"
+url="https://github.com/prokoudine/gimp-deskew-plugin"
+license=('GPL')
+depends=('gimp')
+makedepends=('git')
+provides=('gimp-plugin-deskew')
+conflicts=('gimp-plugin-deskew')
+source=gimp-deskew-plugin-$pkgver.tar.xz
+md5sums=('SKIP')
+
+#_gitroot='git://github.com/prokoudine/gimp-deskew-plugin.git'
+#_gitname='gimp-deskew-plugin'
+
+prepare() {
+  cd "$srcdir/gimp-deskew-plugin-$pkgver"
+  #patch -u -F5 -N autogen.sh ${startdir}/autogen.sh.patch
+}
+
+build() {
+  cd "$srcdir/gimp-deskew-plugin-$pkgver"
+  ./autogen.sh --prefix=/usr
+  make || return 1
+}
+package() {
+  cd "$srcdir/gimp-deskew-plugin-$pkgver"
+  make DESTDIR="$pkgdir/" install
+  mv $pkgdir/usr/usr/lib $pkgdir/usr/
+  rmdir $pkgdir/usr/usr
+}
+
+

@@ -1,0 +1,7 @@
+<directory name="wineasio" rev="6" srcmd5="949cacd66dd2a96618b139bb609aa92e" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="ac3b1b3f2f5ee9327c6baf1d78905b35" />
+  <entry md5="3352408119b2d29efe75c2f89d672947" mtime="1446790918" name="PKGBUILD" size="1479" />
+  <entry md5="63953e77828254f8440949b64b639a3c" mtime="1446540085" name="_service" size="227" />
+  <entry md5="9014523dc9b33cd572f06d359ba4a909" mtime="1446540087" name="bump.sh" size="498" />
+  <entry md5="ac656740677fe767284a081e7d3902a5" mtime="1446315541" name="wineasio.install" size="421" />
+</directory>

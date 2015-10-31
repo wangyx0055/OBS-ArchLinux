@@ -1,0 +1,13 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">hg</param>
+    <param name="url">https://bitbucket.org/IgnatLoskutov/deadbeef-infobar-ng</param>
+    <param name="versionformat"></param>
+    <param name="filename">deadbeef-infobar-ng</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  <service name="set_version"/>
+</services>

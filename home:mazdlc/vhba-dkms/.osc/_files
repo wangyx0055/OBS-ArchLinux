@@ -1,0 +1,10 @@
+<directory name="vhba-dkms" rev="3" srcmd5="cf5f4fd0484af54901b2f128d4c30b83" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="9da9f8a14cf57a60a496083c40e0b6b5" />
+  <entry md5="4dc37dc348b5a2c83585829bde790dcc" mtime="1446364758" name="60-vhba.rules" size="109" />
+  <entry md5="2fc4419fd89d9d4ff6ed977e10396c7a" mtime="1446364759" name="PKGBUILD" size="1301" />
+  <entry md5="6325259b2554da1616e7a5045d655aa6" mtime="1446364763" name="_service" size="499" />
+  <entry md5="c4519952d3bc8c75323d94ca30aa9536" mtime="1446556021" name="bump.sh" size="881" />
+  <entry md5="815e419c35dcdf309b96599ee86ba72d" mtime="1446364764" name="dkms.conf" size="167" />
+  <entry md5="d7a5f51c8e9df940218aff615ed64d1a" mtime="1446364766" name="vhba-dkms.install" size="303" />
+  <entry md5="8c929ef662de89f348d277983cbb3952" mtime="1446364768" name="vhba-linux3.15.patch" size="1793" />
+</directory>

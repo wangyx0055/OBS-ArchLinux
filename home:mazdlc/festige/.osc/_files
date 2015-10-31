@@ -1,0 +1,6 @@
+<directory name="festige" rev="7" srcmd5="d3037c6f04b6406b5810c70ff310ec0b" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="364ae771984935b2b9b3389cbf0389f6" />
+  <entry md5="fd2bdd7599bdae48d5df2170112a7176" mtime="1446603244" name="PKGBUILD" size="884" />
+  <entry md5="b77dbd7825017de83e5134a9a8547598" mtime="1446562595" name="_service" size="244" />
+  <entry md5="439216d0a664194da5c6c674964589ad" mtime="1446597904" name="bump.sh" size="464" />
+</directory>

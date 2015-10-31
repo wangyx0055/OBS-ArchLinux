@@ -1,0 +1,12 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">kde-apps.org</param>
+    <param name="path">/CONTENT/content-files/156421-kde-thumbnailer-apk-1.0.tar.bz2</param>
+  </service>
+  <service name="verify_file">
+    <param name="file">_service:download_url:156421-kde-thumbnailer-apk-1.0.tar.bz2</param>
+    <param name="verifier">sha256</param>
+    <param name="checksum">aefb7296a5207e13c4f3624acb6fd3ea359972fbee7f618686f970036067f476</param>
+  </service>
+</services>

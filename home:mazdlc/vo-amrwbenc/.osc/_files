@@ -1,0 +1,6 @@
+<directory name="vo-amrwbenc" rev="6" srcmd5="ab1ab896b127a2ce0fd88840b0c04e6c" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="a3054c277e7d257a99f31756b3036dff" />
+  <entry md5="df83325cfae935c66422c4ef0ad05689" mtime="1446542747" name="PKGBUILD" size="694" />
+  <entry md5="f40734e57d2b001ac66514ca7fcb57b0" mtime="1446596983" name="_service" size="234" />
+  <entry md5="8b06ed5ad1a8677ad850b76f3263b6fe" mtime="1446596985" name="bump.sh" size="522" />
+</directory>

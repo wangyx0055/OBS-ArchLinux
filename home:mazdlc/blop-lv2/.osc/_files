@@ -1,0 +1,6 @@
+<directory name="blop-lv2" rev="3" srcmd5="8853348276bf908b65a52148718fef66" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="161b9d2e45b4ef6c4748abc6f6dd31f8" />
+  <entry md5="7c14d41905a62887ac50782f5896b46e" mtime="1446557258" name="PKGBUILD" size="570" />
+  <entry md5="11f6192b1e3dcb64930ac948e09bd7f7" mtime="1446518592" name="_service" size="215" />
+  <entry md5="726cd4a1b51a10798dcd0ffd17595b65" mtime="1446555503" name="bump.sh" size="498" />
+</directory>

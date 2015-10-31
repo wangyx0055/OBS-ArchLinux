@@ -1,0 +1,7 @@
+<directory name="prelink" rev="1" srcmd5="9101335789bc2ff1572733fa18fb9dc5" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="1c555eb0e7dbe5fed60505c8b38400bf" />
+  <entry md5="5bc5861575a849e2347138e9d04445fc" mtime="1446534045" name="PKGBUILD" size="1417" />
+  <entry md5="067a8766043477376b72683a05221d1c" mtime="1446534047" name="_service" size="227" />
+  <entry md5="5b2d60d3bfdbf317cb1517d8f6ac23d4" mtime="1446534048" name="prelink.conf" size="962" />
+  <entry md5="2cab2d984636fa7e13615ac72fd81354" mtime="1446534050" name="prelink.sh" size="36" />
+</directory>

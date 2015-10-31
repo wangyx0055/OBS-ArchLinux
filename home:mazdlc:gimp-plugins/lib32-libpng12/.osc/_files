@@ -1,0 +1,5 @@
+<directory name="lib32-libpng12" rev="1" srcmd5="f0c1936b6c0aa2e4973d2de3ca1cfe9c" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="af815cf28a49ebd9c04391837ae39761" />
+  <entry md5="b714f219a46bac04026809207b157f56" mtime="1446625627" name="PKGBUILD" size="1813" />
+  <entry md5="2080422249cd121301734dfb98670b1b" mtime="1446625629" name="_service" size="473" />
+</directory>

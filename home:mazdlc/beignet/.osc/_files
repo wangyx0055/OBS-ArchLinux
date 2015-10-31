@@ -1,0 +1,11 @@
+<directory name="beignet" rev="3" srcmd5="56046e955b93934b59a569734763de2c" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="d889d41f277224f2c06dc10c023b8887" />
+  <entry md5="89e13f5c9e5db404e1c975f497d1dab1" mtime="1446529775" name="PKGBUILD" size="1818" />
+  <entry md5="d4d11f3418285f55a0cb6e6513f40d31" mtime="1446555374" name="_service" size="226" />
+  <entry md5="187d5829f7aa6d3dddc07a0dbf54ac60" mtime="1446696117" name="bump.sh" size="584" />
+  <entry md5="61a4eff71489f41d204a3db88bfa10a3" mtime="1446529778" name="llvm-3.7-patch-1.patch" size="49018" />
+  <entry md5="73ef4d9139bc446f0c1dc6111a18cb7d" mtime="1446529780" name="llvm-3.7-patch-2.patch" size="33361" />
+  <entry md5="3e4697ad565fa68014633c5694f678ec" mtime="1446529782" name="llvm-3.7-patch-3.patch" size="1507" />
+  <entry md5="f06742ef2af0e1b529f86d6fc2416218" mtime="1446529783" name="llvm-3.7-patch-4.patch" size="1347" />
+  <entry md5="7c99907a5b70a6bd9a9c1d8cde02a03d" mtime="1446529785" name="llvm-3.7-patch-5.patch" size="840" />
+</directory>

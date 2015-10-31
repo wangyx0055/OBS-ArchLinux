@@ -1,0 +1,7 @@
+<directory name="mitsuba-hg" rev="12" srcmd5="f9cd72163f4e7605791b42ec5b31d75b" vrev="12">
+  <serviceinfo code="succeeded" xsrcmd5="72e648df5cdf16139a6bf8f5da147b52" />
+  <entry md5="a91d014a9535a07cd13b9978800b3db6" mtime="1446619550" name="PKGBUILD" size="3296" />
+  <entry md5="a7f918a1337ac2d4f017d407303d16f0" mtime="1446520736" name="_service" size="444" />
+  <entry md5="46063b1de8eb1a08d53c5d569e3cbb31" mtime="1446520738" name="fix_boost_include.patch" size="717" />
+  <entry md5="40bb1ce2d8058a8837f3d443a24954db" mtime="1446619461" name="py3binding.sh" size="1308" />
+</directory>

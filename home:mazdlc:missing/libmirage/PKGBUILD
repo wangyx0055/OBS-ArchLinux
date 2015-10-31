@@ -1,0 +1,20 @@
+pkgname=libmirage
+pkgver=3.0.3
+pkgrel=1
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=(  bzip2 glib2 libsamplerate libsndfile shared-mime-info xz zlib  )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

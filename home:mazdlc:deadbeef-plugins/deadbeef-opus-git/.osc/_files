@@ -1,0 +1,5 @@
+<directory name="deadbeef-opus-git" rev="1" srcmd5="48817e325d540e4cde16a04928f5623a" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="adbb4dfcc4eef9ecee2178a2155ded7e" />
+  <entry md5="9ead4e68b6c9cb2201e1118d113da7cd" mtime="1446863843" name="PKGBUILD" size="740" />
+  <entry md5="0775e83517761d260bafc49027c5e632" mtime="1446863761" name="_service" size="468" />
+</directory>

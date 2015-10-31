@@ -1,0 +1,5 @@
+<directory name="lib32-expat" rev="2" srcmd5="4fab67ae3c07d29730ef6465d53f48b5" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="782ecd1408b61dad474f7aec059be957" />
+  <entry md5="cb523c01a97e00c2d0c895210b256f82" mtime="1446723226" name="PKGBUILD" size="362" />
+  <entry md5="641066342397b37899202a833cd7bd04" mtime="1446385957" name="_service" size="247" />
+</directory>

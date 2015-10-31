@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/persmule/amule-dlp.antiLeech.git</param>
+	<param name="versionformat">g%h</param>
+	<param name="versionprefix">20151031</param>
+    <param name="filename">antileech</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  <service name="set_version"/>
+</services>

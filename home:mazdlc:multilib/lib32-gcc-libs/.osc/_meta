@@ -1,0 +1,5 @@
+<package name="lib32-gcc-libs" project="home:mazdlc:multilib">
+  <title>lib32-gcc-libs</title>
+  <description></description>
+</package>
+

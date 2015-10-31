@@ -1,0 +1,5 @@
+<directory name="lib32-gdk-pixbuf2" rev="1" srcmd5="5f60ad08fae5c5520c9f51d940251d4d" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="f5aea137c91330ff30ec066e213c1eeb" />
+  <entry md5="f8efd45b2c7695392e7991080b3f0881" mtime="1446438521" name="PKGBUILD" size="435" />
+  <entry md5="1a1ceb3dc3dd2d8732926373f1d8a637" mtime="1446438522" name="_service" size="253" />
+</directory>

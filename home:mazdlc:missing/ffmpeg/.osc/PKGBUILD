@@ -1,0 +1,20 @@
+pkgname=ffmpeg
+pkgver=2.8.1
+pkgrel=3
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=(alsa-lib bzip2 fontconfig fribidi gnutls gsm lame libass libbluray libmodplug libpulse libsoxr libssh libtheora libva libvdpau libwebp opencore-amr openjpeg opus schroedinger sdl speex v4l-utils xvidcore zlib libvidstab.so libvorbis.so libvorbisenc.so libvpx.so libx264.so libx265.so)
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

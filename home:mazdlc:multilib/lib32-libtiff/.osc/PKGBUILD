@@ -1,0 +1,21 @@
+_pkgbase=libtiff
+pkgname=lib32-libtiff
+pkgver=4.0.6
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-gcc-libs lib32-libjpeg lib32-zlib lib32-xz libtiff )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

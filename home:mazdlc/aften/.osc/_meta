@@ -1,0 +1,5 @@
+<package name="aften" project="home:mazdlc">
+  <title>aften</title>
+  <description>AC-3 audio encoding</description>
+</package>
+

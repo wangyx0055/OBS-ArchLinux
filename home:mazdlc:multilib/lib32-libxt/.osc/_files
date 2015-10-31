@@ -1,0 +1,5 @@
+<directory name="lib32-libxt" rev="1" srcmd5="d78978c17e884152b0b1e07493e4675e" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="97b361a09a5d6ba31d0cade1e52f097a" />
+  <entry md5="b0e4be6cc75e76f5717509d78a870e1e" mtime="1446385860" name="PKGBUILD" size="375" />
+  <entry md5="a81799fe33e40747d250aeb8924ae564" mtime="1446385862" name="_service" size="247" />
+</directory>

@@ -1,0 +1,14 @@
+<package name="wine-gaming-nine" project="home:mazdlc">
+  <title>wine-gaming-nine</title>
+  <description></description>
+  <build>
+    <disable arch="i586"/>
+  </build>
+  <publish>
+    <disable arch="i586"/>
+  </publish>
+  <useforbuild>
+    <disable arch="i586"/>
+  </useforbuild>
+</package>
+

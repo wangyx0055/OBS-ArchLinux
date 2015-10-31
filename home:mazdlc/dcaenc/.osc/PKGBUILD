@@ -1,0 +1,31 @@
+# Maintainer: Xiao-Long Chen <chenxiaolong@cxl.epac.to>
+
+pkgname=dcaenc
+pkgver=2
+pkgrel=2
+pkgdesc="A Free Software (LGPL-licensed) encoder for the DTS Coherent Acoustics audio format."
+arch=(x86_64 i686)
+url="http://aepatrakov.narod.ru/dcaenc/"
+license=(LGPL)
+depends=(alsa-lib)
+source=("http://aepatrakov.narod.ru/olderfiles/1/dcaenc-${pkgver}.tar.gz")
+sha1sums=('SKIP')
+options=(!libtool)
+
+build() {
+  cd "${pkgname}-${pkgver}"
+  ./configure --prefix=/usr
+  make
+}
+
+check() {
+  cd "${pkgname}-${pkgver}"
+  make -k check
+}
+
+package() {
+  cd "${pkgname}-${pkgver}"
+  make DESTDIR="${pkgdir}/" install
+}
+
+# vim:set ts=2 sw=2 et:

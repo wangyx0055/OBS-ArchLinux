@@ -1,0 +1,6 @@
+<directory name="twolame" rev="4" srcmd5="c51a1a65c2b7d39a3596953bbb553c7f" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="3539c8a113d14ac553c13b15b958d9e5" />
+  <entry md5="4bac74fe6b8b6063260ca5f3d0e90c8a" mtime="1423542274" name="PKGBUILD" size="733" />
+  <entry md5="32b5bf4ecf513fb4a277e5c7c5abc736" mtime="1446559785" name="_service" size="226" />
+  <entry md5="db66d539b833e5b9763f59a8fceb5e25" mtime="1446597248" name="bump.sh" size="471" />
+</directory>

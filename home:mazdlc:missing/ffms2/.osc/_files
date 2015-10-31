@@ -1,0 +1,5 @@
+<directory name="ffms2" rev="2" srcmd5="03db0546bf8b0f47a1108aa8887b3aba" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="d40a8bc051f8e37d8c1e76104e6b627e" />
+  <entry md5="5cc2755c8d35e1147c0fa7d194da8338" mtime="1446732645" name="PKGBUILD" size="323" />
+  <entry md5="943581661dd03cd9834b7b2f8be11f7e" mtime="1446610239" name="_service" size="241" />
+</directory>

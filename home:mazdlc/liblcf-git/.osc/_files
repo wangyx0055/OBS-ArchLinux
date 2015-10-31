@@ -1,0 +1,5 @@
+<directory name="liblcf-git" rev="7" srcmd5="654e03387dc7542f4e32b670df46d45d" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="79b670d413ac9139d11692e6dc2bf990" />
+  <entry md5="c7264724cac3772f6ee0b2a2dc31e2a3" mtime="1446363906" name="PKGBUILD" size="716" />
+  <entry md5="fd679f870322185a61a17917249e1301" mtime="1446714354" name="_service" size="452" />
+</directory>

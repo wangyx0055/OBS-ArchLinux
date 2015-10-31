@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">people.redhat.com</param>
+    <param name="path">/jakub/prelink/prelink-20130503.tar.bz2</param>
+  </service>
+</services>

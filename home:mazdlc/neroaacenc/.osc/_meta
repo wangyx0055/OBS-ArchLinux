@@ -1,0 +1,5 @@
+<package name="neroaacenc" project="home:mazdlc">
+  <title>neroaacenc</title>
+  <description>NERO AAC audio encoding</description>
+</package>
+

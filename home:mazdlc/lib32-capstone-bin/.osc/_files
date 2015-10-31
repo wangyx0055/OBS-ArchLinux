@@ -1,0 +1,6 @@
+<directory name="lib32-capstone-bin" rev="1" srcmd5="9e2dd3acf3895336fc453c2251bb0d07" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="34e4a1c61c4233313fc455ce4f0de995" />
+  <entry md5="a784ccd316c941b4b0d5b138041c9da9" mtime="1446908855" name="PKGBUILD" size="442" />
+  <entry md5="4bdfe04185689cf84b2a07abad19ed05" mtime="1446908856" name="_service" size="288" />
+  <entry md5="45deddda6e24f66b8a39538d5f955fe5" mtime="1446908858" name="bump.sh" size="897" />
+</directory>

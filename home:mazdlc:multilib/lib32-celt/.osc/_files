@@ -1,0 +1,5 @@
+<directory name="lib32-celt" rev="1" srcmd5="46e9a9fdc1a69fa0d1af0fa72fa93e04" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="f82f44d4839ca43ebabcf06e6e355688" />
+  <entry md5="0e77d9b9c0e46be4dc946b3b55f26276" mtime="1446975776" name="PKGBUILD" size="347" />
+  <entry md5="67c122bb7d5533eb3cb8483b1682f1fd" mtime="1446975778" name="_service" size="291" />
+</directory>

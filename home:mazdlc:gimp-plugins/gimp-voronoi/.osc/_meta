@@ -1,0 +1,5 @@
+<package name="gimp-voronoi" project="home:mazdlc:gimp-plugins">
+  <title>gimp-voronoi</title>
+  <description>gimp-voronoi</description>
+</package>
+

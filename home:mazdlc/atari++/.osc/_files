@@ -1,0 +1,6 @@
+<directory name="atari++" rev="3" srcmd5="ffb3b69ebf5cc9a6d41fba2974337b99" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="69503d9ddce54358edab46c1777a3a4a" />
+  <entry md5="b11162b9837fec89001e22c216c4e296" mtime="1446557221" name="PKGBUILD" size="754" />
+  <entry md5="2db9da1a3eb57e27069f41eacb4426d8" mtime="1446518894" name="_service" size="218" />
+  <entry md5="74f6c8089d3bb6e23d77565304de8cdd" mtime="1446554546" name="bump.sh" size="448" />
+</directory>

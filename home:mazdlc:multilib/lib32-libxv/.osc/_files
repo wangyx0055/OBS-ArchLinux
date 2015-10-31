@@ -1,0 +1,5 @@
+<directory name="lib32-libxv" rev="3" srcmd5="7eee59049efe15a852c320b1048800a8" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="0ebddb7dde3a5eeff1b488773dd23774" />
+  <entry md5="5013a6b2d077aa9d0a7f8fde2b461852" mtime="1446964728" name="PKGBUILD" size="344" />
+  <entry md5="a07452a79ba623580aabdae512e33aab" mtime="1446963931" name="_service" size="246" />
+</directory>

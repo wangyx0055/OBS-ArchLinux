@@ -1,0 +1,35 @@
+# Maintainer: Lukas Sabota <LTsmooth42 _at_ gmail _dot_ com>
+
+pkgname=fceux-svn
+pkgver=2.2.2
+pkgrel=1
+url='http://www.fceux.com/'
+pkgdesc='Fast and ultra-compatible NES/Famicom emulator'
+arch=('x86_64' 'i686')
+license=('GPL')
+depends=('sdl' 'gtk2' 'gd' 'desktop-file-utils' 'lua51' 'libgl' 'shared-mime-info')
+makedepends=('scons' 'mesa-libgl' 'glu')
+install='fceux.install'
+provides=('fceu' 'gfceux' 'fceux')
+conflicts=('fceu' 'gfceux' 'fceux')
+source=${pkgname%%-svn}-$pkgver.tar.xz
+md5sums=SKIP
+
+
+build() {
+  cd "${pkgname%%-svn}-$pkgver"
+
+  scons
+}
+
+package() {
+  cd "${pkgname%%-svn}-$pkgver"
+
+  #scons install -i --prefix="$pkgdir/usr"
+
+  install -D -m755 bin/fceux "$pkgdir/usr/bin/fceux"
+  install -D -m755 bin/fceux-net-server "$pkgdir/usr/bin/fceux-net-server"
+  install -D -m644 bin/fceux.chm "$pkgdir/usr/share/doc/fceux/fceux.chm"
+  install -D -m644 "fceux.desktop" "$pkgdir/usr/share/applications/fceux.desktop"
+  install -D -m644 "fceux.png" "$pkgdir/usr/share/pixmaps/fceux.png"
+}

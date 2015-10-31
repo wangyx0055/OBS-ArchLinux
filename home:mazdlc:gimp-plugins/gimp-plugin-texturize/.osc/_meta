@@ -1,0 +1,5 @@
+<package name="gimp-plugin-texturize" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-texturize</title>
+  <description>gimp-plugin-texturize</description>
+</package>
+

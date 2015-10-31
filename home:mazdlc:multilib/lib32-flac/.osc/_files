@@ -1,0 +1,5 @@
+<directory name="lib32-flac" rev="1" srcmd5="2747f0d786cab08159a613abe1ea65ed" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="2375798c3613da0a91ffa4d515ee70e9" />
+  <entry md5="19d15b9a6a658dab6c9297bc3620a918" mtime="1446386728" name="PKGBUILD" size="375" />
+  <entry md5="dc284d97acb37cfcfb778b76dfa0f53b" mtime="1446386730" name="_service" size="246" />
+</directory>

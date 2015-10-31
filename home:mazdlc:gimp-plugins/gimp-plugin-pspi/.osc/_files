@@ -1,0 +1,5 @@
+<directory name="gimp-plugin-pspi" rev="1" srcmd5="728aebce5c200b550bf8334359be76d1" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="f5ff7fc9771988d2e233a7d54245dc6e" />
+  <entry md5="41074b31e85791c0577edd2098f9fed1" mtime="1446625449" name="PKGBUILD" size="1101" />
+  <entry md5="aa39b4cc27fb6e9b983d4254907a9b85" mtime="1446625450" name="_service" size="222" />
+</directory>

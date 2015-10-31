@@ -1,0 +1,5 @@
+<package name="rssguard-git" project="home:mazdlc">
+  <title>rssguard-git</title>
+  <description>A simple (yet powerful) Qt5 feed reader.</description>
+</package>
+

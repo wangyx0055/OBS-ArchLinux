@@ -1,0 +1,60 @@
+# $Id: PKGBUILD 141697 2015-09-27 13:28:10Z lfleischer $
+# Maintainer: Lukas Fleischer <lfleischer@archlinux.org>
+# Contributor: Alexey Yakovenko <waker@users.sourceforge.net>
+
+_pkgname=deadbeef
+pkgname=$_pkgname-git
+pkgver=0.6.3
+pkgrel=4
+pkgdesc='A GTK+ audio player for GNU/Linux.'
+arch=('i686' 'x86_64')
+url='http://deadbeef.sourceforge.net'
+license=('GPL2')
+depends=('alsa-lib' 'hicolor-icon-theme' 'desktop-file-utils' 'jansson')
+makedepends=('libvorbis' 'libmad' 'flac' 'curl' 'imlib2' 'wavpack' 'libsndfile' 'libcdio' 'libcddb'
+             'libx11' 'faad2' 'zlib' 'intltool' 'pkgconfig' 'libpulse' 'libzip' 'libsamplerate'
+             'yasm' 'ffmpeg' 'gtk2' 'gtk3')
+optdepends=('gtk2: for the GTK2 interface'
+            'gtk3: for the GTK3 interface'
+            'libsamplerate: for Resampler plugin'
+            'libvorbis: for Ogg Vorbis playback'
+            'libmad: for MP1/MP2/MP3 playback'
+            'flac: for FLAC playback'
+            'curl: for Last.fm scrobbler, SHOUTcast, Icecast, Podcast support'
+            'imlib2: for artwork plugin'
+            'wavpack: for WavPack playback'
+            'libsndfile: for Wave playback'
+            'libcdio: audio cd plugin'
+            'libcddb: audio cd plugin'
+            'faad2: for AAC/MP4 support'
+            'dbus: for OSD notifications support'
+            'pulseaudio: for PulseAudio output plugin'
+            'libx11: for global hotkeys plugin'
+            'zlib: for Audio Overload plugin'
+            'libzip: for vfs_zip plugin'
+            'ffmpeg: for ffmpeg plugin')
+conflicts=('deadbeef')
+provides=('deadbeef=0.6')
+install='deadbeef.install'
+source=("${_pkgname}-${pkgver}.tar.xz")
+md5sums=('SKIP')
+
+prepare() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+
+  patch -Np1 -i ${startdir}/tray.patch && touch $srcdir/OK
+}
+
+build() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  [ -f $srcdir/OK ] || return 1
+  ./autogen.sh
+  ./configure --prefix=/usr --enable-statusnotifier
+  make
+}
+
+package () {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+
+  make prefix="${pkgdir}/usr" install
+}

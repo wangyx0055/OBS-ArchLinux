@@ -1,0 +1,5 @@
+<directory name="aften" rev="1" srcmd5="db651af91d3466d4959d3cc5f19e4f5d" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="da9e32900afe0960e9b492d8dc3430bd" />
+  <entry md5="0d8420a0c5b016b8ecbdfbffaba2dc31" mtime="1446962052" name="PKGBUILD" size="690" />
+  <entry md5="a83112b3cd985b0241dd7f8d6b7d4b3b" mtime="1446962054" name="_service" size="222" />
+</directory>

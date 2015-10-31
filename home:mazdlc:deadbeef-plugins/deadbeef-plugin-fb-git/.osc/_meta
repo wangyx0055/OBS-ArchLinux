@@ -1,0 +1,5 @@
+<package name="deadbeef-plugin-fb-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugin-fb-git</title>
+  <description>A filebrowser plugin for the DeaDBeeF audio player</description>
+</package>
+

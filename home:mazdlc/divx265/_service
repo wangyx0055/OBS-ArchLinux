@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">download.divx.com</param>
+    <param name="path">/hevc/DivX265_1_5_8</param>
+  </service>
+</services>

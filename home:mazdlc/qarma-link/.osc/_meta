@@ -1,0 +1,5 @@
+<package name="qarma-link" project="home:mazdlc">
+  <title>qarma-link</title>
+  <description>link qarma to zenity</description>
+</package>
+

@@ -1,0 +1,5 @@
+<directory name="lib32-libldap" rev="4" srcmd5="b681058495223cd7ccd174fb8554181b" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="ee8ff1b42f5439586349c7a6674b301a" />
+  <entry md5="1a8ce84ea6836d93122feeb05df1fa6f" mtime="1446377171" name="PKGBUILD" size="362" />
+  <entry md5="46d3ddb334dc1afab55d117f851b4ff0" mtime="1446379534" name="_service" size="249" />
+</directory>

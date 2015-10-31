@@ -1,0 +1,5 @@
+<package name="vhba-dkms" project="home:mazdlc">
+  <title>vhba-dkms</title>
+  <description>VHBA kernel module sources (DKMS)</description>
+</package>
+

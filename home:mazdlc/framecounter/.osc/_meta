@@ -1,0 +1,5 @@
+<package name="framecounter" project="home:mazdlc">
+  <title>framecounter</title>
+  <description>A small program to count frames in RAW VC-1, MPEG-4 ASP and MPEG-4 AVC streams</description>
+</package>
+

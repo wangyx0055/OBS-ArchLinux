@@ -1,0 +1,50 @@
+# Maintainer: Ignat Loskutov <ignat.loskutov@gmail.com>
+pkgbase='deadbeef-plugin-customizabletb-git'
+_gitname='ddb_customizabletb'
+pkgname=('deadbeef-plugin-customizabletb-git' 'deadbeef-plugin-customizabletb-gtk2-git' 'deadbeef-plugin-customizabletb-gtk3-git')
+pkgver=95.5df8f49
+pkgrel=1
+_pkgdesc="Customizable toolbar plugin for DeadBeeF music player."
+arch=('i686' 'x86_64')
+url="https://github.com/kravich/ddb_customizabletb"
+license=(GPL2)
+makedepends=(deadbeef git gtk2 gtk3)
+source=$_gitname-$pkgver.tar.xz
+md5sums=('SKIP')
+
+
+prepare() {
+    cd $srcdir/$_gitname-$pkgver
+    patch -p1 < ${startdir}/build.patch
+}
+
+build() {
+  cd $srcdir/$_gitname-$pkgver
+  make gtk2
+  make gtk3
+}
+
+package_deadbeef-plugin-customizabletb-gtk2-git() {
+  pkgdesc=$_pkgdesc' The GTK2 version.'
+  depends=('deadbeef' 'gtk2')
+  provides=deadbeef-plugin-customizabletb-gtk2
+  conflicts=deadbeef-plugin-customizabletb-gtk2
+  install -D -m644 $srcdir/$_gitname-$pkgver/ddb_customizabletb_gtk2.so $pkgdir/usr/lib/deadbeef/ddb_customizabletb_gtk2.so
+}
+
+package_deadbeef-plugin-customizabletb-gtk3-git() {
+  pkgdesc=$_pkgdesc' The GTK3 version.'
+  depends=('deadbeef' 'gtk3')
+  depends=('deadbeef-plugin-customizabletb-gtk2-git' 'deadbeef-plugin-customizabletb-gtk3-git')
+  provides=deadbeef-plugin-customizabletb-gtk3
+  conflicts=deadbeef-plugin-customizabletb-gtk3
+  install -D -m644 $srcdir/$_gitname-$pkgver/ddb_customizabletb_gtk3.so $pkgdir/usr/lib/deadbeef/ddb_customizabletb_gtk3.so
+}
+
+package_deadbeef-plugin-customizabletb-git() {
+  pkgdesc="$_pkgdesc Install both gtk2 and gtk3 version"
+  depends=('deadbeef-plugin-customizabletb-gtk2-git' 'deadbeef-plugin-customizabletb-gtk3-git')
+  provides=deadbeef-plugin-customizabletb
+  conflicts=deadbeef-plugin-customizabletb
+  true
+}

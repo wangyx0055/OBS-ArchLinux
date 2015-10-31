@@ -1,0 +1,20 @@
+pkgname=libpgm
+pkgver=5.2.122
+pkgrel=2
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( glibc )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

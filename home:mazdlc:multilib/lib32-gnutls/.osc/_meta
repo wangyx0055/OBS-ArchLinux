@@ -1,0 +1,5 @@
+<package name="lib32-gnutls" project="home:mazdlc:multilib">
+  <title>lib32-gnutls</title>
+  <description>lib32-gnutls</description>
+</package>
+

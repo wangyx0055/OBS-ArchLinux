@@ -1,0 +1,5 @@
+<directory name="lib32-libxi" rev="1" srcmd5="67cf47582b133142a2512c1a7c6e42d5" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="2717e60ed43a381c871f37c29814835c" />
+  <entry md5="b7761f90e7640acb2eef1863a76e02b9" mtime="1446443395" name="PKGBUILD" size="391" />
+  <entry md5="5ec4ed51e3ea3210749036f19e7b540a" mtime="1446443397" name="_service" size="246" />
+</directory>

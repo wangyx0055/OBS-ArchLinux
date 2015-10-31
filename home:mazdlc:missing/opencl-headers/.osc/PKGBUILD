@@ -1,0 +1,19 @@
+pkgname=opencl-headers
+pkgver=2.0.20150827
+pkgrel=1
+pkgdesc="OpenCL (Open Computing Language) header files"
+arch=('any')
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

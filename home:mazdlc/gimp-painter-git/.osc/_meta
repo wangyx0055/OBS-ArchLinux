@@ -1,0 +1,5 @@
+<package name="gimp-painter-git" project="home:mazdlc">
+  <title>gimp-painter-git</title>
+  <description>Fork of GIMP aiming to add drawing and painting features to GIMP. Git version</description>
+</package>
+

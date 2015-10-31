@@ -1,0 +1,92 @@
+# Maintainer: Thaodan <theodorstormgrade@gmail.com>
+_pkgname='qt-virt-manager'
+pkgbase='virt-manager-qt'
+pkgname=( ${pkgbase}4-git ${pkgbase}5-git)
+url='https://github.com/F1ash/qt-virt-manager'
+depends=('libvirt' 'scrub' 'spice-gtk3')
+arch=('i686' 'x86_64')
+license=('GPL2')
+pkgrel=1
+pkgver=0.16.38
+#source=("git+https://github.com/F1ash/qt-virt-manager.git#tag=$pkgver")
+source=$_pkgname-$pkgver.tar.xz
+makedepends=('cmake' 'qt4' 'qtermwidget-q4' 'qt5-base' 'qt5-svg' 'qtermwidget' 'spice-protocol' 'spice')
+pkgdesc="Qt Virtual Machine Manager provides a graphical tool for administering virtual machines for QEMU/KVM, Xen, and LXC and other Virtual Entities.
+Uses libvirt as the backend management API.
+"
+prepare()
+{
+  mkdir -p "$srcdir"/$_pkgname/cmake
+}
+build()
+{
+  export CXXFLAGS="$CXXFLAGS -std=c++11"
+  cd "$srcdir"
+  mkdir -p "$srcdir"/build-qt4
+      cd "$srcdir"/build-qt4
+      cmake -DBUILD_QT_VERSION=4 \
+	    -DCMAKE_INSTALL_PREFIX=/usr \
+	    -DCMAKE_BUILD_TYPE=Release \
+	    ../$_pkgname-$pkgver
+
+  make
+  
+
+  mkdir -p "$srcdir"/build-qt5
+      cd "$srcdir"/build-qt5
+      cmake -DBUILD_QT_VERSION=5 \
+	    -DCMAKE_INSTALL_PREFIX=/usr \
+	    -DCMAKE_BUILD_TYPE=Release \
+	    ../$_pkgname-$pkgver
+
+  make
+}
+
+package_virt-manager-qt4-git()
+{
+  depends+=('qt4' 'qtermwidget-q4')
+  pkgdesc+=" qt4"
+  pkgname='virt-manager-qt4-git'
+  provides='virt-manager-qt4'
+  conflicts=${pkgname}5
+  cd "$srcdir"/build-qt4
+
+  make install DESTDIR=$pkgdir
+  
+  mkdir -p "$pkgdir/usr/share"
+  cd "$pkgdir"
+  ls | while read line
+  do
+    case $line in
+    usr|opt|etc) true;;
+    *) mv $line "$pkgdir/usr/share";;
+    esac
+  done
+}
+
+
+package_virt-manager-qt5-git()
+{
+  depends+=('qt5-base' 'qt5-svg' 'qtermwidget')
+  pkgname='virt-manager-qt5-git'
+  provides='virt-manager-qt5'
+  conflicts=${pkgname}4
+  replaces=${pkgname}4
+  pkgdesc+=" qt5"
+  cd "$srcdir"/build-qt5
+
+  make install DESTDIR=$pkgdir
+  mkdir -p "$pkgdir/usr/share"
+  cd "$pkgdir"
+  ls | while read line
+  do
+    case $line in
+    usr|opt|etc) true;;
+    *) mv $line "$pkgdir/usr/share";;
+    esac
+  done
+}
+
+
+
+md5sums=('SKIP')

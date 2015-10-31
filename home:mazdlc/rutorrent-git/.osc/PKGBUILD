@@ -1,0 +1,100 @@
+# Maintainer: skydrome <skydrome@i2pmail.org>
+# Contributor: skydrome <skydrome@i2pmail.org>
+
+pkgname='rutorrent-git'
+pkgver=r1593.7b4f919
+pkgrel=1
+pkgdesc="Web frontend to rTorrent in PHP designed to resemble uTorrent"
+url="https://github.com/Novik/ruTorrent"
+license=('GPL')
+arch=('any')
+
+install=rutorrent.install
+options=(!strip)
+
+#depends=('php' 'curl' 'mktorrent')
+makedepends=('git' 'php-geoip' 'geoip' 'unrar' 'unzip' 'mktorrent' 'curl')
+optdepends=('php-geoip: enable geoip plugin'
+            'geoip: enable geoip plugin'
+            'unrar: enable unpack plugin'
+            'unzip: enable unpack plugin')
+
+conflicts=('rutorrent' 'rutorrent-plugins')
+provides=('rutorrent' 'rutorrent-plugins')
+
+_webdir="usr/share/webapps"
+backup=("${_webdir}/rutorrent/conf/config.php"
+        "${_webdir}/rutorrent/conf/access.ini"
+        "${_webdir}/rutorrent/conf/plugins.ini")
+
+_plugins=('extra-1/filemanager'
+          'extra-1/fileshare'
+          'extra-1/fileupload'
+          'extra-1/mediastream'
+          'titlebar-1')
+
+source=ruTorrent-$pkgver.tar.xz
+
+md5sums=('SKIP')
+
+
+prepare() {
+    
+    cd "$srcdir"
+    
+    tar xvpJf $startdir/extra-1.tar.xz
+    tar xvpJf $startdir/titlebar-1.tar.xz
+    
+    cd "$srcdir/ruTorrent-$pkgver"
+
+    sed -i conf/config.php \
+        -e "s:\$topDirectory .*:\$topDirectory = '/home';:" \
+        -e "s:\$XMLRPCMountPoint .*:\$XMLRPCMountPoint = \"/rutorrent/RPC1\";:" \
+        -e "s:\$tempDirectory .*:\$tempDirectory = '/${_webdir}/rutorrent/tmp';:"
+
+    for i in php stat curl id gzip; do
+        sed -i conf/config.php \
+            -e "s:\"$i\".*=> ''.*:\"$i\"   => \'$(which $i)\',:"
+    done
+
+    for i in rar zip unzip unrar tar; do
+        sed -i ../extra-1/filemanager/conf.php \
+            -e "s:\$pathToExternals\['$i'\] = '':\$pathToExternals\['$i'\] = '$(which $i)':"
+        sed -i plugins/unpack/conf.php \
+            -e "s:\$pathToExternals\['$i'\] = '':\$pathToExternals\['$i'\] = '$(which $i)':"
+    done
+
+    sed -i plugins/create/conf.php \
+        -e "s:\$useExternal = false:\$useExternal = true:" \
+        -e "s:\$pathToCreatetorrent = '':\$pathToCreatetorrent = '$(which mktorrent)':"
+
+    sed -i php/settings.php \
+        -e "s:'/tmp:'/${_webdir}/rutorrent/tmp/:"
+
+    sed -i js/webui.js \
+        -e "s|version: \"3.*|version: \"3.x-git~${pkgver}\",|"
+}
+
+package() {
+    cd "$srcdir/ruTorrent-$pkgver/plugins"
+
+    for i in ${_plugins[@]}; do
+        rm -rf "$srcdir/$i/.git"
+        cp -r  "$srcdir/$i" .
+    done
+
+    cp -f  "$startdir/jquery.filedrop.js" filedrop/jquery.filedrop.js
+
+    install -dm755 "$pkgdir/$_webdir"
+
+    cd "$pkgdir/$_webdir"
+
+    cp -r "$srcdir/ruTorrent-$pkgver" ./rutorrent
+    rm -rf rutorrent/{.git*,README*}
+
+    cd rutorrent
+
+    install -Dm755 "$startdir/plugins.ini" conf/plugins.ini
+    mkdir -p tmp
+    cp share/.htaccess tmp/
+}

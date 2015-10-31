@@ -1,0 +1,5 @@
+<directory name="lib32-libproxy" rev="1" srcmd5="a04dcdf9c3129f0c3fa4b99fe9b8abca" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="b5fecf2ecaec39bb7ea88b979a461de5" />
+  <entry md5="4dce530b7a10d682bd92c29826444ec2" mtime="1446442562" name="PKGBUILD" size="375" />
+  <entry md5="787e128a350368c5a4323aa417cbcb3a" mtime="1446442564" name="_service" size="249" />
+</directory>

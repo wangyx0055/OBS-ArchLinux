@@ -1,0 +1,6 @@
+<directory name="unarchiver-nodep" rev="5" srcmd5="cd2ed4e3b9b88cf30fc7221c24deaf9e" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="169720a4ec75c61e65158b9ef8ae90b6" />
+  <entry md5="8dbd8bf183da6c2643847c6720e470af" mtime="1446799787" name="PKGBUILD" size="2227" />
+  <entry md5="de8ec53ac49d6b1bfbd5e3afac99b5fb" mtime="1446516458" name="_service" size="472" />
+  <entry md5="4fa4ecc6e4ba14d3b6952d064e728511" mtime="1446516460" name="native_obj_exceptions.patch" size="886" />
+</directory>

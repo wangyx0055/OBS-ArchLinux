@@ -1,0 +1,9 @@
+<directory name="sstp-client-svn-stable" rev="2" srcmd5="6f1a386580ca9bb5175265148dfa74d4" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="5dcda151fcb1fa26d022fb0c106f7aea" />
+  <entry md5="77d94e6f536b44c48475c1b25264ffbb" mtime="1446525770" name="50-sstp.PROFILE.sh.sample" size="245" />
+  <entry md5="b1951c99168bcde5eb8a2617aa974a29" mtime="1446525777" name="PKGBUILD" size="1453" />
+  <entry md5="c4bcf958682eceba73a08ef68472414d" mtime="1446526649" name="_service" size="453" />
+  <entry md5="ce28d5cd37e9f14bf8519857863d7029" mtime="1446525780" name="actual_ppp_version.diff" size="1983" />
+  <entry md5="0c1ba679d0b2b51dc93cf42b381f983a" mtime="1446525782" name="sstp-client-svn-stable.install" size="162" />
+  <entry md5="86cf8dd3ab976ae90b399dbad3a477c8" mtime="1446525783" name="sstp.options.sample" size="225" />
+</directory>

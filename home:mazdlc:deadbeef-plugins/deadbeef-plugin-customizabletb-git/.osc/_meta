@@ -1,0 +1,5 @@
+<package name="deadbeef-plugin-customizabletb-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugin-customizabletb-git</title>
+  <description>Customizable toolbar plugin for DeadBeeF music player.</description>
+</package>
+

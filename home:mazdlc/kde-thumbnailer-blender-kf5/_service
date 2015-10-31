@@ -1,0 +1,12 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">kde-look.org</param>
+    <param name="path">/CONTENT/content-files/146380-kde-thumbnailer-blender_0.3kayosiii.tar.gz</param>
+  </service>
+  <service name="verify_file">
+    <param name="file">_service:download_url:146380-kde-thumbnailer-blender_0.3kayosiii.tar.gz</param>
+    <param name="verifier">sha256</param>
+    <param name="checksum">b2162c1ea09103b87b7f6ee69725e8de972a4781fd442c34fd4b3346de878319</param>
+  </service>
+</services>

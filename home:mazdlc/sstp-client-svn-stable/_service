@@ -1,0 +1,13 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">https://sstp-client.svn.sourceforge.net/svnroot/sstp-client/branches/1.0.9</param>
+    <param name="scm">svn</param>
+    <param name="filename">sstp-client-svn-stable</param>
+    <param name="version">1.0.9</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

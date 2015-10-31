@@ -1,0 +1,5 @@
+<package name="virt-manager-git" project="home:mazdlc">
+  <title>virt-manager-git</title>
+  <description>Qt Virtual Machine Manager provides a graphical tool for administering virtual machines for QEMU/KVM, Xen, and LXC and other Virtual Entities. Uses libvirt as the backend management API.</description>
+</package>
+

@@ -1,0 +1,5 @@
+<directory name="libkdcraw-git" rev="9" srcmd5="ce58d556ccf63a43e8c4c440a71802d6" vrev="9">
+  <serviceinfo code="succeeded" xsrcmd5="6ca02df70394c49e3d67ce16fb1c69b8" />
+  <entry md5="b887473ba63c942716150cdacc39bd26" mtime="1446359372" name="PKGBUILD" size="895" />
+  <entry md5="18c4ce2d6240f918e26c2381f4368ad0" mtime="1446714330" name="_service" size="451" />
+</directory>

@@ -1,0 +1,20 @@
+_pkgbase=libxslt
+pkgname=lib32-libxslt
+pkgver=1.1.28
+pkgrel=2
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-libgcrypt lib32-libxml2  libxslt )
+url="https://www.archlinux.org"
+license=('see original package')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+}

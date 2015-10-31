@@ -1,0 +1,6 @@
+<directory name="myfbterm" rev="4" srcmd5="e4f94fedba0001b2c8b1becd627043bf" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="c2c78908c2b477d1fe9b8c28c065e24b" />
+  <entry md5="5f92137088532bfea761a72d807c46f4" mtime="1446308300" name="PKGBUILD" size="832" />
+  <entry md5="08dfb768e11bb3bead5a2395c94f5fbe" mtime="1446307143" name="_service" size="443" />
+  <entry md5="3415e2922e2a17a7a32eefea716a304b" mtime="1446307145" name="myfbterm.install" size="302" />
+</directory>

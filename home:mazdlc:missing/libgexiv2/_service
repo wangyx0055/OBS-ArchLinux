@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">www.archlinux.org</param>
+    <param name="path">/packages/community/x86_64/libgexiv2/download/#pkg.tar.xz</param>
+  </service>
+</services>

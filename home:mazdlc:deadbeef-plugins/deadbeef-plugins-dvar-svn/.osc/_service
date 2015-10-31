@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">https://subversion.assembla.com/svn/deadbeef_vfs_archive_reader/trunk/src</param>
+    <param name="scm">svn</param>
+    <param name="versionformat">r%r</param>
+    <param name="versionprefix">8</param>
+    <param name="filename">deadbeef_vfs_archive_reader</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

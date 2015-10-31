@@ -1,0 +1,20 @@
+pkgname=qt4
+pkgver=4.8.7
+pkgrel=2
+pkgdesc="library for obs"
+arch=('x86_64')
+depends=( lib32-fontconfig lib32-sqlite3 lib32-alsa-lib lib32-glib2 lib32-libdbus lib32-openssl lib32-libpng lib32-libtiff lib32-libmng lib32-libgl lib32-libsm lib32-libxrandr lib32-libxv lib32-libxi qt4 )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

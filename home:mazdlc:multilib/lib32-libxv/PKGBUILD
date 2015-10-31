@@ -1,0 +1,20 @@
+pkgname=lib32-libxv
+pkgver=1.0.10
+pkgrel=1
+pkgdesc="library for obs"
+arch=('x86_64')
+depends=( lib32-libxext libxv )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

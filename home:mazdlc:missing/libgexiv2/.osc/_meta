@@ -1,0 +1,5 @@
+<package name="libgexiv2" project="home:mazdlc:missing">
+  <title>libgexiv2</title>
+  <description>GObject-based wrapper around the Exiv2 library</description>
+</package>
+

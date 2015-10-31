@@ -1,0 +1,5 @@
+<directory name="lib32-libdbus" rev="2" srcmd5="128ac84a9cc081dcf74f89ff6110075d" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="f4b8d6d4333d733ac95cbc771b9305b8" />
+  <entry md5="44183cb40c665f9a20cd227a1d282a73" mtime="1446443559" name="PKGBUILD" size="508" />
+  <entry md5="9eea0b7edfe877325e055666c2098d62" mtime="1446443561" name="_service" size="248" />
+</directory>

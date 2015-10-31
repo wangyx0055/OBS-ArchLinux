@@ -1,0 +1,5 @@
+<directory name="lib32-libxrandr" rev="1" srcmd5="aaba07ad54547eef0f1af30ac5708ded" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="62b157d12bb3eea1f097381e86036144" />
+  <entry md5="213b57c24c01b263731950b423b55106" mtime="1446438920" name="PKGBUILD" size="393" />
+  <entry md5="a783f3891aac6b8f1025b6721826321f" mtime="1446438925" name="_service" size="251" />
+</directory>

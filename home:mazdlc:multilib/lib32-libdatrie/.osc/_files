@@ -1,0 +1,5 @@
+<directory name="lib32-libdatrie" rev="1" srcmd5="c117d14ee598a993b5d3a46273c154c9" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="a76f4d0b43b3eab0bedd960a36559367" />
+  <entry md5="e2185a210cb66aea4ee31c91b717a517" mtime="1446442447" name="PKGBUILD" size="374" />
+  <entry md5="1c9bfc5b18dc2dfa6ffc02db3f962ed2" mtime="1446442449" name="_service" size="250" />
+</directory>

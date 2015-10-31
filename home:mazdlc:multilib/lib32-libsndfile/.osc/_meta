@@ -1,0 +1,5 @@
+<package name="lib32-libsndfile" project="home:mazdlc:multilib">
+  <title>lib32-libsndfile</title>
+  <description></description>
+</package>
+

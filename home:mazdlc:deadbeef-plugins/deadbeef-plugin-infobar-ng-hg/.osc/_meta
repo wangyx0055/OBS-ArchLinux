@@ -1,0 +1,5 @@
+<package name="deadbeef-plugin-infobar-ng-hg" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugin-infobar-ng-hg</title>
+  <description>The Infobar-ng plugin for the DeaDBeeF audio player.</description>
+</package>
+

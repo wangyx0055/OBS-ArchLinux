@@ -1,0 +1,5 @@
+<directory name="dcaenc" rev="1" srcmd5="e4eeeba90f4f134a65f2ac16d704ff0a" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="13d5e3384919255ecf9055d18658c22b" />
+  <entry md5="84d8b6aab3d24b0fce253fcf06a0d4c6" mtime="1446962191" name="PKGBUILD" size="628" />
+  <entry md5="4fbf5b7887cb8a86babcc45975facf4c" mtime="1446962193" name="_service" size="219" />
+</directory>

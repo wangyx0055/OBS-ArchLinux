@@ -1,0 +1,15 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">git://github.com/qyot27/libutvideo.git</param>
+    <param name="scm">git</param>
+    <param name="versionformat">%cd.g%h</param>
+    <param name="versionprefix">15.1.0</param>
+    <param name="filename">libutvideo</param>
+    <param name="revision">15.1.0</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

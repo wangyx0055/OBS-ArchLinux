@@ -1,0 +1,6 @@
+<directory name="tragtor" rev="2" srcmd5="1df2a4b9d8fdc0bec90dedb9ce6be065" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="d64d3c38fd42199f9afd3a05d1db7c80" />
+  <entry md5="226830935af0a2563f48e94d57b622c1" mtime="1446956917" name="PKGBUILD" size="789" />
+  <entry md5="b6e788db398827e938046e940bedd1f3" mtime="1446956891" name="_service" size="238" />
+  <entry md5="619597301df0fe4ed75c2cab81d4ccdf" mtime="1446956892" name="bump.sh" size="502" />
+</directory>

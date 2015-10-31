@@ -1,0 +1,5 @@
+<package name="lib32-openssl" project="home:mazdlc:multilib">
+  <title>lib32-openssl</title>
+  <description></description>
+</package>
+

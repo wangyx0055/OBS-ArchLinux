@@ -1,0 +1,5 @@
+<package name="lib32-mesa-libgl" project="home:mazdlc:multilib">
+  <title>lib32-mesa-libgl</title>
+  <description>lib32-mesa-libgl</description>
+</package>
+

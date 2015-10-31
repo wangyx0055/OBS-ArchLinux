@@ -1,0 +1,5 @@
+<package name="blop-lv2" project="home:mazdlc">
+  <title>blop-lv2</title>
+  <description>An LV2 port of the BLOP LADSPA plugins by Mike Rawes.</description>
+</package>
+

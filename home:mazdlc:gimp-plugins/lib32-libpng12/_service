@@ -1,0 +1,12 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">sourceforge.net</param>
+    <param name="path">/projects/libpng/files/libpng12/1.2.53/libpng-1.2.53.tar.xz</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">sourceforge.net</param>
+    <param name="path">/projects/apng/files/libpng/libpng12/libpng-1.2.53-apng.patch.gz</param>
+  </service>
+</services>

@@ -1,0 +1,36 @@
+# Author: Moligaloo <Moligaloo@gmail.com>
+# Maintainer: Iven Hsu <ivenvd@gmail.com>
+# Contributor: Yangtse <yangtsesu@gmail.com>
+# Contributor: Vehiclee <>
+# Contributor: abf <zouxiaomingabf@gmail.com>
+
+pkgname=qsanguoshav2-git
+_gitname=QSanguosha-v2
+pkgver=6017.bc669c2
+pkgrel=7
+pkgdesc="An open source online version of the famous board game Sanguosha"
+arch=('i686' 'x86_64')
+url="https://github.com/Mogara/QSanguosha-v2"
+license=('GPL3')
+depends=('qt5-quick1' 'phonon' 'plib' 'lua' 'fmodex')
+makedepends=('git' 'swig' 'qt5-tools' 'mesa-libgl' 'libxmu' 'libxi')
+conflicts=(qsanguosha)
+provides=(qsanguosha)
+source=(${_gitname}-${pkgver}.tar.xz)
+sha256sums=('SKIP')
+
+build() {
+	cd ${srcdir}/${_gitname}-${pkgver}
+	qmake-qt5 .
+	make
+}
+
+package() {
+    cd ${srcdir}/${_gitname}-${pkgver}
+    mkdir -p ${pkgdir}/opt/qsanguosha
+    cp -R {sanguosha.qm,font,doc,audio,diy,etc,extension-doc,QSanguosha,qt_zh_CN.qm,image,lang,scenarios,lua,qss,skins,ui-script} ${pkgdir}/opt/qsanguosha/
+    install -D -m755 ${startdir}/qsanguosha "${pkgdir}/usr/bin/qsanguosha"
+    install -D -m644 ${startdir}/qsanguosha.desktop "${pkgdir}/usr/share/applications/qsanguosha.desktop"
+    install -D -m644 ${startdir}/sgs.png "${pkgdir}/usr/share/pixmaps/QSanguosha.png"
+}
+

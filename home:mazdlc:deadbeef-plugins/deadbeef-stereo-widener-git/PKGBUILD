@@ -1,0 +1,31 @@
+# Maintainer: Peter Lamby <peterlamby@web.de>
+pkgname=deadbeef-stereo-widener-git
+_gitname=stereo-widener
+pkgver=5.d3990d7
+pkgrel=1
+pkgdesc="stereo widener plugin for the DeaDBeeF music player"
+arch=('i686' 'x86_64')
+url="https://github.com/Alexey-Yakovenko/stereo-widener"
+license=('GPL2')
+depends=('deadbeef')
+provides=deadbeef-stereo-widener
+conflicts=deadbeef-stereo-widener
+source=$_gitname-$pkgver.tar.xz
+md5sums=('SKIP')
+
+
+prepare() {
+        cd "$srcdir/$_gitname-$pkgver"
+        patch -p1 < ${startdir}/makefix.diff
+}
+
+build() {
+  cd "${srcdir}/$_gitname-$pkgver"
+  make
+}
+
+package() {
+  cd "${srcdir}/$_gitname-$pkgver"
+
+  install -Dm 755 stereo_widener.so "$pkgdir/usr/lib/deadbeef/stereo_widener.so"
+}

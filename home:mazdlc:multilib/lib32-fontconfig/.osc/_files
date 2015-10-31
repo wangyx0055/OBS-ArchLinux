@@ -1,0 +1,5 @@
+<directory name="lib32-fontconfig" rev="1" srcmd5="e49d01d35b842337415104092a4c2bc1" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="4471be40a233669973046b1ce8834a49" />
+  <entry md5="8d26cbd80e65d412c5c92cdcb40ebbb6" mtime="1446442364" name="PKGBUILD" size="394" />
+  <entry md5="9986d2eb6197dc01502fd1b00f2e9bb9" mtime="1446442365" name="_service" size="251" />
+</directory>

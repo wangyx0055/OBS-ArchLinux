@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">leetplugins.googlecode.com</param>
+    <param name="path">/files/LEET-plugins-0.2.tar.gz</param>
+  </service>
+</services>

@@ -1,0 +1,24 @@
+_pkgbase=libjpeg-turbo
+pkgname=lib32-libjpeg-turbo
+pkgver=1.4.2
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( lib32-glibc libjpeg-turbo )
+provides=('lib32-libjpeg=8.0.2' 'lib32-turbojpeg')
+conflicts=('lib32-libjpeg' 'lib32-turbojpeg')
+replaces=('lib32-libjpeg' 'lib32-turbojpeg')
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

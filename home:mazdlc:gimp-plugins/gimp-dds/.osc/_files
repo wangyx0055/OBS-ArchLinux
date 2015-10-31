@@ -1,0 +1,5 @@
+<directory name="gimp-dds" rev="3" srcmd5="e98876f43935e37d6b6ca9e9d3a1ef2e" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="877f23accaf65267c4226da2ea9deed9" />
+  <entry md5="5688e95bcc82eabeb6082470e1ddf876" mtime="1446624671" name="PKGBUILD" size="696" />
+  <entry md5="82b9ed816a53bc8986ce796d0966b33b" mtime="1446624685" name="_service" size="224" />
+</directory>

@@ -1,0 +1,20 @@
+_pkgbase=libldap
+pkgname=lib32-libldap
+pkgver=2.4.42
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( libldap lib32-openssl )
+url="https://www.archlinux.org"
+license=('see original package')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+}

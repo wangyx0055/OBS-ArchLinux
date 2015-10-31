@@ -1,0 +1,14 @@
+<package name="gimp-plugin-pspi-i686" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-pspi-i686</title>
+  <description>gimp-plugin-pspi-i686</description>
+  <build>
+    <disable arch="x86_64"/>
+  </build>
+  <publish>
+    <disable arch="x86_64"/>
+  </publish>
+  <useforbuild>
+    <disable arch="x86_64"/>
+  </useforbuild>
+</package>
+

@@ -1,0 +1,5 @@
+<directory name="lib32-libpcap" rev="1" srcmd5="777b9cb039ee48216f8bc3897522e29e" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="6de805f3b6ac28fc71df4cf641b82d55" />
+  <entry md5="254fda1b9d564a7adbfa9dcf177afc64" mtime="1446450261" name="PKGBUILD" size="396" />
+  <entry md5="1aa6f7d5741b382b4ff2b3a539336966" mtime="1446450263" name="_service" size="248" />
+</directory>

@@ -1,0 +1,8 @@
+<directory name="hybrid-encoder" rev="1" srcmd5="ddc91184a069333b42e16de2d9041252" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="e1f086cdcb40b5172a989edbe6323350" />
+  <entry md5="798dd936a3bc9bcd3b131d5dd6db96e6" mtime="1432083634" name="Hybrid.png" size="16312" />
+  <entry md5="ecf9a524627ee1c6b2583ca853fd5de8" mtime="1446959015" name="PKGBUILD" size="2378" />
+  <entry md5="57de2f47caecaef7e4ae51929eaa9a51" mtime="1446959017" name="_service" size="257" />
+  <entry md5="9570483c64fa8d215dc0404669ef43bd" mtime="1446959018" name="bump.sh" size="680" />
+  <entry md5="dd87c6eb6df85049de38c61dfe400347" mtime="1432083636" name="hybrid.desktop" size="189" />
+</directory>

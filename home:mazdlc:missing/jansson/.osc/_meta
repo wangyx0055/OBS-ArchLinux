@@ -1,0 +1,5 @@
+<package name="jansson" project="home:mazdlc:missing">
+  <title>jansson</title>
+  <description>C library for encoding, decoding and manipulating JSON data</description>
+</package>
+

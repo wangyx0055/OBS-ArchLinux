@@ -1,0 +1,19 @@
+# Maintainer: Federico Di Pierro <nierro92@gmail.com>
+
+pkgname=qarma-link
+pkgver=1.0
+pkgrel=1
+pkgdesc="link qarma to zenity"
+arch=('i686' 'x86_64')
+url="https://github.com/luebking/qarma"
+license=('GPL')
+depends=('qarma')
+provides=('zenity')
+conflicts=('zenity')
+
+
+
+package() {
+    mkdir -p $pkgdir/usr/bin
+    ln -s /usr/bin/qarma $pkgdir/usr/bin/zenity
+}

@@ -1,0 +1,21 @@
+_pkgbase=json-glib
+pkgname=lib32-json-glib
+pkgver=1.0.4
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( json-glib lib32-glib2 )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

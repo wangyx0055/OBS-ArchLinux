@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">git://anongit.kde.org/kget.git</param>
+    <param name="scm">git</param>
+    <param name="versionformat">%cd.g%h</param>
+    <param name="filename">kget</param>
+    <param name="revision">kf5_port</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

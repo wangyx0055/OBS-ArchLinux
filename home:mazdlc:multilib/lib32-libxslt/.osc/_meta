@@ -1,0 +1,5 @@
+<package name="lib32-libxslt" project="home:mazdlc:multilib">
+  <title>lib32-libxslt</title>
+  <description>lib32-libxslt</description>
+</package>
+

@@ -1,0 +1,5 @@
+<package name="rtorrent-pyro-git" project="home:mazdlc">
+  <title>rtorrent-pyro-git</title>
+  <description>Ncurses BitTorrent client based on libTorrent - rTorrent-git with Pyroscope patches</description>
+</package>
+

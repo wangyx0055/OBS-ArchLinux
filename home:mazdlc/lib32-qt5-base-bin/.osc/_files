@@ -1,0 +1,6 @@
+<directory name="lib32-qt5-base-bin" rev="3" srcmd5="22e87e965c98a0b2cbb8891545ed55a9" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="85314c179bc75d0417937a0000c00751" />
+  <entry md5="f0d81b3cf2dbcd73b4d9c5219b32a48d" mtime="1446910675" name="PKGBUILD" size="773" />
+  <entry md5="6e7f248afdf9c22ab392c8d66e27389c" mtime="1446907774" name="_service" size="284" />
+  <entry md5="cd030ccbcba2772b66e07c7b4c4a1741" mtime="1446907777" name="bump.sh" size="891" />
+</directory>

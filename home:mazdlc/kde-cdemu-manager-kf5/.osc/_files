@@ -1,0 +1,6 @@
+<directory name="kde-cdemu-manager-kf5" rev="6" srcmd5="81108358420260e694571afc003a9cfb" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="9e94c56d4f22bc4511d2f6c74f30c676" />
+  <entry md5="c569df047e4ba41a8ab347d2d9708473" mtime="1446389359" name="PKGBUILD" size="987" />
+  <entry md5="7bb03070e12e721cae17e629f12d0652" mtime="1446327207" name="_service" size="239" />
+  <entry md5="8d6c70628bbfd664efe0f1462708244d" mtime="1446326707" name="port_to_kf5.patch" size="3722" />
+</directory>

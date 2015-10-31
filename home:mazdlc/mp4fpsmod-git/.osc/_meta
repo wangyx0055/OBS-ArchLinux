@@ -1,0 +1,5 @@
+<package name="mp4fpsmod-git" project="home:mazdlc">
+  <title>mp4fpsmod-git</title>
+  <description>Simple CLI MP4 time code editor</description>
+</package>
+

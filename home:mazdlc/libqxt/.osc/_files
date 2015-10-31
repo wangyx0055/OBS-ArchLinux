@@ -1,0 +1,6 @@
+<directory name="libqxt" rev="1" srcmd5="709f8f9bfbd479d2de958c4fd269d06e" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="cf1cce4736ca3458b9b06013ae0f5d37" />
+  <entry md5="7a047307f5746bc64293c1b6f354ed9d" mtime="1446964595" name="PKGBUILD" size="709" />
+  <entry md5="29de79338c605fca9157c70870ece9f3" mtime="1446964597" name="_service" size="217" />
+  <entry md5="98ba307fa3d4ea7ab2581fb303893dad" mtime="1446964598" name="bump.sh" size="441" />
+</directory>

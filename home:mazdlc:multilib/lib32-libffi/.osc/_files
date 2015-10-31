@@ -1,0 +1,5 @@
+<directory name="lib32-libffi" rev="1" srcmd5="18e5267a62b4e0900ad3dc40e5e478f1" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="d10f175ed7be1636ab67668f55114983" />
+  <entry md5="9d35cffd58048c68e308d3b8e3ae4e52" mtime="1446386132" name="PKGBUILD" size="358" />
+  <entry md5="1a51a78c91f23c76fb7fe0201f3f3391" mtime="1446386134" name="_service" size="248" />
+</directory>

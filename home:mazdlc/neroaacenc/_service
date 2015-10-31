@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">ftp6.nero.com</param>
+    <param name="path">/tools/NeroAACCodec-1.5.1.zip</param>
+  </service>
+</services>

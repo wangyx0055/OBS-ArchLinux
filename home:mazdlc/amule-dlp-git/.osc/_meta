@@ -1,0 +1,6 @@
+<package name="amule-dlp-git" project="home:mazdlc">
+  <title>amule-dlp-git</title>
+  <description>An eMule-like client for ed2k p2p network with DLP patch&#13;
+Dynamic Leech Protection(DLP) is a part of eMule Xtreme Mod at first. </description>
+</package>
+

@@ -1,0 +1,18 @@
+# Maintainer: Lukas Jirkovsky <l.jirkovsky@gmail.com>
+pkgname=lib32-capstone-bin
+pkgver=3.0.4
+pkgrel=2
+pkgdesc="Repackaged capstone"
+arch=('x86_64')
+url="http://www.capstone-engine.org/index.html"
+license=('BSD')
+depends=('capstone' 'lib32-glibc')
+provides=('lib32-capstone')
+conflicts=('lib32-capstone')
+source=("pkg.tar.xz")
+md5sums=('SKIP')
+
+package() {
+	mkdir -p ${pkgdir}/usr/lib32
+	cp -rPf ${srcdir}/usr/lib/*.so* ${pkgdir}/usr/lib32
+}

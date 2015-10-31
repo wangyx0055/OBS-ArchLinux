@@ -1,0 +1,5 @@
+<directory name="lib32-zlib" rev="2" srcmd5="f0bba735b3c0a5ee3cf3bdd96a194b28" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="048bc5930f90da7f930318a0686d9086" />
+  <entry md5="a13d5b4f143d84936af9cfe12ea06f91" mtime="1446384234" name="PKGBUILD" size="359" />
+  <entry md5="d7e262685a1251d322f5c9f66abe289f" mtime="1446384236" name="_service" size="246" />
+</directory>

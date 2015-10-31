@@ -1,0 +1,5 @@
+<package name="lib32-openal" project="home:mazdlc:multilib">
+  <title>lib32-openal</title>
+  <description>lib32-openal</description>
+</package>
+

@@ -1,0 +1,15 @@
+<directory name="wine-gaming-nine" rev="20" srcmd5="ca6990ac954f9c97db8625095cd07b56" vrev="20">
+  <serviceinfo code="succeeded" xsrcmd5="9f671a8a6ac3d3eede431e19a91e932b" />
+  <entry md5="414fc6ab3dc31010ba538eec7862bcac" mtime="1446316177" name="0001-loader-wine.inf.in-Added-localized-font-name-replaceme.txt" size="2216" />
+  <entry md5="1ff4e467f59409272088d92173a0f801" mtime="1446316179" name="30-win32-aliases.conf" size="620" />
+  <entry md5="cc963ba4b45e7575d3492843d44808ae" mtime="1446553337" name="PKGBUILD" size="6509" />
+  <entry md5="506a830d7ea5186777253b89c4f2f451" mtime="1446540710" name="_service" size="467" />
+  <entry md5="9fd08a82d83ddfcf248f0a950f867db7" mtime="1446540712" name="bump.sh" size="530" />
+  <entry md5="da13cd45647ecc0185e0ff6e34fbdf59" mtime="1446463983" name="gdi32-heap-corruption.patch" size="988" />
+  <entry md5="f76cb8519c744cb93f34c2420b6866d8" mtime="1446316184" name="heap_perf.patch" size="2401" />
+  <entry md5="f8355c33f00cbabf856168d8eaf7d72d" mtime="1446316186" name="keybindings.patch" size="978" />
+  <entry md5="1e15774d224048e1e6512ea92b1d7dfc" mtime="1446316187" name="mipmap.patch" size="719" />
+  <entry md5="b5a7da82ad7bad06c076bf28243241d1" mtime="1446316192" name="raw.patch" size="681" />
+  <entry md5="75ba96aa1d7cc91e7fb868ebffb98191" mtime="1446316194" name="wbemprox_query.patch" size="5814" />
+  <entry md5="aadfd1615d6ce3bba8e28632b74f128a" mtime="1446316196" name="wine.install" size="525" />
+</directory>

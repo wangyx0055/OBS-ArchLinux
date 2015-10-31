@@ -1,0 +1,11 @@
+<package name="lib32-qt5-base-bin" project="home:mazdlc">
+  <title>lib32-qt5-base-bin</title>
+  <description>lib32-qt5-base-bin</description>
+  <build>
+    <disable/>
+  </build>
+  <publish>
+    <disable/>
+  </publish>
+</package>
+

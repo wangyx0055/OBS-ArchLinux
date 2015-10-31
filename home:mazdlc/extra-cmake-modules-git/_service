@@ -1,0 +1,13 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">git://anongit.kde.org/extra-cmake-modules.git</param>
+    <param name="scm">git</param>
+    <param name="versionformat">%cd.g%h</param>
+    <param name="versionprefix">5.13.0</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  <service name="set_version" />
+</services>

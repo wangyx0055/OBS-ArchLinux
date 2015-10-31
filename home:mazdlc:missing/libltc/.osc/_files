@@ -1,0 +1,5 @@
+<directory name="libltc" rev="2" srcmd5="9c17e10b112425d7093d94f0459b2a7d" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="fdf365ed1af80254eab84df5b5d1567c" />
+  <entry md5="070703417c0651f1c84232ff6ddd785a" mtime="1446712449" name="PKGBUILD" size="324" />
+  <entry md5="8bc23b4eaa8bcfa9b73cf46afe0e535c" mtime="1446712451" name="_service" size="242" />
+</directory>

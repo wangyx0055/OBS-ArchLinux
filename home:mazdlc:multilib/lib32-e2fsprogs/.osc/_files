@@ -1,0 +1,5 @@
+<directory name="lib32-e2fsprogs" rev="1" srcmd5="084410af62f0a61e0dac2aaef46cc0f5" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="a723065f8b46d51185123334ee7e8c66" />
+  <entry md5="b0b263d92823c8658655176fcf4e595f" mtime="1446442506" name="PKGBUILD" size="381" />
+  <entry md5="8fb1edb001e206992051b6fcc4e7a017" mtime="1446442508" name="_service" size="250" />
+</directory>

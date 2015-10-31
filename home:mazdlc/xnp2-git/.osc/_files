@@ -1,0 +1,5 @@
+<directory name="xnp2-git" rev="26" srcmd5="4933ae4000e18617e25ae2493bf196dd" vrev="26">
+  <serviceinfo code="succeeded" xsrcmd5="86b97ade5cf54cff28cdbc463cd9544e" />
+  <entry md5="32d3bffe28b96cafa7311b2f8f7fb945" mtime="1446613669" name="PKGBUILD" size="715" />
+  <entry md5="07ca2a5fd2203e468beb18e59f129842" mtime="1446714537" name="_service" size="402" />
+</directory>

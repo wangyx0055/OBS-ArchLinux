@@ -1,0 +1,5 @@
+<directory name="jansson" rev="2" srcmd5="0d4df935233ab2a9fc8a2d591dd00cfc" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="5fe84adc671528d98265a930197c25ed" />
+  <entry md5="8cfb7c910bb1ef3e7f5c28d6b02d0e6d" mtime="1446602687" name="PKGBUILD" size="329" />
+  <entry md5="92ec722117e9fd24fcd991dfe123d817" mtime="1446602925" name="_service" size="241" />
+</directory>

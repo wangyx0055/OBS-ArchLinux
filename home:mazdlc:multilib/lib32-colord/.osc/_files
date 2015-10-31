@@ -1,0 +1,5 @@
+<directory name="lib32-colord" rev="1" srcmd5="949bd6214aa8372ed46c747c755f30fd" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="08426db31cb7a2ee5bf14d7eb9108166" />
+  <entry md5="ab67a0099fd420dd8919e31e0af48846" mtime="1446438216" name="PKGBUILD" size="433" />
+  <entry md5="16dfa8010e0b30763fe9514d05d7ff6b" mtime="1446438218" name="_service" size="248" />
+</directory>

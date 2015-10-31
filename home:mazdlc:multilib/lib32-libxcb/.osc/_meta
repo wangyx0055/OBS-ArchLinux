@@ -1,0 +1,5 @@
+<package name="lib32-libxcb" project="home:mazdlc:multilib">
+  <title>lib32-libxcb</title>
+  <description></description>
+</package>
+

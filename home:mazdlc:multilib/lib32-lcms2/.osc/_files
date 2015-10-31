@@ -1,0 +1,5 @@
+<directory name="lib32-lcms2" rev="1" srcmd5="034bcab44c8003c390ee47c101e3fe2f" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="8d88d5d94048bd5e16bc05460e61edcd" />
+  <entry md5="fc957114b7ce35ce34a6d5086e165c60" mtime="1446438336" name="PKGBUILD" size="362" />
+  <entry md5="bcf92c1e9fef2a55bbeff1f75b37a779" mtime="1446438338" name="_service" size="247" />
+</directory>

@@ -1,0 +1,6 @@
+<directory name="openswan" rev="1" srcmd5="0eb84ea892bb33127776d1e7d886b101" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="88966a541cd8dd885039495ceed729d8" />
+  <entry md5="19835584aebf886bb2cf676235b8d2e9" mtime="1446525449" name="PKGBUILD" size="1781" />
+  <entry md5="b842c119c7d53c63f42bd6249f5bf986" mtime="1446525450" name="_service" size="226" />
+  <entry md5="d8b465c10838c72e31329d65011002b6" mtime="1446525452" name="openswan.service" size="281" />
+</directory>

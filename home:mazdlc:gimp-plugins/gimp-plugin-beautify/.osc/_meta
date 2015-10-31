@@ -1,0 +1,5 @@
+<package name="gimp-plugin-beautify" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-beautify</title>
+  <description>gimp-plugin-beautify</description>
+</package>
+

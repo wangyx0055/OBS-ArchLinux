@@ -1,0 +1,5 @@
+<package name="hardening-wrapper" project="home:mazdlc:missing">
+  <title>hardening-wrapper</title>
+  <description>Wrapper scripts for building hardened executables by default</description>
+</package>
+

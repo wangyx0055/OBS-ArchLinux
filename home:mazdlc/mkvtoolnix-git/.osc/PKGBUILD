@@ -1,0 +1,45 @@
+# Maintainer: Marc Cousin <cousinmarc@gmail.com>
+pkgname=mkvtoolnix-git
+pkgver=r8851.3a8acea
+pkgrel=1
+pkgdesc="Git version of mkvtoolnix (to get the latest mkvtoolnix-gui"
+arch=(i686 x86_64)
+url="https://www.bunkus.org/videotools/mkvtoolnix"
+license=('GPL')
+groups=()
+depends=('libmatroska' 'expat' 'flac' 'libvorbis' 'file' 'boost-libs' 'lzo' 'wxgtk' 'xdg-utils' 'desktop-file-utils' 'qt5-base' 'libogg' 'zlib' 'curl')
+makedepends=('libmatroska' 'flac' 'libvorbis' 'file' 'wxgtk'
+             'boost-libs' 'lzo' 'xdg-utils' 'boost' 'ruby' 'git')
+
+provides=('mkvtoolnix mkvtoolnix-cli')
+conflicts=('mkvtoolnix-cli mkvtoolnix-gtk')
+replaces=('mkvtoolnix')
+source=("mkvtoolnix-$pkgver.tar.xz") 
+# "libebml-1.tar.xz" "libmatroska-1.tar.xz")
+md5sums=('SKIP')
+
+prepare() {
+	true
+	#nothing for now
+	#cd "$srcdir/${pkgname%-VCS}"
+	#patch -p1 -i "$srcdir/${pkgname%-VCS}.patch"
+}
+
+build() {
+	cd "$srcdir/mkvtoolnix-$pkgver"
+	./autogen.sh
+	#git submodule init
+	#git submodule update
+	./configure --prefix=/usr
+	# remove the -j${procs} if you suffer during compile...
+	# At 8, my computer has a lot of trouble with 8GB of RAM...
+	declare -i procs
+	#procs=`nproc`/2
+	procs=`nproc`
+	./drake	-j${procs}
+}
+
+package() {
+	cd "$srcdir/mkvtoolnix-$pkgver"
+	./drake DESTDIR="${pkgdir}" install
+}

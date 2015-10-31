@@ -1,0 +1,5 @@
+<package name="gcc-multilib" project="home:mazdlc:multilib">
+  <title>gcc-multilib</title>
+  <description>gcc-multilib</description>
+</package>
+

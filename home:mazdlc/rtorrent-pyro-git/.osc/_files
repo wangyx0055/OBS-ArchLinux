@@ -1,0 +1,8 @@
+<directory name="rtorrent-pyro-git" rev="14" srcmd5="24808cf791a8837dff9f9b7ece78777e" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="6ab54283061c968e165808e3bc0e8a11" />
+  <entry md5="b689a799979fddd712fca3d1b5e9f108" mtime="1446826306" name="PKGBUILD" size="2360" />
+  <entry md5="1ee80d90b438e1c67063b4a5ab8fd878" mtime="1446822775" name="_service" size="1819" />
+  <entry md5="8a6691a7e8e528473dc66132a0d21a8f" mtime="1446822777" name="pyroscope.install" size="326" />
+  <entry md5="728432f68eb9febe72e2d3778590911a" mtime="1446822779" name="rtorrent-ipv6.patch" size="23639" />
+  <entry md5="35e2c69152a3c2137c5958f9f27cb906" mtime="1446822781" name="rtorrent.rc.sample" size="3672" />
+</directory>

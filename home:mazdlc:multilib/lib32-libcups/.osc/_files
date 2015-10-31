@@ -1,0 +1,5 @@
+<directory name="lib32-libcups" rev="1" srcmd5="9467e522f5b697add47d129df9c7e709" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="a00f7b88fa7ff4499045b8660cd77a6f" />
+  <entry md5="5349a264f34e38f1005ab441eaf1872c" mtime="1446438584" name="PKGBUILD" size="407" />
+  <entry md5="e20e5fa8bec82fc43ff7225daa21e6ee" mtime="1446438585" name="_service" size="249" />
+</directory>

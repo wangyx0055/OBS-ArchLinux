@@ -1,0 +1,5 @@
+<package name="bml" project="home:mazdlc">
+  <title>bml</title>
+  <description>Buzztrax machine loader (former Buzztard)</description>
+</package>
+

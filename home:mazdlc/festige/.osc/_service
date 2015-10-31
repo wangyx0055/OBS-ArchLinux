@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">downloads.sourceforge.net</param>
+    <param name="path">/project/festige/1.0.2/festige-1.0.2-src.tar.gz</param>
+  </service>
+</services>

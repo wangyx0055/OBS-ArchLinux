@@ -1,0 +1,5 @@
+<package name="deadbeef-bs2b-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-bs2b-git</title>
+  <description>Bauer stereophonic-to-binaural plugin for the DeaDBeeF music player</description>
+</package>
+

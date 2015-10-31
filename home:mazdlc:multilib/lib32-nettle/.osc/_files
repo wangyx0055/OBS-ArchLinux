@@ -1,0 +1,5 @@
+<directory name="lib32-nettle" rev="3" srcmd5="fad979d4048438e699e54151ab438705" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="5181be618579be0184ba8889dfca1fff" />
+  <entry md5="3774c80648a094ce38922bc765cc3120" mtime="1446384189" name="PKGBUILD" size="363" />
+  <entry md5="4f9af7146f99e87b323cf6c2c87f35ad" mtime="1446384191" name="_service" size="248" />
+</directory>

@@ -1,0 +1,5 @@
+<package name="gimp-plugin-exif-browser" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-exif-browser</title>
+  <description>gimp-plugin-exif-browser</description>
+</package>
+

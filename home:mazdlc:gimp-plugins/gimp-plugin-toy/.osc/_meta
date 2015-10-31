@@ -1,0 +1,5 @@
+<package name="gimp-plugin-toy" project="home:mazdlc:gimp-plugins">
+  <title>gimp-plugin-toy</title>
+  <description>gimp-plugin-toy</description>
+</package>
+

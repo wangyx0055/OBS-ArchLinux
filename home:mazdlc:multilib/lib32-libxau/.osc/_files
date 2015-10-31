@@ -1,0 +1,5 @@
+<directory name="lib32-libxau" rev="2" srcmd5="9ade643a786387f9f1ff40c13df02aaa" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="77ccdb83fb1336d75faeb634b5191761" />
+  <entry md5="361a6c191c325edecd7ca79b1ec6eb6b" mtime="1446435146" name="PKGBUILD" size="365" />
+  <entry md5="3ddb0b87accaf468fdc20f8dfc232231" mtime="1446435168" name="_service" size="248" />
+</directory>

@@ -1,0 +1,20 @@
+pkgname=guichan
+pkgver=0.8.2
+pkgrel=4
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=(  )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

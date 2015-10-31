@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">downloads.sourceforge.net</param>
+    <param name="path">/sourceforge/fuse-emulator/libspectrum-1.1.1.tar.gz</param>
+  </service>
+</services>

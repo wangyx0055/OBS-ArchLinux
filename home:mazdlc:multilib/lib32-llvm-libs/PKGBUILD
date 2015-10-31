@@ -1,0 +1,21 @@
+_pkgbase=llvm-libs
+pkgname=lib32-llvm-libs
+pkgver=3.7.0
+pkgrel=2
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( 'lib32-libffi' 'lib32-zlib' 'lib32-ncurses' 'lib32-gcc-libs' )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

@@ -1,0 +1,8 @@
+<directory name="firefox-i18n" rev="10" srcmd5="687d03c9930372344fca39a1540e78e2" vrev="10">
+  <serviceinfo code="succeeded" xsrcmd5="36cc911363943ff9565fda20a0567809" />
+  <entry md5="ea293830473740e060209414f5cf201a" mtime="1446968295" name="PKGBUILD" size="2035" />
+  <entry md5="141acf12fb89003987c6dfd35513c9c8" mtime="1446877146" name="_service" size="2297" />
+  <entry md5="7452c4599b9580a7b2e2c1ffe93fb7f4" mtime="1446705843" name="bump.sh" size="514" />
+  <entry md5="09201dda5524b90ed62d9b579168bf2d" mtime="1446877147" name="name.txt" size="125" />
+  <entry md5="6e71cec7811bf5418df71c23519ff5e0" mtime="1446705845" name="urls.txt" size="7549" />
+</directory>

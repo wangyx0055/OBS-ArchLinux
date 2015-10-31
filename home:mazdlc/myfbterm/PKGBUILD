@@ -1,0 +1,30 @@
+# Maintainer: osily <ly50247 at 126 dot com>
+
+pkgname=myfbterm
+pkgver=1.7.0
+pkgrel=1
+pkgdesc="A fast terminal emulator for linux with frame buffer device or VESA video card, fix some bugs of fbterm."
+arch=('i686' 'x86_64')
+url="http://code.google.com/p/myfbterm/"
+license=('GPL2')
+depends=('gcc-libs' 'fontconfig' 'libx11' 'libxmu')
+provides=('fbterm')
+conflicts=('fbterm')
+optdepends=('libx86: for VESA video card support')
+install=myfbterm.install
+#source=("git+https://github.com/maz-1/myfbterm.git")
+source=$pkgname-$pkgver.tar.xz
+md5sums=('SKIP')
+build() {
+  cd "${srcdir}/$pkgname-$pkgver"
+  ./configure --prefix=/usr
+  make
+}
+
+package() {
+  cd "${srcdir}/$pkgname-$pkgver"
+
+  install -Dm644 terminfo/fbterm "${pkgdir}/usr/share/terminfo/f/fbterm"
+
+  make DESTDIR="${pkgdir}" TERMINFO="${pkgdir}/usr/share/terminfo" install
+}

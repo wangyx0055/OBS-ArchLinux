@@ -1,0 +1,5 @@
+<directory name="lib32-giflib" rev="4" srcmd5="eb1a19cb31e638010aadbd66155bb4cf" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="f98921e426337958d747a6c52311119f" />
+  <entry md5="7505eae7b2a2d3578fc2e908590be4f0" mtime="1446376756" name="PKGBUILD" size="393" />
+  <entry md5="b63db77ec288fa2f45431172d5af2898" mtime="1446379525" name="_service" size="248" />
+</directory>

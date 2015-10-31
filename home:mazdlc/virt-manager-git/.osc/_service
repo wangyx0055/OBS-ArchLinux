@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">git://github.com/F1ash/qt-virt-manager.git</param>
+    <param name="scm">git</param>
+    <param name="versionformat">g%h</param>
+    <param name="versionprefix">0.16</param>
+    <param name="filename">qt-virt-manager</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

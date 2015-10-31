@@ -1,0 +1,15 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">git://github.com/eteran/edb-debugger.git</param>
+    <param name="scm">git</param>
+    <param name="versionformat">%cd.g%h</param>
+    <param name="versionprefix">0.9</param>
+    <param name="filename">edb-debugger</param>
+    <param name="submodules">enable</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

@@ -1,0 +1,6 @@
+<package name="ffmpeg-full-extra" project="home:mazdlc">
+  <title>ffmpeg-full-extra</title>
+  <description>Record, convert, and stream audio and video (all codecs; compatible to extra/ffmpeg)&#13;
+https://aur.archlinux.org/packages/ffmpeg-full-nvenc/</description>
+</package>
+

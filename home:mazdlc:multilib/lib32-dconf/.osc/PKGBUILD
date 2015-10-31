@@ -1,0 +1,21 @@
+_pkgbase=dconf
+pkgname=lib32-dconf
+pkgver=0.24.0
+pkgrel=1
+pkgdesc="32bit library for obs"
+arch=('x86_64')
+depends=( dconf lib32-glib2 lib32-libdbus )
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

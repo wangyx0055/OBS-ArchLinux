@@ -1,0 +1,5 @@
+<directory name="libfdk-aac" rev="1" srcmd5="f50f9cdf5a8a3f07e5190c9535b2bf91" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="e55038789da6fd2c7815d4af2160b738" />
+  <entry md5="6fe75e96175299e18d5a4ad181dbd5ca" mtime="1446602550" name="PKGBUILD" size="349" />
+  <entry md5="73a1f9699a974e741ace17ac95c6454e" mtime="1446602551" name="_service" size="245" />
+</directory>

@@ -1,0 +1,5 @@
+<package name="goldendict-qt5-git" project="home:mazdlc">
+  <title>goldendict-qt5-git</title>
+  <description>Feature-rich dictionary lookup program.</description>
+</package>
+

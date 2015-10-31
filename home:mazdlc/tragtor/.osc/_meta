@@ -1,0 +1,5 @@
+<package name="tragtor" project="home:mazdlc">
+  <title>tragtor</title>
+  <description>A graphical user interface for ffmpeg</description>
+</package>
+
