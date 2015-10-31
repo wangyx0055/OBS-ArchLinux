@@ -1,5 +1,5 @@
-<directory name="qarma-git" rev="12" srcmd5="7d4fb4f4ffe784d5cd43ba6e0d38e391" vrev="12">
-  <serviceinfo code="succeeded" xsrcmd5="17add550c52514769e8fd8acbc15a219" />
+<directory name="qarma-git" rev="13" srcmd5="a96d33bf25b6cd289a60b72bb937b238" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="dc0a0bc542d6723ceabb4f7bb93bcc80" />
   <entry md5="75eb6a4a0a146fd44269fa5eaebdc6e5" mtime="1446546585" name="PKGBUILD" size="677" />
   <entry md5="17de79a78de9a2a329bdb62dfda75968" mtime="1446714429" name="_service" size="449" />
 </directory>

@@ -1,0 +1,5 @@
+<directory name="deadbeef-gnome-mmkeys-git" rev="3" srcmd5="548125c87b6bd4f55a7f05a1242d1bd5" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="2670256905e13ea9f1bf073d24f59260" />
+  <entry md5="72077d4b1d1ce25a2d809efeb79bb8d2" mtime="1447033853" name="PKGBUILD" size="620" />
+  <entry md5="c15fa70c101dc20f3036a7ce22b74207" mtime="1446994339" name="_service" size="429" />
+</directory>

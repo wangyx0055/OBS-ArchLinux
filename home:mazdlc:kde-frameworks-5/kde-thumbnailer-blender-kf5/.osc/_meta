@@ -1,0 +1,5 @@
+<package name="kde-thumbnailer-blender-kf5" project="home:mazdlc:kde-frameworks-5">
+  <title>kde-thumbnailer-blender-kf5</title>
+  <description>Preview image generator plugin for Blender files. KF5 Ver.</description>
+</package>
+

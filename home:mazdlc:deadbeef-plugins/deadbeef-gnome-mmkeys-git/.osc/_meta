@@ -1,0 +1,5 @@
+<package name="deadbeef-gnome-mmkeys-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-gnome-mmkeys-git</title>
+  <description>DeaDBeeF player Gnome (via DBus) multimedia keys plugin</description>
+</package>
+

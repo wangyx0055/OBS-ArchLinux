@@ -1,0 +1,564 @@
+diff -Naur b/core/cfg/cfg.cpp a/core/cfg/cfg.cpp
+--- b/core/cfg/cfg.cpp	2015-10-23 19:09:26.362558044 +0800
++++ a/core/cfg/cfg.cpp	2015-10-23 19:03:53.074671068 +0800
+@@ -78,11 +78,9 @@
+ 
+ bool cfgOpen()
+ {
+-	const char* filename = "/emu.cfg";
+-	string config_path_read = get_readonly_config_path(filename);
+-	cfgPath = get_writable_config_path(filename);
++	cfgPath=GetPath("/emu.cfg");
++	FILE* cfgfile = fopen(cfgPath.c_str(),"r");
+ 
+-	FILE* cfgfile = fopen(config_path_read.c_str(),"r");
+ 	if(cfgfile != NULL) {
+ 		cfgdb.parse(cfgfile);
+ 		fclose(cfgfile);
+@@ -91,8 +89,8 @@
+ 	{
+ 		// Config file can't be opened
+ 		int error_code = errno;
+-		printf("Warning: Unable to open the config file '%s' for reading (%s)\n", config_path_read.c_str(), strerror(error_code));
+-		if (error_code == ENOENT || cfgPath != config_path_read)
++		printf("Warning: Unable to open the config file '%s' for reading (%s)\n", cfgPath.c_str(), strerror(error_code));
++		if (error_code == ENOENT)
+ 		{
+ 			// Config file didn't exist
+ 			printf("Creating new empty config file at '%s'\n", cfgPath.c_str());
+diff -Naur b/core/hw/maple/maple_devs.cpp a/core/hw/maple/maple_devs.cpp
+--- b/core/hw/maple/maple_devs.cpp	2015-10-23 19:09:26.398559106 +0800
++++ a/core/hw/maple/maple_devs.cpp	2015-10-23 19:03:53.074671068 +0800
+@@ -277,7 +277,7 @@
+ 		memset(lcd_data,0,sizeof(lcd_data));
+ 		wchar tempy[512];
+ 		sprintf(tempy,"/vmu_save_%s.bin",logical_port);
+-		string apath=get_writable_data_path(tempy);
++		string apath=GetPath(tempy);
+ 
+ 		file=fopen(apath.c_str(),"rb+");
+ 		if (!file)
+diff -Naur b/core/hw/mem/_vmem.cpp a/core/hw/mem/_vmem.cpp
+--- b/core/hw/mem/_vmem.cpp	2015-10-23 19:09:26.399559136 +0800
++++ a/core/hw/mem/_vmem.cpp	2015-10-23 19:03:53.074671068 +0800
+@@ -580,7 +580,7 @@
+ 	{
+         
+ #if HOST_OS == OS_DARWIN
+-		string path = get_writable_data_path("/dcnzorz_mem");
++        string path = GetPath("/dcnzorz_mem");
+         fd = open(path.c_str(),O_CREAT|O_RDWR|O_TRUNC,S_IRWXU|S_IRWXG|S_IRWXO);
+         unlink(path.c_str());
+         verify(ftruncate(fd,RAM_SIZE + VRAM_SIZE +ARAM_SIZE)==0);
+diff -Naur b/core/hw/sh4/dyna/blockmanager.cpp a/core/hw/sh4/dyna/blockmanager.cpp
+--- b/core/hw/sh4/dyna/blockmanager.cpp	2015-10-23 19:09:26.402559224 +0800
++++ a/core/hw/sh4/dyna/blockmanager.cpp	2015-10-23 19:03:53.075671098 +0800
+@@ -607,7 +607,7 @@
+ 
+ 	if (print_stats)
+ 	{
+-		f=fopen(get_writable_data_path("/blkmap.lst").c_str(),"w");
++		f=fopen(GetPath("/blkmap.lst").c_str(),"w");
+ 		print_stats=0;
+ 
+ 		printf("Writing blocks to %p\n",f);
+diff -Naur b/core/hw/sh4/dyna/driver.cpp a/core/hw/sh4/dyna/driver.cpp
+--- b/core/hw/sh4/dyna/driver.cpp	2015-10-23 19:09:26.402559224 +0800
++++ a/core/hw/sh4/dyna/driver.cpp	2015-10-23 19:03:53.075671098 +0800
+@@ -54,7 +54,7 @@
+ {
+ 	wchar path[512];
+ 	sprintf(path,"/code_cache_%8p.bin",CodeCache);
+-	string pt2=get_writable_data_path(path);
++	string pt2=GetPath(path);
+ 	printf("Writing code cache to %s\n",pt2.c_str());
+ 	FILE*f=fopen(pt2.c_str(),"wb");
+ 	if (f)
+diff -Naur b/core/hw/sh4/sh4_mem.cpp a/core/hw/sh4/sh4_mem.cpp
+--- b/core/hw/sh4/sh4_mem.cpp	2015-10-23 19:09:26.409559430 +0800
++++ a/core/hw/sh4/sh4_mem.cpp	2015-10-23 19:03:53.075671098 +0800
+@@ -223,7 +223,7 @@
+ 	sh4_area0_Term();
+ 
+ 	//write back Flash/SRAM
+-	SaveRomFiles(get_writable_data_path("/data/"));
++	SaveRomFiles(GetPath("/data/"));
+ 	
+ 	//mem_b.Term(); // handled by vmem
+ 
+diff -Naur b/core/linux/nixprof/nixprof.cpp a/core/linux/nixprof/nixprof.cpp
+--- b/core/linux/nixprof/nixprof.cpp	2015-10-23 19:09:26.445560492 +0800
++++ a/core/linux/nixprof/nixprof.cpp	2015-10-23 19:03:53.076671128 +0800
+@@ -237,7 +237,7 @@
+ 
+ 	sprintf(line, "/%d.reprof", tick_count);
+ 
+-		string logfile=get_writable_data_path(line);
++		string logfile=GetPath(line);
+ 
+ 
+ 		printf("Profiler thread logging to -> %s\n", logfile.c_str());
+diff -Naur b/core/linux-dist/evdev.cpp a/core/linux-dist/evdev.cpp
+--- b/core/linux-dist/evdev.cpp	2015-10-23 19:09:26.444560463 +0800
++++ a/core/linux-dist/evdev.cpp	2015-10-23 19:03:53.076671128 +0800
+@@ -266,7 +266,7 @@
+ 						size_t size_needed = snprintf(NULL, 0, EVDEV_MAPPING_PATH, mapping_fname) + 1;
+ 						char* mapping_path = (char*)malloc(size_needed);
+ 						sprintf(mapping_path, EVDEV_MAPPING_PATH, mapping_fname);
+-						mapping_fd = fopen(get_readonly_data_path(mapping_path).c_str(), "r");
++						mapping_fd = fopen(GetPath(mapping_path).c_str(), "r");
+ 						free(mapping_path);
+ 					}
+ 					
+diff -Naur b/core/linux-dist/main.cpp a/core/linux-dist/main.cpp
+--- b/core/linux-dist/main.cpp	2015-10-23 19:09:26.444560463 +0800
++++ a/core/linux-dist/main.cpp	2015-10-23 19:03:53.077671159 +0800
+@@ -260,143 +260,6 @@
+ 	}
+ #endif
+ 
+-string find_user_config_dir()
+-{
+-	#ifdef USES_HOMEDIR
+-		struct stat info;
+-		string home = "";
+-		if(getenv("HOME") != NULL)
+-		{
+-			// Support for the legacy config dir at "$HOME/.reicast"
+-			string legacy_home = (string)getenv("HOME") + "/.reicast";
+-			if((stat(legacy_home.c_str(), &info) == 0) && (info.st_mode & S_IFDIR))
+-			{
+-				// "$HOME/.reicast" already exists, let's use it!
+-				return legacy_home;
+-			}
+-
+-			/* If $XDG_CONFIG_HOME is not set, we're supposed to use "$HOME/.config" instead.
+-			 * Consult the XDG Base Directory Specification for details:
+-			 *   http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html#variables
+-			 */
+-			home = (string)getenv("HOME") + "/.config/reicast";
+-		}
+-		if(getenv("XDG_CONFIG_HOME") != NULL)
+-		{
+-			// If XDG_CONFIG_HOME is set explicitly, we'll use that instead of $HOME/.config
+-			home = (string)getenv("XDG_CONFIG_HOME") + "/reicast";
+-		}
+-
+-		if(!home.empty())
+-		{
+-			if((stat(home.c_str(), &info) != 0) || !(info.st_mode & S_IFDIR))
+-			{
+-				// If the directory doesn't exist yet, create it!
+-				mkdir(home.c_str(), 0755);
+-			}
+-			return home;
+-		}
+-	#endif
+-
+-	// Unable to detect config dir, use the current folder
+-	return ".";
+-}
+-
+-string find_user_data_dir()
+-{
+-	#ifdef USES_HOMEDIR
+-		struct stat info;
+-		string data = "";
+-		if(getenv("HOME") != NULL)
+-		{
+-			// Support for the legacy config dir at "$HOME/.reicast"
+-			string legacy_data = (string)getenv("HOME") + "/.reicast";
+-			if((stat(legacy_data.c_str(), &info) == 0) && (info.st_mode & S_IFDIR))
+-			{
+-				// "$HOME/.reicast" already exists, let's use it!
+-				return legacy_data;
+-			}
+-
+-			/* If $XDG_DATA_HOME is not set, we're supposed to use "$HOME/.local/share" instead.
+-			 * Consult the XDG Base Directory Specification for details:
+-			 *   http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html#variables
+-			 */
+-			data = (string)getenv("HOME") + "/.local/share/reicast";
+-		}
+-		if(getenv("XDG_DATA_HOME") != NULL)
+-		{
+-			// If XDG_DATA_HOME is set explicitly, we'll use that instead of $HOME/.config
+-			data = (string)getenv("XDG_DATA_HOME") + "/reicast";
+-		}
+-		
+-		if(!data.empty())
+-		{
+-			if((stat(data.c_str(), &info) != 0) || !(info.st_mode & S_IFDIR))
+-			{
+-				// If the directory doesn't exist yet, create it!
+-				mkdir(data.c_str(), 0755);
+-			}
+-			return data;
+-		}
+-	#endif
+-
+-	// Unable to detect config dir, use the current folder
+-	return ".";
+-}
+-
+-std::vector<string> find_system_config_dirs()
+-{
+-	std::vector<string> dirs;
+-	if (getenv("XDG_DATA_DIRS") != NULL)
+-	{
+-		string s = (string)getenv("XDG_CONFIG_DIRS");
+-
+-		string::size_type pos = 0;
+-		string::size_type n = s.find(":", pos);
+-		while(n != std::string::npos)
+-		{
+-			dirs.push_back(s.substr(pos, n-pos) + "/reicast");
+-			pos = n + 1;
+-			n = s.find(":", pos);
+-		}
+-		// Separator not found
+-		dirs.push_back(s.substr(pos) + "/reicast");
+-	}
+-	else
+-	{
+-		dirs.push_back("/etc/reicast"); // This isn't part of the XDG spec, but much more common than /etc/xdg/
+-		dirs.push_back("/etc/xdg/reicast");
+-	}
+-	return dirs;
+-}
+-
+-std::vector<string> find_system_data_dirs()
+-{
+-	std::vector<string> dirs;
+-	if (getenv("XDG_DATA_DIRS") != NULL)
+-	{
+-		string s = (string)getenv("XDG_DATA_DIRS");
+-
+-		string::size_type pos = 0;
+-		string::size_type n = s.find(":", pos);
+-		while(n != std::string::npos)
+-		{
+-			dirs.push_back(s.substr(pos, n-pos) + "/reicast");
+-			pos = n + 1;
+-			n = s.find(":", pos);
+-		}
+-		// Separator not found
+-		dirs.push_back(s.substr(pos) + "/reicast");
+-	}
+-	else
+-	{
+-		dirs.push_back("/usr/local/share/reicast");
+-		dirs.push_back("/usr/share/reicast");
+-	}
+-	return dirs;
+-}
+-
+-
+ int main(int argc, wchar* argv[])
+ {
+ 	#ifdef TARGET_PANDORA
+@@ -404,22 +267,17 @@
+ 		signal(SIGKILL, clean_exit);
+ 	#endif
+ 
+-	/* Set directories */
+-	set_user_config_dir(find_user_config_dir());
+-	set_user_data_dir(find_user_data_dir());
+-	std::vector<string> dirs;
+-	dirs = find_system_config_dirs();
+-	for(unsigned int i = 0; i < dirs.size(); i++)
+-	{
+-		add_system_data_dir(dirs[i]);
+-	}
+-	dirs = find_system_data_dirs();
+-	for(unsigned int i = 0; i < dirs.size(); i++)
+-	{
+-		add_system_data_dir(dirs[i]);
+-	}
+-	printf("Config dir is: %s\n", get_writable_config_path("/").c_str());
+-	printf("Data dir is:   %s\n", get_writable_data_path("/").c_str());
++	/* Set home dir */
++	string home = ".";
++	#if defined(USES_HOMEDIR)
++		if(getenv("HOME") != NULL)
++		{
++			home = (string)getenv("HOME") + "/.reicast";
++			mkdir(home.c_str(), 0755); // create the directory if missing
++		}
++	#endif
++	SetHomeDir(home);
++	printf("Home dir is: %s\n", GetPath("/").c_str());
+ 
+ 	#if defined(USE_SDL)
+ 		if (SDL_Init(0) != 0)
+diff -Naur b/core/nacl/nacl.cpp a/core/nacl/nacl.cpp
+--- b/core/nacl/nacl.cpp	2015-10-23 19:09:26.445560492 +0800
++++ a/core/nacl/nacl.cpp	2015-10-23 19:03:53.077671159 +0800
+@@ -48,8 +48,7 @@
+   char *Args[3];
+   Args[0] = "dc";
+   
+-	set_user_config_dir("/http");
+-	set_user_data_dir("/http");
++  SetHomeDir("/http");
+ 
+   dc_init(1,Args);
+   dc_run();
+diff -Naur b/core/nullDC.cpp a/core/nullDC.cpp
+--- b/core/nullDC.cpp	2015-10-23 19:09:26.445560492 +0800
++++ a/core/nullDC.cpp	2015-10-23 19:03:53.079671218 +0800
+@@ -165,9 +165,9 @@
+     #define DATA_PATH "/"
+ #endif
+     
+-	if (settings.bios.UseReios || !LoadRomFiles(get_readonly_data_path(DATA_PATH)))
++	if (settings.bios.UseReios || !LoadRomFiles(GetPath(DATA_PATH)))
+ 	{
+-		if (!LoadHle(get_readonly_data_path(DATA_PATH)))
++		if (!LoadHle(GetPath(DATA_PATH)))
+ 			return -3;
+ 		else
+ 			printf("Did not load bios, using reios\n");
+@@ -224,7 +224,7 @@
+ #ifndef _ANDROID
+ 	SaveSettings();
+ #endif
+-	SaveRomFiles(get_writable_data_path("/data/"));
++	SaveRomFiles(GetPath("/data/"));
+ }
+ 
+ void LoadSettings()
+diff -Naur b/core/rend/gles/gles.cpp a/core/rend/gles/gles.cpp
+--- b/core/rend/gles/gles.cpp	2015-10-23 19:09:26.450560640 +0800
++++ a/core/rend/gles/gles.cpp	2015-10-23 19:03:53.079671218 +0800
+@@ -930,9 +930,9 @@
+ 	#endif
+ 
+ 	int w, h;
+-	osd_tex=loadPNG(get_readonly_data_path("/data/buttons.png"),w,h);
++	osd_tex=loadPNG(GetPath("/data/buttons.png"),w,h);
+ #ifdef TARGET_PANDORA
+-	osd_font=loadPNG(get_readonly_data_path("/font2.png"),w,h);
++	osd_font=loadPNG(GetPath("/font2.png"),w,h);
+ #endif
+ 
+ 	return true;
+diff -Naur b/core/stdclass.cpp a/core/stdclass.cpp
+--- b/core/stdclass.cpp	2015-10-23 19:09:26.451560669 +0800
++++ a/core/stdclass.cpp	2015-10-23 19:04:53.945486932 +0800
+@@ -1,104 +1,22 @@
++
+ #include <string.h>
+-#include <vector>
+-#include <sys/stat.h>
+-#include "types.h"
+ 
+-#if BUILD_COMPILER==COMPILER_VC
+-	#include <io.h>
+-	#define access _access
+-	#define R_OK   4
+-#else
+-	#include <unistd.h>
+-#endif
++#include "types.h"
+ 
+ #include "hw/mem/_vmem.h"
++#include "types.h"
+ 
+-string user_config_dir;
+-string user_data_dir;
+-std::vector<string> system_config_dirs;
+-std::vector<string> system_data_dirs;
+-
+-bool file_exists(const string& filename)
+-{
+-	return (access(filename.c_str(), R_OK) == 0);
+-}
+-
+-void set_user_config_dir(const string& dir)
+-{
+-	user_config_dir = dir;
+-}
+-
+-void set_user_data_dir(const string& dir)
+-{
+-	user_data_dir = dir;
+-}
+-
+-void add_system_config_dir(const string& dir)
+-{
+-	system_config_dirs.push_back(dir);
+-}
+-
+-void add_system_data_dir(const string& dir)
+-{
+-	system_data_dirs.push_back(dir);
+-}
+-
+-string get_writable_config_path(const string& filename)
+-{
+-	/* Only stuff in the user_config_dir is supposed to be writable,
+-	 * so we always return that.
+-	 */
+-	return (user_config_dir + filename);
+-}
+-
+-string get_readonly_config_path(const string& filename)
+-{
+-	string user_filepath = get_writable_config_path(filename);
+-	if(file_exists(user_filepath))
+-	{
+-		return user_filepath;
+-	}
+-
+-	string filepath;
+-	for (unsigned int i = 0; i < system_config_dirs.size(); i++) {
+-		filepath = system_config_dirs[i] + filename;
+-		if (file_exists(filepath))
+-		{
+-			return filepath;
+-		}
+-	}
+-
+-	// Not found, so we return the user variant
+-	return user_filepath;
+-}
++string home_dir;
+ 
+-string get_writable_data_path(const string& filename)
++void SetHomeDir(const string& home)
+ {
+-	/* Only stuff in the user_data_dir is supposed to be writable,
+-	 * so we always return that.
+-	 */
+-	return (user_data_dir + filename);
++	home_dir=home;
+ }
+ 
+-string get_readonly_data_path(const string& filename)
++//subpath format: /data/fsca-table.bit
++string GetPath(const string& subpath)
+ {
+-	string user_filepath = get_writable_data_path(filename);
+-	if(file_exists(user_filepath))
+-	{
+-		return user_filepath;
+-	}
+-
+-	string filepath;
+-	for (unsigned int i = 0; i < system_data_dirs.size(); i++) {
+-		filepath = system_data_dirs[i] + filename;
+-		if (file_exists(filepath))
+-		{
+-			return filepath;
+-		}
+-	}
+-
+-	// Not found, so we return the user variant
+-	return user_filepath;
++	return (home_dir+subpath);
+ }
+ 
+ 
+diff -Naur b/core/stdclass.h a/core/stdclass.h
+--- b/core/stdclass.h	2015-10-23 19:09:26.451560669 +0800
++++ a/core/stdclass.h	2015-10-23 19:04:53.945486932 +0800
+@@ -251,16 +251,9 @@
+ };
+ 
+ //Set the path !
+-void set_user_config_dir(const string& dir);
+-void set_user_data_dir(const string& dir);
+-void add_system_config_dir(const string& dir);
+-void add_system_data_dir(const string& dir);
+-
++void SetHomeDir(const string& home);
+ //subpath format: /data/fsca-table.bit
+-string get_writable_config_path(const string& filename);
+-string get_writable_data_path(const string& filename);
+-string get_readonly_config_path(const string& filename);
+-string get_readonly_data_path(const string& filename);
++string GetPath(const string& subpath);
+ 
+ 
+ class VArray2
+diff -Naur b/core/webui/server.cpp a/core/webui/server.cpp
+--- b/core/webui/server.cpp	2015-10-23 19:09:26.452560699 +0800
++++ a/core/webui/server.cpp	2015-10-23 19:04:53.946486962 +0800
+@@ -79,7 +79,7 @@
+ 	DEMO_PROTOCOL_COUNT
+ };
+ 
+-#define WEBUI_PATH get_writable_data_path("/webui")
++#define WEBUI_PATH GetPath("/webui")
+ 
+ /*
+  * We take a strict whitelist approach to stop ../ attacks
+diff -Naur b/core/windows/winmain.cpp a/core/windows/winmain.cpp
+--- b/core/windows/winmain.cpp	2015-10-23 19:09:26.452560699 +0800
++++ a/core/windows/winmain.cpp	2015-10-23 19:04:53.946486962 +0800
+@@ -157,8 +157,7 @@
+ 	GetModuleFileName(0,fname,512);
+ 	string fn=string(fname);
+ 	fn=fn.substr(0,fn.find_last_of('\\'));
+-	set_user_config_dir(fn);
+-	set_user_data_dir(fn);
++	SetHomeDir(fn);
+ }
+ 
+ int msgboxf(const wchar* text,unsigned int type,...)
+diff -Naur b/shell/android/jni/src/Android.cpp a/shell/android/jni/src/Android.cpp
+--- b/shell/android/jni/src/Android.cpp	2015-10-23 19:09:26.485561672 +0800
++++ a/shell/android/jni/src/Android.cpp	2015-10-23 19:04:53.946486962 +0800
+@@ -253,10 +253,8 @@
+ {
+   // Set home directory based on User config
+   const char* D = dirName? env->GetStringUTFChars(dirName,0):0;
+-	set_user_config_dir(D);
+-	set_user_data_dir(D);
+-	printf("Config dir is: %s\n", get_writable_config_path("/").c_str());
+-	printf("Data dir is:   %s\n", get_writable_data_path("/").c_str());
++  SetHomeDir(D);
++  printf("Home dir is: '%s'\n",GetPath("/").c_str());
+   env->ReleaseStringUTFChars(dirName,D);
+ }
+ JNIEXPORT void JNICALL Java_com_reicast_emulator_emu_JNIdc_init(JNIEnv *env,jobject obj,jstring fileName)
+diff -Naur b/shell/apple/emulator-ios/emulator/ios_main.mm a/shell/apple/emulator-ios/emulator/ios_main.mm
+--- b/shell/apple/emulator-ios/emulator/ios_main.mm	2015-10-23 19:09:26.540563294 +0800
++++ a/shell/apple/emulator-ios/emulator/ios_main.mm	2015-10-23 19:04:53.947486992 +0800
+@@ -66,13 +66,11 @@
+     //ndcid=atoi(argv[1]);
+     
+     string homedir = [ [[[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] objectAtIndex:0] path] UTF8String];
+-    set_user_config_dir(homedir);
+-    set_user_data_dir(homedir);
++    SetHomeDir(homedir);
+     
+     freopen( (homedir + "/log.txt").c_str(), "wb", stdout);
+     
+-    printf("Config dir is: %s\n", get_writable_config_path("/").c_str());
+-    printf("Data dir is:   %s\n", get_writable_data_path("/").c_str());
++    printf("Home dir is: %s\n",GetPath("/").c_str());
+     
+     common_linux_setup();
+     
+diff -Naur b/shell/apple/emulator-osx/emulator-osx/osx-main.mm a/shell/apple/emulator-osx/emulator-osx/osx-main.mm
+--- b/shell/apple/emulator-osx/emulator-osx/osx-main.mm	2015-10-23 19:09:26.543563383 +0800
++++ a/shell/apple/emulator-osx/emulator-osx/osx-main.mm	2015-10-23 19:04:53.947486992 +0800
+@@ -95,14 +95,10 @@
+     {
+         home += "/.reicast";
+         mkdir(home.c_str(), 0755); // create the directory if missing
+-        set_user_config_dir(home);
+-        set_user_data_dir(home);
++        SetHomeDir(home);
+     }
+     else
+-    {
+-        set_user_config_dir(".");
+-        set_user_data_dir(".");
+-    }
++        SetHomeDir(".");
+     char* argv[] = { "reicast" };
+     
+     dc_init(1,argv);

@@ -1,5 +1,5 @@
-<directory name="mkxp-git" rev="15" srcmd5="5b00f9ddbf106fe8dd78762ab5c37d17" vrev="15">
-  <serviceinfo code="succeeded" xsrcmd5="9aac9f0441c4091624d3b7c6ffeff27f" />
+<directory name="mkxp-git" rev="30" srcmd5="28371256695e1e19d333b66a01674c8f" vrev="30">
+  <serviceinfo code="succeeded" xsrcmd5="c67f139eb658351af6bb1fd3c83a6e1b" />
   <entry md5="0d4e2660a06d6b185cb9a26e3c54d330" mtime="1446306789" name="LiberationSans.ttf" size="4504992" />
   <entry md5="830cb452cc983cc8cf92241bd6d42771" mtime="1446313920" name="PKGBUILD" size="2323" />
   <entry md5="d9681290726eb82e468cfc2a75d1766a" mtime="1446714394" name="_service" size="671" />

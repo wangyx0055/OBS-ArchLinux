@@ -1,6 +1,0 @@
-<directory name="kget-frameworks-git" rev="16" srcmd5="69bf5101bd199639fa5a7f357c1a7d01" vrev="16">
-  <serviceinfo code="succeeded" xsrcmd5="027eb8163cde374c8290f71ea9fec460" />
-  <entry md5="87049348b424b84dbb095c79904af5ca" mtime="1446818569" name="PKGBUILD" size="864" />
-  <entry md5="b77cd9dd1e2e83bd7c20a2bb4990332e" mtime="1446789839" name="_service" size="443" />
-  <entry md5="6a6cd9d26be65d872b6f80ecb210d9d3" mtime="1446789841" name="kget-frameworks-git.install" size="184" />
-</directory>

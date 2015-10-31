@@ -1,0 +1,13 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/cboxdoerfer/ddb_quick_search.git</param>
+	<param name="versionformat">%cd.g%h</param>
+	<param name="filename">ddb_quick_search</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  <service name="set_version"/>
+</services>

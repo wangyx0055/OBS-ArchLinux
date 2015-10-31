@@ -1,0 +1,5 @@
+<directory name="deadbeef-plugin-vu-meter-git" rev="3" srcmd5="98927bfb3168613c78a861bafce53a78" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="02ef8c87f9f3d7f72b94f485e5517e4f" />
+  <entry md5="8c89763943bdefb1fdc534774d9be25c" mtime="1446995294" name="PKGBUILD" size="924" />
+  <entry md5="05a55d5eab5cbaa525857af64428c877" mtime="1446996442" name="_service" size="651" />
+</directory>

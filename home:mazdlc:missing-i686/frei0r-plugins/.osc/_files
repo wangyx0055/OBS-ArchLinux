@@ -1,5 +1,0 @@
-<directory name="frei0r-plugins" rev="2" srcmd5="879c0b74c222443c758c72e92777f471" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="8a4370e15b006288608c4b37ac0d2076" />
-  <entry md5="e56e01ddd9b6e8ba092df83a967886db" mtime="1446606705" name="PKGBUILD" size="343" />
-  <entry md5="db3981c212f20e5737d379fc79156faf" mtime="1446606689" name="_service" size="248" />
-</directory>

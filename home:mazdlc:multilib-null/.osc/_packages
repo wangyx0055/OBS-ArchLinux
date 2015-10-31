@@ -1,4 +1,0 @@
-<project name="home:mazdlc:multilib-null">
-  <package name="gcc-multilib" state=" " />
-  <package name="lib32-jack" state=" " />
-</project>

@@ -1,6 +1,6 @@
 # Maintainer: maz-1 <loveayawaka@gmail.com>
 _pkgname=deadbeef-qt
-pkgnae=$_pkgname-git
+pkgname=deadbeef-qt-git
 pkgver=7.3710be0
 pkgrel=1
 pkgdesc="Qt based user interface plugin for DeaDBeeF music player."

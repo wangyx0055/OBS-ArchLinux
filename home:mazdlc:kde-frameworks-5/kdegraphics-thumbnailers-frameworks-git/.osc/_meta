@@ -1,0 +1,5 @@
+<package name="kdegraphics-thumbnailers-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kdegraphics-thumbnailers-frameworks-git</title>
+  <description>Thumbnailers for various graphics file formats. KF5 Frameworks branch. (GIT version)</description>
+</package>
+

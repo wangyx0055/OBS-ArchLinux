@@ -1,5 +1,0 @@
-<package name="deadbeef-mpris2-plugin-hg" project="home:mazdlc:deadbeef-plugins">
-  <title>deadbeef-mpris2-plugin-hg</title>
-  <description>MPRISv2 plugin for the DeaDBeeF music player</description>
-</package>
-

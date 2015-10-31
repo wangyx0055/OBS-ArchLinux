@@ -1,0 +1,4 @@
+<directory name="deadbeef-plugins-psipublish" rev="2" srcmd5="c15da7016e4caba2a9f517e03bdcfa4f" vrev="2">
+  <entry md5="c8fc7ccda189d2596471576387ac8c36" mtime="1446995402" name="PKGBUILD" size="623" />
+  <entry md5="cfab279f1c90cb0f31e833487e5dbc5b" mtime="1446995153" name="psipublish.c" size="2963" />
+</directory>

@@ -1,6 +1,0 @@
-<directory name="kde-thumbnailer-blender-kf5" rev="4" srcmd5="00cb9a7a187ab842fde52bdc2ee41adc" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="45023b437dd63137628f525413371092" />
-  <entry md5="e800017339558296871937e38bd1a839" mtime="1446317340" name="PKGBUILD" size="1343" />
-  <entry md5="7a0a7028145796af7e6a5b045634610b" mtime="1446291714" name="_service" size="544" />
-  <entry md5="a560824b9150da6517bbb942ff1ee946" mtime="1446291716" name="port_to_qt5.patch" size="1752" />
-</directory>

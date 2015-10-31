@@ -1,0 +1,5 @@
+<package name="okular-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>okular-frameworks-git</title>
+  <description>Universal document viewer</description>
+</package>
+

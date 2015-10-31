@@ -1,0 +1,5 @@
+<package name="deadbeef-plugin-waveform-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugin-waveform-git</title>
+  <description>Waveform Seekbar Plugin for the DeaDBeeF audio player (development version)</description>
+</package>
+

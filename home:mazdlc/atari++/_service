@@ -2,6 +2,6 @@
   <service name="download_url">
     <param name="protocol">http</param>
     <param name="host">www.xl-project.com</param>
-    <param name="path">/download/atari++_1.73.tar.gz</param>
+    <param name="path">/download/atari++_1.80.tar.gz</param>
   </service>
 </services>

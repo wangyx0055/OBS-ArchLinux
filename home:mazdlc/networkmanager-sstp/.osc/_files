@@ -1,6 +1,6 @@
-<directory name="networkmanager-sstp" rev="9" srcmd5="2b671a85fd6c3744f7983a4f37785d18" vrev="9">
-  <serviceinfo code="succeeded" xsrcmd5="bf66c32291cf6edabd7f354316a90169" />
+<directory name="networkmanager-sstp" rev="14" srcmd5="dbe345ca3245064124a701e9f2356f10" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="d57ecb250e82e4eb0f3dd4dc473eb235" />
   <entry md5="c3d603388f25e153c9e5dfe11764d0ed" mtime="1446561309" name="PKGBUILD" size="968" />
   <entry md5="85438ed69b590d94e671fbbbb2c2a441" mtime="1446529581" name="_service" size="278" />
-  <entry md5="394d15dcd8339ebf56d15bc8563331aa" mtime="1446649940" name="bump.sh" size="836" />
+  <entry md5="2319ea3260ab6525f336b1fc8d8c3b5b" mtime="1447038810" name="bump.sh" size="847" />
 </directory>

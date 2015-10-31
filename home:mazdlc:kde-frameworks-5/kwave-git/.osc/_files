@@ -1,0 +1,7 @@
+<directory name="kwave-git" rev="2" srcmd5="30defc92a376d0ad41981e78a3e0aafe" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="8c60926ad9027ed3076888d4785cf19a" />
+  <entry md5="600f87127b30d2a27f6456f4452ef10e" mtime="1446825338" name="PKGBUILD" size="1371" />
+  <entry md5="a732b9ffc0201bdbb32ac51c0cd87114" mtime="1446790352" name="_service" size="401" />
+  <entry md5="7b4aff6280f4c32766e5dbc58e1b2a37" mtime="1446825293" name="find_mlt.patch" size="2781" />
+  <entry md5="033db899b810c1fe7172fad662d2ecd5" mtime="1446789856" name="kwave-git.install" size="229" />
+</directory>

@@ -1,5 +1,0 @@
-<directory name="kcm-wacomtablet-frameworks-git" rev="17" srcmd5="8853ed4737ade9245f01e0d85db8b552" vrev="17">
-  <serviceinfo code="succeeded" xsrcmd5="f57d9bb27665e1cfe01ba5ed3f96c6b6" />
-  <entry md5="97c81bb3cd5f575f520fb519b69c54c4" mtime="1446789801" name="PKGBUILD" size="960" />
-  <entry md5="c69fc8e0fbbb284812c9c26a24a4192a" mtime="1446790389" name="_service" size="453" />
-</directory>

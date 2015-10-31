@@ -1,0 +1,18 @@
+<services>
+  <service name="tar_scm">
+    <param name="scm">git</param>
+    <param name="url">git://github.com/cboxdoerfer/ddb_vu_meter.git</param>
+    <param name="versionformat">%cd.g%h</param>
+    <param name="filename">ddb_vu_meter</param>
+  </service>
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+  <service name="set_version" />
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">raw.githubusercontent.com</param>
+    <param name="path">/eimiss/arch_vu_meter_patch/master/arch_vu_meter_patch</param>
+  </service>
+</services>

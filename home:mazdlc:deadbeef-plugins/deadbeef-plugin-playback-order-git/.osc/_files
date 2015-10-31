@@ -1,0 +1,5 @@
+<directory name="deadbeef-plugin-playback-order-git" rev="1" srcmd5="112770e81950bfc5dde83ef84a67693a" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="52a9c434f3a9e8429018acdb51d5e07f" />
+  <entry md5="b3d56c451ccc5fd15011f915c639f091" mtime="1446996122" name="PKGBUILD" size="1612" />
+  <entry md5="a9dfe42bd2053343d22e8d37b42a14a3" mtime="1446996124" name="_service" size="427" />
+</directory>

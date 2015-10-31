@@ -1,6 +1,0 @@
-<directory name="kdevplatform-git" rev="7" srcmd5="bae07d9c4cabcd4b4597840b01f8fc03" vrev="7">
-  <serviceinfo code="succeeded" xsrcmd5="c478c1efa7be208d59c809369f1bdbdb" />
-  <entry md5="fab6370d4f7a2de24ce65a2ce7ff39ff" mtime="1446365876" name="PKGBUILD" size="1336" />
-  <entry md5="a452437de656d3c62384068d85e121c7" mtime="1446714298" name="_service" size="463" />
-  <entry md5="dec0a560e28c84159051c4195b2c0d51" mtime="1446365885" name="kdevplatform-git.install" size="148" />
-</directory>

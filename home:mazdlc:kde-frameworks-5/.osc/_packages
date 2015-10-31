@@ -1,0 +1,25 @@
+<project name="home:mazdlc:kde-frameworks-5">
+  <package name="audiothumbs-frameworks-git" state=" " />
+  <package name="extra-cmake-modules-git" state=" " />
+  <package name="ffmpegthumbs-git" state=" " />
+  <package name="kcm-wacomtablet-frameworks-git" state=" " />
+  <package name="kde-baseapps-git" state=" " />
+  <package name="kde-cdemu-manager-kf5" state=" " />
+  <package name="kde-thumbnailer-apk-kf5" state=" " />
+  <package name="kde-thumbnailer-blender-kf5" state=" " />
+  <package name="kdegraphics-thumbnailers-frameworks-git" state=" " />
+  <package name="kdevelop-git" state=" " />
+  <package name="kdevelop-pg-qt-git" state=" " />
+  <package name="kdevelop-python3-git" state=" " />
+  <package name="kdevplatform-git" state=" " />
+  <package name="kget-frameworks-git" state=" " />
+  <package name="kmozillahelper-frameworks" state=" " />
+  <package name="krdc-git" state=" " />
+  <package name="kwave-git" state=" " />
+  <package name="libkcddb-frameworks-git" state=" " />
+  <package name="libkdcraw-git" state=" " />
+  <package name="libkexiv2-git" state=" " />
+  <package name="okular-frameworks-git" state=" " />
+  <package name="soundkonverter-frameworks-git" state=" " />
+  <package name="yakuake-frameworks-git" state=" " />
+</project>

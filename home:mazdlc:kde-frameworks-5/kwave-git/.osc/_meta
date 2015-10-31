@@ -1,0 +1,5 @@
+<package name="kwave-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kwave-git</title>
+  <description>A sound editor for KDE. (GIT version)</description>
+</package>
+

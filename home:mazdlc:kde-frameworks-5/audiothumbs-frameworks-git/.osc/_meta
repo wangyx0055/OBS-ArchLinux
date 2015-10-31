@@ -1,0 +1,5 @@
+<package name="audiothumbs-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>audiothumbs-frameworks-git</title>
+  <description>Plugin for KDE file managers (Dolphin and Konqueror) to preview cover arts embedded in audio (MP3, FLAC, OGG, M4A) files tags as thumbnails.</description>
+</package>
+

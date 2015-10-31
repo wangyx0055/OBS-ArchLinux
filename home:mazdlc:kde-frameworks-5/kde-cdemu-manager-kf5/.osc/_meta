@@ -1,0 +1,5 @@
+<package name="kde-cdemu-manager-kf5" project="home:mazdlc:kde-frameworks-5">
+  <title>kde-cdemu-manager-kf5</title>
+  <description>KDE CDEmu Manager is a simple frontend for CDEmu.KF5 version</description>
+</package>
+

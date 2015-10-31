@@ -1,0 +1,5 @@
+<package name="kde-thumbnailer-apk-kf5" project="home:mazdlc:kde-frameworks-5">
+  <title>kde-thumbnailer-apk-kf5</title>
+  <description>Preview image generator plugin for Android Application Package files. KF5 Ver.</description>
+</package>
+

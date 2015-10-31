@@ -1,0 +1,5 @@
+<package name="ffmpegthumbs-git" project="home:mazdlc:kde-frameworks-5">
+  <title>ffmpegthumbs-git</title>
+  <description>FFmpeg-based thumbnail creator for video files</description>
+</package>
+

@@ -1,5 +1,5 @@
-<directory name="qbittorrent-qt5-git" rev="23" srcmd5="285827f4b7b67c8d405a0ec02d8e100e" vrev="23">
-  <serviceinfo code="succeeded" xsrcmd5="e4b34b68b52fcedae52d94575ef0f24f" />
+<directory name="qbittorrent-qt5-git" rev="24" srcmd5="baeb93a672de8e331a36564ade91c0ed" vrev="24">
+  <serviceinfo code="succeeded" xsrcmd5="30592973723f8efe3097f3a84cec11bb" />
   <entry md5="a10f8b842b601baf7eabfeb2da6a9b8d" mtime="1446328345" name="PKGBUILD" size="1332" />
   <entry md5="88b6893f4520ba4148f467abc4e5222c" mtime="1446899055" name="_service" size="420" />
   <entry md5="d4c2b9d72d6f97f3b7aae7f51ba495b5" mtime="1446328348" name="get_version.pri" size="72" />

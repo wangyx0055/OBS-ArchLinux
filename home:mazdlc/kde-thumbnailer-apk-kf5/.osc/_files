@@ -1,7 +1,0 @@
-<directory name="kde-thumbnailer-apk-kf5" rev="8" srcmd5="4d9d22954e4989800a81aa23cc2d315f" vrev="8">
-  <serviceinfo code="succeeded" xsrcmd5="e356c376fbdd9666da62f2958c1b1f4b" />
-  <entry md5="8fa97ef379402e7d93d78709fa5de41a" mtime="1446317340" name="PKGBUILD" size="1500" />
-  <entry md5="d0c5e0b47b70e2dcab8cc0884fc25217" mtime="1446290342" name="_service" size="522" />
-  <entry md5="b0f7586926a4994742595adc1ca35147" mtime="1446290344" name="kde-thumbnailer-apk-kf5.install" size="126" />
-  <entry md5="0c1dccca83fcdb69d006d901f4ecf5cd" mtime="1446290346" name="port_to_qt5.patch" size="1267" />
-</directory>

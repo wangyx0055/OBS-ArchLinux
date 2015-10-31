@@ -1,0 +1,5 @@
+<package name="deadbeef-plugin-quick-search-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugin-quick-search-git</title>
+  <description>Quick playlist search bar plugin for the DeaDBeeF audio player (development version)</description>
+</package>
+

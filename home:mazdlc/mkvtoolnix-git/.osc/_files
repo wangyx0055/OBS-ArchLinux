@@ -1,5 +1,5 @@
-<directory name="mkvtoolnix-git" rev="32" srcmd5="cf6b2ed59945dade28822b3061321766" vrev="32">
-  <serviceinfo code="succeeded" xsrcmd5="787b812f1ad5fa77b7a87ecbdcd5453b" />
+<directory name="mkvtoolnix-git" rev="44" srcmd5="be2554063a9e669e618932811b1dbf5d" vrev="44">
+  <serviceinfo code="succeeded" xsrcmd5="fe7bea1cdaf86634d664f30f75ce58ef" />
   <entry md5="c522716da211a41b1845650c63997ee0" mtime="1446901636" name="PKGBUILD" size="1277" />
   <entry md5="0ab3925f5602b12caf99db440b890793" mtime="1446901649" name="_service" size="502" />
 </directory>

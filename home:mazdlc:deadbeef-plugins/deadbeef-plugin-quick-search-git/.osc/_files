@@ -1,0 +1,5 @@
+<directory name="deadbeef-plugin-quick-search-git" rev="2" srcmd5="796dedb03782b92b162bb466af3d5825" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="ba00797582b71f86583a9655789b3277" />
+  <entry md5="a92597d70f85561aa04ad22d1735bd15" mtime="1446994674" name="PKGBUILD" size="1571" />
+  <entry md5="959d392f1b63d7d6976dfccd2990e927" mtime="1446994726" name="_service" size="423" />
+</directory>

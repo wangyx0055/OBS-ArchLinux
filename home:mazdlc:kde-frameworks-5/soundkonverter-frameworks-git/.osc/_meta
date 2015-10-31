@@ -1,0 +1,5 @@
+<package name="soundkonverter-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>soundkonverter-frameworks-git</title>
+  <description>Front-end to various audio converters</description>
+</package>
+

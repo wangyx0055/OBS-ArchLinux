@@ -1,0 +1,5 @@
+<package name="deadbeef-decast-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-decast-git</title>
+  <description>Podcast subscription plugin for DeaDBeeF audio player.</description>
+</package>
+

@@ -1,5 +1,0 @@
-<directory name="deadbeef-mpris2-plugin-hg" rev="1" srcmd5="80cb68943b41e0bab2be75b53ec7c6d0" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="acbe46cc01993cfcd4e40a80f9c5dbfd" />
-  <entry md5="58a9c4241aa829d747085b53c26e1312" mtime="1446981645" name="PKGBUILD" size="665" />
-  <entry md5="5844e82d6d605a42aa4429425a5a09a3" mtime="1446626516" name="_service" size="478" />
-</directory>

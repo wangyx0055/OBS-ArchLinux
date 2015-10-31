@@ -1,0 +1,5 @@
+<package name="libkdcraw-git" project="home:mazdlc:kde-frameworks-5">
+  <title>libkdcraw-git</title>
+  <description>A C++ interface used to decode RAW picture</description>
+</package>
+

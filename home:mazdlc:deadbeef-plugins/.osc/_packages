@@ -2,7 +2,6 @@
   <package name="deadbeef-bs2b-git" state=" " />
   <package name="deadbeef-git" state=" " />
   <package name="deadbeef-jack-git" state=" " />
-  <package name="deadbeef-mpris2-plugin-hg" state=" " />
   <package name="deadbeef-plugin-customizabletb-git" state=" " />
   <package name="deadbeef-plugin-fb-git" state=" " />
   <package name="deadbeef-plugin-infobar-ng-hg" state=" " />
@@ -14,4 +13,13 @@
   <package name="deadbeef-opus-git" state=" " />
   <package name="libbs2b" state=" " />
   <package name="deadbeef-qt-git" state=" " />
+  <package name="deadbeef-decast-git" state=" " />
+  <package name="deadbeef-gnome-mmkeys-git" state=" " />
+  <package name="deadbeef-plugin-musical-spectrum-git" state=" " />
+  <package name="deadbeef-plugin-quick-search-git" state=" " />
+  <package name="deadbeef-plugin-vu-meter-git" state=" " />
+  <package name="deadbeef-plugin-waveform-git" state=" " />
+  <package name="deadbeef-plugins-psipublish" state=" " />
+  <package name="deadbeef-plugin-playback-order-git" state=" " />
+  <package name="deadbeef-plugin-playback-status-git" state=" " />
 </project>

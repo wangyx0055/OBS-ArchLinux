@@ -1,0 +1,5 @@
+<package name="kdevelop-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kdevelop-git</title>
+  <description>A C/C++ development environment for KDE. (GIT Version)</description>
+</package>
+

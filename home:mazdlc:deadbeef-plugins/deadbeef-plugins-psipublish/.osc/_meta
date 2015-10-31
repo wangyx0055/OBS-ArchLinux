@@ -1,0 +1,5 @@
+<package name="deadbeef-plugins-psipublish" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugins-psipublish</title>
+  <description>Plugin for DeaDBeeF to publish tune in Psi/Psi+</description>
+</package>
+

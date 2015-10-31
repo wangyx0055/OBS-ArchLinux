@@ -1,5 +1,0 @@
-<directory name="opencl-headers" rev="428b780c950ed8f43f609470fb0322c9" srcmd5="428b780c950ed8f43f609470fb0322c9">
-  <linkinfo baserev="7fd949ae8e2c90e06c387abd5199c1cc" lsrcmd5="4c6ee326836390940e51ed6d7567dcc3" package="opencl-headers" project="home:mazdlc:missing" srcmd5="7fd949ae8e2c90e06c387abd5199c1cc" />
-  <entry md5="1651559f2edc2cf45d598ee6bde5b1f3" mtime="1446449478" name="PKGBUILD" size="348" />
-  <entry md5="28103236b428b1c645418c02700601e5" mtime="1446449275" name="_service" size="247" />
-</directory>

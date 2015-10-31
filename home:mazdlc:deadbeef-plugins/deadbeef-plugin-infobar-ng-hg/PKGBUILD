@@ -35,8 +35,8 @@ package_deadbeef-plugin-infobar-ng-gtk3-hg() {
 
 package_deadbeef-plugin-infobar-ng-hg() {
   pkgdesc=$_pkgdesc' Install both GTK2 and GTK3 version.'
-  depends=('deadbeef-plugin-infobar-ng-gtk3' 'deadbeef-plugin-infobar-ng-gtk2')
-  provides=deadbeef-plugin-infobar-ng-gtk3
-  conflicts=deadbeef-plugin-infobar-ng-gtk3
+  depends=('deadbeef-plugin-infobar-ng-gtk3-hg' 'deadbeef-plugin-infobar-ng-gtk2-hg')
+  provides=deadbeef-plugin-infobar-ng
+  conflicts=deadbeef-plugin-infobar-ng
   true
 }

@@ -1,0 +1,5 @@
+<package name="deadbeef-plugin-playback-status-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugin-playback-status-git</title>
+  <description>Playback Status Widget for the DeaDBeeF Audio Player  (development version).</description>
+</package>
+

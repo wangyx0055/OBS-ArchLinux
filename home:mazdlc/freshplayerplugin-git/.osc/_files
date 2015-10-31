@@ -1,5 +1,5 @@
-<directory name="freshplayerplugin-git" rev="18" srcmd5="971f77c2020b7f46e51db785afd4ec74" vrev="18">
-  <serviceinfo code="succeeded" xsrcmd5="91751067bb81ada37b13cc2472e05706" />
+<directory name="freshplayerplugin-git" rev="25" srcmd5="7e499fc4b8ee37fe4d189186ae088088" vrev="25">
+  <serviceinfo code="succeeded" xsrcmd5="13131e99d13cee0fc2df00a45bec71c5" />
   <entry md5="7ee0c355b63def90aaa0c2de3e0de7ee" mtime="1446519350" name="PKGBUILD" size="1527" />
   <entry md5="2dca4c4c27e4e1ad8ed40d06baeacc0d" mtime="1446714241" name="_service" size="474" />
   <entry md5="305e2082cc8687ff8621f310baf625e3" mtime="1428180163" name="freshplayerplugin-git.install" size="243" />

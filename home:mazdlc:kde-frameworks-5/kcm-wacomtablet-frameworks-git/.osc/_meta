@@ -1,0 +1,5 @@
+<package name="kcm-wacomtablet-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kcm-wacomtablet-frameworks-git</title>
+  <description>KDE GUI for the Wacom Linux Drivers (KF5 branch)</description>
+</package>
+

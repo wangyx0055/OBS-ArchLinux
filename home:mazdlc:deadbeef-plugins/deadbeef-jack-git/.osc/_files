@@ -1,5 +1,5 @@
-<directory name="deadbeef-jack-git" rev="1" srcmd5="5a0ab2acb4959ac3252fb2de61c2c109" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="c1729ff9b18d12b9efec7b7303dcc445" />
+<directory name="deadbeef-jack-git" rev="2" srcmd5="5d4acc5409f6ae76dd9f0a657eba864e" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="c3aa1f6c9ce8b397766a53b049a558e9" />
   <entry md5="a034b6a74622b8470b3a9386c6f7f2cc" mtime="1446981535" name="PKGBUILD" size="652" />
   <entry md5="15cfed53c971e30da91a7e1f01e947f3" mtime="1446714087" name="_service" size="448" />
   <entry md5="7d77973cbecb422f189f59dc3025a0fd" mtime="1446327762" name="buildfix.diff" size="341" />

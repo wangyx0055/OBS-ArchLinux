@@ -1,0 +1,5 @@
+<package name="kde-baseapps-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kde-baseapps-git</title>
+  <description>Collection of applications used for file and Internet browsing.</description>
+</package>
+

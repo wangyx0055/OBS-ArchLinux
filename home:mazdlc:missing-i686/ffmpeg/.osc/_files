@@ -1,6 +1,0 @@
-<directory name="ffmpeg" rev="5" srcmd5="acc6f5ce1c819e24a3a7a0a2fd06a9cd" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="67736ab8b6c58359112bd45089104e8e" />
-  <entry md5="f9f2087adeefb40dea04e77cbc2e25c0" mtime="1446607169" name="PKGBUILD" size="700" />
-  <entry md5="c032f935a973ac8f3ffe15a2ca292593" mtime="1446607185" name="_service" size="236" />
-  <entry md5="1e65a2c96522fd6644343728cf7f6954" mtime="1446611110" name="bump.sh" size="758" />
-</directory>

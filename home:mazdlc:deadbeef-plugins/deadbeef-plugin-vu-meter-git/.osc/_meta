@@ -1,0 +1,5 @@
+<package name="deadbeef-plugin-vu-meter-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-plugin-vu-meter-git</title>
+  <description>Retro VU Meter Plugin for the DeaDBeeF audio player (development version)</description>
+</package>
+

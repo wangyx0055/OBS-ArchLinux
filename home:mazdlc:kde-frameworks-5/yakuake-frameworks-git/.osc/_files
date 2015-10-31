@@ -1,0 +1,6 @@
+<directory name="yakuake-frameworks-git" rev="2" srcmd5="4cb8c0b041babdf7bec57388e692f70d" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="fb450b1c6e2c57fb3ca2690ae4d9eae1" />
+  <entry md5="2f8951bcac84adda7dfa062707f35add" mtime="1446789889" name="PKGBUILD" size="952" />
+  <entry md5="32092e927b4b6f3085edca3f1a5df0b2" mtime="1446790281" name="_service" size="447" />
+  <entry md5="68d2585c3e92f888c37c1df56d42d644" mtime="1446789894" name="yakuake-frameworks-git.install" size="177" />
+</directory>

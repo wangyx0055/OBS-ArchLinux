@@ -1,0 +1,5 @@
+<package name="yakuake-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>yakuake-frameworks-git</title>
+  <description>A drop-down terminal emulator based on KDE Konsole technology. KF5 Frameworks branch. (GIT version)</description>
+</package>
+

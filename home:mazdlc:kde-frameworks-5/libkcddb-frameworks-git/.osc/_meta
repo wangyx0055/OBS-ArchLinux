@@ -1,0 +1,5 @@
+<package name="libkcddb-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>libkcddb-frameworks-git</title>
+  <description>KDE CDDB library. KF5 Frameworks branch (GIT version)</description>
+</package>
+
