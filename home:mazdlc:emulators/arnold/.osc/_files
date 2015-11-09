@@ -1,0 +1,8 @@
+<directory name="arnold" rev="2" srcmd5="440c3b3a050784faf8a074baf5092842" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="ab4a98114b0210f714659589d3370265" />
+  <entry md5="bc828b2bf936c83cbb4575146af631e2" mtime="1446558514" name="PKGBUILD" size="1046" />
+  <entry md5="10ffa176ed318e8a914a967c0d61b0af" mtime="1446518718" name="_service" size="204" />
+  <entry md5="d9ef043bfb472c30b58f858c4fbd80ef" mtime="1446519111" name="arnold.desktop" size="170" />
+  <entry md5="7914c93646818037948eebba293520bc" mtime="1446519112" name="arnold.png" size="2754" />
+  <entry md5="146ac5893b236825c7984b1b0db6329c" mtime="1446808292" name="bump.sh" size="441" />
+</directory>

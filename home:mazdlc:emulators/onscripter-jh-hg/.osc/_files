@@ -1,0 +1,5 @@
+<directory name="onscripter-jh-hg" rev="2" srcmd5="fd4e972e5343abeec5b69d1db84ead08" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="31fc44772ee3a8eadfad6e44c66e7ae3" />
+  <entry md5="6bc779bbe4160474761c9257f2ac4ca3" mtime="1446306050" name="PKGBUILD" size="1064" />
+  <entry md5="09ca5942054f517c00e627df85558207" mtime="1446305762" name="_service" size="487" />
+</directory>

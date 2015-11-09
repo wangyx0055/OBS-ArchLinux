@@ -1,0 +1,5 @@
+<package name="arnold" project="home:mazdlc:emulators">
+  <title>arnold</title>
+  <description>An Amstrad CPC emulator using SDL with a GTK+ interface</description>
+</package>
+

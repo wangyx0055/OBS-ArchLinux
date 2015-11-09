@@ -1,0 +1,6 @@
+<package name="mkxp-git" project="home:mazdlc:emulators">
+  <title>mkxp-git</title>
+  <description>Open source implementation of the Ruby Game Scripting System of RPG Maker 
+XP/VX/VX Ace</description>
+</package>
+

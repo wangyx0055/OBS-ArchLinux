@@ -1,0 +1,5 @@
+<package name="fuse-emulator" project="home:mazdlc:emulators">
+  <title>fuse-emulator</title>
+  <description>ZX Spectrum emulator.</description>
+</package>
+

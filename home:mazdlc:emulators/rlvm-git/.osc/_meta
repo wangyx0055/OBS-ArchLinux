@@ -1,0 +1,5 @@
+<package name="rlvm-git" project="home:mazdlc:emulators">
+  <title>rlvm-git</title>
+  <description>RealLive clone for Linux and OSX. Git version.</description>
+</package>
+

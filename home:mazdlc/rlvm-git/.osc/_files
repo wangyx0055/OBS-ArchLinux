@@ -1,6 +1,0 @@
-<directory name="rlvm-git" rev="39" srcmd5="4c998a4a8c4c8faeae02e804a3b1217f" vrev="39">
-  <serviceinfo code="succeeded" xsrcmd5="404d85ac441a3f7be4681bfe627f573c" />
-  <entry md5="165c4fb98f8b9155e446d29cc814f8d1" mtime="1446319142" name="PKGBUILD" size="1211" />
-  <entry md5="90f2951303bb8231c41268d792bc6ce8" mtime="1446714450" name="_service" size="448" />
-  <entry md5="caf806e9f037ba95a747a0aefde7fd9d" mtime="1446317790" name="detect_guichan.patch" size="637" />
-</directory>

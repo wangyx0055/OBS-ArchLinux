@@ -1,0 +1,5 @@
+<package name="reicast-git" project="home:mazdlc:emulators">
+  <title>reicast-git</title>
+  <description>A multiplatform Sega Dreamcast emulator (development version)</description>
+</package>
+

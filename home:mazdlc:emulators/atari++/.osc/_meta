@@ -1,0 +1,5 @@
+<package name="atari++" project="home:mazdlc:emulators">
+  <title>atari++</title>
+  <description>An emulator of Atari 400/800/400XL/800XL/130XE/5200</description>
+</package>
+

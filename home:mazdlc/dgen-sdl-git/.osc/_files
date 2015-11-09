@@ -1,5 +1,0 @@
-<directory name="dgen-sdl-git" rev="16" srcmd5="4489d58ce4635c71778362794bc6d376" vrev="16">
-  <serviceinfo code="succeeded" xsrcmd5="2d13529ddf2d87341224a5060f2dc513" />
-  <entry md5="69e2fc8de6c9a0d18c8e3986677e3a64" mtime="1446521600" name="PKGBUILD" size="631" />
-  <entry md5="4cb8ea38ef4c68988e43a9ed4ace49a3" mtime="1446714180" name="_service" size="464" />
-</directory>

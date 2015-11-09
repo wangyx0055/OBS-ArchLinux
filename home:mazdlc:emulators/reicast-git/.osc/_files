@@ -1,0 +1,6 @@
+<directory name="reicast-git" rev="2" srcmd5="e5c0c01e975b4e2a973e17f120c34f9f" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="0af421d95914ff2ed3f23195261c41a8" />
+  <entry md5="42e94a4f7629f3b6f4886dd3d14b278a" mtime="1447044176" name="PKGBUILD" size="845" />
+  <entry md5="abbe7e7a6a2cea6a15d698a5755fba9b" mtime="1447044179" name="_service" size="417" />
+  <entry md5="bb874c3846562ae26d15fa27ef3aeafe" mtime="1447044180" name="revert_changes.patch" size="17546" />
+</directory>

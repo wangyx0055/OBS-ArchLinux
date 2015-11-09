@@ -1,0 +1,6 @@
+<directory name="openmsx-git" rev="2" srcmd5="e2ab5b2346c6a1ee68d6f71b8672143a" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="4d9a3be07bac4365f7010562584cdc07" />
+  <entry md5="796f4abe42d53998d6b1b75198981cb3" mtime="1446869170" name="PKGBUILD" size="1401" />
+  <entry md5="c787875072df2a5b06951237daeafbf5" mtime="1446869171" name="_service" size="449" />
+  <entry md5="e5944e8e7a8162be362bd6f3190e65d0" mtime="1446869173" name="openmsx.install" size="538" />
+</directory>

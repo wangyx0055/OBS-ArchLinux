@@ -1,0 +1,7 @@
+<package name="openmsx-git" project="home:mazdlc:emulators">
+  <title>openmsx-git</title>
+  <description> the MSX emulator that aims for perfection&#13;
+http://openmsx.org&#13;
+</description>
+</package>
+

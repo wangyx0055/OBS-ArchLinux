@@ -1,0 +1,5 @@
+<package name="fceux-svn" project="home:mazdlc:emulators">
+  <title>fceux-svn</title>
+  <description>Fast and ultra-compatible NES/Famicom emulator with SDL, OpenGL and SVGALIB support</description>
+</package>
+

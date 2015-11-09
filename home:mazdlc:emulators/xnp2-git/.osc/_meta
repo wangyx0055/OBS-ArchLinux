@@ -1,0 +1,5 @@
+<package name="xnp2-git" project="home:mazdlc:emulators">
+  <title>xnp2-git</title>
+  <description>X Neko Project II, a PC-9801 emulator</description>
+</package>
+

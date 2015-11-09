@@ -1,0 +1,5 @@
+<package name="easyrpg-player-git" project="home:mazdlc:emulators">
+  <title>easyrpg-player-git</title>
+  <description>FLOSS RPG Maker 2000/2003 and EasyRPG games interpreter (development version)</description>
+</package>
+

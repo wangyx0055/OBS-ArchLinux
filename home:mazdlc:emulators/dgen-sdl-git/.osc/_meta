@@ -1,0 +1,5 @@
+<package name="dgen-sdl-git" project="home:mazdlc:emulators">
+  <title>dgen-sdl-git</title>
+  <description>Portable Sega Genesis/Mega Drive emulator</description>
+</package>
+

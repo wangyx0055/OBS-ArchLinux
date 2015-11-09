@@ -1,0 +1,8 @@
+<directory name="xsystem35" rev="2" srcmd5="cc3f6186fa65be5edf18a59d45730978" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="83c983fe212afbb7559a23a6e8418bc3" />
+  <entry md5="2d7987f5cb1216a00591ec50fee3ee9d" mtime="1446315747" name="01_change_conflict_define.patch" size="978" />
+  <entry md5="c7a3255d9a79563cb34d8dcb8858417f" mtime="1446315749" name="02_use_utf8.patch" size="4059" />
+  <entry md5="403075825ae1eae1e389629d1cec2999" mtime="1446315753" name="03_remove_libltdl.patch" size="1302" />
+  <entry md5="1743729b1f95423f19a66f63f8ada771" mtime="1446636419" name="PKGBUILD" size="1314" />
+  <entry md5="7b6ca8118fb2d25ab00ed47a38463160" mtime="1446315760" name="_service" size="247" />
+</directory>

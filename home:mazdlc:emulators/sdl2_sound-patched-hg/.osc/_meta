@@ -1,0 +1,6 @@
+<package name="sdl2_sound-patched-hg" project="home:mazdlc:emulators">
+  <title>sdl2_sound-patched-hg</title>
+  <description>A library to decode several popular sound file formats, patched for SDL2, 
+pkg-config and ima-adpcm support</description>
+</package>
+

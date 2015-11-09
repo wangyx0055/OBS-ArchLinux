@@ -5,13 +5,9 @@
   <package name="gimp-painter-git" state=" " />
   <package name="kmozillahelper-frameworks" state=" " />
   <package name="libaacplus" state=" " />
-  <package name="mkxp-git" state=" " />
   <package name="myfbterm" state=" " />
-  <package name="onscripter-jh-hg" state=" " />
   <package name="qarma-git" state=" " />
   <package name="qbittorrent-qt5-git" state=" " />
-  <package name="rlvm-git" state=" " />
-  <package name="sdl2_sound-patched-hg" state=" " />
   <package name="steinberg-asio" state=" " />
   <package name="twolame" state=" " />
   <package name="unshield-git" state=" " />
@@ -19,9 +15,6 @@
   <package name="vo-amrwbenc" state=" " />
   <package name="wine-gaming-nine" state=" " />
   <package name="wineasio" state=" " />
-  <package name="xsystem35" state=" " />
-  <package name="easyrpg-player-git" state=" " />
-  <package name="liblcf-git" state=" " />
   <package name="okular-frameworks-git" state=" " />
   <package name="vim-qt-git" state=" " />
   <package name="vhba-dkms" state=" " />
@@ -31,15 +24,10 @@
   <package name="edb-debugger-git" state=" " />
   <package name="wireshark-git" state=" " />
   <package name="libsmi" state=" " />
-  <package name="arnold" state=" " />
-  <package name="atari++" state=" " />
   <package name="beignet" state=" " />
   <package name="blop-lv2" state=" " />
   <package name="collada-dom-mitsuba" state=" " />
-  <package name="dgen-sdl-git" state=" " />
-  <package name="fceux-svn" state=" " />
   <package name="freshplayerplugin-git" state=" " />
-  <package name="fuse-emulator" state=" " />
   <package name="mitsuba-hg" state=" " />
   <package name="n2n-git" state=" " />
   <package name="networkmanager-l2tp" state=" " />
@@ -54,11 +42,9 @@
   <package name="waifu2x-converter-qt-git" state=" " />
   <package name="xf86-video-ati-git" state=" " />
   <package name="leet-plugins" state=" " />
-  <package name="libspectrum" state=" " />
   <package name="prelink" state=" " />
   <package name="qarma-link" state=" " />
   <package name="festige" state=" " />
-  <package name="xnp2-git" state=" " />
   <package name="nvenc-api" state=" " />
   <package name="avxsynth-git" state=" " />
   <package name="shine" state=" " />
@@ -75,7 +61,6 @@
   <package name="libtorrent-pyro-git" state=" " />
   <package name="rtorrent-pyro-git" state=" " />
   <package name="rutorrent-git" state=" " />
-  <package name="openmsx-git" state=" " />
   <package name="qtermwidget-git" state=" " />
   <package name="scrub-git" state=" " />
   <package name="sfarklib-git" state=" " />
@@ -104,5 +89,4 @@
   <package name="libqxt" state=" " />
   <package name="mp4fpsmod-git" state=" " />
   <package name="notepadqq-git" state=" " />
-  <package name="reicast-git" state=" " />
 </project>

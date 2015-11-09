@@ -1,9 +1,0 @@
-<directory name="sdl2_sound-patched-hg" rev="14" srcmd5="b41bd18689c2ad22bbf287314d1266ae" vrev="14">
-  <serviceinfo code="succeeded" xsrcmd5="5aba2b3d6e99a63a8c2014944a02da8c" />
-  <entry md5="bcd8eefb9e6673272f93a20c9ca2b484" mtime="1446302707" name="PKGBUILD" size="1858" />
-  <entry md5="4431e829d88c9f1891199822169bf1e1" mtime="1446305076" name="_service" size="456" />
-  <entry md5="afb97f8a627f42284065904b1a9dcd10" mtime="1446302262" name="sdl_sound-change_libname.patch" size="1379" />
-  <entry md5="d2ac2cd2bcb90df4d53e2c8313a3c2ea" mtime="1446300048" name="sdl_sound-ima-adpcm.patch" size="10839" />
-  <entry md5="497b68b9d25b78523fc2a25546cd4653" mtime="1446304373" name="sdl_sound-pkgconfig.patch" size="1500" />
-  <entry md5="19166f5470369fc582209d37a680a7e6" mtime="1446300051" name="sdl_sound-renamed-physfs-export.patch" size="757" />
-</directory>

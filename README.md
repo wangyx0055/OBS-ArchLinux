@@ -11,6 +11,11 @@ Open build service files for Arch Linux
 SigLevel = Never
 Server =http://download.opensuse.org/repositories/home:/mazdlc/Arch_Extra/$arch
 
+# Emulators/Game Runtime
+[home_mazdlc_emulators_Arch_Extra]
+SigLevel = Never
+Server = http://download.opensuse.org/repositories/home:/mazdlc:/emulators/Arch_Extra/$arch
+
 # KDE5 Packages (Unstable branch)
 [home_mazdlc_kde-frameworks-5_Arch_Extra]
 SigLevel = Never

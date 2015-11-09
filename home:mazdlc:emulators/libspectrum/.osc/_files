@@ -1,0 +1,6 @@
+<directory name="libspectrum" rev="2" srcmd5="83a3501a4fe925d38005407e9f20d3f9" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="6a92d6bdb4d9309a08bcb6bc025fa119" />
+  <entry md5="6d7ef36b287889ef46c8bb029a06a31f" mtime="1446557285" name="PKGBUILD" size="611" />
+  <entry md5="6e2564e351d3d851b2a2995ae499d1fb" mtime="1446526499" name="_service" size="247" />
+  <entry md5="c611638603f9676b6d53974ec1766b30" mtime="1446597222" name="bump.sh" size="531" />
+</directory>

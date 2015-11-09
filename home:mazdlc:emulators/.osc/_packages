@@ -1,0 +1,18 @@
+<project name="home:mazdlc:emulators">
+  <package name="arnold" state=" " />
+  <package name="atari++" state=" " />
+  <package name="dgen-sdl-git" state=" " />
+  <package name="easyrpg-player-git" state=" " />
+  <package name="fceux-svn" state=" " />
+  <package name="fuse-emulator" state=" " />
+  <package name="liblcf-git" state=" " />
+  <package name="libspectrum" state=" " />
+  <package name="mkxp-git" state=" " />
+  <package name="onscripter-jh-hg" state=" " />
+  <package name="openmsx-git" state=" " />
+  <package name="reicast-git" state=" " />
+  <package name="rlvm-git" state=" " />
+  <package name="sdl2_sound-patched-hg" state=" " />
+  <package name="xnp2-git" state=" " />
+  <package name="xsystem35" state=" " />
+</project>

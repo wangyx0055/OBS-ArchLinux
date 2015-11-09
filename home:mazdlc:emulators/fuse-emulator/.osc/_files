@@ -1,0 +1,8 @@
+<directory name="fuse-emulator" rev="2" srcmd5="4900ade339019d3253ba321f1bac07e5" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="debe6ed4141097d74b55de863056880c" />
+  <entry md5="2fce98383936323716822fb1440ee6f6" mtime="1446557200" name="PKGBUILD" size="1247" />
+  <entry md5="ee08d55e1eb6d5aaf18c780b038a71fa" mtime="1446519752" name="_service" size="240" />
+  <entry md5="639e6020ba49e5a470602e2f53c2328b" mtime="1446597181" name="bump.sh" size="482" />
+  <entry md5="0abe9522e8d0bcfa51997dbd6a602197" mtime="1446529357" name="fuse-emulator.desktop" size="196" />
+  <entry md5="68ad0c930fb246910e486f65d6b18d10" mtime="1446529358" name="fuse-emulator.install" size="215" />
+</directory>
