@@ -1,0 +1,5 @@
+<package name="libkface-git" project="home:mazdlc:kde-frameworks-5">
+  <title>libkface-git</title>
+  <description>A Qt/C++ wrapper around LibFace library to perform face recognition and detection over pictures</description>
+</package>
+

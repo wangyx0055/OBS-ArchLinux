@@ -1,0 +1,6 @@
+<directory name="libkipi-git" rev="13" srcmd5="a3129c16043dc9756118e28946ecad8a" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="8a9e50a18bc4692c281582202e4d0242" />
+  <entry md5="e981051d0acc026c353f726dcef3dbe6" mtime="1447057305" name="PKGBUILD" size="954" />
+  <entry md5="ec34e385f9692213aec848701bef3f3f" mtime="1447057308" name="_service" size="405" />
+  <entry md5="7216eba6a39f9e05d3cb7349ef822dde" mtime="1446363930" name="libkipi-git.install" size="202" />
+</directory>

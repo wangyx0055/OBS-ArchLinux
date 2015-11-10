@@ -1,6 +1,6 @@
-<directory name="soundkonverter-frameworks-git" rev="2" srcmd5="dfe6be3690b59cc7c1ce1d6f7d9d072c" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="9a298a140855159424048b6f87a87838" />
+<directory name="soundkonverter-frameworks-git" rev="13" srcmd5="b8bc373a876a08a2ee61d384f9ea77fb" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="ad4a2e87fb26d7f1469a130d72f165e2" />
   <entry md5="ace77d6862be32bfa876b777c55783d6" mtime="1446789879" name="PKGBUILD" size="2110" />
-  <entry md5="d6d84c21b596e4bf6597e689e9a520c4" mtime="1446790360" name="_service" size="463" />
+  <entry md5="6a5b741a45a3db4eb856197f3e618eb4" mtime="1447118119" name="_service" size="464" />
   <entry md5="936d2ba1544c8c42e90f88a7e4432589" mtime="1446789884" name="soundkonverter-frameworks-git.install" size="150" />
 </directory>

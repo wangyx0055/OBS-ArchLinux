@@ -1,5 +1,5 @@
-<directory name="sdl2_sound-patched-hg" rev="2" srcmd5="d6a35aa7b3855ba35d5479b18648add5" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="fb6f8e4d1476175fe65ff95971fe099c" />
+<directory name="sdl2_sound-patched-hg" rev="12" srcmd5="a06c1d272434d133ad655632a9a9745d" vrev="12">
+  <serviceinfo code="succeeded" xsrcmd5="ab39c9a3d7f8c73b907af07560b794ab" />
   <entry md5="bcd8eefb9e6673272f93a20c9ca2b484" mtime="1446302707" name="PKGBUILD" size="1858" />
   <entry md5="4431e829d88c9f1891199822169bf1e1" mtime="1446305076" name="_service" size="456" />
   <entry md5="afb97f8a627f42284065904b1a9dcd10" mtime="1446302262" name="sdl_sound-change_libname.patch" size="1379" />

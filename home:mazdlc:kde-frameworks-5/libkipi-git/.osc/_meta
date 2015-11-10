@@ -1,0 +1,5 @@
+<package name="libkipi-git" project="home:mazdlc:kde-frameworks-5">
+  <title>libkipi-git</title>
+  <description>An interface to use kipi-plugins from a KDE application</description>
+</package>
+

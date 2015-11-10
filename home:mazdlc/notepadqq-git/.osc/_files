@@ -1,5 +1,5 @@
-<directory name="notepadqq-git" rev="1" srcmd5="753a8c0650d4ba70c8e74881c3de8088" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="dde50b63cc28f8fb8dbd6d1ae4dbe79e" />
+<directory name="notepadqq-git" rev="21" srcmd5="168e379d7b89a4215ad0d47aaab5425b" vrev="21">
+  <serviceinfo code="succeeded" xsrcmd5="250cd0d49246b8061964386ddba7340a" />
   <entry md5="3e60aeaa28bff93c841329877f28d37a" mtime="1446988957" name="PKGBUILD" size="875" />
   <entry md5="6930aeb6903fa8dfde252df455d5d295" mtime="1446988959" name="_service" size="414" />
   <entry md5="8ab29fd54952c3d44a1a3ec681fb0a8b" mtime="1418688588" name="notepadqq.install" size="589" />

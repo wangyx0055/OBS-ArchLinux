@@ -1,5 +1,5 @@
-<directory name="discount-git" rev="3" srcmd5="b6a6220e50d6533c5a4a7a6e4efb9cdc" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="e497f4727c1c00b533e5b08727cc3cce" />
+<directory name="discount-git" rev="18" srcmd5="67b103f8fb747ea5b4182bdafaa90b3c" vrev="18">
+  <serviceinfo code="succeeded" xsrcmd5="0415c4a76f32b4b5a0c92543a568df7a" />
   <entry md5="632b971686d40dee9d04aa2b12c3c474" mtime="1446729149" name="PKGBUILD" size="1110" />
   <entry md5="00d8839a3138fb3c0715825b510079c0" mtime="1446729389" name="_service" size="402" />
   <entry md5="744609beab58d358a2109e622927f379" mtime="1446729100" name="no-ldconfig.patch" size="422" />

@@ -1,5 +1,5 @@
-<directory name="antileech-git" rev="7" srcmd5="f1d911573aa7fe35481ed88001e04da8" vrev="7">
-  <serviceinfo code="succeeded" xsrcmd5="d70fb0c026fe511ed8f918b2c2efe8cc" />
+<directory name="antileech-git" rev="30" srcmd5="23d1dd4f17d554efb8633ad31665a1c9" vrev="30">
+  <serviceinfo code="succeeded" xsrcmd5="5f942c21996652a08516a04269587bd3" />
   <entry md5="ba3b71150ff0179b3007d49c602d1112" mtime="1446877943" name="PKGBUILD" size="781" />
   <entry md5="ca4f913865b1d4136cff0cdb34bc002a" mtime="1446877945" name="_service" size="461" />
 </directory>

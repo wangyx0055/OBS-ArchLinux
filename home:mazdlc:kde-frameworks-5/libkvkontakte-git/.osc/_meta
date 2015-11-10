@@ -1,0 +1,5 @@
+<package name="libkvkontakte-git" project="home:mazdlc:kde-frameworks-5">
+  <title>libkvkontakte-git</title>
+  <description>Library implementing VKontakte.ru API. (GIT version)</description>
+</package>
+

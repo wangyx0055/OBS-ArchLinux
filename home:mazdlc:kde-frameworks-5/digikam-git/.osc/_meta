@@ -1,0 +1,5 @@
+<package name="digikam-git" project="home:mazdlc:kde-frameworks-5">
+  <title>digikam-git</title>
+  <description>Digital photo management application for KDE</description>
+</package>
+

@@ -27,15 +27,15 @@ build() {
 package_deadbeef-plugin-quick-search-gtk2-git() {
   pkgdesc=$_pkgdesc" GTK2 Ver."
   depends=('deadbeef' 'gtk2')
-  provides=deadbeef-plugin-quick-search-gtk2
-  conflicts=deadbeef-plugin-quick-search-gtk2
+  provides=(deadbeef-plugin-quick-search-gtk2 deadbeef-quick-search-gtk2)
+  conflicts=(deadbeef-plugin-quick-search-gtk2 deadbeef-quick-search-gtk2)
   install -D -v -c $srcdir/$_gitname-$pkgver/gtk2/ddb_misc_quick_search_GTK2.so $pkgdir/usr/lib/deadbeef/ddb_misc_quick_search_GTK2.so
 }
 package_deadbeef-plugin-quick-search-gtk3-git() {
   pkgdesc=$_pkgdesc" GTK3 Ver."
   depends=('deadbeef' 'gtk3')
-  provides=deadbeef-plugin-quick-search-gtk3
-  conflicts=deadbeef-plugin-quick-search-gtk3
+  provides=(deadbeef-plugin-quick-search-gtk3 deadbeef-quick-search-gtk3)
+  conflicts=(deadbeef-plugin-quick-search-gtk3 deadbeef-quick-search-gtk3)
   install -D -v -c $srcdir/$_gitname-$pkgver/gtk3/ddb_misc_quick_search_GTK3.so $pkgdir/usr/lib/deadbeef/ddb_misc_quick_search_GTK3.so
 }
 

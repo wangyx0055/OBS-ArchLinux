@@ -1,0 +1,6 @@
+<directory name="marble-git" rev="7" srcmd5="ad457ae014cb80ee30a0c562e7d5a66a" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="7f76589ab91eceb246995202b018271b" />
+  <entry md5="294ea1bbb3b78b09ddef1605c1de471d" mtime="1447079266" name="PKGBUILD" size="3093" />
+  <entry md5="65ed71c74966f791702a984207c5c72c" mtime="1447060183" name="_service" size="403" />
+  <entry md5="68d2585c3e92f888c37c1df56d42d644" mtime="1447060185" name="marble-git.install" size="177" />
+</directory>

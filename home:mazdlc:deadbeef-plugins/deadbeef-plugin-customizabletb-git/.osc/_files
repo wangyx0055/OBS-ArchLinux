@@ -1,5 +1,5 @@
-<directory name="deadbeef-plugin-customizabletb-git" rev="3" srcmd5="66b72eaf545b6e4c9b91190e48fc9027" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="0430e8c0fdedf358c6224d0b37060d08" />
+<directory name="deadbeef-plugin-customizabletb-git" rev="21" srcmd5="3af6dc061fc8c1bc518858be94fe5a7c" vrev="21">
+  <serviceinfo code="succeeded" xsrcmd5="c132563211351ad050d7207f4fac9d23" />
   <entry md5="e8b24fb9b019a7916a424ec48a3f04d4" mtime="1446982248" name="PKGBUILD" size="1766" />
   <entry md5="9988bf8b51e9b70f8bbafd217963a08a" mtime="1446714107" name="_service" size="466" />
   <entry md5="a15ff6a6e5dcf6cd619e1f5b5780d042" mtime="1446708852" name="build.patch" size="360" />

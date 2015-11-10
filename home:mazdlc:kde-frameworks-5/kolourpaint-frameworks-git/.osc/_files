@@ -1,0 +1,6 @@
+<directory name="kolourpaint-frameworks-git" rev="14" srcmd5="d13e5118023bde039b4cc8134cf172c8" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="c8d729d686a32947f1aa2983fba45fff" />
+  <entry md5="6974eb3fee82ec4259c16a2b15c8271c" mtime="1447062705" name="PKGBUILD" size="931" />
+  <entry md5="8619c81e39f9774f13f1f2e99a835892" mtime="1447056059" name="_service" size="459" />
+  <entry md5="f50cf6fdf4821576dfec12695c1b5ff1" mtime="1447056061" name="kolourpaint-frameworks-git.install" size="178" />
+</directory>

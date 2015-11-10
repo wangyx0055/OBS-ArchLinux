@@ -1,5 +1,5 @@
-<directory name="extra-cmake-modules-git" rev="2" srcmd5="8981611f7388aca082162154b57f88cf" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="ee9785fe1ac0bb4162afdda13ea08c8c" />
+<directory name="extra-cmake-modules-git" rev="14" srcmd5="c7b8fbdcb13017e60d394b8becb2fc18" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="f5cfeaa9db6e7b116dbeea5aaf12fb0c" />
   <entry md5="3c98c3972e499dacb8f2180f4e8e2ae3" mtime="1446432887" name="PKGBUILD" size="786" />
   <entry md5="45955ebddf9c44287f06eed55ddfd337" mtime="1446714208" name="_service" size="421" />
 </directory>

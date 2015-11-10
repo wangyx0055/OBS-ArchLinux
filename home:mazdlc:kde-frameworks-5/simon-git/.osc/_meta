@@ -1,0 +1,5 @@
+<package name="simon-git" project="home:mazdlc:kde-frameworks-5">
+  <title>simon-git</title>
+  <description>Open-source speech recognition program for replacing mouse and keyboard</description>
+</package>
+

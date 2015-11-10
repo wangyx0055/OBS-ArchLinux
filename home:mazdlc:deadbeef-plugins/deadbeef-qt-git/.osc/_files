@@ -1,5 +1,5 @@
-<directory name="deadbeef-qt-git" rev="5" srcmd5="499c0b2c219080d779648604998ca0a4" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="675b4dba037869641a96d1d4ccafac4c" />
+<directory name="deadbeef-qt-git" rev="23" srcmd5="dd4bc1b09fc22c1193954d3cea2d9e0b" vrev="23">
+  <serviceinfo code="succeeded" xsrcmd5="90e092cf2f26b6f5cea1376242c93f68" />
   <entry md5="c69b4eaffce8cae3fe6e7e0cb32b2587" mtime="1446983887" name="PKGBUILD" size="752" />
   <entry md5="7a061f54716931e8cd179951ab72d121" mtime="1446714141" name="_service" size="456" />
   <entry md5="7adb84455d8013e06d0c96538fee9c9d" mtime="1446712099" name="deadbeef-qt.install" size="185" />

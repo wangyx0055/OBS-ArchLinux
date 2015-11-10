@@ -1,0 +1,38 @@
+# Maintainer: Gustavo Alvarez <sl1pkn07@gmail.com>
+
+pkgbase=kqoauth-git
+pkgname=('kqoauth-qt5-git')
+pkgver=0.98.6.g7c31a12
+pkgrel=1
+pkgdesc="A library written in C++ for Qt that implements the OAuth 1.0 authentication specification RFC 5849. (GIT version)"
+arch=('i686' 'x86_64')
+url='https://github.com/kypeli/kQOAuth'
+license=('LGPL2.1')
+makedepends=('qt5-base')
+source=kqoauth-$pkgver.tar.xz
+sha1sums=('SKIP')
+
+prepare(){
+  mkdir -p $srcdir/build-qt5
+}
+
+build() {
+
+  cd $srcdir/build-qt5
+  qmake-qt5 ../kqoauth-$pkgver
+  make
+}
+
+package_kqoauth-qt5-git() {
+  pkgdesc="A library written in C++ for Qt that implements the OAuth 1.0 authentication specification RFC 5849. Qt5 Build. (GIT version)"
+  depends=('qt5-base')
+  provides=('kqoauth-qt5')
+  conflicts=('kqoauth-qt4')
+  make -C build-qt5 INSTALL_ROOT="${pkgdir}" install
+
+  # Drop QMAKE_PRL_BUILD_DIR because reference the build dir
+  find "${pkgdir}/usr/lib" -type f -name '*.prl' -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+
+  # Fix pkgconfig file
+  sed 's|QtCore QtNetwork|Qt5Core Qt5Network|g' -i "${pkgdir}/usr/lib/pkgconfig/kqoauth.pc"
+}

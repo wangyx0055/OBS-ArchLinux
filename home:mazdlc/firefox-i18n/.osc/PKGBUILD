@@ -1,11 +1,11 @@
-# $Id: PKGBUILD 250089 2015-11-03 15:41.05Z foutrelis $
+# $Id: PKGBUILD 250089 2015-11-03 15:42.05Z foutrelis $
 # Maintainer: Thomas Baechler <thomas@archlinux.org>
 # Contributor: Jaroslaw Swierczynski <swiergot@juvepoland.com>
 # Contributor: Michal Hybner <dta081@gmail.com>
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgbase=firefox-i18n
-pkgver=41.0
+pkgver=42.0
 pkgrel=1
 pkgdesc="Language pack for Firefox"
 arch=('any')

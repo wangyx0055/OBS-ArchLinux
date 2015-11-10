@@ -7,7 +7,7 @@ pkgdesc="A sound editor for KDE. (GIT version)"
 arch=('i686' 'x86_64')
 url='http://kwave.sourceforge.net'
 license=('GPL')
-depends=('kio'
+depends=('kio' 
          'kinit'
          'audiofile'
          'libsamplerate'

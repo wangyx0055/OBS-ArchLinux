@@ -1,0 +1,5 @@
+<package name="kolor-manager-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kolor-manager-frameworks-git</title>
+  <description>Oyranos CMS cross desktop settings for the KDE system settings panel. KF5 Frameworks branch (GIT version)</description>
+</package>
+

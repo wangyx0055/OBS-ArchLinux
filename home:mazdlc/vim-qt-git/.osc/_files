@@ -1,5 +1,5 @@
-<directory name="vim-qt-git" rev="27" srcmd5="38a094db38eb5e9ad3f94d090e74f308" vrev="27">
-  <serviceinfo code="succeeded" xsrcmd5="3441fecc74c9d3a226b11c20a1c3264d" />
+<directory name="vim-qt-git" rev="42" srcmd5="b40853e248d9a3176437ee0ba16c5261" vrev="42">
+  <serviceinfo code="succeeded" xsrcmd5="c7dd7b41f63bb62ad7000b31eb9e0871" />
   <entry md5="adbab5896ca028278bd7ac49e4104ba8" mtime="1446364022" name="PKGBUILD" size="2556" />
   <entry md5="881a007a48112bbb26f0cc0fb5727dfe" mtime="1446714497" name="_service" size="452" />
   <entry md5="3daccfaeb785f8e94699461a989e8c75" mtime="1446364026" name="vim-qt-git.install" size="140" />

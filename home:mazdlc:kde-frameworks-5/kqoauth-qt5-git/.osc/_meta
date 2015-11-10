@@ -1,0 +1,5 @@
+<package name="kqoauth-qt5-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kqoauth-qt5-git</title>
+  <description>A library written in C++ for Qt that implements the OAuth 1.0 authentication specification RFC 5849. Qt5 Build. (GIT version)</description>
+</package>
+

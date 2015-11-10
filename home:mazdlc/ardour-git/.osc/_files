@@ -1,5 +1,7 @@
-<directory name="ardour-git" rev="9" srcmd5="b31070a6a7d8e450aaafbfe327dd80f4" vrev="9">
-  <serviceinfo code="succeeded" xsrcmd5="1dca77bc80dbf778cdeae02864f8faf0" />
+<directory name="ardour-git" rev="26" srcmd5="f08d990238896e6e09a7e86ea7a00d05" vrev="26">
+  <serviceinfo code="failed" xsrcmd5="1cf33e452cc83087b7aab1b3bd9e87a4">
+    <error>lxc-start: failed to spawn 'obs.service.jail.8011'</error>
+  </serviceinfo>
   <entry md5="9217a3b60419f7e8f5269dd03e7d191c" mtime="1446468261" name="PKGBUILD" size="1593" />
   <entry md5="d3a08e602aa52365c761df76408541c5" mtime="1446904255" name="_service" size="449" />
   <entry md5="151094720b3cdcce2d66b30915dea536" mtime="1446464021" name="ardour.desktop" size="240" />

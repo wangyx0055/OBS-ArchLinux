@@ -9,5 +9,5 @@ if [[ z$newver != "z" && $oldver != $newver ]] ; then
   sed -i "s/${oldver}/${newver}/g" _service
   sed -i "s/${oldver}/${newver}/g" PKGBUILD
   sed -i "s/${oldver}/${newver}/g" urls.txt
-  #osc commit -m bump
+  osc commit -m bump
 fi

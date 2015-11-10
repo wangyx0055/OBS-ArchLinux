@@ -1,5 +1,5 @@
-<directory name="deadbeef-stereo-widener-git" rev="2" srcmd5="677597c594aeb7f7220f74ddbe2b6d87" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="3ba89fba0213575565bf9fe3b40e835d" />
+<directory name="deadbeef-stereo-widener-git" rev="14" srcmd5="a82185760e7f7994f34e68a9043487b0" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="b614fd532514181d93a19bca6fa5293e" />
   <entry md5="356855a181a8298d9891ccc0033508cd" mtime="1446983050" name="PKGBUILD" size="715" />
   <entry md5="2d305889a6ca33475fb9d4cdf5be5a4d" mtime="1446714163" name="_service" size="466" />
   <entry md5="77dc072c3ead9417dfb2652335e96eae" mtime="1446711299" name="makefix.diff" size="534" />

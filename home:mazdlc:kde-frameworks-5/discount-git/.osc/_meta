@@ -1,0 +1,5 @@
+<package name="discount-git" project="home:mazdlc:kde-frameworks-5">
+  <title>discount-git</title>
+  <description>A Markdown implementation written in C</description>
+</package>
+

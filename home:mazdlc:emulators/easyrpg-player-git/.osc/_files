@@ -1,5 +1,5 @@
-<directory name="easyrpg-player-git" rev="2" srcmd5="6901c3c44af77ee5f232fa32ed34a26a" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="b026387205552468e717bc6fbd0b7c59" />
+<directory name="easyrpg-player-git" rev="13" srcmd5="e590011a882162489f877779bd4ec2dd" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="6d44ca8a73589e2459b1e3211e39bb24" />
   <entry md5="e3280c97d5dc91303109ed195e70761b" mtime="1446363959" name="PKGBUILD" size="769" />
   <entry md5="be34a0a8bd1310935fcaae0bd81876fb" mtime="1446714189" name="_service" size="460" />
   <entry md5="446f910f37f95c24a4b67c165f07015e" mtime="1446363962" name="easyrpg-player-git.install" size="397" />

@@ -1,0 +1,5 @@
+<package name="libmediawiki-git" project="home:mazdlc:kde-frameworks-5">
+  <title> libmediawiki-git</title>
+  <description>A KDE C++ interface for MediaWiki based web service as wikipedia.org</description>
+</package>
+

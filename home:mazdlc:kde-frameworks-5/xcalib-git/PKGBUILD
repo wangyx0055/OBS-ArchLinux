@@ -1,0 +1,29 @@
+# Maintainer: yaroslav <proninyaroslav@mail.ru>
+# Contributor: Frank Ickstadt (frank dot ickstadt at gmail dot com)
+# adpoted from mOLOk since pkgver=0.7
+
+pkgname=xcalib-git
+pkgver=0.9
+pkgrel=1
+pkgdesc="A tiny monitor calibration loader for X.org"
+arch=('i686' 'x86_64')
+url="http://xcalib.sourceforge.net/"
+license=('GPL2')
+depends=('libxxf86vm' 'libxrandr')
+makedepends=('git')
+provides=("xcalib=0.9")
+conflicts=("xcalib")
+source=xcalib-$pkgver.tar.xz
+sha256sums=('SKIP')
+
+build() {
+  cd ${pkgname%%-git}-$pkgver
+  make
+}
+
+package() {
+  cd ${pkgname%%-git}-$pkgver
+  install -d ${pkgdir}/usr/{share/xcalib,bin}
+  install -m755 xcalib "${pkgdir}/usr/bin"
+  install -m644 *.icc *.icm "${pkgdir}/usr/share/xcalib/"
+}

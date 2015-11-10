@@ -3,60 +3,60 @@
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/de.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/de.xpi</param>
   </service>
 
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/en-US.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/en-US.xpi</param>
   </service>
 
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/es-ES.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/es-ES.xpi</param>
   </service>
 
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/fr.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/fr.xpi</param>
   </service>
 
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/it.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/it.xpi</param>
   </service>
 
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/ja.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/ja.xpi</param>
   </service>
 
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/ko.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/ko.xpi</param>
   </service>
 
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/ru.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/ru.xpi</param>
   </service>
   
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/zh-CN.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/zh-CN.xpi</param>
   </service>
 
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">ftp.mozilla.org</param>
-    <param name="path">/pub/mozilla.org/firefox/releases/41.0/linux-i686/xpi/zh-TW.xpi</param>
+    <param name="path">/pub/mozilla.org/firefox/releases/42.0/linux-i686/xpi/zh-TW.xpi</param>
   </service>
 </services>

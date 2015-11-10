@@ -1,0 +1,5 @@
+<package name="oyranos-qt5-git" project="home:mazdlc:kde-frameworks-5">
+  <title>oyranos-qt5-git</title>
+  <description>A Colour Management System (CMS) on operating system level. build with Qt5 tools (GIT version)</description>
+</package>
+

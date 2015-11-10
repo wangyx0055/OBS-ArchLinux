@@ -1,5 +1,5 @@
-<directory name="deadbeef-git" rev="1" srcmd5="6076a8afccbb2a5f38d916922c044a3e" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="2bb3376914aa6158bbfc52cf91855cae" />
+<directory name="deadbeef-git" rev="16" srcmd5="6d1ddb36a1db62502b628dd2a87bca81" vrev="16">
+  <serviceinfo code="succeeded" xsrcmd5="de65e1f1055cefdf31d7824533c79686" />
   <entry md5="bc626d15b2bc56fb31463748663cb4ab" mtime="1446711590" name="PKGBUILD" size="2052" />
   <entry md5="5687982c1f34c8269ed95d197e975f4d" mtime="1446714078" name="_service" size="465" />
   <entry md5="9e816df9a8e5373306e626a7e14ee38b" mtime="1446367387" name="deadbeef.install" size="192" />

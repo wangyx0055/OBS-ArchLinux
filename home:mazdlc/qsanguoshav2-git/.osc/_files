@@ -1,5 +1,5 @@
-<directory name="qsanguoshav2-git" rev="17" srcmd5="f1dedc2e206a6f806423f12435ea0766" vrev="17">
-  <serviceinfo code="succeeded" xsrcmd5="09559a8cb297e5eb49a493afb15573dc" />
+<directory name="qsanguoshav2-git" rev="33" srcmd5="6d2ec6c3a39a40ad889fe2cb8dcc0219" vrev="33">
+  <serviceinfo code="succeeded" xsrcmd5="01f61a0cc4878515b99cc2bc027d30c6" />
   <entry md5="a901df625184e96f6d48948c9cb0e7c3" mtime="1446521366" name="PKGBUILD" size="1251" />
   <entry md5="361678213041422580033bba0068cf0e" mtime="1446714444" name="_service" size="463" />
   <entry md5="49ccb51ea1ba979f8c8b469b122f69d6" mtime="1446517487" name="qsanguosha" size="43" />

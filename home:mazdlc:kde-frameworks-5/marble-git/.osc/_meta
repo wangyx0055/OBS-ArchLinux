@@ -1,0 +1,11 @@
+<package name="marble-git" project="home:mazdlc:kde-frameworks-5">
+  <title>marble-git</title>
+  <description>marble-git</description>
+  <build>
+    <disable/>
+  </build>
+  <useforbuild>
+    <disable/>
+  </useforbuild>
+</package>
+

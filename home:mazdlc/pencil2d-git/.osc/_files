@@ -1,0 +1,7 @@
+<directory name="pencil2d-git" rev="1" srcmd5="25a79f8f37ce8eadd6ea428f3fd77ea8" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="62fad76a0f9431191c1228c65ca40034" />
+  <entry md5="88cb28248baee3ed2b47271f12bb62d8" mtime="1447154891" name="PKGBUILD" size="1095" />
+  <entry md5="5506ff9fc8877fdfbf2b1c507393a5d5" mtime="1447154893" name="_service" size="405" />
+  <entry md5="98008076937080db82a939d8129ed2d0" mtime="1447154894" name="pencil2d.desktop" size="108" />
+  <entry md5="558f990a02cd234ed7ec13d052562889" mtime="1447154896" name="pencil2d.install" size="122" />
+</directory>

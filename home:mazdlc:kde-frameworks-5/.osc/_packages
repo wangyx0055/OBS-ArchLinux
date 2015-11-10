@@ -22,4 +22,27 @@
   <package name="okular-frameworks-git" state=" " />
   <package name="soundkonverter-frameworks-git" state=" " />
   <package name="yakuake-frameworks-git" state=" " />
+  <package name="k3b-frameworks-git" state=" " />
+  <package name="digikam-git" state=" " />
+  <package name="kipi-plugins-git" state=" " />
+  <package name="kolor-manager-frameworks-git" state=" " />
+  <package name="kolourpaint-frameworks-git" state=" " />
+  <package name="kwooty-frameworks-git" state=" " />
+  <package name="simon-git" state=" " />
+  <package name="kqoauth-qt5-git" state=" " />
+  <package name="libkgeomap-git" state=" " />
+  <package name="libkipi-git" state=" " />
+  <package name="libksane-git" state=" " />
+  <package name="libkvkontakte-git" state=" " />
+  <package name="libmediawiki-git" state=" " />
+  <package name="oyranos-qt5-git" state=" " />
+  <package name="synnefo-qt5-git" state=" " />
+  <package name="libkface-git" state=" " />
+  <package name="qimageblitz-qt5-svn" state=" " />
+  <package name="marble-git" state=" " />
+  <package name="qextserialport-qt5-git" state=" " />
+  <package name="libxcm-git" state=" " />
+  <package name="discount-git" state=" " />
+  <package name="elektra-git" state=" " />
+  <package name="xcalib-git" state=" " />
 </project>

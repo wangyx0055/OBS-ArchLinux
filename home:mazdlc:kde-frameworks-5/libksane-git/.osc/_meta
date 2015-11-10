@@ -1,0 +1,5 @@
+<package name="libksane-git" project="home:mazdlc:kde-frameworks-5">
+  <title>libksane-git</title>
+  <description>An image scanning library</description>
+</package>
+

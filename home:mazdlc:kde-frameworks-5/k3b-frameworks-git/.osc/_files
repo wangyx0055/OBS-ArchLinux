@@ -1,0 +1,7 @@
+<directory name="k3b-frameworks-git" rev="13" srcmd5="0e8a891ae3680109d59a003db91d5ca9" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="11eb1c13d4f6f9c87dd78b89b3e57526" />
+  <entry md5="f4232de6c9084b05274503fd4d790ab3" mtime="1447053567" name="PKGBUILD" size="2250" />
+  <entry md5="1d559ea96e06e076fadf6f967d7f1ee6" mtime="1447053575" name="_service" size="436" />
+  <entry md5="033db899b810c1fe7172fad662d2ecd5" mtime="1447053577" name="k3b-frameworks-git.install" size="229" />
+  <entry md5="af56ad7d39f121c5a5938af76d46b36e" mtime="1447053580" name="patch.txt" size="687" />
+</directory>

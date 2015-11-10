@@ -1,0 +1,5 @@
+<package name="kolourpaint-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kolourpaint-frameworks-git</title>
+  <description>Paint Program. KF5 Frameworks branch. (GIT version)</description>
+</package>
+

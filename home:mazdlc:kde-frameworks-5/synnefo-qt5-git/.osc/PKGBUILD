@@ -1,0 +1,40 @@
+# Maintainer: Gustavo Alvarez <sl1pkn07@gmail.com>
+
+pkgbase=synnefo-git
+pkgname=synnefo-qt5-git
+pkgver=1.1.0.r167.cf5e48f
+pkgrel=1
+pkgdesc="A Qt based front end for the ICC based Oyranos Color Management System. (GIT version)"
+arch=('i686' 'x86_64')
+url="http://www.oyranos.org/synnefo/"
+license=('BSD')
+makedepends=('qt5-base' 'git' 'cmake' 'oyranos-git')
+conflicts=('synnefo')
+source=synnefo-$pkgver.tar.xz
+sha1sums=('SKIP')
+
+
+prepare() {
+  mkdir -p build-qt5
+}
+
+build() {
+
+  cd "${srcdir}/build-qt5"
+  cmake ../synnefo-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DUSE_Qt4=OFF
+  make
+}
+
+package_synnefo-qt5-git() {
+  pkgdesc="A Qt5 based front end for the ICC based Oyranos Color Management System. (GIT version)"
+  depends=('oyranos-qt5-git')
+  conflicts=('synnefo-qt5-git')
+  provides=('synnefo' 'synnefo-qt5')
+  install=synnefo-git.install
+
+  make -C build-qt5 DESTDIR="${pkgdir}" install
+  install -Dm644 $startdir/COPYING "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}

@@ -1,5 +1,5 @@
-<directory name="okular-frameworks-git" rev="34" srcmd5="ca3a14aaec8eef26d590279d95210220" vrev="34">
-  <serviceinfo code="succeeded" xsrcmd5="120bb954eaaec06fae7fd660f5ca0a6e" />
+<directory name="okular-frameworks-git" rev="53" srcmd5="691001db96518807a4faa0bd7d6cd8ed" vrev="53">
+  <serviceinfo code="succeeded" xsrcmd5="c05283470d7e7fd7afc6866b7822562b" />
   <entry md5="ac8e19eb82df92947d16c0c7a65b662a" mtime="1446363997" name="PKGBUILD" size="974" />
   <entry md5="43e60653eeed98a202280f5de5c02743" mtime="1446714412" name="_service" size="495" />
   <entry md5="262fc1597fb332894d1367f510a7f39b" mtime="1446364001" name="okular-frameworks-git.install" size="186" />

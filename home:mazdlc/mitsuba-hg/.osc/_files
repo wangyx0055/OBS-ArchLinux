@@ -1,5 +1,7 @@
-<directory name="mitsuba-hg" rev="12" srcmd5="f9cd72163f4e7605791b42ec5b31d75b" vrev="12">
-  <serviceinfo code="succeeded" xsrcmd5="72e648df5cdf16139a6bf8f5da147b52" />
+<directory name="mitsuba-hg" rev="24" srcmd5="7b750103428949284aa0b63f9abde1b7" vrev="24">
+  <serviceinfo code="failed" xsrcmd5="a9b705b243453308a8a7d43645f4a340">
+    <error>Perhaps there is a stale lock file?</error>
+  </serviceinfo>
   <entry md5="a91d014a9535a07cd13b9978800b3db6" mtime="1446619550" name="PKGBUILD" size="3296" />
   <entry md5="a7f918a1337ac2d4f017d407303d16f0" mtime="1446520736" name="_service" size="444" />
   <entry md5="46063b1de8eb1a08d53c5d569e3cbb31" mtime="1446520738" name="fix_boost_include.patch" size="717" />

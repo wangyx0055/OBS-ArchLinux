@@ -1,0 +1,6 @@
+<package name="libkgeomap-git" project="home:mazdlc:kde-frameworks-5">
+  <title>libkgeomap-git</title>
+  <description>A wrapper around world map components for browsing and arranging photos on a map&#13;
+</description>
+</package>
+

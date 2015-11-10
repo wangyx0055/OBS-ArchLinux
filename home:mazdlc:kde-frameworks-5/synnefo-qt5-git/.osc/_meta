@@ -1,0 +1,5 @@
+<package name="synnefo-qt5-git" project="home:mazdlc:kde-frameworks-5">
+  <title>synnefo-qt5-git</title>
+  <description>A Qt5 based front end for the ICC based Oyranos Color Management System. (GIT version)</description>
+</package>
+

@@ -1,5 +1,5 @@
-<directory name="krdc-git" rev="2" srcmd5="daa1d2dbdf55d73deaba88334dd75eb8" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="f6c770cedb0bdf40ab32e062ae80cd74" />
+<directory name="krdc-git" rev="14" srcmd5="61f96677d56d1a243bfd28dab7f77b6a" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="6fd7688e66d2e1196ff6420cba95ca13" />
   <entry md5="9321998e1198d451cf48b0e03aaec571" mtime="1446329058" name="PKGBUILD" size="993" />
   <entry md5="afe3c1bfa5c8a2cab39de4955de9c4e3" mtime="1446714305" name="_service" size="489" />
 </directory>

@@ -1,5 +1,5 @@
-<directory name="onscripter-jh-hg" rev="2" srcmd5="fd4e972e5343abeec5b69d1db84ead08" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="31fc44772ee3a8eadfad6e44c66e7ae3" />
+<directory name="onscripter-jh-hg" rev="13" srcmd5="e76062819c5caa9a137e99d444c6a403" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="301daa0b1bc0ce5bc7c648e1c044d4dd" />
   <entry md5="6bc779bbe4160474761c9257f2ac4ca3" mtime="1446306050" name="PKGBUILD" size="1064" />
   <entry md5="09ca5942054f517c00e627df85558207" mtime="1446305762" name="_service" size="487" />
 </directory>

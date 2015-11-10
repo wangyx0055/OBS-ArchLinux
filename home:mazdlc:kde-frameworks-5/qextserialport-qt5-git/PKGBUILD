@@ -1,0 +1,36 @@
+# Contributor: Kosyak <ObKo@mail.ru>
+pkgname=qextserialport-qt5-git
+pkgver=1.2rc
+pkgrel=5
+pkgdesc="Cross-platform serial port class libary for Qt5."
+depends=("qt5-base")
+provides=qextserialport-qt5
+conflicts=('qextserialport' 'qextserialport-qt5')
+arch=('i686' 'x86_64')
+url='https://github.com/qextserialport/qextserialport'
+license=("MIT")
+makedepends=("qt5-base")
+source=${pkgname%%-qt5-git}-${pkgver}.tar.xz
+sha1sums=SKIP
+
+prepare() {
+  mkdir -p build-qt5
+}
+
+build() {
+  cd "${srcdir}/build-qt5"
+  qmake-qt5 "../${pkgname%%-qt5-git}-${pkgver}"
+  make
+}
+
+
+package_qextserialport-qt5-git() {
+
+  make -C build-qt5 INSTALL_ROOT="${pkgdir}" install
+
+  # install -Dm644 "${pkgname%%-qt5-git}-${pkgver}/LICENSE" "${pkgdir}/usr/share/licenses/qextserialport-qt5/LICENSE"
+
+  # Fix wrong path in prl files
+  find "${pkgdir}/usr/lib" -type f -name '*.prl' \
+    -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d;s/\(QMAKE_PRL_LIBS =\).*/\1/' {} \;
+}

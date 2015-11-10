@@ -1,0 +1,5 @@
+<package name="kipi-plugins-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kipi-plugins-git</title>
+  <description>A collection of plugins extending the KDE graphics and image applications as digiKam</description>
+</package>
+

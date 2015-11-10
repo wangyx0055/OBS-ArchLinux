@@ -1,0 +1,5 @@
+<package name="kwooty-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kwooty-frameworks-git</title>
+  <description>A friendly nzb usenet binary downloader for KDE. KF5 frameworks branch (GIT Version)</description>
+</package>
+

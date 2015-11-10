@@ -1,5 +1,5 @@
-<directory name="n2n-git" rev="21" srcmd5="e2fa96edff5a4f6c35c83a4544c2614e" vrev="21">
-  <serviceinfo code="succeeded" xsrcmd5="ef79b04722a084d81884e221176024af" />
+<directory name="n2n-git" rev="40" srcmd5="3dc24261c772ff45885a3b3cbca0278d" vrev="40">
+  <serviceinfo code="succeeded" xsrcmd5="821f2cae3a7f87dbcd506dabbea226dd" />
   <entry md5="c37ee89f09746306045109d718c873fd" mtime="1446523951" name="PKGBUILD" size="1253" />
   <entry md5="d3aeef9c103da766a366f5ff6221761a" mtime="1446715955" name="_service" size="418" />
   <entry md5="2ece2e5b7d8180c8a157df4394014efe" mtime="1446523955" name="edge.conf.example" size="678" />
