@@ -1,2 +1,11 @@
-<directory name="gimp-elsamuko-plugins" srcmd5="d41d8cd98f00b204e9800998ecf8427e">
+<directory name="gimp-elsamuko-plugins" rev="4" srcmd5="952bd0bec2e4c9eef9c734ad2d4fd2be" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="f370c7df1b6e2475b821a14452c0a9fd" />
+  <entry md5="0cedfd95ec7c8eb5bb9b5d56e9aec52e" mtime="1447167234" name="PKGBUILD" size="8223" />
+  <entry md5="12cb7f04cf72a38084d5e1b3a5e9a2fa" mtime="1447167236" name="_service" size="2902" />
+  <entry md5="0e6743b947cb7a404e255cdafcb60b05" mtime="1447165269" name="cimg.patch" size="359" />
+  <entry md5="c736ca8bfad564d887544a3feb000ad5" mtime="1447165271" name="depthmap-cv.patch" size="481" />
+  <entry md5="e57a90c23e738b224da130b913df6b86" mtime="1447165273" name="eaw-sharpen.patch" size="597" />
+  <entry md5="aeac43b83bd536c9e660202601269093" mtime="1447165301" name="face-detect-cv.patch" size="1593" />
+  <entry md5="09174040fce6a7821c0afd0553c7304b" mtime="1447165305" name="gimp-plugin-get-curves.install" size="336" />
+  <entry md5="7b7b9f6058773afa1e659c595fcb2bf9" mtime="1447165307" name="gimp-plugin-octave.install" size="246" />
 </directory>

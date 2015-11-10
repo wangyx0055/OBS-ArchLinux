@@ -1,0 +1,14 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">https://code.launchpad.net/~george-edison55/gimp-webp/trunk</param>
+    <param name="scm">bzr</param>
+    <param name="versionformat"></param>
+    <param name="versionprefix">0.2</param>
+    <param name="filename">gimp-webp</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

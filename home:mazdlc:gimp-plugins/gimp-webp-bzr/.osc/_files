@@ -1,2 +1,5 @@
-<directory name="gimp-webp-bzr" srcmd5="d41d8cd98f00b204e9800998ecf8427e">
+<directory name="gimp-webp-bzr" rev="2" srcmd5="027066cd442bd61e7688921e30386f62" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="3f2d158c921f325694ddce1416e627a1" />
+  <entry md5="af95072501cff1cb0dccbb83f09b3eb7" mtime="1447165875" name="PKGBUILD" size="622" />
+  <entry md5="2fa947a9d9ed5e4d555a721c155982ce" mtime="1447163483" name="_service" size="470" />
 </directory>

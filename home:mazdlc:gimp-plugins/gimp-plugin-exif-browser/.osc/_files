@@ -1,2 +1,5 @@
-<directory name="gimp-plugin-exif-browser" srcmd5="d41d8cd98f00b204e9800998ecf8427e">
+<directory name="gimp-plugin-exif-browser" rev="1" srcmd5="0ad10ff6e48d807c5d70528938952b11" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="de3680a960e16ddd727a1833e76bf6d9" />
+  <entry md5="3da548401fb6e9802f4d348c754961ed" mtime="1447163902" name="PKGBUILD" size="724" />
+  <entry md5="e61e762f6857100576a091f1cdc78ec6" mtime="1447163904" name="_service" size="214" />
 </directory>

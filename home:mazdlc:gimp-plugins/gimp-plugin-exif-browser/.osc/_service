@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">registry.gimp.org</param>
+    <param name="path">/files/exif-browser.tar.gz</param>
+  </service>
+</services>

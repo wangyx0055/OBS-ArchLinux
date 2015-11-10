@@ -1,2 +1,5 @@
-<directory name="gimp-plugin-saveforweb" srcmd5="d41d8cd98f00b204e9800998ecf8427e">
+<directory name="gimp-plugin-saveforweb" rev="1" srcmd5="42dac09210be4e4c3e5f5a3b13172784" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="6921cfb0a7ca3fc2a0c4db4400182c96" />
+  <entry md5="51add61b3b45ae977753badca353ad2a" mtime="1447163785" name="PKGBUILD" size="651" />
+  <entry md5="76dff4108a70d5a6f217c3d94ec90e26" mtime="1447163787" name="_service" size="227" />
 </directory>

@@ -1,0 +1,67 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/depthmap/elsamuko-depthmap-cv.tar.gz</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/forensics/clone-detection/elsamuko-copy-move.c</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/gimp-octave/elsamuko-gimp-octave.c</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/gimp-octave/filter_pack.tar.gz</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/temperature/elsamuko-temperature.c</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/eaw-sharpen/elsamuko-eaw-sharpen.tar.gz</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/facedetect/elsamuko-facedetect-cv.tar.gz</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/get-curves/elsamuko-get-curves.c</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/get-curves/AlienSkin-examples.zip</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/get-curves/elsamuko-kodachrome</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/gimp/heatmap/elsamuko-heatmap.c</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/forensics/hsv-analysis/elsamuko-hsv-analysis.c</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">sites.google.com</param>
+    <param name="path">/site/elsamuko/forensics/lab-analysis/elsamuko-lab-analysis.tar.gz</param>
+  </service>
+</services>

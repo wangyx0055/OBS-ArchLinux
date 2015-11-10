@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">registry.gimp.org</param>
+    <param name="path">/files/gimp-save-for-web-0.29.3.tar.bz2</param>
+  </service>
+</services>
