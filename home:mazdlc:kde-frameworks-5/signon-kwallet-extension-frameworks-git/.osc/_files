@@ -1,0 +1,5 @@
+<directory name="signon-kwallet-extension-frameworks-git" rev="6" srcmd5="67e03d1b4a73cf1d08f65b39d10a3afb" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="fd08ae01e687aaea6f0084fdc0338df5" />
+  <entry md5="0a40db689ca17aaf198aa812f874c0c7" mtime="1447263286" name="PKGBUILD" size="844" />
+  <entry md5="abe6950feae923f96b08f95e34d4df45" mtime="1447263357" name="_service" size="439" />
+</directory>

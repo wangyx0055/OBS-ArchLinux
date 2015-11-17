@@ -25,7 +25,9 @@ source=("staging-$pkgver.tar.gz"
         gdi32-heap-corruption.patch
         heap_perf.patch
         wbemprox_query.patch
-        30-win32-aliases.conf)
+        30-win32-aliases.conf
+        livino-wine.patch
+        )
 sha1sums=('SKIP'
           'f3febb8836f38320742a546c667106608d4c4395'
           '57aa524e4e760c907c2acef287f5569e78ea85b0'
@@ -34,9 +36,11 @@ sha1sums=('SKIP'
           'SKIP'
           '0f4ac455436d5714a2cf0b537ed25f4fa5c1a7fd'
           '20da841265d5b16dba02246f158ad4f54f13b775'
-          '023a5c901c6a091c56e76b6a62d141d87cce9fdb')
+          '023a5c901c6a091c56e76b6a62d141d87cce9fdb'
+          'SKIP'
+          )
 
-pkgdesc="Based off wine-staging, including the gallium-nine patches and some more hacks"
+pkgdesc="Based off wine-staging, including the gallium-nine patches, livino-reader patch and some more hacks"
 url="http://www.wine-staging.com"
 #arch=(i686 x86_64)
 arch=(x86_64)
@@ -113,15 +117,19 @@ optdepends=(
     gtk3            lib32-gtk3
 )
 
-provides=("bin32-wine=$pkgver" "wine=$pkgver" "wine-wow64=$pkgver")
-conflicts=('bin32-wine' 'wine' 'wine-wow64')
+provides=("bin32-wine=$pkgver" "wine=$pkgver" "wine-wow64=$pkgver" "wine-visual-novel-reader=$pkgver")
+conflicts=('bin32-wine' 'wine' 'wine-wow64' 'wine-visual-novel-reader')
 
 
 prepare()
 {
     cd wine-patched-staging-$pkgver
     
-    patch -p1 -i ../wine-d3d9.patch && touch $srcdir/OK
+    patch -p1 -i ../wine-d3d9.patch && touch $srcdir/OK || rm -f $srcdir/OK
+    
+    patch -p1 -i ../livino-wine.patch && touch $srcdir/OK || rm -f $srcdir/OK
+    
+    
     patch -p1 -i ../gdi32-heap-corruption.patch || true
     patch -p1 -i ../raw.patch
     patch -p1 -i ../mipmap.patch
@@ -129,6 +137,8 @@ prepare()
     patch -p1 -i ../wbemprox_query.patch
     
     patch -p1 -R -i ../keybindings.patch
+    
+
 
     #OpenCL fix
     cp configure configure_old

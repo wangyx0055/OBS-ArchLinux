@@ -3,7 +3,6 @@
     <param name="url">git://github.com/Ardour/ardour.git</param>
     <param name="scm">git</param>
     <param name="versionformat">%cd.g%h</param>
-    <param name="versionprefix">4.4</param>
     <param name="filename">ardour</param>
   </service>
   <service name="set_version" />

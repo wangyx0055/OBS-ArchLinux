@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">downloads.sourceforge.net</param>
+    <param name="path">/qwt/qwt-6.1.2.tar.bz2</param>
+  </service>
+</services>

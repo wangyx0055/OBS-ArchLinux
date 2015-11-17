@@ -1,0 +1,7 @@
+<directory name="qwt-qt5" rev="3" srcmd5="0aca8dbed2adde918b72a646a31155d5" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="6b39f007e5142ecffee61f41e671fa1c" />
+  <entry md5="6494047300dab49612622ba5149d219d" mtime="1447562493" name="PKGBUILD" size="1503" />
+  <entry md5="f1af6b742420f7c1dc73c0bf246a4425" mtime="1447562648" name="_service" size="218" />
+  <entry md5="cbc51e677c65126c07a546f7ae99fd2d" mtime="1447570700" name="bump.sh" size="492" />
+  <entry md5="d321c5dc752d87f1470e230070b75a3f" mtime="1447562495" name="qwtconfig-archlinux.pri" size="4648" />
+</directory>

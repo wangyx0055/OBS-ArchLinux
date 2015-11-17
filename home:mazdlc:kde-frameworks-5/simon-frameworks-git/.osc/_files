@@ -1,0 +1,6 @@
+<directory name="simon-frameworks-git" rev="c077479cc22f5329cec915d3910d6148" srcmd5="c077479cc22f5329cec915d3910d6148">
+  <linkinfo baserev="70ccc380357a3bdd44eb956c30fee1c8" lsrcmd5="967a592c6b546f12b847a81698a6cb99" package="simon-git" project="home:mazdlc:kde-frameworks-5" rev="311a8da39a438ae4832944f387019bd7" srcmd5="70ccc380357a3bdd44eb956c30fee1c8" />
+  <entry md5="615dea89d24ff56b5bec5ffa4dff2f04" mtime="1447584962" name="PKGBUILD" size="1056" />
+  <entry md5="5faf6f1e56e40ed81323410eb30a612e" mtime="1447544890" name="_service" size="440" />
+  <entry md5="3fbb00ce74d0c8491fe4648f916e044a" mtime="1447544847" name="simon.install" size="148" />
+</directory>

@@ -2,8 +2,5 @@
   <title>ardour-git</title>
   <description>A multichannel hard disk recorder and digital audio workstation&#13;
 http://ardour.org/</description>
-  <build>
-    <disable/>
-  </build>
 </package>
 

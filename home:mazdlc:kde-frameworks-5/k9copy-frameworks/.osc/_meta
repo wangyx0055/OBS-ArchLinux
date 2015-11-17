@@ -1,0 +1,5 @@
+<package name="k9copy-frameworks" project="home:mazdlc:kde-frameworks-5">
+  <title>k9copy-frameworks</title>
+  <description>A small utility to copy DVD - kf5-Version</description>
+</package>
+

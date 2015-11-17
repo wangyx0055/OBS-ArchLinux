@@ -1,0 +1,5 @@
+<package name="samba-mounter-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>samba-mounter-frameworks-git</title>
+  <description>User space mount tool for samba</description>
+</package>
+

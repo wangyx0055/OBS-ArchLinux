@@ -1,0 +1,5 @@
+<package name="kdesudo-frameworks-bzr" project="home:mazdlc:kde-frameworks-5">
+  <title>kdesudo-frameworks-bzr</title>
+  <description>A SUdo frontend for KDE. KF5 Frameworks branch. (BZR version)</description>
+</package>
+

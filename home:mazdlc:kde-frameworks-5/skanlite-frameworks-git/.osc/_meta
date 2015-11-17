@@ -1,0 +1,5 @@
+<package name="skanlite-frameworks-git" project="home:mazdlc:kde-frameworks-5">
+  <title>skanlite-frameworks-git</title>
+  <description>A Lite image scanning application. KF5 Frameworks branch (GIT version)</description>
+</package>
+

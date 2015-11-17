@@ -15,7 +15,6 @@
   <package name="vo-amrwbenc" state=" " />
   <package name="wine-gaming-nine" state=" " />
   <package name="wineasio" state=" " />
-  <package name="okular-frameworks-git" state=" " />
   <package name="vim-qt-git" state=" " />
   <package name="vhba-dkms" state=" " />
   <package name="waifu2x-converter-cpp-git" state=" " />
@@ -90,4 +89,5 @@
   <package name="mp4fpsmod-git" state=" " />
   <package name="notepadqq-git" state=" " />
   <package name="pencil2d-git" state=" " />
+  <package name="webcamoid-git" state=" " />
 </project>

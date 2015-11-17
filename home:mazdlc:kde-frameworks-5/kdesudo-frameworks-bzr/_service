@@ -1,0 +1,13 @@
+<services>
+  <service name="tar_scm">
+    <param name="url">https://code.launchpad.net/~kubuntu-kdesudo/kdesudo/frameworks</param>
+    <param name="scm">bzr</param>
+    <param name="versionformat"></param>
+    <param name="filename">kdesudo</param>
+  </service>
+  <service name="set_version" />
+  <service name="recompress">
+    <param name="file">*.tar</param>
+    <param name="compression">xz</param>
+  </service>
+</services>

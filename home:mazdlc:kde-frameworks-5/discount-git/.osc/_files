@@ -1,5 +1,5 @@
-<directory name="discount-git" rev="fde17c63e16761c8b6e6384d2ceb4378" srcmd5="fde17c63e16761c8b6e6384d2ceb4378">
-  <linkinfo baserev="e497f4727c1c00b533e5b08727cc3cce" lsrcmd5="1d0a1236595cf8b6042b290f376e0da4" package="discount-git" project="home:mazdlc" srcmd5="0415c4a76f32b4b5a0c92543a568df7a" />
+<directory name="discount-git" rev="2b08ee1fd1a9c119664e565cba7c0834" srcmd5="2b08ee1fd1a9c119664e565cba7c0834">
+  <linkinfo baserev="e497f4727c1c00b533e5b08727cc3cce" lsrcmd5="b20964a95635df4d03bae31eead7afb2" package="discount-git" project="home:mazdlc" srcmd5="0415c4a76f32b4b5a0c92543a568df7a" />
   <entry md5="632b971686d40dee9d04aa2b12c3c474" mtime="1446729149" name="PKGBUILD" size="1110" />
   <entry md5="00d8839a3138fb3c0715825b510079c0" mtime="1446729389" name="_service" size="402" />
   <entry md5="744609beab58d358a2109e622927f379" mtime="1446729100" name="no-ldconfig.patch" size="422" />

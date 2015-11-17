@@ -1,0 +1,5 @@
+<directory name="skanlite-frameworks-git" rev="7" srcmd5="24f285fa1b89bb2bacc7b35e1393f153" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="511e03cf610371d75f2035cdb8e24ea5" />
+  <entry md5="3507f1be892e5d9fb2034e24a0a5f6e0" mtime="1447263728" name="PKGBUILD" size="962" />
+  <entry md5="42b6e5d7557b7826a7e069ee2d774195" mtime="1447263577" name="_service" size="453" />
+</directory>

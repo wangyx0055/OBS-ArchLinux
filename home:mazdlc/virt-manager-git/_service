@@ -2,7 +2,7 @@
   <service name="tar_scm">
     <param name="url">git://github.com/F1ash/qt-virt-manager.git</param>
     <param name="scm">git</param>
-    <param name="versionformat">g%h</param>
+    <param name="versionformat">%cd.g%h</param>
     <param name="versionprefix">0.16</param>
     <param name="filename">qt-virt-manager</param>
   </service>

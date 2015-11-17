@@ -1,5 +1,5 @@
-<directory name="kdevelop-python3-git" rev="16" srcmd5="4e7ff25334e30957917a88cb65067b5b" vrev="16">
-  <serviceinfo code="succeeded" xsrcmd5="b99c848de6835b95b2f642c4f3d2cdfc" />
+<directory name="kdevelop-python3-git" rev="20" srcmd5="44e54815d0d551845003fd3978aa37f1" vrev="20">
+  <serviceinfo code="succeeded" xsrcmd5="d44d0ef3a5b10762479a1c5ef08b2505" />
   <entry md5="03bdf985dc17e7b8787c9dba0bedf402" mtime="1446467262" name="PKGBUILD" size="967" />
   <entry md5="4fc2fc1d5e0267d40fee7f1d2ed37403" mtime="1446714293" name="_service" size="459" />
 </directory>

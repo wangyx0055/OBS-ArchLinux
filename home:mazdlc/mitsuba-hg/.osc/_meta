@@ -1,8 +1,5 @@
 <package name="mitsuba-hg" project="home:mazdlc">
   <title>mitsuba-hg</title>
   <description>Mitsuba physically based renderer.</description>
-  <build>
-    <disable/>
-  </build>
 </package>
 

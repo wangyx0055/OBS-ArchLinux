@@ -1,6 +1,6 @@
-<directory name="firefox-kde-opensuse" rev="10" srcmd5="628df899651676dcc0723e6f803cfe37" vrev="10">
-  <serviceinfo code="succeeded" xsrcmd5="ec2b3e568daeb969bec641e5b207416e" />
-  <entry md5="8ebf3c9c5309fd88b16b946c8145f674" mtime="1446969058" name="PKGBUILD" size="6881" />
+<directory name="firefox-kde-opensuse" rev="11" srcmd5="1a8286dfe370ba227c5857e32955da8d" vrev="11">
+  <serviceinfo code="succeeded" xsrcmd5="024e43a3db2d63ad3a28111b8ba858c9" />
+  <entry md5="ef5802bab5beea3444297d78a573ae62" mtime="1447666435" name="PKGBUILD" size="6881" />
   <entry md5="05bee6f8657c9085896ed115e42fa67b" mtime="1446901249" name="_service" size="259" />
   <entry md5="fe24f5ea463013bb7f1c12d12dce41b2" mtime="1424791495" name="add_missing_pgo_rule.patch" size="316" />
   <entry md5="0a8dd69352759b7544ca65403147752f" mtime="1446978553" name="bump.sh" size="830" />

@@ -1,6 +1,6 @@
 <package name="wine-gaming-nine" project="home:mazdlc">
   <title>wine-gaming-nine</title>
-  <description></description>
+  <description>Based off wine-staging, including the gallium-nine patches, livino-reader patch and some more hacks</description>
   <build>
     <disable arch="i586"/>
   </build>
