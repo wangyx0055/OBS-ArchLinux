@@ -1,0 +1,22 @@
+pkgname=libwlocate
+pkgver=0.20150623.ef86579
+pkgrel=1
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( wireless_tools glibc )
+provides=(  )
+conflicts=(  )
+url="http://www.archlinux.org"
+license=('see original')
+source=("pkg.tar.xz")
+md5sums=('SKIP')
+noextract="pkg.tar.xz"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/pkg.tar.xz"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

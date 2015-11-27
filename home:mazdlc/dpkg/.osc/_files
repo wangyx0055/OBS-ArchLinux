@@ -1,0 +1,7 @@
+<directory name="dpkg" rev="2" srcmd5="18cda3318d0e68bf71373bafaf881800" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="9f786101dc987cc68470c8bf2d9b8aef" />
+  <entry md5="480b8d585f8d4e13db6332e5a91f3a25" mtime="1447842403" name="PKGBUILD" size="1767" />
+  <entry md5="a8d825c92233de7e02b34bf829748b28" mtime="1447842404" name="_service" size="229" />
+  <entry md5="c5f0edd8b3f3a678914c2b8b0feee5a2" mtime="1447843658" name="bump.sh" size="809" />
+  <entry md5="71fd0c244ca1fc7132c708022ca50ef0" mtime="1447842406" name="dpkg-gzip-rsyncable.patch" size="368" />
+</directory>

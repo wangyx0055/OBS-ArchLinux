@@ -1,0 +1,5 @@
+<package name="fancontrol-gui-git" project="home:mazdlc:kde-frameworks-5">
+  <title>fancontrol-gui-git</title>
+  <description>GUI for the fancontrol script and systemd service</description>
+</package>
+

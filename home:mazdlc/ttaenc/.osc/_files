@@ -1,0 +1,6 @@
+<directory name="ttaenc" rev="9948694769e5aa16e81e807b384d34b8" srcmd5="9948694769e5aa16e81e807b384d34b8">
+  <linkinfo baserev="ebd66cee7087369788767c62b19ffe66" lsrcmd5="a3452efc3c1912f73e809e0387877a9d" package="ttaenc-tmp" project="home:mazdlc" rev="7b82c03262a955c8c976a5edc4353ac1" srcmd5="ebd66cee7087369788767c62b19ffe66" />
+  <entry md5="76ea85c231d264231cb2c96a45fe7263" mtime="1447807738" name="PKGBUILD" size="788" />
+  <entry md5="1d37a0a0f0486c3bea221db459c19ff5" mtime="1447807717" name="_service" size="221" />
+  <entry md5="9f45d3090c9a05ee4512b74fdbd175f3" mtime="1447838663" name="bump.sh" size="506" />
+</directory>

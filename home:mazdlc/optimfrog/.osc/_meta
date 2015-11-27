@@ -1,0 +1,14 @@
+<package name="optimfrog" project="home:mazdlc">
+  <title>optimfrog</title>
+  <description>A lossless audio compression program.</description>
+  <build>
+    <disable/>
+  </build>
+  <publish>
+    <disable/>
+  </publish>
+  <useforbuild>
+    <disable/>
+  </useforbuild>
+</package>
+

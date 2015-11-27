@@ -1,5 +1,5 @@
-<directory name="libtorrent-pyro-git" rev="24" srcmd5="4d3880fee30391efb20b8328304a548b" vrev="24">
-  <serviceinfo code="succeeded" xsrcmd5="7311b2cd02e8c7b0d6c04443421ef6ab" />
+<directory name="libtorrent-pyro-git" rev="36" srcmd5="65ce409f7699b744939a06019ac22fb8" vrev="36">
+  <serviceinfo code="succeeded" xsrcmd5="fa0d3a86129108a106ce760c5bbb4077" />
   <entry md5="b34a37099ea09a67fafcd4ee6a7dea7a" mtime="1446822652" name="PKGBUILD" size="1147" />
   <entry md5="dd20f23ed80d3cb9550fbb611c07ea7f" mtime="1446822654" name="_service" size="411" />
   <entry md5="b903844b29b13459043398d221ff723a" mtime="1446822657" name="libtorrent-ipv6.patch" size="53106" />

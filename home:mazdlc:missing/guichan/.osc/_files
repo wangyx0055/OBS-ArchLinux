@@ -1,5 +1,5 @@
-<directory name="guichan" rev="2" srcmd5="5221cc3cd6c2fb86b7ce3c5556b1f049" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="65426310b0574f23a65dfcc1ec0911a5" />
+<directory name="guichan" rev="9" srcmd5="3e46190100d58bb4cf3df8144fd945ae" vrev="9">
+  <serviceinfo code="succeeded" xsrcmd5="a9d2596b055c32db945c1d8e9b068887" />
   <entry md5="9177810df524ced3b275361587570f6e" mtime="1446732722" name="PKGBUILD" size="320" />
   <entry md5="0327cc302c6ff9fb77e5ebc49ec4b8f0" mtime="1446700448" name="_service" size="243" />
 </directory>

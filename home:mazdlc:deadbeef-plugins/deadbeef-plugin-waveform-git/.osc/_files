@@ -1,5 +1,5 @@
-<directory name="deadbeef-plugin-waveform-git" rev="18" srcmd5="7b54f2db048191f04bd840983c318cd0" vrev="18">
-  <serviceinfo code="succeeded" xsrcmd5="30a898f247f486fc69c7fb0d566d6949" />
-  <entry md5="8d74793d067046536302f95f7019340f" mtime="1446995368" name="PKGBUILD" size="1529" />
+<directory name="deadbeef-plugin-waveform-git" rev="42" srcmd5="bce61c4349b3964cc4cce8166309aa74" vrev="42">
+  <serviceinfo code="succeeded" xsrcmd5="b281d8a18fa839f7625b4bcd1982703e" />
+  <entry md5="c4f265bfc30ea6a62fe0dd1e0c869e5b" mtime="1447813693" name="PKGBUILD" size="1403" />
   <entry md5="b6593ddd91852223c818e6378c028a67" mtime="1446995117" name="_service" size="431" />
 </directory>

@@ -1,0 +1,5 @@
+<package name="deadbeef-optimfrog-git" project="home:mazdlc:deadbeef-plugins">
+  <title>deadbeef-optimfrog-git</title>
+  <description>OptimFROG input plugin for DeaDBeeF </description>
+</package>
+

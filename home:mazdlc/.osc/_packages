@@ -90,4 +90,19 @@
   <package name="notepadqq-git" state=" " />
   <package name="pencil2d-git" state=" " />
   <package name="webcamoid-git" state=" " />
+  <package name="arj" state=" " />
+  <package name="clementine-qt5-git" state=" " />
+  <package name="dpkg" state=" " />
+  <package name="flacon-git" state=" " />
+  <package name="libechonest-qt5-git" state=" " />
+  <package name="libfilteraudio-git" state=" " />
+  <package name="liblastfm-qt5-git" state=" " />
+  <package name="libmygpo-qt5-git" state=" " />
+  <package name="libspotify" state=" " />
+  <package name="linux-uksm-ck" state=" " />
+  <package name="optimfrog" state=" " />
+  <package name="qtox-git" state=" " />
+  <package name="ttaenc" state=" " />
+  <package name="uchardet-git" state=" " />
+  <package name="vokoscreen-git" state=" " />
 </project>

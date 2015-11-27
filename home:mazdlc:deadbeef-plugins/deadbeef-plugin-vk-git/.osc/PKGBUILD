@@ -1,7 +1,7 @@
 # Maintainer: Kirill Malyshev <keryascorpio at gmail.com>
 
 pkgbase=deadbeef-plugin-vk-git
-pkgname=('deadbeef-plugin-vk-git' 'deadbeef-plugin-vk-gtk2-git' 'deadbeef-plugin-vk-gtk3-git')
+pkgname=('deadbeef-plugin-vk-gtk2-git' 'deadbeef-plugin-vk-gtk3-git')
 _gitname=db-vk
 pkgver=0.2.2
 pkgrel=1
@@ -12,7 +12,6 @@ license=('BSD')
 source=$_gitname-${pkgver}.tar.xz
 makedepends=('cmake' 'deadbeef' 'gtk3' 'gtk2' 'curl' 'json-glib')
 md5sums=('SKIP')
-
 prepare() {
     cd $srcdir
     cp -r $_gitname-$pkgver build-gtk2
@@ -42,6 +41,7 @@ package_deadbeef-plugin-vk-gtk2-git() {
 	pkgdesc=$_pkgdesc". For gtk2."
 	provides=deadbeef-plugin-vk-gtk2
 	conflicts=deadbeef-plugin-vk-gtk2
+    groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk2")
 	cd "${srcdir}/build-gtk2" && make DESTDIR="$pkgdir" install
 }
 
@@ -50,13 +50,6 @@ package_deadbeef-plugin-vk-gtk3-git() {
 	pkgdesc=$_pkgdesc". For gtk3."
 	provides=deadbeef-plugin-vk-gtk3
 	conflicts=deadbeef-plugin-vk-gtk3
+    groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk3")
 	cd "${srcdir}/build-gtk3" && make DESTDIR="$pkgdir" install
-}
-
-package_deadbeef-plugin-vk-git() {
-	pkgdesc=$_pkgdesc". Install both gtk2 and gtk3 version."
-	depends=(deadbeef-plugin-vk-gtk2-git deadbeef-plugin-vk-gtk3-git)
-	provides=deadbeef-plugin-vk-git
-	conflicts=deadbeef-plugin-vk-git
-	true
 }

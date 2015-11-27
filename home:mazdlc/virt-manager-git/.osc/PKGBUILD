@@ -1,7 +1,7 @@
 # Maintainer: Thaodan <theodorstormgrade@gmail.com>
 _pkgname='qt-virt-manager'
 pkgbase='virt-manager-qt'
-pkgname=( ${pkgbase}4-git ${pkgbase}5-git)
+pkgname=(${pkgbase}5-git)   # ${pkgbase}4-git 
 url='https://github.com/F1ash/qt-virt-manager'
 depends=('libvirt' 'scrub' 'spice-gtk3')
 arch=('i686' 'x86_64')
@@ -10,7 +10,7 @@ pkgrel=1
 pkgver=0.16.38
 #source=("git+https://github.com/F1ash/qt-virt-manager.git#tag=$pkgver")
 source=$_pkgname-$pkgver.tar.xz
-makedepends=('cmake' 'qt4' 'qtermwidget-q4' 'qt5-base' 'qt5-svg' 'qtermwidget' 'spice-protocol' 'spice')
+makedepends=('cmake' 'qt5-base' 'qt5-svg' 'qt5-multimedia' 'qtermwidget' 'spice-protocol' 'spice') # 'qt4' 'qtermwidget-q4' 
 pkgdesc="Qt Virtual Machine Manager provides a graphical tool for administering virtual machines for QEMU/KVM, Xen, and LXC and other Virtual Entities.
 Uses libvirt as the backend management API.
 "
@@ -22,14 +22,14 @@ build()
 {
   export CXXFLAGS="$CXXFLAGS -std=c++11"
   cd "$srcdir"
-  mkdir -p "$srcdir"/build-qt4
-      cd "$srcdir"/build-qt4
-      cmake -DBUILD_QT_VERSION=4 \
-	    -DCMAKE_INSTALL_PREFIX=/usr \
-	    -DCMAKE_BUILD_TYPE=Release \
-	    ../$_pkgname-$pkgver
+  #mkdir -p "$srcdir"/build-qt4
+  #    cd "$srcdir"/build-qt4
+  #    cmake -DBUILD_QT_VERSION=4 \
+#	    -DCMAKE_INSTALL_PREFIX=/usr \
+#	    -DCMAKE_BUILD_TYPE=Release \
+#	    ../$_pkgname-$pkgver
 
-  make
+ # make
   
 
   mkdir -p "$srcdir"/build-qt5

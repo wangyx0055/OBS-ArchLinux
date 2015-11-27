@@ -1,0 +1,5 @@
+<package name="kndiswrapper-qt5" project="home:mazdlc:kde-frameworks-5">
+  <title>kndiswrapper-qt5</title>
+  <description>Qt5 frontend for ndiswrapper</description>
+</package>
+

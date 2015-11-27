@@ -1,5 +1,5 @@
-<directory name="libkexiv2-git" rev="14" srcmd5="93634ef02b7029ce826ec510a8bf00db" vrev="14">
-  <serviceinfo code="succeeded" xsrcmd5="70d28c2cb125594af04bd4b287693dfb" />
+<directory name="libkexiv2-git" rev="23" srcmd5="f183d7f92bf265a60dadd328903dcd20" vrev="23">
+  <serviceinfo code="succeeded" xsrcmd5="6799501b9897b1637e97a6ba8ac11286" />
   <entry md5="45ad7d302cbc22c9753acbd4affd31e6" mtime="1446334907" name="PKGBUILD" size="740" />
   <entry md5="b4fcd01aa95c7a09173bc02fa544ee2c" mtime="1446714338" name="_service" size="449" />
 </directory>

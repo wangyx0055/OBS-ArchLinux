@@ -1,5 +1,5 @@
-<directory name="samba-mounter-frameworks-git" rev="5" srcmd5="2f6b88a98a8955f3b6652d154268390e" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="3a4beb26e7b843d1712ecc9ed81f621b" />
+<directory name="samba-mounter-frameworks-git" rev="74" srcmd5="4d6025fd6516382e3f11af1a49a64920" vrev="74">
+  <serviceinfo code="succeeded" xsrcmd5="3b99d7b5a0fc60afdfd9e13a7839baf6" />
   <entry md5="0cf9845be12de019d5ab5b4860e3789d" mtime="1447263789" name="PKGBUILD" size="825" />
   <entry md5="a2d4126c4b1aa3946934c046b7bb85e1" mtime="1447262886" name="_service" size="480" />
 </directory>

@@ -1,0 +1,5 @@
+<directory name="libx86emu" rev="1" srcmd5="82cfbd46c0fea24584372244fbbc5d74" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="b2e4751d6f79c08e9166312752625e07" />
+  <entry md5="f434ddb088412251fd08aa875651216b" mtime="1448616313" name="PKGBUILD" size="359" />
+  <entry md5="90b7b1b27116563837ccfd27aec01388" mtime="1448616315" name="_service" size="291" />
+</directory>

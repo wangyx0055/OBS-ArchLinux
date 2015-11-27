@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">download.kde.org</param>
+    <param name="path">/stable/applications/15.08.3/src/kuser-15.08.3.tar.xz</param>
+  </service>
+</services>

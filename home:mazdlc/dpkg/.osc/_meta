@@ -1,0 +1,5 @@
+<package name="dpkg" project="home:mazdlc">
+  <title>dpkg</title>
+  <description>The Debian Package Manager. Don't use it instead of Arch's 'pacman'.</description>
+</package>
+

@@ -21,7 +21,8 @@ makedepends=("git"
              "python"
              "gobject-introspection"
              "ruby-ronn"
-             "swig")
+             "swig"
+             "jdk8-openjdk")
 optdepends=("lua52: Lua bindings"
             "python: Python 3 bindings"
             "python2: Python 2 bindings")
@@ -35,6 +36,9 @@ prepare(){
   mkdir -p build
   
   export JAVA_HOME="/usr/lib/jvm/default"
+  
+  cd $srcdir/libelektra-$pkgver
+  patch -p1 -i $startdir/fix.patch
 }
 
 build() {

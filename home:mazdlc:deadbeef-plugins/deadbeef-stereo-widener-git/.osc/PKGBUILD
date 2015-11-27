@@ -10,6 +10,7 @@ license=('GPL2')
 depends=('deadbeef')
 provides=deadbeef-stereo-widener
 conflicts=deadbeef-stereo-widener
+groups=("deadbeef-plugins" "deadbeef-plugins-soundfx")
 source=$_gitname-$pkgver.tar.xz
 md5sums=('SKIP')
 

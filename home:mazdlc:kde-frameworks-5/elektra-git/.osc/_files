@@ -1,5 +1,6 @@
-<directory name="elektra-git" rev="5" srcmd5="5956b741b06eab66d42c008f74bd2ca5" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="d524fded0046d56d824c63d1a79a40a9" />
-  <entry md5="e0731f687be227821e1e5e3cd4ec1448" mtime="1447072142" name="PKGBUILD" size="1571" />
+<directory name="elektra-git" rev="32" srcmd5="4fcf58c5631e83647ab2e270634f72f7" vrev="32">
+  <serviceinfo code="succeeded" xsrcmd5="c78c5b01f5f3dccf2fe7b962e0f1c902" />
+  <entry md5="bbb1d57f34630875298670f7016fe92e" mtime="1448166539" name="PKGBUILD" size="1669" />
   <entry md5="1602eca294edba0cc2fe38f7b1963b16" mtime="1447065018" name="_service" size="424" />
+  <entry md5="f2b116ed15405d0877dc1ee5d9b5a4c2" mtime="1448203791" name="fix.patch" size="2115" />
 </directory>

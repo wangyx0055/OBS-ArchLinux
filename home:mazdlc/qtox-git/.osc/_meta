@@ -1,0 +1,5 @@
+<package name="qtox-git" project="home:mazdlc">
+  <title>qtox-git</title>
+  <description>Powerful Tox client written in C++/Qt that follows the Tox design guidelines.</description>
+</package>
+

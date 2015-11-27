@@ -1,5 +1,5 @@
-<directory name="deadbeef-plugin-vk-git" rev="17" srcmd5="80fcce6ccc10c0fd9942a72e415768c1" vrev="17">
-  <serviceinfo code="succeeded" xsrcmd5="faccb54ff3a6d08546cd65883aa5a4f5" />
-  <entry md5="f4c985d48b8c2a41a61d6f2021d501c6" mtime="1446982857" name="PKGBUILD" size="1606" />
+<directory name="deadbeef-plugin-vk-git" rev="37" srcmd5="1cb79692e20fed24757de5466b93cc2b" vrev="37">
+  <serviceinfo code="succeeded" xsrcmd5="f72aa162733c9a5c56ae28c993a98970" />
+  <entry md5="99bfa717bcb81df2b7082ba071fc4772" mtime="1447813266" name="PKGBUILD" size="1500" />
   <entry md5="2d5094c9a71cd90eb338e019f7096ea7" mtime="1446714133" name="_service" size="442" />
 </directory>

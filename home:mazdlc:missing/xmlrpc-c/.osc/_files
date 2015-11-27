@@ -1,5 +1,5 @@
-<directory name="xmlrpc-c" rev="1" srcmd5="ee7c76d4b9e7d55736f69e9653ebb68c" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="61abae9994714b0dca9930497744e1f3" />
+<directory name="xmlrpc-c" rev="9" srcmd5="be30f27e3f045a6586a34c8799ffeb70" vrev="9">
+  <serviceinfo code="succeeded" xsrcmd5="41bceb8171bf46681027e79fe257fdf2" />
   <entry md5="8d94c14a6c32e6af447622ab49f10540" mtime="1446815244" name="PKGBUILD" size="335" />
   <entry md5="f972a1eca0f9b9be02f9278067f1df0b" mtime="1446815246" name="_service" size="244" />
 </directory>

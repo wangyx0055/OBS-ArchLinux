@@ -1,0 +1,7 @@
+<directory name="vokoscreen-git" rev="5" srcmd5="1ee5625734eefe254d05f74e4adfc5a4" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="09ee493ee46ac9f9f670597ae009b77d" />
+  <entry md5="06ae7b33a2a191bcde65f7d14358b72d" mtime="1448545006" name="PKGBUILD" size="1254" />
+  <entry md5="a4d0c333026a84d28b235a65add2906b" mtime="1448005419" name="_service" size="415" />
+  <entry md5="ad0c6a88b7a8e2abb64a2784d71e2029" mtime="1448084764" name="add_audio_codec.patch" size="525" />
+  <entry md5="48a7f72fa71da495b4a23e4a35ce3427" mtime="1448005421" name="desktop_file.patch" size="464" />
+</directory>

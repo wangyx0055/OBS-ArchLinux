@@ -11,6 +11,8 @@ unzip mesa live-media yasm git fontconfig
 mpg123 ladspa libass libbluray libcdio-paranoia
 opus subversion x264 libx264 rtmpdump gnutls gsm libdvdcss
 libdvdread libdvdnav)
+#provides=('mplayer=$pkgver')
+#conflicts=('mplayer=$pkgver')
 url="http://www.archlinux.org"
 license=('see original')
 source=("index.html")

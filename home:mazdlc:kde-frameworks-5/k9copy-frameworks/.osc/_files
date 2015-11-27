@@ -1,8 +1,8 @@
-<directory name="k9copy-frameworks" rev="15" srcmd5="0d66659bb8ab3862d15d199c5f44e528" vrev="15">
-  <serviceinfo code="succeeded" xsrcmd5="6ce50c7e66def39c3a9c82803be6f090" />
-  <entry md5="84a9ef9147475f34d2c16b936da948b3" mtime="1447732245" name="PKGBUILD" size="1151" />
+<directory name="k9copy-frameworks" rev="17" srcmd5="ebec862d7fcc37abc28870b9f555b55d" vrev="17">
+  <serviceinfo code="succeeded" xsrcmd5="0768caf8e5151d63a328d5f5e2fe407e" />
+  <entry md5="07b690963c20af28637d1f3cb04d226c" mtime="1447811646" name="PKGBUILD" size="1169" />
   <entry md5="dfe8038556a1eaeb2a5d0449c698a8d0" mtime="1447680045" name="_service" size="237" />
-  <entry md5="ce0c8dcadb1252d8e7ff8933eb3f3970" mtime="1447732255" name="bump.sh" size="719" />
+  <entry md5="dcff3f7f88f6b7ecbe8ade4a228dd717" mtime="1447833261" name="bump.sh" size="723" />
   <entry md5="7b2ad54fb4aaa7c714cfaff406569146" mtime="1447680048" name="ffmpeg.patch" size="21685" />
   <entry md5="e2da9252db1d507e71f08d26463a5df8" mtime="1447680049" name="k9copy.install" size="235" />
 </directory>

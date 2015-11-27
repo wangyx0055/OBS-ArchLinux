@@ -1,5 +1,5 @@
-<directory name="frei0r-plugins" rev="3" srcmd5="d309008ae645cc1b9188e4446845035e" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="ec7ec970fe3764717787df5f72c036fc" />
+<directory name="frei0r-plugins" rev="13" srcmd5="e731eb19836f284558a4eff0d8b68998" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="64ee703a4d7dc92c8b6e552a20c87f21" />
   <entry md5="1c93604c12a0dbb7dec40a4c2ff555e9" mtime="1446732662" name="PKGBUILD" size="345" />
   <entry md5="106fca369b5c5c5004d53f079efc1a7d" mtime="1446606620" name="_service" size="250" />
 </directory>

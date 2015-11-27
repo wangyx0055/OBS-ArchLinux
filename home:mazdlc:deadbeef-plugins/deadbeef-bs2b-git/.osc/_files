@@ -1,6 +1,6 @@
-<directory name="deadbeef-bs2b-git" rev="17" srcmd5="bb80c0ee4dbe3f24a60d303813549179" vrev="17">
-  <serviceinfo code="succeeded" xsrcmd5="11ebdc9c1cb1ec0a40fdcce11a041fd8" />
-  <entry md5="4e6629e7d00f0cd8f122b5939e18c07c" mtime="1446981479" name="PKGBUILD" size="650" />
+<directory name="deadbeef-bs2b-git" rev="31" srcmd5="9d554fac8870ae6d0318d0b1fe5e2efe" vrev="31">
+  <serviceinfo code="succeeded" xsrcmd5="56e65c8fc9e60a35aa9fa88d6994e6af" />
+  <entry md5="7ccd10404f65ed105694302a57228d64" mtime="1447812759" name="PKGBUILD" size="705" />
   <entry md5="2afabc05f07fc219851763df2f112b90" mtime="1446714070" name="_service" size="446" />
   <entry md5="f827ceacfeaeb782994d8599d8d8a612" mtime="1446708547" name="bs2b.diff" size="1482" />
 </directory>

@@ -1,0 +1,5 @@
+<package name="arj" project="home:mazdlc">
+  <title>arj</title>
+  <description>Free and portable clone of the ARJ archiver</description>
+</package>
+

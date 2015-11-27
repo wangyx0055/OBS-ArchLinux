@@ -1,5 +1,5 @@
-<directory name="kde-baseapps-git" rev="16" srcmd5="a173798d6321cf7898c5ee0d48cf774f" vrev="16">
-  <serviceinfo code="succeeded" xsrcmd5="6bb4be0b276de4fbe41831e675d59c0f" />
+<directory name="kde-baseapps-git" rev="51" srcmd5="2201269b5f027195f1debf25efffcba9" vrev="51">
+  <serviceinfo code="succeeded" xsrcmd5="4ddbaed7d49fea4432bd1c9a23fc956a" />
   <entry md5="5577dd476d5b697e1334d853639b2937" mtime="1446812334" name="PKGBUILD" size="3333" />
   <entry md5="60a2bc4ea0e75c3968bca2f437eb3285" mtime="1446789816" name="_service" size="457" />
   <entry md5="262fc1597fb332894d1367f510a7f39b" mtime="1446789818" name="kde-baseapps-git.install" size="186" />

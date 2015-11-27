@@ -1,5 +1,5 @@
-<directory name="unshield-git" rev="60" srcmd5="f23e1fd7e454f8f746994cb3284e288c" vrev="60">
-  <serviceinfo code="succeeded" xsrcmd5="36498ada7ed3b9d74be89c64a73fc395" />
+<directory name="unshield-git" rev="92" srcmd5="582b9f82b2f29b70b5eecfe9f6d46183" vrev="92">
+  <serviceinfo code="succeeded" xsrcmd5="e5a31944dac6a56ca26b5ed07e1698eb" />
   <entry md5="ee37dee9c3df79e96ee804110f41d920" mtime="1446304810" name="PKGBUILD" size="934" />
   <entry md5="d33e5829f73539caea64bfe2b56abc16" mtime="1446714491" name="_service" size="447" />
 </directory>

@@ -1,0 +1,5 @@
+<package name="clementine-qt5-git" project="home:mazdlc">
+  <title>clementine-qt5-git</title>
+  <description>Experimental Qt5 version of Clementine, a modern music player and library organiser.</description>
+</package>
+

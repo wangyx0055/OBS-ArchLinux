@@ -1,0 +1,5 @@
+<package name="dukto-qt5-git" project="home:mazdlc:kde-frameworks-5">
+  <title>dukto-qt5-git</title>
+  <description>A simple, fast and multi-platform file transfer tool for LAN users - Qt 5.x</description>
+</package>
+

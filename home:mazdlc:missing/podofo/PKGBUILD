@@ -1,0 +1,20 @@
+pkgname=podofo
+pkgver=0.9.3
+pkgrel=1
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=('lua51' 'openssl' 'fontconfig' 'libtiff' 'libidn' 'libjpeg-turbo')
+url="http://www.archlinux.org"
+license=('see original')
+source=("index.html")
+md5sums=('SKIP')
+noextract="index.html"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/index.html"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">kde-apps.org</param>
+    <param name="path">/CONTENT/content-files/151210-kde-thumbnailer-epub-1.0.9.tar.gz</param>
+  </service>
+</services>

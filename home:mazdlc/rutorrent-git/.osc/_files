@@ -1,5 +1,5 @@
-<directory name="rutorrent-git" rev="40" srcmd5="44a6919710a22056aa63dd0cdeaf21ef" vrev="40">
-  <serviceinfo code="succeeded" xsrcmd5="64670f301c195a581ab2eb180566170f" />
+<directory name="rutorrent-git" rev="46" srcmd5="2600339eb3d01164fe51ee801058b775" vrev="46">
+  <serviceinfo code="succeeded" xsrcmd5="c1c0c9d52dee64948ca009db5f188835" />
   <entry md5="dbb74af30ea62e5a6805d787f02af8b2" mtime="1446827687" name="PKGBUILD" size="2841" />
   <entry md5="6a6c296454f903b25cf9370ea0f2f1dc" mtime="1446823138" name="_service" size="1117" />
   <entry md5="a3efa833b362ac7f3ff69ddaa720de81" mtime="1442651786" name="plugins.ini" size="2391" />

@@ -32,4 +32,5 @@ build() {
 package() {
   make -C build DESTDIR="${pkgdir}" install
   install -Dm644 $startdir/COPYING "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  sed -i 's:application-appearance-and-behavior:appearance:g' "${pkgdir}/usr/share/kservices5/settings-kolor-management.desktop"
 }

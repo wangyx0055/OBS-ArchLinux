@@ -1,0 +1,11 @@
+<package name="libspotify" project="home:mazdlc">
+  <title>libspotify</title>
+  <description>C API package allowing third-party developers to write applications that utilize the Spotify music streaming service</description>
+  <build>
+    <disable/>
+  </build>
+  <publish>
+    <disable/>
+  </publish>
+</package>
+

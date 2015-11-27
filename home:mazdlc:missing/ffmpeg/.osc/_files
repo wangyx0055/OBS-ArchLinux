@@ -1,6 +1,6 @@
-<directory name="ffmpeg" rev="8" srcmd5="ed55c916dc35aabac3244031a5d7f15f" vrev="8">
-  <serviceinfo code="succeeded" xsrcmd5="f188640413bde66f850361cefb3916c8" />
-  <entry md5="aa618da4c85614648789da285d52045b" mtime="1446724405" name="PKGBUILD" size="600" />
+<directory name="ffmpeg" rev="21" srcmd5="aaa97a5d51b4cd066c659d0947ea467f" vrev="21">
+  <serviceinfo code="succeeded" xsrcmd5="89dd30ef806ec21f1079c2f1f5cdb0fa" />
+  <entry md5="190c4bd23b09850259073c87c5d320de" mtime="1447902161" name="PKGBUILD" size="931" />
   <entry md5="f88b87f43e6ba4b2c9bef3a8072674f7" mtime="1446607207" name="_service" size="238" />
-  <entry md5="9437b3efc1e52c9ad297c8751200cd2f" mtime="1446724374" name="bump.sh" size="843" />
+  <entry md5="03e2d268fd8189aade13cb7d5c70d574" mtime="1447399525" name="bump.sh" size="844" />
 </directory>

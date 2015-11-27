@@ -1,0 +1,6 @@
+<directory name="polkit-kde-kcmodules-frameworks" rev="6" srcmd5="33f221ad8d33052f8468a4c814cd71ce" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="2249b59876f71ff27cdd324efdc578d1" />
+  <entry md5="5efcf08185a3330104b554e50b37d82f" mtime="1448549969" name="PKGBUILD" size="972" />
+  <entry md5="fa835713535c60982569640cfd7badc5" mtime="1448539258" name="_service" size="478" />
+  <entry md5="85835fcd7d88a755ffe1be79b46183dd" mtime="1448541147" name="port_to_kf5.patch" size="8761" />
+</directory>

@@ -1,0 +1,5 @@
+<directory name="python2-markdown" rev="3" srcmd5="5e72a88b68f4f897855d1043819d4b09" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="263d181d121dd703d23fe06f037fd276" />
+  <entry md5="3ce3c295a7b011e0c6da8bd0272ec943" mtime="1447066610" name="PKGBUILD" size="365" />
+  <entry md5="b52b5d606d46f91135fde00401defded" mtime="1447066626" name="_service" size="295" />
+</directory>

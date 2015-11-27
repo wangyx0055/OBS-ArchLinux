@@ -1,0 +1,5 @@
+<directory name="python2-cheetah" rev="2" srcmd5="3fb2935dae4de1e57850383860425ef2" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="5c220dec821fea9eae6c33c3b70a409a" />
+  <entry md5="da3d3a0e173567cbc996245511c74d6f" mtime="1447146183" name="PKGBUILD" size="425" />
+  <entry md5="a5bdaef16890f872db6150beab8a8ca8" mtime="1447066378" name="_service" size="297" />
+</directory>

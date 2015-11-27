@@ -1,0 +1,5 @@
+<package name="flacon-git" project="home:mazdlc">
+  <title>flacon-git</title>
+  <description>Extracts individual tracks from one big audio file containing the entire album of music and saves them as separate audio files. (Git Version)</description>
+</package>
+

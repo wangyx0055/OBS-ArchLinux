@@ -1,0 +1,27 @@
+# Maintainer: Håvard Pettersson <mail@haavard.me>
+# Contributor: Ivan Shapovalov <intelfx100 at gmail dot com>
+
+_pkgname=libfilteraudio
+pkgname=libfilteraudio-git
+pkgver=r92.612c5a1
+pkgrel=1
+pkgdesc="An easy to use audio filtering library made from webrtc code"
+arch=('i686' 'x86_64' 'arm' 'armv6h' 'armv7h')
+url="https://github.com/irungentoo/filter_audio"
+license=('BSD')
+makedepends=('git')
+depends=('glibc')
+provides=("${_pkgname}" 'filter_audio')
+conflicts=("${_pkgname}" 'filter_audio')
+source=libfilteraudio-$pkgver.tar.xz
+sha512sums=('SKIP')
+
+build() {
+    cd ${_pkgname}-$pkgver
+    make
+}
+
+package() {
+    cd ${_pkgname}-$pkgver
+    make DESTDIR="$pkgdir" PREFIX="/usr" install
+}

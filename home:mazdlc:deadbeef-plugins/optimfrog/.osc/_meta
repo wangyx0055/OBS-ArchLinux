@@ -1,0 +1,5 @@
+<package name="optimfrog" project="home:mazdlc:deadbeef-plugins">
+  <title>optimfrog</title>
+  <description>A lossless audio compression program.</description>
+</package>
+

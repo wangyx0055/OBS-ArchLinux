@@ -1,0 +1,5 @@
+<package name="pentobi-git" project="home:mazdlc:kde-frameworks-5">
+  <title>pentobi-git</title>
+  <description>computer opponent for the board game Blokus</description>
+</package>
+

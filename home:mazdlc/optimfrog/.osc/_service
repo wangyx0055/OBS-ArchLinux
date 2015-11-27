@@ -1,0 +1,12 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">www.losslessaudio.org</param>
+    <param name="path">/Downloads/A1C0/5003/Linux/OptimFROG_Linux_x86_5003.zip</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">www.losslessaudio.org</param>
+    <param name="path">/Downloads/A1C0/5003/Linux/OptimFROG_Linux_x64_5003.zip</param>
+  </service>
+</services>

@@ -1,5 +1,5 @@
 pkgbase=deadbeef-plugin-waveform-git
-pkgname=(deadbeef-plugin-waveform-git deadbeef-plugin-waveform-gtk2-git deadbeef-plugin-waveform-gtk3-git)
+pkgname=(deadbeef-plugin-waveform-gtk2-git deadbeef-plugin-waveform-gtk3-git)
 pkgver=r151
 pkgrel=1
 _pkgdesc="Waveform Seekbar Plugin for the DeaDBeeF audio player (development version)"
@@ -7,7 +7,6 @@ makedepends=('deadbeef' 'sqlite' 'gtk2' 'gtk3')
 url="https://github.com/cboxdoerfer/ddb_waveform_seekbar"
 arch=('i686' 'x86_64')
 license='GPL2'
-
 _gitname=ddb_waveform_seekbar
 _gitroot=https://github.com/cboxdoerfer/${_gitname}
 
@@ -29,7 +28,7 @@ package_deadbeef-plugin-waveform-gtk2-git() {
   depends=('deadbeef' 'sqlite' 'gtk2')
   conflicts=('deadbeef-plugin-waveform-gtk2')
   provides=('deadbeef-plugin-waveform-gtk2')
-  
+  groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk2")
   install -D -v -c $srcdir/$_gitname-$pkgver/gtk2/ddb_misc_waveform_GTK2.so $pkgdir/usr/lib/deadbeef/ddb_misc_waveform_GTK2.so
 }
 
@@ -38,13 +37,6 @@ package_deadbeef-plugin-waveform-gtk3-git() {
   depends=('deadbeef' 'sqlite' 'gtk3')
   conflicts=('deadbeef-plugin-waveform-gtk3')
   provides=('deadbeef-plugin-waveform-gtk3')
+  groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk3")
   install -D -v -c $srcdir/$_gitname-$pkgver/gtk3/ddb_misc_waveform_GTK3.so $pkgdir/usr/lib/deadbeef/ddb_misc_waveform_GTK3.so
-}
-
-package_deadbeef-plugin-waveform-git () {
-    pkgdesc="$_pkgdesc Both GTK2 and GTK3 Ver."
-    provides=${pkgname%%-git}
-    conflicts=${pkgname%%-git}
-    depends=(deadbeef-plugin-waveform-gtk3-git deadbeef-plugin-waveform-gtk2-git)
-    true
 }

@@ -1,5 +1,5 @@
-<directory name="bdsup2subpp-git" rev="24" srcmd5="c7f1a30b6b1360893631a4c5b825a1cf" vrev="24">
-  <serviceinfo code="succeeded" xsrcmd5="8bbc700e7b94637073c051a0e452656f" />
+<directory name="bdsup2subpp-git" rev="103" srcmd5="5a2c78f81f005182356cfa8d5c0472e7" vrev="103">
+  <serviceinfo code="succeeded" xsrcmd5="86da97420eff93c05ebd98faead6b027" />
   <entry md5="58d02b23333baab9d2776c9091863119" mtime="1446963168" name="PKGBUILD" size="958" />
   <entry md5="99faf716b12937fafaa68493aa1a59bc" mtime="1446963170" name="_service" size="420" />
   <entry md5="0b9aa9997081d7431e87e33c38b5ff48" mtime="1446963172" name="bdsup2subpp.desktop" size="278" />

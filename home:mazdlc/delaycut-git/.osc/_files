@@ -1,5 +1,5 @@
-<directory name="delaycut-git" rev="17" srcmd5="74c2cee42f1ebaac9c12e7be969f239b" vrev="17">
-  <serviceinfo code="succeeded" xsrcmd5="98d2f1c5852a74f2beb09362fa52afda" />
+<directory name="delaycut-git" rev="39" srcmd5="22b8d08377bc17e2c7dd85f1fa514c1c" vrev="39">
+  <serviceinfo code="succeeded" xsrcmd5="a951154509213f80acfa4556c377b6a9" />
   <entry md5="e322774897ca4e4d12258b81f904b6b6" mtime="1446963341" name="PKGBUILD" size="1090" />
   <entry md5="87cb7de0cc14f26aa1589efd4cae801f" mtime="1446963343" name="_service" size="411" />
 </directory>

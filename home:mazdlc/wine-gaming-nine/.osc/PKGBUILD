@@ -9,15 +9,15 @@
 # -Wbemprox videocontroller query fix (see https://bugs.winehq.org/show_bug.cgi?id=38879 )
 
 pkgname=wine-gaming-nine
-pkgver=1.7.54
+pkgver=1.8rc1
 pkgrel=1
 
 _pkgbasever=${pkgver/rc/-rc}
-_winesrcdir="wine-patched-staging-$pkgver"
+_winesrcdir="wine-patched-staging-$_pkgbasever"
 
 state=""
 
-source=("staging-$pkgver.tar.gz"
+source=("staging-$_pkgbasever.tar.gz"
         keybindings.patch
         raw.patch
         mipmap.patch
@@ -123,7 +123,7 @@ conflicts=('bin32-wine' 'wine' 'wine-wow64' 'wine-visual-novel-reader')
 
 prepare()
 {
-    cd wine-patched-staging-$pkgver
+    cd $_winesrcdir
     
     patch -p1 -i ../wine-d3d9.patch && touch $srcdir/OK || rm -f $srcdir/OK
     
@@ -152,7 +152,7 @@ build()
     cd "$srcdir"
     [ -f $srcdir/OK ] || return 1
     
-    cd wine-patched-staging-$pkgver
+    cd $_winesrcdir
     autoreconf -f
     cd ..
     
@@ -162,7 +162,7 @@ build()
 
     # Get rid of old build dirs
     rm -rf $pkgname-{32,64}-build
-    mkdir $pkgname-32-build
+    mkdir $pkgname-{32,64}-build
     
     # These additional CPPFLAGS solve FS#27662 and FS#34195
     export CPPFLAGS="${CPPFLAGS/-D_FORTIFY_SOURCE=2/} -D_FORTIFY_SOURCE=0"
@@ -170,7 +170,6 @@ build()
     if [[ $CARCH == x86_64 ]]; then
             msg2 "Building Wine-64..."
 
-            mkdir $pkgname-64-build
             cd "$srcdir/$pkgname-64-build"
             
             ../$_winesrcdir/configure \

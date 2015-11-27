@@ -1,0 +1,5 @@
+<package name="kvirc-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kvirc-git</title>
+  <description>Qt based IRC-Client - Git Version</description>
+</package>
+

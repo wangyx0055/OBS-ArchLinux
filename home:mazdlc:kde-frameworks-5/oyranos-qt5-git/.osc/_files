@@ -1,6 +1,6 @@
-<directory name="oyranos-qt5-git" rev="14" srcmd5="1584258ccff648ef99b09aadb56becd8" vrev="14">
-  <serviceinfo code="succeeded" xsrcmd5="3bff677a281ce856e7244c789484df35" />
-  <entry md5="4ecdbbc8fae5a82ac483f1d933e300d3" mtime="1447075163" name="PKGBUILD" size="1307" />
+<directory name="oyranos-qt5-git" rev="69" srcmd5="08eee6466b4340a34b35b6cd634f95f5" vrev="69">
+  <serviceinfo code="succeeded" xsrcmd5="41fbe8f910cee8bcad71b47658acb73e" />
+  <entry md5="98b02570b7ee0c529e70d69768e95a17" mtime="1448328705" name="PKGBUILD" size="1336" />
   <entry md5="08f9e708c9b881eb3fb084695da661d1" mtime="1447062016" name="_service" size="412" />
   <entry md5="0b6211b511da48346cecdc1d2f963c76" mtime="1447062017" name="oyranos-git.install" size="117" />
 </directory>

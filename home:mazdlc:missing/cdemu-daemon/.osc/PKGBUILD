@@ -1,6 +1,6 @@
 pkgname=cdemu-daemon
-pkgver=3.0.2
-pkgrel=2
+pkgver=3.0.3
+pkgrel=1
 pkgdesc="package for obs"
 arch=('x86_64')
 depends=( dbus libao libmirage )

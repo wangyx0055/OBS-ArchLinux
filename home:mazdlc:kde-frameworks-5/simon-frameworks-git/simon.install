@@ -1,4 +1,4 @@
-﻿post_install() {
+post_install() {
 	xdg-icon-resource forceupdate --theme hicolor &> /dev/null
 }
 

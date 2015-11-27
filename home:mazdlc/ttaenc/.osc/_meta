@@ -1,0 +1,5 @@
+<package name="ttaenc" project="home:mazdlc">
+  <title>ttaenc</title>
+  <description>TrueAudio lossless compressor for multichannel 8,16 and 24 bits audio data</description>
+</package>
+

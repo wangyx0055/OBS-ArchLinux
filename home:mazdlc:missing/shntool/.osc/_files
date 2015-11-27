@@ -1,0 +1,5 @@
+<directory name="shntool" rev="2" srcmd5="8c08dfb5685d0ae57034c9507aab51e1" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="4e90bd03180d2b6a6cebd884162837b0" />
+  <entry md5="49eb9a98fba9151f27253de69ee50551" mtime="1447925987" name="PKGBUILD" size="355" />
+  <entry md5="4a567668681b1b0798ccff5b6bf765b3" mtime="1447809216" name="_service" size="289" />
+</directory>

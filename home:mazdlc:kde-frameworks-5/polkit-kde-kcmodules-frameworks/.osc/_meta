@@ -1,0 +1,5 @@
+<package name="polkit-kde-kcmodules-frameworks" project="home:mazdlc:kde-frameworks-5">
+  <title>polkit-kde-kcmodules-frameworks</title>
+  <description>Set of configuration modules which allows administrator to change polkit settings.</description>
+</package>
+

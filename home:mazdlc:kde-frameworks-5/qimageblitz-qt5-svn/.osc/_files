@@ -1,5 +1,5 @@
-<directory name="qimageblitz-qt5-svn" rev="13" srcmd5="1ff8a91353da47b3a10061182248833d" vrev="13">
-  <serviceinfo code="succeeded" xsrcmd5="cff73da80452eb0027d02142b4e057d7" />
+<directory name="qimageblitz-qt5-svn" rev="47" srcmd5="35d04ba1c082439db4792ec55640eab9" vrev="47">
+  <serviceinfo code="succeeded" xsrcmd5="ab432281f2976436ea30feebe4842ee8" />
   <entry md5="a592e49c8aec81714b76514019561599" mtime="1447061013" name="PKGBUILD" size="875" />
   <entry md5="82dfa2dde2217244669f43e9e8db2511" mtime="1447061213" name="_service" size="387" />
 </directory>

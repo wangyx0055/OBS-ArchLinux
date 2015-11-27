@@ -1,5 +1,5 @@
-<directory name="sfarklib-git" rev="36" srcmd5="ca631618339a6547e7e480605cebb188" vrev="36">
-  <serviceinfo code="succeeded" xsrcmd5="ba5aac08b762a83e0c53f8a2f9da0e77" />
+<directory name="sfarklib-git" rev="47" srcmd5="900b989a9b8300ffba6d22f31ace81d9" vrev="47">
+  <serviceinfo code="succeeded" xsrcmd5="a245b62a8649840202fbbb6a52ecd525" />
   <entry md5="09122ba24a8cde3c3124cd8c89aa4126" mtime="1446869262" name="PKGBUILD" size="626" />
   <entry md5="5534a131e4bf393e706a05d8ac096bbe" mtime="1446869264" name="_service" size="442" />
 </directory>

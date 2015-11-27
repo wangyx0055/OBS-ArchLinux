@@ -1,5 +1,5 @@
-<directory name="deadbeef-plugin-infobar-ng-hg" rev="17" srcmd5="8c08a6de432d1dd636622cc7758e3238" vrev="17">
-  <serviceinfo code="succeeded" xsrcmd5="9fb2b6d97901d49fc154b00da21e60c1" />
-  <entry md5="66115b011fbb8a2a4d27bad8ad8ac03c" mtime="1447033941" name="PKGBUILD" size="1509" />
+<directory name="deadbeef-plugin-infobar-ng-hg" rev="43" srcmd5="0ef4d0fbff33834d8f2d3f630aad0ba6" vrev="43">
+  <serviceinfo code="succeeded" xsrcmd5="c1f12b2152ee4e68b333836f5576cd65" />
+  <entry md5="6612c5e6c98ec85222a09b0b3ee1e0d5" mtime="1447812963" name="PKGBUILD" size="1357" />
   <entry md5="f5faa94ec4327b009c4f0e9480ccabe9" mtime="1446710037" name="_service" size="430" />
 </directory>

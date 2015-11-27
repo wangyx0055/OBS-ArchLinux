@@ -1,5 +1,5 @@
-<directory name="libsmi" rev="26a9f490bfd847cb56e4efe3f8ce7ceb" srcmd5="26a9f490bfd847cb56e4efe3f8ce7ceb">
-  <linkinfo baserev="6752ff602fa5fefc30082873be6c3a77" lsrcmd5="e834922529de48b52838fc1f99142e61" package="libsmi" project="home:mazdlc:missing" srcmd5="9c557beca54b0421bd1d9d3bfe3f1696" />
+<directory name="libsmi" rev="b7d8358b0d39bbf73faaf3417da8f368" srcmd5="b7d8358b0d39bbf73faaf3417da8f368">
+  <linkinfo baserev="6752ff602fa5fefc30082873be6c3a77" lsrcmd5="e834922529de48b52838fc1f99142e61" package="libsmi" project="home:mazdlc:missing" srcmd5="01dcd8d2f14146453ebce793e01a9ef2" />
   <entry md5="ca8baacdc29278e35d5e64596aed0286" mtime="1446474821" name="LICENSE" size="4253" />
   <entry md5="52ff778d95f8f2201ea26a853a035b56" mtime="1446561575" name="PKGBUILD" size="945" />
   <entry md5="5c834c886c3cceb5eac468cbfa128e52" mtime="1446561577" name="_service" size="236" />

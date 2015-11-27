@@ -1,7 +1,7 @@
 # Maintainer: Jerome Leclanche <jerome@leclan.ch>
 
 pkgbase=qtermwidget
-pkgname=($pkgbase-git $pkgbase-q4-git)
+pkgname=($pkgbase-git) # $pkgbase-q4-git
 pkgver=0.6.0
 pkgrel=1
 pkgdesc="A terminal widget for Qt"
@@ -12,7 +12,7 @@ license=("GPL2")
 #conflicts=$pkgbase
 #depends=("qt5-base" "libsm" "libxkbcommon-x11")
 #makedepends=("cmake")
-makedepends=("cmake" "qt5-base" "libsm" "libxkbcommon-x11" "qt4")
+makedepends=("cmake" "qt5-base" "libsm" "libxkbcommon-x11")  # "qt4"
 source=("$pkgbase-$pkgver.tar.xz")
 sha256sums=('SKIP')
 
@@ -34,17 +34,17 @@ build() {
 	make
 	
 	#CXXFLAGS="-DQ_DECL_OVERRIDE" 
-	cd $srcdir
-	mkdir -p build-q4
-	cd build-q4
-	cmake "$srcdir/$pkgbase-$pkgver" \
-		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_BUILD_TYPE=Release \
-                -DLIB_SUFFIX="" \
-                -DCMAKE_INSTALL_LIBDIR=lib
+	#cd $srcdir
+	#mkdir -p build-q4
+	#cd build-q4
+	#cmake "$srcdir/$pkgbase-$pkgver" \
+	#	-DCMAKE_INSTALL_PREFIX=/usr \
+	#	-DCMAKE_BUILD_TYPE=Release \
+    ##           -DLIB_SUFFIX="" \
+    ##          -DCMAKE_INSTALL_LIBDIR=lib
                 
 
-	make
+	#make
 
 }
 

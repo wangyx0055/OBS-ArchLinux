@@ -1,5 +1,5 @@
-<directory name="libsmi" rev="2" srcmd5="fa6d9e34b8c2d2a9b3ddb4551b1adb05" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="6752ff602fa5fefc30082873be6c3a77" />
+<directory name="libsmi" rev="10" srcmd5="249b887e8acedd8a29426b47d9a8f658" vrev="10">
+  <serviceinfo code="succeeded" xsrcmd5="01dcd8d2f14146453ebce793e01a9ef2" />
   <entry md5="ca8baacdc29278e35d5e64596aed0286" mtime="1446474821" name="LICENSE" size="4253" />
   <entry md5="ff05dfb9241186499ce90064e191d7c4" mtime="1446474823" name="PKGBUILD" size="1069" />
   <entry md5="801dfb1de18b47b4d46312bf40be6cc2" mtime="1446474825" name="_service" size="236" />

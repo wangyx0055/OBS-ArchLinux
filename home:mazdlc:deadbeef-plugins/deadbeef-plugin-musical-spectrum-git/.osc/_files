@@ -1,5 +1,5 @@
-<directory name="deadbeef-plugin-musical-spectrum-git" rev="17" srcmd5="620ecead6e751aebbf5b2f35c2791cf8" vrev="17">
-  <serviceinfo code="succeeded" xsrcmd5="a22c74d4ee53531f93c6b49e08ae923f" />
-  <entry md5="bc5461897433bc173c950963ad59e092" mtime="1447045063" name="PKGBUILD" size="1654" />
+<directory name="deadbeef-plugin-musical-spectrum-git" rev="39" srcmd5="f8b864b4e4892d733543c98d5839c00d" vrev="39">
+  <serviceinfo code="succeeded" xsrcmd5="6f6a2872c5f013d486d47d6b7b63835d" />
+  <entry md5="bd57e3cb766509a9b4118d053d65c3e5" mtime="1447812993" name="PKGBUILD" size="1500" />
   <entry md5="a1c3193c302cfc7c3685e26f3f3db409" mtime="1446994810" name="_service" size="431" />
 </directory>

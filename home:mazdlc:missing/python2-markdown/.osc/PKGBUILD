@@ -1,0 +1,22 @@
+pkgname=python2-markdown
+pkgver=2.6.3
+pkgrel=1
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( python2 )
+provides=(  )
+conflicts=(  )
+url="http://www.archlinux.org"
+license=('see original')
+source=("pkg.tar.xz")
+md5sums=('SKIP')
+noextract="pkg.tar.xz"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/pkg.tar.xz"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

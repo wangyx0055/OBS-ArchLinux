@@ -1,5 +1,5 @@
-<directory name="goldendict-qt5-git" rev="37" srcmd5="66bc8a48dac5ec96986d3ded14560470" vrev="37">
-  <serviceinfo code="succeeded" xsrcmd5="41d55947a2fe71a0f43488dcc0495063" />
+<directory name="goldendict-qt5-git" rev="66" srcmd5="369ee120eba8536d2a5b475521ade5f8" vrev="66">
+  <serviceinfo code="succeeded" xsrcmd5="72716fd314b53775a9f47298bbca72ce" />
   <entry md5="df407860c3259aad744a255ff763e03d" mtime="1446708222" name="PKGBUILD" size="1191" />
   <entry md5="d4393c285ab283907ace93d8f4ca3293" mtime="1446714254" name="_service" size="505" />
 </directory>

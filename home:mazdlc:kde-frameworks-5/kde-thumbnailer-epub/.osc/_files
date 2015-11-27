@@ -1,0 +1,5 @@
+<directory name="kde-thumbnailer-epub" rev="1" srcmd5="f0d631a3a83344f9de239d2b9e254f18" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="c1d59daf377a29b96e763b4fa4c68d8c" />
+  <entry md5="6fd4206642c56ffbd1b1aea81e1407c1" mtime="1448000242" name="PKGBUILD" size="735" />
+  <entry md5="0a96078135d0e753e564fb2126919ca5" mtime="1448000244" name="_service" size="246" />
+</directory>

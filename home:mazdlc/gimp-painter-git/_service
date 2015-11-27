@@ -1,7 +1,7 @@
 <services>
   <service name="tar_scm">
-    <param name="scm">git</param>
-    <param name="url">git://github.com/seagetch/gimp-painter.git</param>
+    <param name="scm">git</param><!-- seagetch -->
+    <param name="url">git://github.com/maz-1/gimp-painter.git</param>
 	<param name="versionformat">%cd.g%h</param>
 	<param name="versionprefix">2.8</param>
 	<param name="revision">gimp-2-8</param>

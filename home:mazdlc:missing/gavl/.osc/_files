@@ -1,5 +1,5 @@
-<directory name="gavl" rev="2" srcmd5="88d1581faefcef5291961b2cff2c5262" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="7c77a5e2f5dde11570f86c4101da14bf" />
+<directory name="gavl" rev="9" srcmd5="b8b89a082518880df2297535470868a7" vrev="9">
+  <serviceinfo code="succeeded" xsrcmd5="5692919e7c4d4e95279e2e4b95982e7f" />
   <entry md5="6e43792eaaf8ea1a51e7638ab00e8afb" mtime="1446732680" name="PKGBUILD" size="322" />
   <entry md5="4a746ddaec4ad5ed7d221041b0a6130e" mtime="1446606990" name="_service" size="240" />
 </directory>

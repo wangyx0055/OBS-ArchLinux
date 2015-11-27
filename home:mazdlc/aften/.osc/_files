@@ -1,5 +1,6 @@
-<directory name="aften" rev="1" srcmd5="db651af91d3466d4959d3cc5f19e4f5d" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="da9e32900afe0960e9b492d8dc3430bd" />
+<directory name="aften" rev="2" srcmd5="840902c2f5d8c9a4925472cfb5b215f4" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="059ad2f79894cf063d5b1fb178bbd08b" />
   <entry md5="0d8420a0c5b016b8ecbdfbffaba2dc31" mtime="1446962052" name="PKGBUILD" size="690" />
   <entry md5="a83112b3cd985b0241dd7f8d6b7d4b3b" mtime="1446962054" name="_service" size="222" />
+  <entry md5="d4bda374e34deb8a29bc7eecea8944bb" mtime="1447836753" name="bump.sh" size="505" />
 </directory>

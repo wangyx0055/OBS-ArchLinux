@@ -1,6 +1,6 @@
 # Maintainer: Viktor Semykin <thesame.ml@gmail.com>
 pkgbase='deadbeef-decast-git'
-pkgname=('deadbeef-decast-git' 'deadbeef-decast-gtk2-git' 'deadbeef-decast-gtk3-git')
+pkgname=('deadbeef-decast-gtk2-git' 'deadbeef-decast-gtk3-git')
 _pkgdesc='Podcast subscription plugin for DeaDBeeF audio player.'
 url='https://bitbucket.org/thesame/decast'
 pkgver=r19
@@ -42,6 +42,7 @@ package_deadbeef-decast-gtk2-git () {
     provides=${pkgname%%-git}
     conflicts=${pkgname%%-git}
     depends=($_depends gtk2)
+    groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk2")
     export \
         GTKVER=2 \
         PREFIX=/usr \
@@ -55,18 +56,11 @@ package_deadbeef-decast-gtk3-git () {
     provides=${pkgname%%-git}
     conflicts=${pkgname%%-git}
     depends=($_depends gtk3)
+    groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk3")
     export \
         GTKVER=3 \
         PREFIX=/usr \
         DESTDIR="${pkgdir}/usr/lib/deadbeef"
     cd "${srcdir}/decast-gtk3"
     make install
-}
-
-package_deadbeef-decast-git () {
-    pkgdesc="$_pkgdesc Both GTK2 and GTK3 Ver."
-    provides=${pkgname%%-git}
-    conflicts=${pkgname%%-git}
-    depends=(deadbeef-decast-gtk3-git deadbeef-decast-gtk2-git)
-    true
 }

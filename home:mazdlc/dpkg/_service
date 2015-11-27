@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">ftp.debian.org</param>
+    <param name="path">/debian/pool/main/d/dpkg/dpkg_1.17.25.tar.xz</param>
+  </service>
+</services>

@@ -1,0 +1,54 @@
+# Maintainer: Alfredo Ramos <alfredo dot ramos at yandex dot com>
+# Contributor: Arthur Țițeică arthur.titeica/gmail/com
+# Contributor: Thomas Laube <tomx3@tomtomtom.org>
+
+_pkgname=vokoscreen
+pkgname=${_pkgname}-git
+pkgver=2.4.3.beta.r20.g60f97b4
+pkgrel=2
+pkgdesc='An easy to use screencast creator. Qt5 UI. Development version.'
+arch=('i686' 'x86_64')
+url='http://linuxecke.volkoh.de/vokoscreen/vokoscreen.html'
+license=('GPL2')
+
+depends=('ffmpeg' 'lame' 'qt5-x11extras' 'libxrandr')
+optdepends=(
+	'pulseaudio-alsa: for PulseAudio support'
+)
+makedepends=('git' 'qt5-tools')
+provides=("${_pkgname}=${pkgver}")
+conflicts=("${_pkgname}")
+
+source=${_pkgname}-${pkgver}.tar.xz
+sha512sums=('SKIP')
+
+prepare() {
+	# Desktop file description
+	cd ${srcdir}/${_pkgname}-${pkgver}
+    patch -p1 -i "$startdir/add_audio_codec.patch" || true
+	patch applications/${_pkgname}.desktop $startdir/desktop_file.patch
+
+	# Create build directory
+	mkdir -p ${srcdir}/build
+    
+}
+
+build() {
+	# Number of jobs
+	declare -i njobs=$(nproc)
+
+	# Building package
+	cd ${srcdir}/build
+	qmake-qt5 ../${_pkgname}-${pkgver} \
+		CONFIG+=release \
+		CONFIG+=c++14 \
+		-spec linux-g++
+
+	make
+}
+
+package() {
+	# Installing package
+	cd ${srcdir}/build
+	make INSTALL_ROOT=${pkgdir} install
+}

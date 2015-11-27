@@ -10,6 +10,7 @@ license=('GPL2')
 depends=('deadbeef' 'jack')
 provides=deadbeef-jack
 conflicts=deadbeef-jack
+groups=("deadbeef-plugins" "deadbeef-plugins-io")
 source=("$_gitname-$pkgver.tar.xz")
 md5sums=('SKIP')
 

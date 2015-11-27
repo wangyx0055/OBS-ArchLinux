@@ -10,6 +10,7 @@ license=('GPL2')
 depends=('deadbeef' 'libbs2b')
 provides=deadbeef-bs2b
 conflicts=deadbeef-bs2b
+groups=("deadbeef-plugins" "deadbeef-plugins-soundfx")
 source=$_gitname-$pkgver.tar.xz
 md5sums=('SKIP')
 

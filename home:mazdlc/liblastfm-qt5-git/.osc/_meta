@@ -1,0 +1,5 @@
+<package name="liblastfm-qt5-git" project="home:mazdlc">
+  <title>liblastfm-qt5-git</title>
+  <description>A Qt5 C++ library for the Last.fm webservices</description>
+</package>
+

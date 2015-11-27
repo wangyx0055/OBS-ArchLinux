@@ -2,11 +2,11 @@
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">github.com</param>
-    <param name="path">/wine-compholio/wine-patched/archive/staging-1.7.54.tar.gz</param>
+    <param name="path">/wine-compholio/wine-patched/archive/staging-1.8-rc1.tar.gz</param>
   </service>
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">raw.githubusercontent.com</param>
-    <param name="path">/NP-Hardass/wine-d3d9-patches/master/wine-d3d9.patch</param>
+    <param name="path">/NP-Hardass/wine-d3d9-patches/5543819e32bd7b7d51cfd7953539bb048e7776b5/wine-d3d9.patch</param>
   </service>
 </services>

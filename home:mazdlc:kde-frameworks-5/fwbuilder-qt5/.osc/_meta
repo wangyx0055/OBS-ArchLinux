@@ -1,0 +1,5 @@
+<package name="fwbuilder-qt5" project="home:mazdlc:kde-frameworks-5">
+  <title>fwbuilder-qt5</title>
+  <description>Object-oriented GUI and set of compilers for various firewall platforms. Qt5 version.</description>
+</package>
+

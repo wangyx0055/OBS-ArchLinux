@@ -1,0 +1,5 @@
+<package name="krusader-git" project="home:mazdlc:kde-frameworks-5">
+  <title>krusader-git</title>
+  <description>Advanced twin panel file manager for KDE. (GIT version)</description>
+</package>
+

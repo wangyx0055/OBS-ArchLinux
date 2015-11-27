@@ -1,5 +1,5 @@
-<directory name="jansson" rev="2" srcmd5="128b7eb921f4b7d91433d9e464c16ef9" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="93f9ecd5989defc1609c67a4db08f816" />
+<directory name="jansson" rev="9" srcmd5="4d387a0e27c38cd2995bfbcefcc94535" vrev="9">
+  <serviceinfo code="succeeded" xsrcmd5="0f0d8aab7fd1e69604e2d7e9d15ac6bd" />
   <entry md5="d7ac9f57cadf7647724e118614f8ee21" mtime="1446431995" name="PKGBUILD" size="321" />
   <entry md5="87b573a5e2aee0c30d4f1508f4dd3fbe" mtime="1446431996" name="_service" size="244" />
 </directory>

@@ -1,0 +1,5 @@
+<directory name="shapelib" rev="2" srcmd5="94ef87d0a3c4989f65e4151aa811c742" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="d34106ea4d9189281908fab14ede9002" />
+  <entry md5="74cf122f8bee08d986d88a43b84dd6df" mtime="1447146245" name="PKGBUILD" size="350" />
+  <entry md5="fb6a2244a5b60951b8d4b0d967380fb4" mtime="1447059682" name="_service" size="290" />
+</directory>

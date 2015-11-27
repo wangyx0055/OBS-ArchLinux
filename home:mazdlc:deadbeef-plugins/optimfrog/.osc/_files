@@ -1,0 +1,9 @@
+<directory name="optimfrog" rev="3c1855ac65989e882e0f1661e0fc4c59" srcmd5="3c1855ac65989e882e0f1661e0fc4c59">
+  <linkinfo baserev="654ca4dc9eecb6455255a84201ebe2f6" lsrcmd5="815726036d7645e06bc3b598317c1b9e" package="optimfrog" project="home:mazdlc" srcmd5="654ca4dc9eecb6455255a84201ebe2f6" />
+  <entry md5="d36fa8b6ff0e01c1a8eaaf276f63ec69" mtime="1448110619" name="PKGBUILD" size="1492" />
+  <entry md5="54294cf3dbd4183ef393c39cff911d4f" mtime="1447747858" name="_service" size="472" />
+  <entry md5="768be67fd98da68c048c3a3bd63dcec4" mtime="1447747861" name="bump.sh" size="515" />
+  <entry md5="c3ad5db38386351399a6bea1c8d735ec" mtime="1448110055" name="file-ofr.svg" size="26785" />
+  <entry md5="f72e8fafcb37e472e40dc77989dbc821" mtime="1448110047" name="ofr.xml" size="2888" />
+  <entry md5="5ea35ebdc5f02290caf74bcf2fbea073" mtime="1448100089" name="optimfrog.install" size="183" />
+</directory>

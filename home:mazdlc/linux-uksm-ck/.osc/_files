@@ -1,0 +1,11 @@
+<directory name="linux-uksm-ck" rev="15" srcmd5="218c65cfb4121828984827e6c71d61ff" vrev="15">
+  <serviceinfo code="succeeded" xsrcmd5="812c17806679c0efebbd95f77599cf28" />
+  <entry md5="37c98986ffbe4852063f0cdb27a5b51f" mtime="1448192864" name="PKGBUILD" size="17326" />
+  <entry md5="8ef6464783334af831ad88330df2ffe9" mtime="1448158524" name="_service" size="1711" />
+  <entry md5="df7fceae6ee5d7e7be7b60ecd7f6bb35" mtime="1416284742" name="change-default-console-loglevel.patch" size="674" />
+  <entry md5="b0776fa587825c7f6bc51d8e9c277db2" mtime="1448158527" name="config" size="179714" />
+  <entry md5="e8af6f09bb15d6487a7045985d93e2fe" mtime="1448158531" name="config.x86_64" size="173603" />
+  <entry md5="217605b5a35d7ada96e30a01aa78dd8f" mtime="1448173963" name="linux-uksm-ck.install" size="1216" />
+  <entry md5="f968264460791293e226cabeb582be9c" mtime="1448173914" name="linux-uksm-ck.preset" size="403" />
+  <entry md5="de3936b59a47df57bedd2636c6e61de8" mtime="1448161918" name="uksm-0.1.2.4-beta-for-linux-v4.3.patch" size="175417" />
+</directory>

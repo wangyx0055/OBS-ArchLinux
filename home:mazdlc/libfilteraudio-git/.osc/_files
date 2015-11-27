@@ -1,0 +1,5 @@
+<directory name="libfilteraudio-git" rev="14" srcmd5="a6a4ed915ed84371b865e9ed2f649235" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="ea24c138f74ec8d2312cf3e2690aa9c8" />
+  <entry md5="49a17c03bc4dc66a5728b9490d5f6eda" mtime="1447987122" name="PKGBUILD" size="691" />
+  <entry md5="db825eec7513eb43feffd5f8239cf07d" mtime="1447987025" name="_service" size="425" />
+</directory>

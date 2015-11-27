@@ -1,5 +1,5 @@
-<directory name="libpgm" rev="2" srcmd5="0367461b5640f93e5459bc1c601fffdb" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="4833fdd4fc65c0b27b533f5c84f9aa76" />
+<directory name="libpgm" rev="9" srcmd5="3a8669b64f8cf7e4560f0735d096d512" vrev="9">
+  <serviceinfo code="succeeded" xsrcmd5="873ed9bb8d2b5181593e575c75e8ffc2" />
   <entry md5="5247e7e7482fd13717b3a9b3c40dff15" mtime="1446732782" name="PKGBUILD" size="326" />
   <entry md5="b0fefbc643fc83a5d179514e725b1eca" mtime="1446533921" name="_service" size="242" />
 </directory>

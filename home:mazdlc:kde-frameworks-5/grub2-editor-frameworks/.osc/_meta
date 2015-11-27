@@ -1,0 +1,5 @@
+<package name="grub2-editor-frameworks" project="home:mazdlc:kde-frameworks-5">
+  <title>grub2-editor-frameworks</title>
+  <description>A KDE Control Module for configuring the GRUB2 bootloader.Unofficial KF5 port.</description>
+</package>
+

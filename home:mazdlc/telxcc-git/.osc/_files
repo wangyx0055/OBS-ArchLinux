@@ -1,5 +1,5 @@
-<directory name="telxcc-git" rev="18" srcmd5="7541c3e865604336303d9a43b9146269" vrev="18">
-  <serviceinfo code="succeeded" xsrcmd5="552fbcc588a7b8a7db22033c764f0287" />
+<directory name="telxcc-git" rev="30" srcmd5="3e486eb1247de6089de38adb40ccca2f" vrev="30">
+  <serviceinfo code="succeeded" xsrcmd5="0e1340cfb0f4006a5fc516f41b688d03" />
   <entry md5="173ef47e0bfe760505d00c40c354d150" mtime="1446958449" name="PKGBUILD" size="1124" />
   <entry md5="c36c045e1f21d75aaa3c84f0cad159f6" mtime="1446958451" name="_service" size="410" />
 </directory>

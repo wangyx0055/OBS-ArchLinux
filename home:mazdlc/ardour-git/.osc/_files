@@ -1,5 +1,5 @@
-<directory name="ardour-git" rev="27" srcmd5="8d8240f407a235479d118e4c18288e49" vrev="27">
-  <serviceinfo code="succeeded" xsrcmd5="a3cd1e3a9ac2d1b500e3753ef125274c" />
+<directory name="ardour-git" rev="62" srcmd5="92f971cb682c843304f303ca52ac3256" vrev="62">
+  <serviceinfo code="succeeded" xsrcmd5="00a1382c16e40fb216fb511733ef9755" />
   <entry md5="9217a3b60419f7e8f5269dd03e7d191c" mtime="1446468261" name="PKGBUILD" size="1593" />
   <entry md5="2ef575fbeed0730fe64183977b176287" mtime="1447593353" name="_service" size="405" />
   <entry md5="151094720b3cdcce2d66b30915dea536" mtime="1446464021" name="ardour.desktop" size="240" />

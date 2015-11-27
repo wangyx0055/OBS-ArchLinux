@@ -19,6 +19,7 @@ sha1sums=('SKIP')
 
 prepare() {
   mkdir -p build-qt{4,5}
+  cd $srcdir/oyranos-$pkgver
 }
 
 build() {

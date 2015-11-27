@@ -1,0 +1,6 @@
+<directory name="clementine-qt5-git" rev="29" srcmd5="037b581986615b81a5aa54d213e5b8f2" vrev="29">
+  <serviceinfo code="succeeded" xsrcmd5="650aa0f903d91cc33cf81222a461b55d" />
+  <entry md5="6d5c372a5e1f83721c0a2456e96df4f6" mtime="1448014934" name="PKGBUILD" size="1673" />
+  <entry md5="86c61e6d076eb4ee2b7208ffe2f5524c" mtime="1448005238" name="_service" size="463" />
+  <entry md5="8be0cd5bbfd11da70b83fc63af8c81e7" mtime="1448005239" name="clementine.install" size="181" />
+</directory>

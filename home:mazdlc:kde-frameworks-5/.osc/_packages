@@ -52,4 +52,22 @@
   <package name="signon-kwallet-extension-frameworks-git" state=" " />
   <package name="simon-frameworks-git" state=" " />
   <package name="skanlite-frameworks-git" state=" " />
+  <package name="dukto-qt5-git" state=" " />
+  <package name="fancontrol-gui-git" state=" " />
+  <package name="fwbuilder-qt5" state=" " />
+  <package name="grub2-editor-frameworks" state=" " />
+  <package name="k3b-l10n-bin-git" state=" " />
+  <package name="kcm-pointing-devices-git" state=" " />
+  <package name="kcm-ufw" state=" " />
+  <package name="kde-thumbnailer-epub" state=" " />
+  <package name="kim-frameworks" state=" " />
+  <package name="kmozillahelper-kf5" state=" " />
+  <package name="kndiswrapper-qt5" state=" " />
+  <package name="krename-frameworks" state=" " />
+  <package name="krusader-git" state=" " />
+  <package name="krusader-l10n-frameworks" state=" " />
+  <package name="kuser-frameworks" state=" " />
+  <package name="kvirc-git" state=" " />
+  <package name="pentobi-git" state=" " />
+  <package name="polkit-kde-kcmodules-frameworks" state=" " />
 </project>

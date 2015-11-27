@@ -1,5 +1,5 @@
-<directory name="gnustep-base" rev="2" srcmd5="e8414815dfe2a642011a5ecf667a083c" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="4e42364d9689b85683c230dc0dafda49" />
+<directory name="gnustep-base" rev="12" srcmd5="aa9055730c5ac4a45e9f39e27cc99851" vrev="12">
+  <serviceinfo code="succeeded" xsrcmd5="fdbc991da7debac004ccd5a3a6676700" />
   <entry md5="22b3b10faf56b3df51fb3d3f9c9fda8e" mtime="1446732698" name="PKGBUILD" size="391" />
   <entry md5="309671cfe52c1254005d8ad90018bb97" mtime="1446700658" name="_service" size="248" />
 </directory>

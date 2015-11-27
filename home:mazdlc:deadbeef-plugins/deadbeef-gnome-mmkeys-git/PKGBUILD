@@ -11,6 +11,7 @@ depends=(deadbeef glib2)
 makedepends=(make git)
 provides=deadbeef-gnome-mmkeys
 conflicts=deadbeef-gnome-mmkeys
+groups=deadbeef-plugins
 source=deadbeef-gnome-mmkeys-$pkgver.tar.xz
 md5sums=('SKIP')
 

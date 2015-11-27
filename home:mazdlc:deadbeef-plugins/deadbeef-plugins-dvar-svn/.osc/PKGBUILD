@@ -13,7 +13,7 @@ depends=('deadbeef')
 makedepends=('subversion')
 source=$_pkgname-$pkgver.tar.xz
 md5sums=('SKIP')
-
+groups=('deadbeef-plugins' 'deadbeef-plugins-io')
 pkgver() {
   cd "$SRCDEST/$_pkgname-$pkgver"
 

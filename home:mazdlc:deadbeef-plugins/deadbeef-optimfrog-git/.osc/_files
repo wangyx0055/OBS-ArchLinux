@@ -1,0 +1,5 @@
+<directory name="deadbeef-optimfrog-git" rev="12" srcmd5="6e26012c3bcf04a9b282d5ef8abfc035" vrev="12">
+  <serviceinfo code="succeeded" xsrcmd5="8ca347b8de8b2d8a05272d3b9943f747" />
+  <entry md5="2cb6c532563b17dc5706c4625898fd96" mtime="1447812719" name="PKGBUILD" size="595" />
+  <entry md5="b2cd2782446c8bfb397e801bfc6a2b56" mtime="1447750301" name="_service" size="424" />
+</directory>

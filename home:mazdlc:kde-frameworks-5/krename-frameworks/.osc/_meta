@@ -1,0 +1,5 @@
+<package name="krename-frameworks" project="home:mazdlc:kde-frameworks-5">
+  <title>krename-frameworks</title>
+  <description>A very powerful batch file renamer for KDE. KF5 Version.</description>
+</package>
+

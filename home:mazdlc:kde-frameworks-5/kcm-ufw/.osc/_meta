@@ -1,0 +1,5 @@
+<package name="kcm-ufw" project="home:mazdlc:kde-frameworks-5">
+  <title>kcm-ufw</title>
+  <description>KDE control module for Ufw(Uncomplicated Firewall)</description>
+</package>
+

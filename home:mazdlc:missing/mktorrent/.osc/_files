@@ -1,5 +1,5 @@
-<directory name="mktorrent" rev="2" srcmd5="6c1b9f6bed26da819ef5a16f8fa410cd" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="7b26dee560130c92b0604bd605179571" />
+<directory name="mktorrent" rev="10" srcmd5="d5f8cc2f85f9f66d42baf50ecfef4784" vrev="10">
+  <serviceinfo code="succeeded" xsrcmd5="1b237995015721ca12381354c0fbb601" />
   <entry md5="0946cd10b66549ce8e880802202cbeee" mtime="1446891066" name="PKGBUILD" size="327" />
   <entry md5="e11d8449ca823ec1696ad91a3f0e2325" mtime="1446827651" name="_service" size="245" />
 </directory>

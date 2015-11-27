@@ -1,0 +1,15 @@
+<directory name="arj" rev="2" srcmd5="f820f54fa03f4d9a5f718e55f4f98a69" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="ff61022f0a890400911493300242bd3d" />
+  <entry md5="56b3cf96ec485b0d824761457417fcc0" mtime="1447840047" name="64_bit_clean.patch" size="5948" />
+  <entry md5="85f3b16e1ba536cbdce7a62ad75a56df" mtime="1447840049" name="CVE-2015-0556-symlink-traversal.patch" size="1932" />
+  <entry md5="71824e59b051959ccd1b43d196fd7ab5" mtime="1447840051" name="CVE-2015-0557-dir-traversal.patch" size="920" />
+  <entry md5="20d280950d6359a720ee95ac69a825fc" mtime="1447840053" name="CVE-2015-2782-buffer-overflow.patch" size="738" />
+  <entry md5="b8333065e8b2126e51f5e4659bcbe5ed" mtime="1447840055" name="PKGBUILD" size="3156" />
+  <entry md5="b41d18664fa02d9dd1c74f0dca69f635" mtime="1447839906" name="_service" size="219" />
+  <entry md5="550bc972d825036f17f202a2b11b35c2" mtime="1447840056" name="arches_align.patch" size="1424" />
+  <entry md5="665084fc378b9b235052b0592dcd66b6" mtime="1447839908" name="bump.sh" size="808" />
+  <entry md5="4630a7254dfc6c8d8c7e696aa4a58f4a" mtime="1447840112" name="custom-printf.patch" size="699" />
+  <entry md5="395dfa8cc500ffae648777f8f241be88" mtime="1447840113" name="no_remove_static_const.patch" size="530" />
+  <entry md5="80446512012f238d8576d13a3567be31" mtime="1447840115" name="security_format.patch" size="8424" />
+  <entry md5="ebded1f66e08d9456d06fd7b609a4043" mtime="1447840116" name="use_safe_strcpy.patch" size="2602" />
+</directory>

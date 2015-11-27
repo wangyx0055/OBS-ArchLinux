@@ -1,5 +1,5 @@
-<directory name="spice-gtk3" rev="1" srcmd5="cf46af48eee9d15b40ae8cf749ee96ef" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="1a825bc3fd9bfa213092bc6ed74c16c6" />
+<directory name="spice-gtk3" rev="11" srcmd5="1fe3babd9689408a5c8d478a8f13b11b" vrev="11">
+  <serviceinfo code="succeeded" xsrcmd5="cd546af16b0205256bfc601a3014fd9a" />
   <entry md5="49848b9b217725ca31efd3562c36c914" mtime="1446700723" name="PKGBUILD" size="382" />
   <entry md5="8ee75dc45891ad9777f03cb794b27555" mtime="1446700725" name="_service" size="246" />
 </directory>

@@ -1,0 +1,22 @@
+pkgname=libx86emu
+pkgver=1.1.23.1
+pkgrel=1
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( glibc )
+provides=(  )
+conflicts=(  )
+url="http://www.archlinux.org"
+license=('see original')
+source=("pkg.tar.xz")
+md5sums=('SKIP')
+noextract="pkg.tar.xz"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/pkg.tar.xz"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

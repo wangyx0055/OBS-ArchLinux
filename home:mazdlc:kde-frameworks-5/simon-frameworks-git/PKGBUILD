@@ -3,14 +3,14 @@
 # Contributor : Sascha Pfau <MrPeacock@gmail.com>
 
 pkgname=simon-frameworks-git
-pkgver=20151114
+pkgver=20150826.g3985635
 pkgrel=1
 pkgdesc="Open-source speech recognition program for replacing mouse and keyboard"
 arch=('i686' 'x86_64')
 url="http://simon.kde.org/"
 license=('GPL')
-depends=('plasma-framework' 'portaudio' 'qwt-qt5' 'kdelibs4support' 'knewstuff' 'khtml')
-makedepends=('automoc4' 'cmake' 'flex' 'docbook-xml' 'boost' 'kdoctools' 'extra-cmake-modules-git')
+depends=("plasma-framework" "portaudio" "qwt-qt5" "kdelibs4support" "knewstuff" "khtml")
+makedepends=('automoc4' 'cmake' 'flex' 'docbook-xml' 'boost' 'kdoctools' 'extra-cmake-modules' 'kdelibs')
 optdepends=('htk: create and modify the speech models'
             'julius: for speech recognition')
             
@@ -22,7 +22,7 @@ sha256sums=('SKIP')
 
 prepare() {
   cd ${srcdir}/simon-$pkgver
-  
+  patch -p1 < $startdir/fix.patch
 }
 
 build() {
@@ -36,7 +36,14 @@ build() {
 }
 
 package() {
+  [[ $CARCH == x86_64 ]] && _is64bit=64
   cd "${srcdir}"/simon-$pkgver/build
 
   make DESTDIR="${pkgdir}" install
+  install -dm755 "${pkgdir}/usr/lib/qt/plugins"
+  mv "${pkgdir}/usr/lib${_is64bit}/plugins"/* "${pkgdir}/usr/lib/qt/plugins" || true
+  rmdir "${pkgdir}/usr/lib${_is64bit}/plugins" || true
+  rmdir "${pkgdir}/usr/lib${_is64bit}" || true
+  cd "$pkgdir/usr/bin"
+  ls | grep -P "^\-1" | while read line ; do mv -- "$line" "${line#-1}" ; done
 }

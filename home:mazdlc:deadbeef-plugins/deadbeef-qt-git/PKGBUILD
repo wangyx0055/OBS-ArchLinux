@@ -14,7 +14,7 @@ conflicts=$_pkgname
 source=$_pkgname-$pkgver.tar.xz
 install='deadbeef-qt.install'
 md5sums=('SKIP')
-
+groups=('deadbeef-plugins' 'deadbeef-plugins-ui')
 
 build() {
         mkdir -p "${srcdir}/build"

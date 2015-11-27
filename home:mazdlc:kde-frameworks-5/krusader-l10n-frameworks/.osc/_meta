@@ -1,0 +1,5 @@
+<package name="krusader-l10n-frameworks" project="home:mazdlc:kde-frameworks-5">
+  <title>kuser-frameworks</title>
+  <description>User Manager</description>
+</package>
+

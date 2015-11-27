@@ -1,0 +1,5 @@
+<directory name="kim-frameworks" rev="2" srcmd5="9b93db9ef904df9d88f695a7f3406b32" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="cf8d527c17925a11a0cddfb085dca54f" />
+  <entry md5="611324cf44cb32ba5c4d60bd8b87b4f7" mtime="1448321725" name="PKGBUILD" size="1188" />
+  <entry md5="bc475e70ee53a378edf3eac0b0889741" mtime="1447819593" name="_service" size="220" />
+</directory>

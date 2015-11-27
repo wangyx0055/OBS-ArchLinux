@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">www.tophifi.it</param>
+    <param name="path">/ftp/packages/kim-frameworks.tar.gz</param>
+  </service>
+</services>

@@ -1,5 +1,5 @@
-<directory name="libbs2b" rev="2" srcmd5="6634e8fe92ac5f05ad2415d96b2e1129" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="45b18ff35515ef3a7e69ed132cc70c38" />
+<directory name="libbs2b" rev="1" srcmd5="f4f0bf9a5e848ebffaf47a8eec7aaea5" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="c255a8186cfd01bf5915bbe52a5af045" />
   <entry md5="2c5013e4f9be9fe6b564d36d6391e0b8" mtime="1446608451" name="PKGBUILD" size="525" />
   <entry md5="9a43489f8321ea39653713237dc42ad7" mtime="1446607920" name="_service" size="222" />
   <entry md5="164b59a5a5eb48c1fa7bd6c1bddea85b" mtime="1446607923" name="bump.sh" size="475" />

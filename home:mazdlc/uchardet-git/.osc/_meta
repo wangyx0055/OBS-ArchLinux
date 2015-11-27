@@ -1,0 +1,5 @@
+<package name="uchardet-git" project="home:mazdlc">
+  <title>uchardet-git</title>
+  <description>Encoding detector library ported from Mozilla</description>
+</package>
+

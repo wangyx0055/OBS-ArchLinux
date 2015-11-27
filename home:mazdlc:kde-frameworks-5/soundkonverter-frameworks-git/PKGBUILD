@@ -43,6 +43,8 @@ prepare() {
     cd "$srcdir"
     [[ -d build ]] && rm -rf build
     mkdir -p build
+    cd "$srcdir/soundkonverter-$pkgver"
+    patch -p1 < $startdir/fix.patch
 }
 
 build() {

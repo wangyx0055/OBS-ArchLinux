@@ -1,0 +1,5 @@
+<directory name="hwinfo" rev="1" srcmd5="28b91c4ab94ef52b005e249ffd1fe6a4" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="216ca6353282daba207833efab455e9a" />
+  <entry md5="4f07ae3ee2709af03d049ed429d8ac25" mtime="1448615755" name="PKGBUILD" size="369" />
+  <entry md5="84ed62858220c2f41e926518f78788d5" mtime="1448615756" name="_service" size="288" />
+</directory>

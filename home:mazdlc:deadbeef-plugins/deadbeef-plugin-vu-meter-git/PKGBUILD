@@ -1,16 +1,14 @@
-pkgname=deadbeef-plugin-vu-meter-git
+pkgbase=deadbeef-plugin-vu-meter-git
+pkgname=("deadbeef-plugin-vu-meter-image-git" "deadbeef-plugin-vu-meter-gtk2-git" "deadbeef-plugin-vu-meter-gtk3-git")
 pkgver=20150510
 pkgrel=1
 pkgdesc="Retro VU Meter Plugin for the DeaDBeeF audio player (development version)"
 url="https://github.com/cboxdoerfer/ddb_vu_meter"
 arch=('i686' 'x86_64')
 license='GPL2'
-depends=('deadbeef')
-makedepends=('git' 'pkg-config' 'gtk2' 'gtk3')
-
+makedepends=('git' 'pkg-config' 'gtk2' 'gtk3' 'deadbeef')
 _gitname=ddb_vu_meter
 _gitroot=https://github.com/cboxdoerfer/${_gitname}
-
 source=${_gitname}-$pkgver.tar.xz
 md5sums=('SKIP')
 
@@ -26,9 +24,23 @@ build() {
   make
 }
 
-package() {
+package_deadbeef-plugin-vu-meter-gtk2-git() {
+  depends=('deadbeef' 'gtk2' 'deadbeef-plugin-vu-meter-image-git')
+  groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk2")
+  conflicts=('deadbeef-plugin-vu-meter-gtk2' 'deadbeef-plugin-vu-meter-git')
+  provides=('deadbeef-plugin-vu-meter-gtk2')
   install -D -v -c $srcdir/$_gitname-$pkgver/gtk2/ddb_vis_vu_meter_GTK2.so $pkgdir/usr/lib/deadbeef/ddb_vis_vu_meter_GTK2.so
+}
+package_deadbeef-plugin-vu-meter-gtk3-git() {
+  depends=('deadbeef' 'gtk3' 'deadbeef-plugin-vu-meter-image-git')
+  groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk3")
+  conflicts=('deadbeef-plugin-vu-meter-gtk3' 'deadbeef-plugin-vu-meter-git')
+  provides=('deadbeef-plugin-vu-meter-gtk3')
   install -D -v -c $srcdir/$_gitname-$pkgver/gtk3/ddb_vis_vu_meter_GTK3.so $pkgdir/usr/lib/deadbeef/ddb_vis_vu_meter_GTK3.so
+}
+package_deadbeef-plugin-vu-meter-image-git() {
+  depends=('deadbeef')
+  conflicts=('deadbeef-plugin-vu-meter-git')
   install -D -v -c $srcdir/$_gitname-$pkgver/vumeter.png $pkgdir/usr/lib/deadbeef/vumeter.png
 }
 

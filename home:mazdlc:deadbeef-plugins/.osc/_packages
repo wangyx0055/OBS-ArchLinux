@@ -22,4 +22,7 @@
   <package name="deadbeef-plugins-psipublish" state=" " />
   <package name="deadbeef-plugin-playback-order-git" state=" " />
   <package name="deadbeef-plugin-playback-status-git" state=" " />
+  <package name="deadbeef-mpris2-plugin-git" state=" " />
+  <package name="deadbeef-optimfrog-git" state=" " />
+  <package name="optimfrog" state=" " />
 </project>

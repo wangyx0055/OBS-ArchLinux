@@ -1,0 +1,5 @@
+<directory name="perl-io-string" rev="4" srcmd5="3ffb4a65c2e2a50a56df0c91ed0452bd" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="07672ceb17a61d297d8a916014d03db9" />
+  <entry md5="76671330cb6c4f4d3ca8908697dd1b55" mtime="1447842906" name="PKGBUILD" size="330" />
+  <entry md5="9e2c58a4c61b0e313aa340b09782c3d5" mtime="1447842827" name="_service" size="250" />
+</directory>

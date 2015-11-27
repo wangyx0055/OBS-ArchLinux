@@ -10,6 +10,7 @@ license=('GPL2')
 provides=(deadbeef-opus)
 conflicts=(deadbeef-opus)
 depends=('deadbeef' 'opusfile')
+groups=("deadbeef-plugins" "deadbeef-plugins-io")
 source=deadbeef-opus-$pkgver.tar.xz
 md5sums=('SKIP')
 

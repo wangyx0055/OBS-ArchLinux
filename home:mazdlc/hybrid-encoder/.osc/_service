@@ -2,6 +2,6 @@
   <service name="download_url">
     <param name="protocol">http</param>
     <param name="host">www.selur.de</param>
-    <param name="path">/sites/default/files/hybrid_downloads/Hybrid_151021_64bit_binary_qt521.zip</param>
+    <param name="path">/sites/default/files/hybrid_downloads/Hybrid_151117_64bit_binary_qt521.zip</param>
   </service>
 </services>

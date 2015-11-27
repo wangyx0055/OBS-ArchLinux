@@ -1,0 +1,20 @@
+pkgname=cimg
+pkgver=1.6.5
+pkgrel=1
+pkgdesc="package for obs"
+arch=('any')
+depends=( fftw graphicsmagick )
+url="http://www.archlinux.org"
+license=('see original')
+source=("pkg.tar.xz")
+md5sums=('SKIP')
+noextract="pkg.tar.xz"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/pkg.tar.xz"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

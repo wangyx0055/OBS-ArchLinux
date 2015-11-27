@@ -1,0 +1,5 @@
+<directory name="libmygpo-qt5-git" rev="9" srcmd5="ddc97a37df9cc9e267135be5ded59a37" vrev="9">
+  <serviceinfo code="succeeded" xsrcmd5="ae054ea86d48401f8907a43f7bf09bcd" />
+  <entry md5="864c078668af627459fa8a61ac0a430a" mtime="1448005691" name="PKGBUILD" size="736" />
+  <entry md5="47c3ab25a7e144d3cb01a5674b5d518d" mtime="1448005693" name="_service" size="416" />
+</directory>

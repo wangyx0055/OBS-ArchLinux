@@ -1,0 +1,7 @@
+<directory name="grub2-editor-frameworks" rev="6" srcmd5="3edf8141340e8f92ee14c9ab56a723a7" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="ccdf20ac97bdfc5f93f2cbba48f1046a" />
+  <entry md5="80d808da15bf4423a252cd21d809007a" mtime="1448608375" name="PKGBUILD" size="1157" />
+  <entry md5="e30ddd3c723410824812202eddef4155" mtime="1448604793" name="_service" size="234" />
+  <entry md5="d80345b227d7c2a8da9f9f6343f87e5d" mtime="1448604931" name="l10n_zh-cn.patch" size="31809" />
+  <entry md5="ab2c4ea88a33b1efd2f96cca4942b2a3" mtime="1448624763" name="port_to_kf5.patch" size="37706" />
+</directory>

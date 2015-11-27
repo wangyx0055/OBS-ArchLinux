@@ -1,5 +1,5 @@
-<directory name="libmediawiki-git" rev="9" srcmd5="d329283294adf6acf374fba534bbc9c9" vrev="9">
-  <serviceinfo code="succeeded" xsrcmd5="841073ae06612debb6e8b9f694746750" />
+<directory name="libmediawiki-git" rev="45" srcmd5="d56fe253921fd91868fbd0285573c48b" vrev="45">
+  <serviceinfo code="succeeded" xsrcmd5="1ff19ec4c2ef98c7af2fd04f30841dd8" />
   <entry md5="8a1680cc496d90e1857fb40240ca4e30" mtime="1447057924" name="PKGBUILD" size="946" />
   <entry md5="4cd601ef44878f8cc6fc108d0838f7fa" mtime="1447057926" name="_service" size="415" />
 </directory>

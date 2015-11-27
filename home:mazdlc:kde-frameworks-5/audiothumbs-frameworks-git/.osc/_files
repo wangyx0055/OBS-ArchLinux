@@ -1,5 +1,5 @@
-<directory name="audiothumbs-frameworks-git" rev="13" srcmd5="187856847ea9183c074ba64bcec577cf" vrev="13">
-  <serviceinfo code="succeeded" xsrcmd5="b8cc321f2cfa380275019c54325e0955" />
+<directory name="audiothumbs-frameworks-git" rev="34" srcmd5="cdc1cddc332222ad2752e8edfccfb54d" vrev="34">
+  <serviceinfo code="succeeded" xsrcmd5="d88282e2336a124c4bf41e0ca3ce495d" />
   <entry md5="1467e928843bca1a7bc9c3a287591248" mtime="1446329986" name="AudioThumbs.desktop" size="314" />
   <entry md5="3036beb3affcd8b25ae8b8445ff9a49c" mtime="1446332896" name="PKGBUILD" size="837" />
   <entry md5="52d09130143871d9dfd3a5727e7db1b9" mtime="1446714049" name="_service" size="484" />

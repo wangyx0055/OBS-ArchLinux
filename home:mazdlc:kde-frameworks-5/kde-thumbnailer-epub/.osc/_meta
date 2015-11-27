@@ -1,0 +1,5 @@
+<package name="kde-thumbnailer-epub" project="home:mazdlc:kde-frameworks-5">
+  <title>kde-thumbnailer-epub</title>
+  <description>Thumbnailer to show ePub cover previews in KDE file managers.</description>
+</package>
+

@@ -1,5 +1,5 @@
-<directory name="deadbeef-plugin-playback-status-git" rev="2" srcmd5="90a950929ea399d3e4a74436262b5861" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="55ce37d47628579c17e4bdbda104d470" />
-  <entry md5="04d019a6ff00b4146ab12a90672a18d5" mtime="1446996274" name="PKGBUILD" size="1583" />
+<directory name="deadbeef-plugin-playback-status-git" rev="49" srcmd5="bc46ddf0a222eeced4e01c17a960fa0d" vrev="49">
+  <serviceinfo code="succeeded" xsrcmd5="e7b9449835f0a49dc9dfe95318919e49" />
+  <entry md5="56618834f6ab26f97f67b25956f926bd" mtime="1447816121" name="PKGBUILD" size="1473" />
   <entry md5="363a6b416eb9c09814e4413d44167151" mtime="1446996328" name="_service" size="429" />
 </directory>

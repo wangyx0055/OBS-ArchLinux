@@ -1,0 +1,6 @@
+<directory name="pentobi-git" rev="65" srcmd5="1b643b8e2042b195e184eee8ebc02614" vrev="65">
+  <serviceinfo code="succeeded" xsrcmd5="d78330e7654c020a853c91f1a2dc4b81" />
+  <entry md5="117dcaac0bbf7ee1551e7529144f0feb" mtime="1448000425" name="PKGBUILD" size="872" />
+  <entry md5="2ddb786ff412a8b77a28993b6854a81e" mtime="1448000426" name="_service" size="408" />
+  <entry md5="57a672a61b73924a05de7e6beeb9d364" mtime="1448000428" name="pentobi.install" size="216" />
+</directory>

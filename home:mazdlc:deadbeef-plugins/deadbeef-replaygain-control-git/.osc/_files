@@ -1,6 +1,6 @@
-<directory name="deadbeef-replaygain-control-git" rev="16" srcmd5="727090cb7c0071ef03a0283953591359" vrev="16">
-  <serviceinfo code="succeeded" xsrcmd5="97a094930679d41b570a1f214722f9cc" />
-  <entry md5="ae46634879978864623e4231fafdced1" mtime="1446983805" name="PKGBUILD" size="1600" />
+<directory name="deadbeef-replaygain-control-git" rev="47" srcmd5="c1d296eb6d784860d6cb64e3c8f5dbe3" vrev="47">
+  <serviceinfo code="succeeded" xsrcmd5="17c2f4430ed958fbb3856b1ceef5322a" />
+  <entry md5="7d18726c131fa80609ffe978c020e29c" mtime="1447813734" name="PKGBUILD" size="1541" />
   <entry md5="17651968fd6d2eef9b0b202c400cb766" mtime="1446714149" name="_service" size="484" />
   <entry md5="af50a1e06d9d318b93693853f4ef23c1" mtime="1446711574" name="build.patch" size="378" />
 </directory>

@@ -1,0 +1,5 @@
+<directory name="kvirc-git" rev="32" srcmd5="44cd5790bb3cd18967a529103ffff8bc" vrev="32">
+  <serviceinfo code="succeeded" xsrcmd5="ebac72ed5036cd5006dbdc94087701b8" />
+  <entry md5="1db53fe77fd81d3a6053cfa7318e1e02" mtime="1448539506" name="PKGBUILD" size="775" />
+  <entry md5="763460ae9c1c1142de04b4ed661ffab0" mtime="1448505338" name="_service" size="402" />
+</directory>

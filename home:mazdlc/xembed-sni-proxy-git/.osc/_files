@@ -1,5 +1,5 @@
-<directory name="xembed-sni-proxy-git" rev="61" srcmd5="270298e6285a0fe3b8459747f7485c47" vrev="61">
-  <serviceinfo code="succeeded" xsrcmd5="d0ba70b4ddef5af5fdd69a48c663c0dd" />
+<directory name="xembed-sni-proxy-git" rev="106" srcmd5="be1cbb410485e6b181217aabe1e20a10" vrev="106">
+  <serviceinfo code="succeeded" xsrcmd5="87ff08bf9f0b57e45fc5678b9134d4d4" />
   <entry md5="f586ef24a0c8b0477826290eb101af4e" mtime="1446726622" name="PKGBUILD" size="1749" />
   <entry md5="109511ca3b8dc4422f72ba88765db1be" mtime="1446725822" name="_service" size="429" />
 </directory>

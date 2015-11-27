@@ -1,0 +1,5 @@
+<package name="k3b-l10n-bin-git" project="home:mazdlc:kde-frameworks-5">
+  <title>k3b-frameworks-git</title>
+  <description>Feature-rich and easy to handle CD burning application. KF5 Frameworks branch. (Git version)</description>
+</package>
+

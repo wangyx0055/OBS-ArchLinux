@@ -1,5 +1,6 @@
 # Maintainer: Peter Lamby <peterlamby@web.de>
-pkgname=deadbeef-replaygain-scan-git
+pkgbase=deadbeef-replaygain-scan-git
+pkgname=("deadbeef-replaygain-scan-git" "deadbeef-replaygain-scan-gtk2-git" "deadbeef-replaygain-scan-gtk3-git")
 _gitname=ddb_misc_replaygain_scan
 pkgver=10.154527e
 pkgrel=1
@@ -16,6 +17,7 @@ optdepends=('gtk2: For gtk2 ui support.'
 provides=deadbeef-replaygain-scan
 conflicts=deadbeef-replaygain-scan
 makedepends=('gtk2' 'gtk3')
+groups=deadbeef-plugins
 source=$_gitname-$pkgver.tar.xz
 md5sums=('SKIP')
 
@@ -24,8 +26,28 @@ build() {
   make
 }
 
-package() {
+package_deadbeef-replaygain-scan-git() {
+  depends=('deadbeef')
+  conflicts=('deadbeef-replaygain-scan')
+  provides=('deadbeef-replaygain-scan')
   cd "${srcdir}/$_gitname-$pkgver"
-  install -dm 755 "$pkgdir/usr/lib/deadbeef"
-  cp ddb*.so "$pkgdir/usr/lib/deadbeef"
+  install -Dm755 ddb_misc_replaygain_scan.so "$pkgdir/usr/lib/deadbeef/ddb_misc_replaygain_scan.so"
+}
+
+package_deadbeef-replaygain-scan-gtk2-git() {
+  depends=('deadbeef' 'gtk2' 'deadbeef-replaygain-scan-git')
+  groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk2")
+  conflicts=('deadbeef-replaygain-scan-gtk2')
+  provides=('deadbeef-replaygain-scan-gtk2')
+  cd "${srcdir}/$_gitname-$pkgver"
+  install -Dm755 ddb_misc_replaygain_scan_GTK2.so "$pkgdir/usr/lib/deadbeef/ddb_misc_replaygain_scan_GTK2.so"
+}
+
+package_deadbeef-replaygain-scan-gtk3-git() {
+  depends=('deadbeef' 'gtk3' 'deadbeef-replaygain-scan-git')
+  groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk3")
+  conflicts=('deadbeef-replaygain-scan-gtk3')
+  provides=('deadbeef-replaygain-scan-gtk3')
+  cd "${srcdir}/$_gitname-$pkgver"
+  install -Dm755 ddb_misc_replaygain_scan_GTK3.so "$pkgdir/usr/lib/deadbeef/ddb_misc_replaygain_scan_GTK3.so"
 }

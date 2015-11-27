@@ -1,5 +1,5 @@
-<directory name="deadbeef-plugin-vu-meter-git" rev="18" srcmd5="1f07b5b7a536821e7b2191e09d111314" vrev="18">
-  <serviceinfo code="succeeded" xsrcmd5="09db1c3257ea17362a7c002faf2a6282" />
-  <entry md5="8c89763943bdefb1fdc534774d9be25c" mtime="1446995294" name="PKGBUILD" size="924" />
+<directory name="deadbeef-plugin-vu-meter-git" rev="42" srcmd5="ed8bfa59adc44ca4f770c3efe49e9b90" vrev="42">
+  <serviceinfo code="succeeded" xsrcmd5="5b39c21b030563683392c8aa998adf52" />
+  <entry md5="0deb3ce2a6984afc007bb7de4657c75c" mtime="1447814163" name="PKGBUILD" size="1760" />
   <entry md5="05a55d5eab5cbaa525857af64428c877" mtime="1446996442" name="_service" size="651" />
 </directory>

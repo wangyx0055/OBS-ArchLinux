@@ -1,0 +1,5 @@
+<directory name="libwlocate" rev="1" srcmd5="e15ad82efc4b537bd044074555ad7658" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="fbb14419948ebd831a51a24dce1ddcaa" />
+  <entry md5="97609004bc53b37afafef6e93d474083" mtime="1447059291" name="PKGBUILD" size="385" />
+  <entry md5="9cc76c3ebc2b8e2b8cb58c2283c42937" mtime="1447058523" name="_service" size="292" />
+</directory>

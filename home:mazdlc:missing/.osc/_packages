@@ -42,4 +42,21 @@
   <package name="php-geoip" state=" " />
   <package name="id3v2" state=" " />
   <package name="lash" state=" " />
+  <package name="cimg" state=" " />
+  <package name="hwinfo" state=" " />
+  <package name="libwlocate" state=" " />
+  <package name="libx86emu" state=" " />
+  <package name="ming" state=" " />
+  <package name="ndiswrapper-dkms" state=" " />
+  <package name="perl-io-string" state=" " />
+  <package name="podofo" state=" " />
+  <package name="python2-cheetah" state=" " />
+  <package name="python2-markdown" state=" " />
+  <package name="ruby-hpricot" state=" " />
+  <package name="ruby-mustache" state=" " />
+  <package name="ruby-rdiscount" state=" " />
+  <package name="ruby-ronn" state=" " />
+  <package name="shapelib" state=" " />
+  <package name="shntool" state=" " />
+  <package name="toxcore" state=" " />
 </project>

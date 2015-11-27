@@ -1,0 +1,22 @@
+pkgname=python2-cheetah
+pkgver=2.4.4
+pkgrel=6
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( python2 python2-markdown )
+provides=( cheetah python-cheetah )
+conflicts=( cheetah python-cheetah )
+url="http://www.archlinux.org"
+license=('see original')
+source=("pkg.tar.xz")
+md5sums=('SKIP')
+noextract="pkg.tar.xz"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/pkg.tar.xz"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

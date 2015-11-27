@@ -4,6 +4,8 @@ pkgrel=2
 pkgdesc="package for obs"
 arch=('x86_64')
 depends=( ffmpeg )
+#provides=('ffms2=$pkgver')
+#conflicts=('ffms2=$pkgver')
 url="http://www.archlinux.org"
 license=('see original')
 source=("index.html")

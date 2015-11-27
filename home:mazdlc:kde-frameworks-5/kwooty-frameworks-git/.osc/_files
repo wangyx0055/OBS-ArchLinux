@@ -1,5 +1,5 @@
-<directory name="kwooty-frameworks-git" rev="14" srcmd5="c84abb64e47e1e256d48055d7a64b9fd" vrev="14">
-  <serviceinfo code="succeeded" xsrcmd5="0ddb45cebd2d6fed029bf4a8358dff1f" />
+<directory name="kwooty-frameworks-git" rev="75" srcmd5="4b614ebd9d6f5339ba2279cae460b98e" vrev="75">
+  <serviceinfo code="succeeded" xsrcmd5="a3b54570995b57b81075c4f00b49e22e" />
   <entry md5="ffb5389f3f770661b0b5391c2fd1146d" mtime="1447057021" name="PKGBUILD" size="1070" />
   <entry md5="f4a97171387d8c8cf0bd2cdfd51313f9" mtime="1447056181" name="_service" size="449" />
   <entry md5="a4b6dc1d923c8ed9ce9f16d97ad9b63d" mtime="1447056183" name="kwooty-frameworks-git.install" size="171" />

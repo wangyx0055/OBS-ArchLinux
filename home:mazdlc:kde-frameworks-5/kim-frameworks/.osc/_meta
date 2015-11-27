@@ -1,0 +1,5 @@
+<package name="kim-frameworks" project="home:mazdlc:kde-frameworks-5">
+  <title>kim-frameworks</title>
+  <description>Plasma 5 Image Menu to compress, resize, convert, rotate and webexport</description>
+</package>
+

@@ -1,0 +1,38 @@
+pkgname=polkit-kde-kcmodules-frameworks 
+pkgver=20150815.g8d55dee
+pkgrel=1
+pkgdesc="Set of configuration modules which allows administrator to change polkit settings."
+arch=('i686' 'x86_64')
+url='https://projects.kde.org/projects/extragear/base/polkit-kde-kcmodules-1'
+license=('GPL')
+provides=polkit-kde-kcmodules
+conflicts=polkit-kde-kcmodules
+depends=('kdelibs4support' 'polkit-qt5' 'kcmutils')
+makedepends=('extra-cmake-modules' 'git' 'kdoctools')
+source=polkit-kde-kcmodules-1-$pkgver.tar.xz
+groups=('plasma')
+md5sums=('SKIP')
+
+
+prepare() {
+  mkdir -p build
+  cd polkit-kde-kcmodules-1-$pkgver
+  patch -p1 -i "$startdir/port_to_kf5.patch"
+}
+
+build() {
+  cd build
+  cmake ../polkit-kde-kcmodules-1-$pkgver \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DLIB_INSTALL_DIR=lib \
+    -DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+    -DSYSCONF_INSTALL_DIR=/etc \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

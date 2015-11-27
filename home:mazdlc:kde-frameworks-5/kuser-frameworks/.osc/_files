@@ -1,0 +1,7 @@
+<directory name="kuser-frameworks" rev="2" srcmd5="6da33639e4add72f8295bd69d4c7740d" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="cb58a9fc0e6039bbd8f0af447f0864c4" />
+  <entry md5="d4d58f24e5fe703791d28acabf5dabc3" mtime="1448070438" name="PKGBUILD" size="1006" />
+  <entry md5="43f34b993129705665f562eacc55bc28" mtime="1448070404" name="_service" size="240" />
+  <entry md5="347d94494ab0e27c7dd16c3f7f965a9d" mtime="1448070406" name="kuser.install" size="146" />
+  <entry md5="6fcb56d8ccd2671ffcabecc93a40faba" mtime="1448070408" name="port_to_kf5.patch" size="10247" />
+</directory>

@@ -13,13 +13,14 @@ depends=('deadbeef')
 makedepends=('deadbeef')
 source=('psipublish.c')
 md5sums=('cfab279f1c90cb0f31e833487e5dbc5b')
-
+groups=deadbeef-plugins
 build() {
   cd $srcdir
   gcc -I/usr/include/deadbeef -std=c99 -shared -O2 -o psipublish.so psipublish.c -fPIC
-  mkdir -p $pkgdir/usr/lib/deadbeef/
+  
 } 
 package() {
   cd $srcdir
+  mkdir -p $pkgdir/usr/lib/deadbeef/
   cp psipublish.so $pkgdir/usr/lib/deadbeef/
 }

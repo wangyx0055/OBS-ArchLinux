@@ -1,0 +1,5 @@
+<directory name="ndiswrapper-dkms" rev="2" srcmd5="213b8162ef14c9c13a3cafd950dd60b5" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="7b55e41b3b2ff20a24fd9e64b148ce50" />
+  <entry md5="bc09968e74c446a47c265d6d36d2bc54" mtime="1448528515" name="PKGBUILD" size="383" />
+  <entry md5="6890c392468b3e0ac80a98250bda9116" mtime="1448506521" name="_service" size="298" />
+</directory>

@@ -1,6 +1,6 @@
 pkgname=lash
 pkgver=0.6.0~rc2
-pkgrel=1
+pkgrel=8
 pkgdesc="package for obs"
 arch=('x86_64')
 depends=( dbus gtk2 jack libxml2 python2 )

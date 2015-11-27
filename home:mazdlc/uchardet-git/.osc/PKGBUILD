@@ -1,0 +1,25 @@
+# Maintainer: 2ion <dev@2ion.de>
+pkgname=uchardet-git
+pkgver=r28.84e292d
+pkgrel=2
+pkgdesc="Encoding detector library ported from Mozilla"
+arch=('i686' 'x86_64')
+url="https://github.com/BYVoid/uchardet"
+license=('MPL')
+depends=('gcc-libs')
+makedepends=('git' 'gcc' 'cmake' 'make')
+provides=("${pkgname%-git}")
+conflicts=("${pkgname%-git}")
+source=uchardet-$pkgver.tar.xz
+md5sums=('SKIP')
+
+build() {
+  cd "$srcdir/${pkgname%-git}-$pkgver"
+  cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr .
+  make
+}
+
+package() {
+  cd "$srcdir/${pkgname%-git}-$pkgver"
+  make DESTDIR="$pkgdir/" install
+}

@@ -24,4 +24,4 @@ if [[ z$newver != "z" && $oldver != $newver ]] ; then
   osc commit -m bump
 fi
 
-#docbook-xsl
+#kdelibs4support

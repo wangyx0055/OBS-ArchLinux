@@ -4,7 +4,7 @@
 # Maintainer: Jan D. Behrens <zykure@web.de>
 
 pkgbase=deadbeef-plugin-fb-git
-pkgname=('deadbeef-plugin-fb-git' 'deadbeef-plugin-fb-gtk3-git' 'deadbeef-plugin-fb-gtk2-git')
+pkgname=('deadbeef-plugin-fb-gtk3-git' 'deadbeef-plugin-fb-gtk2-git')
 pkgver=20151103
 pkgrel=0.86
 _pkgdesc="A filebrowser plugin for the DeaDBeeF audio player."
@@ -41,6 +41,7 @@ package_deadbeef-plugin-fb-gtk3-git() {
   depends=('deadbeef' 'gtk3')
   provides=deadbeef-plugin-fb-gtk3
   conflicts=deadbeef-plugin-fb-gtk3
+  groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk3")
   cd ${srcdir}/build-gtk3
   make DESTDIR="$pkgdir" install
   cd "$pkgdir/usr/share/doc"
@@ -52,16 +53,10 @@ package_deadbeef-plugin-fb-gtk2-git() {
   depends=('deadbeef' 'gtk2')
   provides=deadbeef-plugin-fb-gtk2
   conflicts=deadbeef-plugin-fb-gtk2
+  groups=("deadbeef-plugins" "deadbeef-plugins-ui" "deadbeef-plugins-gtk2")
   cd ${srcdir}/build-gtk2
   make DESTDIR="$pkgdir" install
   cd "$pkgdir/usr/share/doc"
   mv deadbeef-fb deadbeef-fb-gtk2
 }
 
-package_deadbeef-plugin-fb-git() {
-  pkgdesc="$_pkgdesc Install both gtk2 and gtk3 version"
-  depends=('deadbeef-plugin-fb-gtk2-git' 'deadbeef-plugin-fb-gtk3-git')
-  provides=deadbeef-plugin-fb
-  conflicts=deadbeef-plugin-fb
-  true
-}

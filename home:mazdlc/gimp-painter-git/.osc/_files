@@ -1,7 +1,7 @@
-<directory name="gimp-painter-git" rev="48" srcmd5="2a399d7410ed05be64708f9256252afe" vrev="48">
-  <serviceinfo code="succeeded" xsrcmd5="7ed8b3b3f5fb4c2a104f4ab667592370" />
+<directory name="gimp-painter-git" rev="103" srcmd5="fff8f112fffed4bd7ac0ac6618ba6abc" vrev="103">
+  <serviceinfo code="running" />
   <entry md5="f9c8a462bfe5547beccbd54b0a90b796" mtime="1446310404" name="PKGBUILD" size="2662" />
-  <entry md5="962f672c3a107b97ae781aea4e5fb7a6" mtime="1446714248" name="_service" size="497" />
+  <entry md5="e0fbfd14d2db420157b21edd3c67390f" mtime="1448241274" name="_service" size="511" />
   <entry md5="88ad0e2de60a1af1164b65a5ccf2dbd8" mtime="1446294412" name="gimp-painter.install" size="248" />
   <entry md5="bb27bc214261d36484093e857f015f38" mtime="1446294413" name="linux.gpl" size="219" />
   <entry md5="f900314ce2dbdc9ea5e78ce7b656c0f6" mtime="1446294416" name="look_for_automake_1.15.patch" size="506" />

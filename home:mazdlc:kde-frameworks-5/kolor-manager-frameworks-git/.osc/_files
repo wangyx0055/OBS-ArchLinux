@@ -1,6 +1,6 @@
-<directory name="kolor-manager-frameworks-git" rev="22" srcmd5="b28f1d5c0473668b970c18ebfe5be543" vrev="22">
-  <serviceinfo code="succeeded" xsrcmd5="4e6c245dc30ac76a0382ac2e4616badc" />
+<directory name="kolor-manager-frameworks-git" rev="124" srcmd5="5177bc504024851f7868aaaeea10b948" vrev="124">
+  <serviceinfo code="succeeded" xsrcmd5="3dc818b2c202901c34e368085ad96646" />
   <entry md5="e9970bef2d0a4b64fda6561933c4aa8c" mtime="1447055831" name="COPYING" size="1242" />
-  <entry md5="1baaddd43b7200a95ed06cd983f15550" mtime="1447078843" name="PKGBUILD" size="970" />
+  <entry md5="b791127bcb6a2529f79281b7ae6b36d4" mtime="1448009502" name="PKGBUILD" size="1099" />
   <entry md5="b7c827d9e0bde5100e510fc452dcd859" mtime="1447055840" name="_service" size="463" />
 </directory>

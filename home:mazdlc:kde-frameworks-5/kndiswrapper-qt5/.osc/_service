@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">ftp.riken.jp</param>
+    <param name="path">/Linux/momonga/development/source/SOURCES/kndiswrapper-0.4.0.tgz</param>
+  </service>
+</services>

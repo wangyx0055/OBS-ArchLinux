@@ -1,5 +1,5 @@
-<directory name="avxsynth-git" rev="36" srcmd5="4d83296888f1d026a93e6bcd23132cf7" vrev="36">
-  <serviceinfo code="succeeded" xsrcmd5="72e27d6b887ff849c070ae8bee20dfce" />
+<directory name="avxsynth-git" rev="62" srcmd5="dcd48fad3d1835e96c1dbbe3af23c9b3" vrev="62">
+  <serviceinfo code="succeeded" xsrcmd5="b4993697ecd194f9462796b2ed9dd254" />
   <entry md5="fa5135a8e57cdf1aca0680c27f8a5f67" mtime="1446610080" name="PKGBUILD" size="726" />
   <entry md5="183c6526423f572b723f468effde5d9e" mtime="1446713777" name="_service" size="411" />
 </directory>

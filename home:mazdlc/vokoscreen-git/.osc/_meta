@@ -1,0 +1,5 @@
+<package name="vokoscreen-git" project="home:mazdlc">
+  <title>vokoscreen-git</title>
+  <description>An easy to use screencast creator. Qt5 UI. Development version.</description>
+</package>
+

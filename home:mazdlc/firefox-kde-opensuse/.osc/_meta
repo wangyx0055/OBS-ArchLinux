@@ -1,8 +1,5 @@
 <package name="firefox-kde-opensuse" project="home:mazdlc">
   <title>firefox-kde-opensuse</title>
   <description>firefox-kde-opensuse</description>
-  <publish>
-    <enable/>
-  </publish>
 </package>
 

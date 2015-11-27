@@ -1,0 +1,12 @@
+diff -Naur a/screencast.cpp b/screencast.cpp
+--- a/screencast.cpp	2015-11-21 13:43:42.330821617 +0800
++++ b/screencast.cpp	2015-11-21 13:41:29.000000000 +0800
+@@ -274,6 +274,8 @@
+     AudiocodecComboBox->setGeometry( 100, 70, 100, 25 );
+     AudiocodecComboBox->show();
+     AudiocodecComboBox->addItem( "libmp3lame" );
++    AudiocodecComboBox->addItem( "libfaac" );
++    AudiocodecComboBox->addItem( "libfdk_aac" );
+     AudiocodecComboBox->addItem( "libvorbis" );
+     AudiocodecComboBox->addItem( "pcm_s16le" );    
+     

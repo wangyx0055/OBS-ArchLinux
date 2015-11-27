@@ -1,5 +1,5 @@
-<directory name="ffmpegthumbs-git" rev="14" srcmd5="ff1023a160b0f2d57348a85b4ec7f1d9" vrev="14">
-  <serviceinfo code="succeeded" xsrcmd5="a4890fdd3159083058747a1fc402719c" />
-  <entry md5="b3c5c413e8af810f53ae8d667f025cf1" mtime="1446330463" name="PKGBUILD" size="851" />
+<directory name="ffmpegthumbs-git" rev="21" srcmd5="dd8396b6949cdf94a6b6095297d7a2de" vrev="21">
+  <serviceinfo code="succeeded" xsrcmd5="96e87e3fcdc209052bffc14927af0d0d" />
+  <entry md5="5826e40c057dfa00e000d17b36d5cd3b" mtime="1448091310" name="PKGBUILD" size="896" />
   <entry md5="667ed123e8af826ca5f6149a782d5371" mtime="1446714216" name="_service" size="500" />
 </directory>

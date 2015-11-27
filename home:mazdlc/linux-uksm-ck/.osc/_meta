@@ -1,0 +1,5 @@
+<package name="linux-uksm-ck" project="home:mazdlc">
+  <title>linux-uksm-ck</title>
+  <description>Linux Kernel and modules with the UKSM patchset featuring and the ck1 patchset featuring the Brain Fuck Scheduler</description>
+</package>
+

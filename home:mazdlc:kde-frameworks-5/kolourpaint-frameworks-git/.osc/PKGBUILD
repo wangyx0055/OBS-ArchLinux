@@ -18,6 +18,8 @@ install=kolourpaint-frameworks-git.install
 
 prepare() {
   mkdir -p build
+  cd kolourpaint-$pkgver
+  sed -i 's:#include <KSane>:#include <KSaneWidget>:g' scan/sanedialog.h
 }
 
 build() {

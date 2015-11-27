@@ -1,5 +1,5 @@
-<directory name="deadbeef-plugins-dvar-svn" rev="14" srcmd5="49f5505834e1ccee0181172c3a96b338" vrev="14">
-  <serviceinfo code="succeeded" xsrcmd5="dc3e79adb184a11e87b95174291688b8" />
-  <entry md5="1451b2cc676046d751626056e7fa2e84" mtime="1446712283" name="PKGBUILD" size="873" />
+<directory name="deadbeef-plugins-dvar-svn" rev="37" srcmd5="29a7c3beb1b79f72ded64b6e2232e411" vrev="37">
+  <serviceinfo code="succeeded" xsrcmd5="fd42600bc4f37f54cd2878ac5bf7fb05" />
+  <entry md5="2e0a8b2a0bb7bd4b1898158f90dda79c" mtime="1447832163" name="PKGBUILD" size="922" />
   <entry md5="8b509a6b3ab2d7d3865455b678e3a632" mtime="1446712285" name="_service" size="503" />
 </directory>

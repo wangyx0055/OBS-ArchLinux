@@ -1,0 +1,37 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">www.kernel.org</param>
+    <param name="path">/pub/linux/kernel/v4.x/linux-4.3.tar.xz</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">ck.kolivas.org</param>
+    <param name="path">/patches/4.0/4.3/4.3-ck1/patch-4.3-ck1.xz</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">ck.kolivas.org</param>
+    <param name="path">/patches/bfs/4.0/4.3/Pending/bfs465-nohz-buildfix.patch</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">repo-ck.com</param>
+    <param name="path">/source/gcc_patch/enable_additional_cpu_optimizations_for_gcc_v4.9+_kernel_v3.15+.patch.gz</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">algo.ing.unimo.it</param>
+    <param name="path">/people/paolo/disk_sched/patches/4.3.0-v7r8/0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r8-4.3.patch</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">algo.ing.unimo.it</param>
+    <param name="path">/people/paolo/disk_sched/patches/4.3.0-v7r8/0002-block-introduce-the-BFQ-v7r8-I-O-sched-for-4.3.patch</param>
+  </service>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">algo.ing.unimo.it</param>
+    <param name="path">/people/paolo/disk_sched/patches/4.3.0-v7r8/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r8-for-4.3.0.patch</param>
+  </service>
+</services>

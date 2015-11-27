@@ -1,0 +1,5 @@
+<directory name="libechonest-qt5-git" rev="15" srcmd5="ec9d0c292c558f609d05dde4b925f99f" vrev="15">
+  <serviceinfo code="succeeded" xsrcmd5="a199881fbc25025b9c1e467d4488068a" />
+  <entry md5="32ababac3c018569bc5abcdd0834f9da" mtime="1448005932" name="PKGBUILD" size="888" />
+  <entry md5="1bd28e182e6e644cb4cac8075a9d96dd" mtime="1448005934" name="_service" size="417" />
+</directory>

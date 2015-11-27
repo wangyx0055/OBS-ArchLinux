@@ -6,6 +6,7 @@ PKGBUILD_PREFIX="https://projects.archlinux.org/svntogit/${SRC_REPO}.git/plain/t
 PKGNAME=ffmpeg
 cd $basedir
 
+
 osc up
 pkgname=""
 pkgver=""
