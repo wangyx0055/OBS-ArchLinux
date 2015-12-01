@@ -2,7 +2,7 @@
   <service name="download_url">
     <param name="protocol">https</param>
     <param name="host">github.com</param>
-    <param name="path">/wine-compholio/wine-patched/archive/staging-1.8-rc1.tar.gz</param>
+    <param name="path">/wine-compholio/wine-patched/archive/staging-1.8-rc2.tar.gz</param>
   </service>
   <service name="download_url">
     <param name="protocol">https</param>

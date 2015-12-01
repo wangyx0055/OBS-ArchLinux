@@ -1,6 +1,6 @@
 _pkgbase=mesa-libgl
 pkgname=lib32-mesa-libgl
-pkgver=11.0.4
+pkgver=11.0.6
 pkgrel=1
 pkgdesc="32bit library for obs"
 arch=('x86_64')

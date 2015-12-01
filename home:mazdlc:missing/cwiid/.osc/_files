@@ -1,5 +1,5 @@
-<directory name="cwiid" rev="8" srcmd5="6e4328275bdba145417131f7b1b06970" vrev="8">
-  <serviceinfo code="succeeded" xsrcmd5="54759f385ec689dbd0b15e6de32b0521" />
+<directory name="cwiid" rev="11" srcmd5="17283abbd2fa2d1011ad7168afc7f55f" vrev="11">
+  <serviceinfo code="succeeded" xsrcmd5="caf70b47480abf15846653b8fe518150" />
   <entry md5="45992c4f08e3bc66413bf814602c8656" mtime="1446464546" name="PKGBUILD" size="349" />
   <entry md5="4bd6b7854d3ce51d873454699b1bfdd6" mtime="1446464548" name="_service" size="241" />
 </directory>

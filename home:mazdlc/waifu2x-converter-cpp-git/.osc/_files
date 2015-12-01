@@ -1,5 +1,5 @@
-<directory name="waifu2x-converter-cpp-git" rev="56" srcmd5="a52667df9757477aa63a4391b7226f9d" vrev="56">
-  <serviceinfo code="succeeded" xsrcmd5="60e798711f0515d7d2dcd8e6c997277c" />
+<directory name="waifu2x-converter-cpp-git" rev="104" srcmd5="cf4542c7003306b141b22be181f91b97" vrev="104">
+  <serviceinfo code="succeeded" xsrcmd5="ee79fea5910f700e20bde1989fc9e709" />
   <entry md5="fb3461cf206470041a89effa983ee624" mtime="1446439701" name="PKGBUILD" size="1390" />
   <entry md5="bb8c13f54ab47a7e42772de3128dfca4" mtime="1446714503" name="_service" size="486" />
   <entry md5="a11cd7d420e2bba70218fd429face463" mtime="1446434269" name="arch_use_usr_share_for_models.patch" size="1687" />

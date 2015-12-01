@@ -59,4 +59,8 @@
   <package name="shapelib" state=" " />
   <package name="shntool" state=" " />
   <package name="toxcore" state=" " />
+  <package name="git-fake-kvirc" state=" " />
+  <package name="snapper" state=" " />
+  <package name="agg" state=" " />
+  <package name="icoutils" state=" " />
 </project>

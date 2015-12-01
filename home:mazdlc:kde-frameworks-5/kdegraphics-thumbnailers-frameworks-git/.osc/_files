@@ -1,5 +1,5 @@
-<directory name="kdegraphics-thumbnailers-frameworks-git" rev="53" srcmd5="acd63245c57c157fe0a6ff9fdae07565" vrev="53">
-  <serviceinfo code="succeeded" xsrcmd5="caa21acac1b08afb9b31272e0ea6673a" />
+<directory name="kdegraphics-thumbnailers-frameworks-git" rev="161" srcmd5="9add7e5fcfe8b3f8c8981bdfc8856c1d" vrev="161">
+  <serviceinfo code="succeeded" xsrcmd5="7988bd659361a7f93af80208b331b8be" />
   <entry md5="73dc9b0b1f6da64a7aab1259598df8c4" mtime="1446389817" name="PKGBUILD" size="1051" />
   <entry md5="62e34210ed957ee665bc5b56b40254a0" mtime="1446714261" name="_service" size="524" />
 </directory>

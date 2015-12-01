@@ -1,0 +1,5 @@
+<package name="snapper-gui-git" project="home:mazdlc">
+  <title>snapper-gui-git</title>
+  <description>Gui for snapper, a tool of managing snapshots of Btrfs subvolumes and LVM volumes</description>
+</package>
+

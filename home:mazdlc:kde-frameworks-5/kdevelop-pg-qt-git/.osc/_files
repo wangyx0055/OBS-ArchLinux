@@ -1,5 +1,5 @@
-<directory name="kdevelop-pg-qt-git" rev="47" srcmd5="3153efb15dce61c1a246baf1de8c6da0" vrev="47">
-  <serviceinfo code="succeeded" xsrcmd5="7723ee3276fd32417c64f2b4d74dddbe" />
+<directory name="kdevelop-pg-qt-git" rev="96" srcmd5="a26a6390f8f6c29694cb6a3ff5835610" vrev="96">
+  <serviceinfo code="succeeded" xsrcmd5="bc808b2f9d29dd32594cdd6f69971a64" />
   <entry md5="b3831f18fa36c12e3a56db20a41877bb" mtime="1446365844" name="PKGBUILD" size="735" />
   <entry md5="2a1d0e9260e18263ed59537f883abdaa" mtime="1446714285" name="_service" size="463" />
 </directory>

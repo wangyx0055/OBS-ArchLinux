@@ -1,5 +1,5 @@
-<directory name="lib32-libcroco" rev="2" srcmd5="93c1b62c9cf52d52fc9889310ef7b9d5" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="3939c4612e00b470fbd7784fa4647e95" />
+<directory name="lib32-libcroco" rev="22" srcmd5="1df28ce5231e936f35b93bbf5918a672" vrev="22">
+  <serviceinfo code="succeeded" xsrcmd5="c709c1fd74c80e686096cba5890a481e" />
   <entry md5="78d700a85ed7af78d2cc9ab07d44eab0" mtime="1446723348" name="PKGBUILD" size="385" />
   <entry md5="e4cb20dbf679ef30532a5befd245b323" mtime="1446438726" name="_service" size="250" />
 </directory>

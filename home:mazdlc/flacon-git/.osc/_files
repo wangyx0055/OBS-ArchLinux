@@ -1,5 +1,5 @@
-<directory name="flacon-git" rev="31" srcmd5="c86c5981c22b4e715a586334a760d3d1" vrev="31">
-  <serviceinfo code="succeeded" xsrcmd5="47c9993e2cad34d434bb8bd6da7fda84" />
+<directory name="flacon-git" rev="82" srcmd5="118b0ee9f650066364c03d91441df168" vrev="82">
+  <serviceinfo code="succeeded" xsrcmd5="7d7055ca40c1ad881e56c889d431d354" />
   <entry md5="df6e460e2d78a66b2c2c853335a114d9" mtime="1447809075" name="PKGBUILD" size="2065" />
   <entry md5="328273c06a1d7335713526db9364c3bd" mtime="1447809014" name="_service" size="405" />
   <entry md5="f50cf6fdf4821576dfec12695c1b5ff1" mtime="1447812347" name="flacon-git.install" size="178" />

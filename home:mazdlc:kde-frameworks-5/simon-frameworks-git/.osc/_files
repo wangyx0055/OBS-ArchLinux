@@ -1,5 +1,5 @@
-<directory name="simon-frameworks-git" rev="127" srcmd5="e3043b93a483a900983ac419c32cac80" vrev="127">
-  <serviceinfo code="succeeded" xsrcmd5="d6cc36a894d546aeb9bfdf1c37da9091" />
+<directory name="simon-frameworks-git" rev="321" srcmd5="7087a828ab1e9fe1e6ddd87ea3b91aee" vrev="321">
+  <serviceinfo code="succeeded" xsrcmd5="84d7633526d0a04d213ecbff8a6b9c71" />
   <entry md5="45b6131166378e74d1c126ecb9aeffb9" mtime="1447982487" name="PKGBUILD" size="1479" />
   <entry md5="5faf6f1e56e40ed81323410eb30a612e" mtime="1447544890" name="_service" size="440" />
   <entry md5="260b9e0451fa46f25d4c051f35f4e476" mtime="1447921944" name="fix.patch" size="8370" />

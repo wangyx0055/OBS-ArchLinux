@@ -1,0 +1,5 @@
+<package name="yacreader-hg" project="home:mazdlc:kde-frameworks-5">
+  <title>yacreader-hg</title>
+  <description>A comic reader for cross-platform reading and managing your digital comic collection.</description>
+</package>
+

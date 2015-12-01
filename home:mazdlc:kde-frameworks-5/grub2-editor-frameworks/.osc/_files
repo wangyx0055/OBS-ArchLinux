@@ -1,7 +1,9 @@
-<directory name="grub2-editor-frameworks" rev="6" srcmd5="3edf8141340e8f92ee14c9ab56a723a7" vrev="6">
-  <serviceinfo code="succeeded" xsrcmd5="ccdf20ac97bdfc5f93f2cbba48f1046a" />
-  <entry md5="80d808da15bf4423a252cd21d809007a" mtime="1448608375" name="PKGBUILD" size="1157" />
+<directory name="grub2-editor-frameworks" rev="16" srcmd5="2872d069a44fd7c4109720a8bf19e406" vrev="16">
+  <serviceinfo code="succeeded" xsrcmd5="6ee1cdc773345aa2a43aefcb87d94075" />
+  <entry md5="b614830d335a58c8c7a1c3858efeb4fd" mtime="1448773671" name="PKGBUILD" size="1683" />
   <entry md5="e30ddd3c723410824812202eddef4155" mtime="1448604793" name="_service" size="234" />
-  <entry md5="d80345b227d7c2a8da9f9f6343f87e5d" mtime="1448604931" name="l10n_zh-cn.patch" size="31809" />
-  <entry md5="ab2c4ea88a33b1efd2f96cca4942b2a3" mtime="1448624763" name="port_to_kf5.patch" size="37706" />
+  <entry md5="e95dd909454f593e8ca6f683680e91ac" mtime="1448773672" name="grub2-editor.desktop" size="427" />
+  <entry md5="5dcd0e3e6251c25e3817a710f0e0e089" mtime="1448796930" name="grub2-editor.gui.policy" size="820" />
+  <entry md5="bc820a400c3f91f16d9770df85af81c2" mtime="1448796932" name="l10n_zh-cn.patch" size="32604" />
+  <entry md5="12bf7af05e67d9e952bcd22a13a99dc0" mtime="1448977472" name="port_to_kf5.patch" size="55723" />
 </directory>

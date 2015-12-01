@@ -1,6 +1,6 @@
 _pkgbase=alsa-lib
 pkgname=lib32-alsa-lib
-pkgver=1.0.29
+pkgver=1.1.0
 pkgrel=1
 pkgdesc="An alternative implementation of Linux sound support (32 bit)"
 arch=('x86_64')

@@ -1,5 +1,5 @@
-<directory name="lib32-glibc" rev="5" srcmd5="35e74b29368cc845e1ed9d65924d8784" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="54e8f9f0861791d0b5a699ffdca7006e" />
+<directory name="lib32-glibc" rev="8" srcmd5="fe289fc95d8f40b4b559fa7645398950" vrev="8">
+  <serviceinfo code="succeeded" xsrcmd5="6d932652852a8d3919f36e2698373000" />
   <entry md5="8ac0dde40204530fb27d5b5cf356b1b4" mtime="1446723264" name="PKGBUILD" size="322" />
   <entry md5="b586537b53cf82a4c7651d8a4bfba1de" mtime="1446378504" name="_service" size="247" />
 </directory>

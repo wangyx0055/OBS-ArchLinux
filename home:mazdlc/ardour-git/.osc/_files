@@ -1,7 +1,9 @@
-<directory name="ardour-git" rev="62" srcmd5="92f971cb682c843304f303ca52ac3256" vrev="62">
-  <serviceinfo code="succeeded" xsrcmd5="00a1382c16e40fb216fb511733ef9755" />
-  <entry md5="9217a3b60419f7e8f5269dd03e7d191c" mtime="1446468261" name="PKGBUILD" size="1593" />
-  <entry md5="2ef575fbeed0730fe64183977b176287" mtime="1447593353" name="_service" size="405" />
+<directory name="ardour-git" rev="144" srcmd5="174dd36c0290e5c2a58afc1bb56000cf" vrev="144">
+  <serviceinfo code="succeeded" xsrcmd5="9a19e9159adb13557e499ae52f0a89f6" />
+  <entry md5="2cf0d9146f68eb1d9749f203aa25f47e" mtime="1448879747" name="PKGBUILD" size="1857" />
+  <entry md5="427f20fc5b1db1f8779ac1b881ce00e2" mtime="1448850169" name="_service" size="578" />
   <entry md5="151094720b3cdcce2d66b30915dea536" mtime="1446464021" name="ardour.desktop" size="240" />
+  <entry md5="a84893c4c53104baef9625ce8dc4f591" mtime="1448877468" name="fix.patch" size="5606" />
+  <entry md5="2329fc3e08021c7be4130f4853ef43d9" mtime="1448855346" name="git" size="342" />
   <entry md5="8479ed3df09613ae012aef75fd1692a7" mtime="1446904267" name="revision.cc" size="80" />
 </directory>

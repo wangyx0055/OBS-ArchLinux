@@ -1,0 +1,5 @@
+<package name="exfat-dkms-git" project="home:mazdlc">
+  <title>exfat-dkms-git</title>
+  <description>Native (nofuse) kernel module for EXtendedFAT support - use with DKMS</description>
+</package>
+

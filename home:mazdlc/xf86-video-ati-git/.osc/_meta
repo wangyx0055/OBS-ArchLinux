@@ -1,5 +1,17 @@
 <package name="xf86-video-ati-git" project="home:mazdlc">
   <title>xf86-video-ati-git</title>
   <description>xf86-video-ati-git</description>
+  <build>
+    <disable/>
+    <disable arch="x86_64"/>
+    <disable arch="x86_64" repository="Arch_Extra"/>
+    <disable repository="Arch_Extra"/>
+  </build>
+  <publish>
+    <disable/>
+    <disable arch="x86_64"/>
+    <disable repository="Arch_Extra"/>
+    <disable arch="x86_64" repository="Arch_Extra"/>
+  </publish>
 </package>
 

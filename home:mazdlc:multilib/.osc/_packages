@@ -131,4 +131,5 @@
   <package name="lib32-libxv" state=" " />
   <package name="lib32-qt4" state=" " />
   <package name="lib32-celt" state=" " />
+  <package name="wine" state=" " />
 </project>

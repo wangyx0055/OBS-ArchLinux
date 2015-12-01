@@ -1,6 +1,6 @@
 _pkgbase=libsoup
 pkgname=lib32-libsoup
-pkgver=2.52.1
+pkgver=2.52.2
 pkgrel=1
 pkgdesc="32bit library for obs"
 arch=('x86_64')

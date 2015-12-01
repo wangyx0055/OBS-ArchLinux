@@ -1,5 +1,5 @@
-<directory name="lib32-nspr" rev="2" srcmd5="e16bd4ab07999af6cf2b6636b3b4bcdd" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="9c8306ce517a3e53973474314c3fdb74" />
+<directory name="lib32-nspr" rev="6" srcmd5="7751c426591f3740ef1a84def95e35aa" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="4e918a9fc5689d289d5ebf22fb9a8952" />
   <entry md5="29d105fef64d490571f3d4557b567a22" mtime="1446789140" name="PKGBUILD" size="361" />
   <entry md5="7adf4d25964d4f923bb1b66e00e623bb" mtime="1446442537" name="_service" size="245" />
 </directory>

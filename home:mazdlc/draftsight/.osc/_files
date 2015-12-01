@@ -1,0 +1,8 @@
+<directory name="draftsight" rev="5" srcmd5="ca0dfffb8ea96d0cc14d4867ab15b61e" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="29d8f0850486f3627ac1d7e166800b5d" />
+  <entry md5="ac4e0ff085355a3294a75ac84b1d418f" mtime="1448934993" name="PKGBUILD" size="2344" />
+  <entry md5="aabd90c660bd80e0314aeafc2ad5832a" mtime="1448881409" name="_service" size="211" />
+  <entry md5="685f195c2871b5637a7a3335fc939d29" mtime="1448881410" name="bump.sh" size="489" />
+  <entry md5="cfda3b8675a93ccfb768873c1a873199" mtime="1448881411" name="draftsight.desktop" size="281" />
+  <entry md5="52d66732ca4f0427c0e8ba84bc2d7ce7" mtime="1448881412" name="draftsight.install" size="430" />
+</directory>

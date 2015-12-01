@@ -1,5 +1,5 @@
-<directory name="lash" rev="11" srcmd5="2dad43701892b0b1d149635455191d29" vrev="11">
-  <serviceinfo code="succeeded" xsrcmd5="48a3b93123363d784131595ae26badd3" />
+<directory name="lash" rev="22" srcmd5="70376f27e448ba2551592d2f80b2734a" vrev="22">
+  <serviceinfo code="succeeded" xsrcmd5="3f7b871c3b3de113c61026a55a4b2d56" />
   <entry md5="e268bb1879c9db3ed3736821d3daf670" mtime="1446977791" name="PKGBUILD" size="351" />
   <entry md5="c4861fd668f94f93f46c3600325b01ee" mtime="1446955942" name="_service" size="240" />
 </directory>

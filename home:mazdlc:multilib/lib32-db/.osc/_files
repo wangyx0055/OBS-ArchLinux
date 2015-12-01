@@ -1,5 +1,5 @@
-<directory name="lib32-db" rev="4" srcmd5="b0c90f9461098f6fdf3fbc9b952ffcd3" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="cf4603d92f8f2b97706e678357c43e9d" />
+<directory name="lib32-db" rev="7" srcmd5="8681b4bde4033f47f7842b19f0664cf9" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="9e602fcb30b5595f13d9ab8c27339cf8" />
   <entry md5="c6dcc22d8411b8ebeb9f5f054f74e516" mtime="1446723209" name="PKGBUILD" size="357" />
   <entry md5="b896b7f31257dfb7546ee27a09bab975" mtime="1446467855" name="_service" size="243" />
 </directory>

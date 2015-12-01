@@ -1,5 +1,5 @@
-<directory name="krusader-git" rev="38" srcmd5="2151ccfb8d429ddbee6d6387d9aed45f" vrev="38">
-  <serviceinfo code="succeeded" xsrcmd5="73bbea6252d1f76e7766b5ab106d02b1" />
+<directory name="krusader-git" rev="105" srcmd5="a69696008fe47a750c8cf1db9a89cedb" vrev="105">
+  <serviceinfo code="succeeded" xsrcmd5="be8ba5829df74feb86749411c96cfe5f" />
   <entry md5="e359d05508ae70b367979e8e3902efef" mtime="1447822981" name="PKGBUILD" size="981" />
   <entry md5="4093abb2abebee8d0beb95e284d45a6f" mtime="1447822895" name="_service" size="407" />
   <entry md5="4f82a834545b9254c40a1139bf3b0ba7" mtime="1447822933" name="krusader-git.install" size="243" />

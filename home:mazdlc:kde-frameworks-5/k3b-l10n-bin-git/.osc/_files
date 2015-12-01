@@ -1,5 +1,5 @@
-<directory name="k3b-l10n-bin-git" rev="6" srcmd5="8eaad77ab2684976641276b491abfc7a" vrev="6">
-  <serviceinfo code="succeeded" xsrcmd5="66ae908ba2f0f635f6489759045a25af" />
+<directory name="k3b-l10n-bin-git" rev="50" srcmd5="4410584ba6b8319afcee2aa3e6308aa1" vrev="50">
+  <serviceinfo code="succeeded" xsrcmd5="8c369261753ee9698a75d0320467d8c0" />
   <entry md5="2fa4539559b049dcb418c97dcf9e0858" mtime="1448322533" name="PKGBUILD" size="604" />
   <entry md5="f453ae183199f54a854389a9bd626b8d" mtime="1448322487" name="_service" size="419" />
 </directory>

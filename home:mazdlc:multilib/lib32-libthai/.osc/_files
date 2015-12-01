@@ -1,5 +1,5 @@
-<directory name="lib32-libthai" rev="1" srcmd5="824ad2097bb9f1cdd30ebaba8e7704db" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="59398e0349059b6e1fcaa6e84039a36f" />
+<directory name="lib32-libthai" rev="4" srcmd5="b4e2ff8d731fd13f13aff813db86ca14" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="541197fe833abaa6b35e6529b9f98c88" />
   <entry md5="166c824774d65ea224505472f82ff38f" mtime="1446438813" name="PKGBUILD" size="365" />
   <entry md5="5f77177880dadcfc6725c3be2f81a85c" mtime="1446438817" name="_service" size="249" />
 </directory>

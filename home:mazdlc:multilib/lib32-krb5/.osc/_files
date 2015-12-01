@@ -1,5 +1,5 @@
-<directory name="lib32-krb5" rev="2" srcmd5="95efedf2f7b2bbaf653e5256e087535d" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="48e9668b9a72cc56f38dd6e529030b79" />
+<directory name="lib32-krb5" rev="7" srcmd5="1468432b68c05ecf0309792375999c4e" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="050ce1d150a16addb9bf07ec444ecb87" />
   <entry md5="d6c4575eeada12da74d500de64c860e6" mtime="1446723326" name="PKGBUILD" size="393" />
   <entry md5="d9c4917147d73bd576c4b751bd4be71a" mtime="1446438674" name="_service" size="246" />
 </directory>

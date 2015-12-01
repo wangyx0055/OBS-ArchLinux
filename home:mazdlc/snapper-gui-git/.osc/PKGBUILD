@@ -1,0 +1,25 @@
+# Maintainer: Ilias Stamatis <stamatis.iliass at gmail dot com>
+# Contributor: Panagiotis Mavrogiorgos (pmav99) <> (gmail)
+
+pkgname=snapper-gui-git
+pkgver=20151010
+pkgrel=1
+pkgdesc="Gui for snapper, a tool of managing snapshots of Btrfs subvolumes and LVM volumes"
+arch=(any)
+url="https://github.com/ricardomv/snapper-gui"
+license=('GPL2')
+depends=('python3' 'gtk3' 'python-dbus' 'python-gobject' 'python-setuptools' 'gtksourceview3' 'snapper' 'polkit')
+makedepends=('git')
+provides=('snapper-gui')
+conflicts=('snapper-gui')
+install=snapper-gui.install
+source=snapper-gui-$pkgver.tar.xz
+sha256sums=('SKIP')
+
+package() {
+  cd "snapper-gui-$pkgver"
+  python setup.py install --root="${pkgdir}/" --optimize=1
+  install -Dm644 "${startdir}/snapper-gui.svg" "${pkgdir}/usr/share/pixmaps/snapper-gui.svg"
+  install -Dm755 "${startdir}/snapper-gui.desktop" "${pkgdir}/usr/share/applications/snapper-gui.desktop"
+  install -Dm755 "${startdir}/snapper.gui.policy" "$pkgdir/usr/share/polkit-1/actions/snapper.gui.policy"
+} 

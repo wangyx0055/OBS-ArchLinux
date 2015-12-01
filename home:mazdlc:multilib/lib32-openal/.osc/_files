@@ -1,5 +1,5 @@
-<directory name="lib32-openal" rev="4" srcmd5="af6a1f880cacf27d27d94015f8dc7023" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="def03387b0e00a51ed4e7bbdb1d1af04" />
-  <entry md5="6fba0efd47baaf358b47553e5c22bf78" mtime="1446378340" name="PKGBUILD" size="358" />
+<directory name="lib32-openal" rev="9" srcmd5="41772e3e699ecc77582355078505a4b3" vrev="9">
+  <serviceinfo code="succeeded" xsrcmd5="a10d5596b95f669bcd4874cdc58d9b73" />
+  <entry md5="54955b08bd8d2d1e35cb1008f8c91840" mtime="1448831078" name="PKGBUILD" size="358" />
   <entry md5="cc7945c0cdfb3f382430b7334f4d588a" mtime="1446379822" name="_service" size="248" />
 </directory>

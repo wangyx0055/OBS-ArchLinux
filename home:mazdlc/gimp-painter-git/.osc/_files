@@ -1,5 +1,5 @@
-<directory name="gimp-painter-git" rev="103" srcmd5="fff8f112fffed4bd7ac0ac6618ba6abc" vrev="103">
-  <serviceinfo code="running" />
+<directory name="gimp-painter-git" rev="241" srcmd5="ce1ae7cbe8fb5f22347f3fccaf8bc776" vrev="241">
+  <serviceinfo code="succeeded" xsrcmd5="d8f7ddbcb2888010a8db350011da2eeb" />
   <entry md5="f9c8a462bfe5547beccbd54b0a90b796" mtime="1446310404" name="PKGBUILD" size="2662" />
   <entry md5="e0fbfd14d2db420157b21edd3c67390f" mtime="1448241274" name="_service" size="511" />
   <entry md5="88ad0e2de60a1af1164b65a5ccf2dbd8" mtime="1446294412" name="gimp-painter.install" size="248" />

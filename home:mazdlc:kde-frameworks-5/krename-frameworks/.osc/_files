@@ -1,8 +1,8 @@
-<directory name="krename-frameworks" rev="12" srcmd5="cc0e2aa05ff9c0bab4ba88027240706d" vrev="12">
-  <serviceinfo code="succeeded" xsrcmd5="e62ca4b4bb8f7bc9860da8f6876455b1" />
+<directory name="krename-frameworks" rev="13" srcmd5="8a1d123d7f3a39ba58aab3720f83dbdc" vrev="13">
+  <serviceinfo code="succeeded" xsrcmd5="a290bf6cb8fea6810224e8c01b1110d6" />
   <entry md5="ad8dfa503b80b8618662bdf30fdf5570" mtime="1447989873" name="PKGBUILD" size="1204" />
   <entry md5="756047052483023f8b12826e02348c19" mtime="1447855061" name="_service" size="262" />
   <entry md5="3af74ce4814e4faf1afb1df7d975a207" mtime="1447896401" name="fix_libpodofo.patch" size="372" />
   <entry md5="e1cbb8900a616f9101197a0be38d36df" mtime="1447855062" name="krename.install" size="149" />
-  <entry md5="94ffc59779f47d9ab11f17abf55e5826" mtime="1447989851" name="port_to_kf5.patch" size="24454" />
+  <entry md5="9734db1f9354e9431810969e58a917dd" mtime="1448802367" name="port_to_kf5.patch" size="25246" />
 </directory>

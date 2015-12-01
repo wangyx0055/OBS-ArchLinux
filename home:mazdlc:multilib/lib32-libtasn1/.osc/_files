@@ -1,5 +1,5 @@
-<directory name="lib32-libtasn1" rev="3" srcmd5="aa3b0f27fda64e825a9623cb70bc4d7c" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="4f01f03e183e9fb8bb74f0785793c108" />
+<directory name="lib32-libtasn1" rev="6" srcmd5="684bb66c5f577088d415236a327a344b" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="a5c3a8e95584340a8eaa15235bd9956d" />
   <entry md5="b13d9faa13b9f46d8cb20cffc57485fd" mtime="1446384167" name="PKGBUILD" size="369" />
   <entry md5="907c1ccefc4d592fd1bce8fa09cea84e" mtime="1446384168" name="_service" size="250" />
 </directory>

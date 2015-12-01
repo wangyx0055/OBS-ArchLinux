@@ -1,5 +1,5 @@
-<directory name="lib32-wayland" rev="1" srcmd5="0ce069384f3e5423b1c314bdec9bc87d" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="7b488e44b40f941c73612b2337dc5ca7" />
+<directory name="lib32-wayland" rev="3" srcmd5="34d7d78d4e83947af69604f31577bd01" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="f97cd4f9bca8521dea93f077dcd22971" />
   <entry md5="688a54bdfb7dbc587842dd354aefd298" mtime="1446385803" name="PKGBUILD" size="381" />
   <entry md5="c2d7aee00cb9e178b4dcd78eddd0595a" mtime="1446385805" name="_service" size="249" />
 </directory>

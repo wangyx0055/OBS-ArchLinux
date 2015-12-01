@@ -1,5 +1,5 @@
-<directory name="lib32-json-glib" rev="1" srcmd5="01aeb64441bf5af6e04979b1eec0724c" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="549d9d93d03dec9d8010dd6d2b6efe5f" />
+<directory name="lib32-json-glib" rev="26" srcmd5="f6980f84f21eb738260bd8b83546bcdd" vrev="26">
+  <serviceinfo code="succeeded" xsrcmd5="25e77a51b6bb91cacf1eb6e1d1a4be8b" />
   <entry md5="37c54053ec8ed9da5595043f0a926be0" mtime="1446438552" name="PKGBUILD" size="374" />
   <entry md5="8d8a6364aeaf3c57c1312b0c30997afb" mtime="1446438554" name="_service" size="251" />
 </directory>

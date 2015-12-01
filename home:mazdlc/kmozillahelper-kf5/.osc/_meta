@@ -1,0 +1,5 @@
+<package name="kmozillahelper-kf5" project="home:mazdlc">
+  <title>kmozillahelper-kf5</title>
+  <description>Mozilla KDE Integration. KF5 port with kdelibs4support.</description>
+</package>
+

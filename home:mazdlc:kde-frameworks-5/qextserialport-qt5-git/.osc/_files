@@ -1,5 +1,5 @@
-<directory name="qextserialport-qt5-git" rev="60" srcmd5="59f3c1a25a7ece59529dd976922c6c2d" vrev="60">
-  <serviceinfo code="succeeded" xsrcmd5="4f9dd580444a9e2b233b5c85227cb7a4" />
+<directory name="qextserialport-qt5-git" rev="215" srcmd5="ce4ba98e6e9bbd33363c227aef89f54f" vrev="215">
+  <serviceinfo code="succeeded" xsrcmd5="277262d3579d38742119ebf66ad0438a" />
   <entry md5="51e6108e86985d4afc38246ff69d2d6d" mtime="1447061055" name="PKGBUILD" size="934" />
   <entry md5="cf7a92996b92c149c90c2f37233cc22b" mtime="1447060652" name="_service" size="429" />
 </directory>

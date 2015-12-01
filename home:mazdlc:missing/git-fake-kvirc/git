@@ -1,0 +1,20 @@
+#!/bin/sh
+#_basedir=$(cd `dirname $0`;pwd)
+source ../../PKGBUILD
+
+_fake_git() {
+  case $1 in
+  describe)
+    echo ${pkgver}|grep -oP '(?<=g)\S*$'
+  ;;
+  show)
+    echo ${pkgver}|grep -oP '^\d*'
+  ;;
+  *)
+    echo ${pkgver}|grep -oP '^\d*'
+  ;;
+  esac
+
+}
+
+_fake_git $1

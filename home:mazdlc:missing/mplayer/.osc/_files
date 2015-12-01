@@ -1,5 +1,5 @@
-<directory name="mplayer" rev="24" srcmd5="d67332dca622c770367623a9b531dbea" vrev="24">
-  <serviceinfo code="succeeded" xsrcmd5="fd596b49f90821938dd5aadd5d2ea2e3" />
+<directory name="mplayer" rev="40" srcmd5="3405cee67773bbf10574fb986c340d52" vrev="40">
+  <serviceinfo code="succeeded" xsrcmd5="831a74958f591c7e9ae3f2edc45de74d" />
   <entry md5="17df82593d305105b447f534982ba789" mtime="1447424307" name="PKGBUILD" size="708" />
   <entry md5="905e2c91f46f99a057e2f4f5b3221149" mtime="1446714656" name="_service" size="239" />
   <entry md5="4b1e9b1107a03c9d4f0dca7c93a09be8" mtime="1446977570" name="bump.sh" size="930" />

@@ -1,0 +1,5 @@
+<package name="enhanceio-dkms-git" project="home:mazdlc">
+  <title>enhanceio-dkms-git</title>
+  <description>dkms module for EnhanceIO block device caching</description>
+</package>
+

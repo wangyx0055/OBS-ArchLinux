@@ -1,0 +1,8 @@
+<package name="git-fake-kvirc" project="home:mazdlc:missing">
+  <title>git-fake-kvirc</title>
+  <description>git-fake-kvirc</description>
+  <publish>
+    <disable/>
+  </publish>
+</package>
+

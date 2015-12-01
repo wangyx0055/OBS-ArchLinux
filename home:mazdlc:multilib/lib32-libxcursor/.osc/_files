@@ -1,5 +1,5 @@
-<directory name="lib32-libxcursor" rev="1" srcmd5="603bdba3310b6eaded39c4ff2e1ccc7e" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="0ad7ad7e892d739193490b995219b7d5" />
+<directory name="lib32-libxcursor" rev="3" srcmd5="89c5025b6feaca47954f9e6029265124" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="446d698be27f9cbdf45b5a05e2003341" />
   <entry md5="bf9f53c600cedce194663011fff9fd9f" mtime="1446438866" name="PKGBUILD" size="399" />
   <entry md5="7820051e401c6216c9aa8893783396a1" mtime="1446438868" name="_service" size="252" />
 </directory>

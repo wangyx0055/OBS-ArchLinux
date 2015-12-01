@@ -1,0 +1,5 @@
+<package name="kile-git" project="home:mazdlc:kde-frameworks-5">
+  <title>kile-git</title>
+  <description>Texlive frontend for KDE</description>
+</package>
+

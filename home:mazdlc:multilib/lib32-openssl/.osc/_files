@@ -1,5 +1,5 @@
-<directory name="lib32-openssl" rev="1" srcmd5="40ef1cdc79a771f8779b6384ced87fef" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="3efbecfc40dd1c24bda42e1eda347868" />
+<directory name="lib32-openssl" rev="3" srcmd5="11158473e9c6924e7286bb5861e1dfcd" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="3a5e734525b211553db6458d4f1e5c93" />
   <entry md5="4ac92f2ebbf3ac2a0529a1dd50ab4d32" mtime="1446385536" name="PKGBUILD" size="369" />
   <entry md5="6b483bc61399aec658820027b5e59073" mtime="1446385538" name="_service" size="249" />
 </directory>

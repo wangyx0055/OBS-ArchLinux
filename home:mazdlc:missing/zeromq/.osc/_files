@@ -1,5 +1,5 @@
-<directory name="zeromq" rev="10" srcmd5="6eae4fc146e29a26343829034e42b8a6" vrev="10">
-  <serviceinfo code="succeeded" xsrcmd5="66002e7520f429fc6a6061317823952c" />
+<directory name="zeromq" rev="17" srcmd5="d82ecc288a80d74c993dfc36f947e205" vrev="17">
+  <serviceinfo code="succeeded" xsrcmd5="cb834481d7c5ebc38dfcae4891e7e135" />
   <entry md5="026be648647a259616847f6743748fb8" mtime="1446736283" name="PKGBUILD" size="355" />
   <entry md5="fbe14eb8d625f7196249e2443b238e6d" mtime="1446533694" name="_service" size="242" />
 </directory>

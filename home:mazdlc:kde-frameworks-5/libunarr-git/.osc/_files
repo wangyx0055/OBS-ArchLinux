@@ -1,0 +1,6 @@
+<directory name="libunarr-git" rev="2" srcmd5="2883845ac42afa86fa041252d29ea3de" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="725bc1c434936f1cefc714d5fd1c9699" />
+  <entry md5="5a6323e0f85b30e6559ae268553cf1cc" mtime="1448933771" name="PKGBUILD" size="524" />
+  <entry md5="82a33cc1b1ff2f60255c3d95f1373fcd" mtime="1448933772" name="_service" size="608" />
+  <entry md5="128ad4e9ffc1019ec88f53d539921297" mtime="1436752976" name="fseeko.patch" size="1142" />
+</directory>

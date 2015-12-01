@@ -1,5 +1,5 @@
-<directory name="qtox-git" rev="39" srcmd5="37f815051f0da0ea61668dc4d4dbe479" vrev="39">
-  <serviceinfo code="succeeded" xsrcmd5="a9ff5a6564fb662ee44732d141ce37f3" />
+<directory name="qtox-git" rev="178" srcmd5="35ec43cbc10be010655972192177af9b" vrev="178">
+  <serviceinfo code="succeeded" xsrcmd5="5aeaaf9508d5fb34e642dae213ba9da9" />
   <entry md5="56548897502aa2337ee7f841b446dc8c" mtime="1447987320" name="PKGBUILD" size="1290" />
   <entry md5="84012c37ad9136265863c21caa55518a" mtime="1447987230" name="_service" size="399" />
   <entry md5="0f49b8a4a92deee20f7549c72c921c9e" mtime="1448013765" name="qtox-git.install" size="186" />

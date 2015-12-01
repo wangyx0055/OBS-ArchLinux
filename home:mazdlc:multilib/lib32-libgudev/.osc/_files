@@ -1,5 +1,5 @@
-<directory name="lib32-libgudev" rev="1" srcmd5="fd10fa663d005f2c98f7e2515c485135" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="b6d89756c18f28a2ff2b4de2e24b0a80" />
+<directory name="lib32-libgudev" rev="21" srcmd5="66788b9649b9069dceda405834492af5" vrev="21">
+  <serviceinfo code="succeeded" xsrcmd5="28efd81e88e8f3140121f901504bd05f" />
   <entry md5="c423643d43cee440799c0005ecb797f8" mtime="1446444378" name="PKGBUILD" size="383" />
   <entry md5="9a3b3f1281b27016386f42efaf420ad4" mtime="1446444379" name="_service" size="249" />
 </directory>

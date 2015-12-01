@@ -1,0 +1,5 @@
+<package name="webcamoid-git" project="home:mazdlc:kde-frameworks-5">
+  <title>webcamoid-git</title>
+  <description>Webcamoid is a full featured webcam capture application.</description>
+</package>
+

@@ -1,5 +1,5 @@
-<directory name="kdevplatform-git" rev="d73a582b48ee1cde87ba736fa94b6251" srcmd5="d73a582b48ee1cde87ba736fa94b6251">
-  <linkinfo baserev="2d415c3ca91a379ed43d092e174cf79e" lsrcmd5="81a3dcccf66bd57de66fc683b709cec7" package="kdevplatform-git" project="home:mazdlc" rev="9fc2760c49de93cba98d833ff02333db" srcmd5="2d415c3ca91a379ed43d092e174cf79e" />
+<directory name="kdevplatform-git" rev="ed3aa5812d8b97b462090794273151af" srcmd5="ed3aa5812d8b97b462090794273151af">
+  <linkinfo baserev="2d415c3ca91a379ed43d092e174cf79e" lsrcmd5="4d4e550849d2cecaed384ba928ad9c33" package="kdevplatform-git" project="home:mazdlc" rev="9fc2760c49de93cba98d833ff02333db" srcmd5="2d415c3ca91a379ed43d092e174cf79e" />
   <entry md5="fab6370d4f7a2de24ce65a2ce7ff39ff" mtime="1446365876" name="PKGBUILD" size="1336" />
   <entry md5="a452437de656d3c62384068d85e121c7" mtime="1446714298" name="_service" size="463" />
   <entry md5="dec0a560e28c84159051c4195b2c0d51" mtime="1446365885" name="kdevplatform-git.install" size="148" />

@@ -1,0 +1,5 @@
+<package name="libunarr-git" project="home:mazdlc:kde-frameworks-5">
+  <title>libunarr-git</title>
+  <description>A lightweight decompression library with support for rar, tar and zip archives.</description>
+</package>
+

@@ -1,5 +1,5 @@
-<directory name="mp4fpsmod-git" rev="29" srcmd5="f718236713b57e43acb5beb5ee08a087" vrev="29">
-  <serviceinfo code="succeeded" xsrcmd5="b1f7370572c9432c1a18d19c4adbd782" />
+<directory name="mp4fpsmod-git" rev="72" srcmd5="3d784958a003a86bd42650c9de0834a5" vrev="72">
+  <serviceinfo code="succeeded" xsrcmd5="f52b28d1e9ee565475b469ceb2f41b98" />
   <entry md5="e1bf7fa2d7b49cfd70a07e6db12d948f" mtime="1446962563" name="PKGBUILD" size="624" />
   <entry md5="e36199980b3a3cbcc2b85ce55cdb940f" mtime="1446962570" name="_service" size="406" />
 </directory>

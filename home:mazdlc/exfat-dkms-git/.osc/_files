@@ -1,0 +1,7 @@
+<directory name="exfat-dkms-git" rev="2" srcmd5="ac704636134e33f976639b015160e4e4" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="36af011b1f91f83fabc0945c08b1622d" />
+  <entry md5="0fdd4c1a0688541d78396c319c1e2a82" mtime="1448934218" name="PKGBUILD" size="938" />
+  <entry md5="e913f21c2e6eef6a61ac9851e9d6502d" mtime="1448934073" name="_service" size="419" />
+  <entry md5="bbe96b22dbf7103360fe9598394039fa" mtime="1448934074" name="dkms.conf" size="187" />
+  <entry md5="1a4ba2aa70b91abc1ed5303c467c19c8" mtime="1448934075" name="exfat-dkms-git.install" size="435" />
+</directory>

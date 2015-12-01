@@ -1,0 +1,5 @@
+<package name="krop" project="home:mazdlc">
+  <title>krop</title>
+  <description>A tool to crop PDF files, with an eye towards eReaders.</description>
+</package>
+

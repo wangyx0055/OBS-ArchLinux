@@ -6,7 +6,7 @@
 
 _pkgname=ardour
 pkgname="${_pkgname}-git"
-pkgver=4.2.r16.g041b31d
+pkgver=20151129.g149f679
 pkgrel=1
 pkgdesc="A multichannel hard disk recorder and digital audio workstation"
 arch=('i686' 'x86_64')
@@ -14,20 +14,26 @@ url="http://ardour.org/"
 license=('GPL')
 depends=('aubio' 'cwiid' 'gtkmm' 'liblo' 'liblrdf' 'libltc' 'lilv' 'suil'
          'rubberband' 'taglib')
-makedepends=('git' 'python2' 'python' 'boost' 'cppunit' 'doxygen' 'graphviz')
+makedepends=('python2' 'python' 'boost' 'cppunit' 'doxygen' 'graphviz')
 provides=("${_pkgname}")
 conflicts=("${_pkgname}")
 #source=("${_pkgname}::git://github.com/Ardour/ardour.git")
 source=${_pkgname}-${pkgver}.tar.xz
 md5sums=('SKIP')
+_pkgvernum=$(cat $startdir/whatsnew.html|grep -oP '(?<=Ardour )[0-9.]+')
 
 prepare() {
-  cp "${startdir}/revision.cc" "${srcdir}/${_pkgname}-${pkgver}/libs/ardour/revision.cc"
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  #patch -p1 -i $startdir/fix.patch
+  echo '#include "ardour/revision.h"' > libs/ardour/revision.cc
+  echo "namespace ARDOUR { const char* revision = \"${_pkgvernum}\"; }" >> libs/ardour/revision.cc
+  
 }
 
 build() {
-  cd "${srcdir}/${_pkgname}-${pkgver}"
   
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+ 
   python2 waf configure \
     --prefix=/usr \
     --configdir=/etc \
@@ -41,7 +47,7 @@ build() {
     --with-backends=jack,alsa,dummy \
     --cxx11 \
     --use-external-libs
-
+  patch -p1 -i $startdir/fix.patch || true
   python2 waf build $MAKEFLAGS
 }
 

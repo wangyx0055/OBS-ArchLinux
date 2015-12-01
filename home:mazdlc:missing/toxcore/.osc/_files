@@ -1,5 +1,5 @@
-<directory name="toxcore" rev="5" srcmd5="d52abe733623ba3e01d1abf043edb369" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="3bfdad035a124fb79c5937866874be51" />
+<directory name="toxcore" rev="24" srcmd5="8d00fda4bba462194a62b393415ab360" vrev="24">
+  <serviceinfo code="succeeded" xsrcmd5="e14f2642dbbd059707abcc7967375ea5" />
   <entry md5="a271cd1bc2b4c7eb1f740d24002cad8f" mtime="1448078574" name="PKGBUILD" size="393" />
   <entry md5="6dc02454da784a237489827c619a7153" mtime="1447986680" name="_service" size="289" />
 </directory>

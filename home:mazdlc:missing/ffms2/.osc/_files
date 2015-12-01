@@ -1,5 +1,5 @@
-<directory name="ffms2" rev="13" srcmd5="03074cf2bdbaf51db2cbb0de879bfa41" vrev="13">
-  <serviceinfo code="succeeded" xsrcmd5="5c0d5ebc004002b535cb19c480890067" />
+<directory name="ffms2" rev="19" srcmd5="a230ecb59db90d49d30740dded344be9" vrev="19">
+  <serviceinfo code="succeeded" xsrcmd5="acdc2357c5aff84d26515f6482355e31" />
   <entry md5="520cfc3c09696e808d9e83d0dda24c26" mtime="1447416409" name="PKGBUILD" size="380" />
   <entry md5="943581661dd03cd9834b7b2f8be11f7e" mtime="1446610239" name="_service" size="241" />
 </directory>

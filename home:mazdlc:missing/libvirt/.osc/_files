@@ -1,5 +1,5 @@
-<directory name="libvirt" rev="15" srcmd5="e2a207adbb200b8ccf7af55024b71eab" vrev="15">
-  <serviceinfo code="succeeded" xsrcmd5="61d9229fd0b65bd8c4e032703726dc22" />
+<directory name="libvirt" rev="29" srcmd5="8633d64d62b3f3d151efc44906ffac04" vrev="29">
+  <serviceinfo code="succeeded" xsrcmd5="06b4fb0a9519540df433b465f20bcd6b" />
   <entry md5="c8ab7bf5c51e0cc04ca82c6b6d1e2395" mtime="1446722153" name="PKGBUILD" size="561" />
   <entry md5="5af74b2ec3d6388000ade9ba13badf35" mtime="1446700686" name="_service" size="243" />
 </directory>

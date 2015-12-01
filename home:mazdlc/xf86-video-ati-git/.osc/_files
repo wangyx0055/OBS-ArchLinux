@@ -1,5 +1,5 @@
-<directory name="xf86-video-ati-git" rev="90" srcmd5="5eaee05cb093e28f0bea282da6651939" vrev="90">
-  <serviceinfo code="succeeded" xsrcmd5="cd9202b053cd0cd60f3d52fd80217f68" />
+<directory name="xf86-video-ati-git" rev="230" srcmd5="0cf578203ee219a2242d2b453e01c99a" vrev="230">
+  <serviceinfo code="succeeded" xsrcmd5="7d0e849832a6f2916e8703968ec5fb8b" />
   <entry md5="e8bbe2a7d0a1558c9875f2cc8687c40f" mtime="1448202085" name="PKGBUILD" size="953" />
   <entry md5="158a08de0a34b6bb9b9825fee7658bbd" mtime="1446714565" name="_service" size="481" />
 </directory>

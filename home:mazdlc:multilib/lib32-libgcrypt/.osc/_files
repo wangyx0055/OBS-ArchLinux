@@ -1,5 +1,5 @@
-<directory name="lib32-libgcrypt" rev="2" srcmd5="14af0761da52720b6ffd77194befbf17" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="f1bd02cbdd3f9cc41d2362706cc67885" />
+<directory name="lib32-libgcrypt" rev="5" srcmd5="211d3cd97ae928cc50de3917edcc3de7" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="65db41fa6b78eeb1d80a7aa73f059b4d" />
   <entry md5="0772fd3ca7f8a330a571d73973ea20be" mtime="1446598153" name="PKGBUILD" size="381" />
   <entry md5="edaa5288890b9d478306b92ca4311afb" mtime="1446385884" name="_service" size="251" />
 </directory>

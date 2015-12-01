@@ -1,0 +1,5 @@
+<directory name="snapper" rev="2" srcmd5="217bb82befe2eb618421a7bf12667f3f" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="f2f2d8636be00ca79bae98902b584eff" />
+  <entry md5="2136a8ac1d0f289de47485484e2c84ce" mtime="1448960590" name="PKGBUILD" size="388" />
+  <entry md5="ea22dc3401967ad9f9a3bee52c43c124" mtime="1448938769" name="_service" size="289" />
+</directory>

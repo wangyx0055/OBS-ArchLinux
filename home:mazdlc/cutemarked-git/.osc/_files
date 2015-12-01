@@ -1,5 +1,5 @@
-<directory name="cutemarked-git" rev="53" srcmd5="2862f91d9b9f433c8d1151b32a217e8d" vrev="53">
-  <serviceinfo code="succeeded" xsrcmd5="c37af68fc8990f88914b496a71b0f2ce" />
+<directory name="cutemarked-git" rev="108" srcmd5="d5f621d0f509e87e3019c02d700fb5f4" vrev="108">
+  <serviceinfo code="succeeded" xsrcmd5="7c889a76b201ffdf46ffb8809e299ab0" />
   <entry md5="b1905016a6e0067db5c7ecad08c2d1ad" mtime="1446727914" name="PKGBUILD" size="838" />
   <entry md5="2eef8e533c20747f3f22df5152029541" mtime="1446727868" name="_service" size="409" />
   <entry md5="262fc1597fb332894d1367f510a7f39b" mtime="1446727870" name="cutemarked-git.install" size="186" />

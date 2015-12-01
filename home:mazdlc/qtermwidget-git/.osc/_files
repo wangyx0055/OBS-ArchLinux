@@ -1,5 +1,5 @@
-<directory name="qtermwidget-git" rev="49" srcmd5="0d546ac364b024d7a1526772b8604b7b" vrev="49">
-  <serviceinfo code="succeeded" xsrcmd5="650c4cb460595407d2eb6d96608dcc53" />
+<directory name="qtermwidget-git" rev="80" srcmd5="bd4fe7efae3d258381dd0c9dc5208891" vrev="80">
+  <serviceinfo code="succeeded" xsrcmd5="eb3ca1b6312bd8fe330cee9d025876fc" />
   <entry md5="1e6143e1eb67898fa9aaa0bfc1fbad42" mtime="1448007984" name="PKGBUILD" size="1487" />
   <entry md5="a41677345e31459e1fa24db5678c5afa" mtime="1446870700" name="_service" size="458" />
   <entry md5="b28f3dce6a2893caf1f30b79b2596772" mtime="1446870703" name="fix_qt4.patch" size="293" />

@@ -1,5 +1,5 @@
-<directory name="scrub-git" rev="23" srcmd5="ebf2c35ca264e63d08604dd1077074e9" vrev="23">
-  <serviceinfo code="succeeded" xsrcmd5="d738759c5771f378ebbd4dbfca5d105c" />
+<directory name="scrub-git" rev="24" srcmd5="55b43ff89a31afa1b57b7b79b21c6d4d" vrev="24">
+  <serviceinfo code="succeeded" xsrcmd5="21b5c1fef2e26e9539d991b3f2cb443b" />
   <entry md5="be1ce5da0f4089ab99f637b95d74b866" mtime="1446869282" name="PKGBUILD" size="614" />
   <entry md5="44beb07581607fc2f7709c7e699ee78c" mtime="1446869283" name="_service" size="446" />
 </directory>

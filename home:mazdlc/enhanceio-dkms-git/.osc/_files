@@ -1,0 +1,6 @@
+<directory name="enhanceio-dkms-git" rev="1" srcmd5="493530ce6be063e62284519c46096c66" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="77c083afba63b194c1ea0d3cf3bf4838" />
+  <entry md5="3518f98f83f65c191bcbbc0683e9b15e" mtime="1448934872" name="PKGBUILD" size="1335" />
+  <entry md5="a2cd3a4ceffe9df5ab6716d54a2ee425" mtime="1448934874" name="_service" size="425" />
+  <entry md5="e1d356799580335c224a1e06db64278e" mtime="1448934875" name="enhanceio-dkms-git.install" size="288" />
+</directory>

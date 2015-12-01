@@ -1,0 +1,5 @@
+<package name="httraqt-qt5" project="home:mazdlc:kde-frameworks-5">
+  <title>httraqt-qt5</title>
+  <description>Is the clone from WinHTTrack tool. GUI is based on Qt5 libriaries.</description>
+</package>
+

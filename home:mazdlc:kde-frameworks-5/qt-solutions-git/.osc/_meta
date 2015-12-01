@@ -1,0 +1,5 @@
+<package name="qt-solutions-git" project="home:mazdlc:kde-frameworks-5">
+  <title>qt-solutions-git</title>
+  <description>Components from the discontinued Qt Solutions product, a collection of minor Qt add-ons and former Qt modules which for various reasons have been pruned from Qt itself. (GIT version)</description>
+</package>
+

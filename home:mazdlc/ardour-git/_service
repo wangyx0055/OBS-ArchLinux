@@ -10,4 +10,9 @@
     <param name="file">*.tar</param>
     <param name="compression">xz</param>
   </service>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">ardour.org</param>
+    <param name="path">/whatsnew.html</param>
+  </service>
 </services>

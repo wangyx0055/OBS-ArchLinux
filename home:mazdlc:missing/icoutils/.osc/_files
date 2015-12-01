@@ -1,0 +1,5 @@
+<directory name="icoutils" rev="1" srcmd5="c09945250ff33966b56e62286d3543f3" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="3d7aee4f96dc9b23a5ec9259a251daa8" />
+  <entry md5="370bd6ec6f1fb5f0305591b28a5fc84e" mtime="1448953359" name="PKGBUILD" size="382" />
+  <entry md5="65f71ee7441cfda2ee2f9cbae0e65bee" mtime="1448953360" name="_service" size="290" />
+</directory>

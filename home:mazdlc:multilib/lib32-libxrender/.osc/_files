@@ -1,5 +1,5 @@
-<directory name="lib32-libxrender" rev="2" srcmd5="a73798237d56e67763d28a4d75547afb" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="cc2c707ae9c0d6bdf6509c5926d5633c" />
+<directory name="lib32-libxrender" rev="4" srcmd5="a500df0b5950de69e6e1dec2cf0a4247" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="847be01da5b7e9f04cf86037b69a42be" />
   <entry md5="307e3589df3bd237b8c2869a20a90654" mtime="1446598282" name="PKGBUILD" size="378" />
   <entry md5="6bf2feb5acaa42978a0a27bd66751d74" mtime="1446442340" name="_service" size="251" />
 </directory>

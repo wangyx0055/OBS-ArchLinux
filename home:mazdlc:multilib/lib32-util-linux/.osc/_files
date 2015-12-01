@@ -1,5 +1,5 @@
-<directory name="lib32-util-linux" rev="1" srcmd5="d8c1813ff80225ffc8b4e8fd6c81f322" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="5192035e796d38ae75c6bc19815834bf" />
+<directory name="lib32-util-linux" rev="3" srcmd5="f0758c4db729eb274ed340353f465b31" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="675c406e108ce0d32e721e242eb47729" />
   <entry md5="1c3999dce64bbb4b349c0c8767acad32" mtime="1446386679" name="PKGBUILD" size="376" />
   <entry md5="577ced71d9a0198590970d5a497347ca" mtime="1446386681" name="_service" size="252" />
 </directory>

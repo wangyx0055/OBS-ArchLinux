@@ -1,5 +1,5 @@
-<directory name="lib32-js17" rev="2" srcmd5="8c46f472f848e5e4ab2cecd405fc85b2" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="0e5ecdfea4b804c0c0bf03dfb3fc279f" />
+<directory name="lib32-js17" rev="5" srcmd5="016c76f2e2ecba71f760e8b6ae2cddb9" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="768f6cf22e94e5a6fc0ec387b5f48186" />
   <entry md5="da8bb3edea7ed35bf4c3eaee56e09835" mtime="1446723308" name="PKGBUILD" size="392" />
   <entry md5="7fd8e93dfd6b6b1eaad99510ab21fdff" mtime="1446438414" name="_service" size="246" />
 </directory>

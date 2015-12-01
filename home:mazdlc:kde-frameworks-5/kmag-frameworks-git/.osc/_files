@@ -1,5 +1,5 @@
-<directory name="kmag-frameworks-git" rev="58" srcmd5="c51a010086aa583013baf6ef9d730069" vrev="58">
-  <serviceinfo code="succeeded" xsrcmd5="f011d07925319bceb9e51bf39bf77bab" />
+<directory name="kmag-frameworks-git" rev="198" srcmd5="79bcb2799679aa2fea4dabea3004d573" vrev="198">
+  <serviceinfo code="succeeded" xsrcmd5="2c071d0e357336e3b9d6077d72c58dee" />
   <entry md5="02d61be0e854f95fae8c803384c23507" mtime="1447678697" name="PKGBUILD" size="846" />
   <entry md5="08685d16ae617c3beb394b559f94fe0b" mtime="1447678698" name="_service" size="445" />
   <entry md5="63be364cea82f0fefa690ac82e585993" mtime="1447678699" name="kmag-frameworks-git.install" size="201" />

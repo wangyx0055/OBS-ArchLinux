@@ -1,5 +1,5 @@
-<directory name="lib32-wxgtk" rev="4" srcmd5="cea99641784713cf454c543daf1b9a53" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="16911fe9ee8c65d004421a417dec6921" />
+<directory name="lib32-wxgtk" rev="41" srcmd5="c52116800e5feaaf39ffec0ee39525e0" vrev="41">
+  <serviceinfo code="succeeded" xsrcmd5="2f99ec8139eb17974bf47d012c47a55b" />
   <entry md5="8e6aa59cd419a16b291b5544f1e46cf0" mtime="1446723665" name="PKGBUILD" size="373" />
   <entry md5="f11a8221d74621d9e2edfccd94ab21c8" mtime="1446469161" name="_service" size="246" />
 </directory>

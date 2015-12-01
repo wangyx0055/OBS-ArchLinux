@@ -1,5 +1,5 @@
-<directory name="lib32-bzip2" rev="2" srcmd5="a65252c8b3938bc1b3219274ade016ec" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="dad861cd549ca09f5731e88dc984aea2" />
+<directory name="lib32-bzip2" rev="5" srcmd5="83ff7e58157457903cb1a620513fe708" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="25bcfd4a894cd29a33e1bca97da33545" />
   <entry md5="9ac27e025f1974537640a8b7d08d007a" mtime="1446723188" name="PKGBUILD" size="362" />
   <entry md5="b305016c63acea37d7b21b9acd2fe11a" mtime="1446386631" name="_service" size="247" />
 </directory>

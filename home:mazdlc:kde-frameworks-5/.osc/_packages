@@ -70,4 +70,13 @@
   <package name="kvirc-git" state=" " />
   <package name="pentobi-git" state=" " />
   <package name="polkit-kde-kcmodules-frameworks" state=" " />
+  <package name="eric-hg" state=" " />
+  <package name="httraqt-qt5" state=" " />
+  <package name="kile-git" state=" " />
+  <package name="libunarr-git" state=" " />
+  <package name="oinut-git" state=" " />
+  <package name="q4wine-git" state=" " />
+  <package name="qt-solutions-git" state=" " />
+  <package name="webcamoid-git" state=" " />
+  <package name="yacreader-hg" state=" " />
 </project>

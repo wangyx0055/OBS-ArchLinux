@@ -14,8 +14,8 @@
 
 pkgname=ffmpeg-full-extra
 _pkgbasename=ffmpeg
-pkgver=2.8.2
-pkgrel=1
+pkgver=2.8.3
+pkgrel=2
 epoch=1
 pkgdesc="Record, convert, and stream audio and video (all codecs; compatible to extra/ffmpeg)"
 arch=('i686' 'x86_64')
@@ -24,11 +24,11 @@ license=('GPL' 'custom:UNREDISTRIBUTABLE')
 #even more 'opencv'
 depends=('alsa-lib' 'bzip2' 'celt' 'faac' 'fontconfig' 'fribidi'
          'gnutls' 'gsm' 'jack' 'lame'
-         'libaacplus' 'libass' 'libavc1394' 'libbluray' 'libcaca' 'libcdio-paranoia' 'libdc1394'
+         'libaacplus' 'libass' 'libavc1394' 'libbluray' 'libcaca' 'libcdio-paranoia' 'libdc1394' 'dcadec'
          'libfdk-aac' 'libiec61883' 'libmodplug' 'libpulse' 'libssh' 'libtheora' 'libva'
          'libvdpau' 'libwebp' 'openal' 'opencore-amr' 'openjpeg' 'opus' 'schroedinger' 'sdl'
          'speex' 'twolame' 'v4l-utils' 'vo-aacenc' 'vo-amrwbenc' 'xvidcore' 'zlib'
-         'libvorbis' 'libvpx' 'libx264' 'x265' 'ocl-icd'
+         'libvorbis' 'libvpx' 'libx264' 'x265' 'ocl-icd' 
          'frei0r-plugins' 'shine' 'ladspa' 'libbs2b' 'libgme' 'libsoxr' 'libutvideo' 'vid.stab' 'zeromq' 'zvbi' 
          )
 makedepends=('libvdpau' 'yasm' 'pkg-config' 'hardening-wrapper' 'opencl-headers' 'ocl-icd' 'opencl-mesa' 'nvenc-api')
@@ -68,6 +68,7 @@ build() {
     --enable-libcdio \
     --enable-libcelt \
     --enable-libdc1394 \
+    --enable-libdcadec \
     --enable-libfaac \
     --enable-libfdk-aac \
     --enable-libfreetype \

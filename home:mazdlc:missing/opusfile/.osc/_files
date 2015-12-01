@@ -1,5 +1,5 @@
-<directory name="opusfile" rev="8" srcmd5="a8199e5882ea47f811b73de65b86f6db" vrev="8">
-  <serviceinfo code="succeeded" xsrcmd5="2df23630fd40087be3cda022a8f882b5" />
+<directory name="opusfile" rev="12" srcmd5="73c5da2468334c2e8f18bdc5ed5bbbcc" vrev="12">
+  <serviceinfo code="succeeded" xsrcmd5="cd7495b80b879f14b2893802953e496f" />
   <entry md5="8b20a90c407cb820afc8521af54701d1" mtime="1446712499" name="PKGBUILD" size="338" />
   <entry md5="34bc10116211a6500dfdf4c9cbb71eb0" mtime="1446712501" name="_service" size="244" />
 </directory>

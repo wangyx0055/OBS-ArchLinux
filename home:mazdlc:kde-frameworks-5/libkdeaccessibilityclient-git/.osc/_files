@@ -1,5 +1,5 @@
-<directory name="libkdeaccessibilityclient-git" rev="24" srcmd5="307a5472ecfb64a885aaa0eb4ca534ef" vrev="24">
-  <serviceinfo code="succeeded" xsrcmd5="3283769724d7d3b4bb5c609c39628597" />
+<directory name="libkdeaccessibilityclient-git" rev="102" srcmd5="b43b93364925835c47eaae9d47a60361" vrev="102">
+  <serviceinfo code="succeeded" xsrcmd5="836193c225994bf8a0082765bf4c17cc" />
   <entry md5="ff3b8f162e389b973c04e49f9f26f337" mtime="1447678971" name="PKGBUILD" size="874" />
   <entry md5="c06ec87d1d92d065788103e6bbe38da0" mtime="1447678972" name="_service" size="437" />
 </directory>

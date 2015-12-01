@@ -1,5 +1,5 @@
-<directory name="lib32-gnutls" rev="4" srcmd5="4b1366ac442ab24882c0d49d0e7fb071" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="21c8f69ef8182746412cfa49545783cc" />
+<directory name="lib32-gnutls" rev="10" srcmd5="a6830a69696ef24c2061ea4b3d8c141e" vrev="10">
+  <serviceinfo code="succeeded" xsrcmd5="5993b914421cbcf1b4494aca8db846cd" />
   <entry md5="51f06408b4a15154b94d9579c0c25129" mtime="1446377042" name="PKGBUILD" size="467" />
   <entry md5="dfdb72823328af47a9a75ca597352309" mtime="1446379530" name="_service" size="248" />
 </directory>

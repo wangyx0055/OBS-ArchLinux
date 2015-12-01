@@ -1,5 +1,5 @@
-<directory name="libxcm-git" rev="8" srcmd5="de6915c789262198efb5b0db6ac86762" vrev="8">
-  <serviceinfo code="succeeded" xsrcmd5="7ea09bba3f8dd9ce7632327a7fa57b33" />
+<directory name="libxcm-git" rev="41" srcmd5="b38907c79e87b3dad74fa7af5386a1f8" vrev="41">
+  <serviceinfo code="succeeded" xsrcmd5="451bf0985a0dc628c2193f90db36ec49" />
   <entry md5="cf9e3db7465750824fc6de4abf1b6e2d" mtime="1447062136" name="PKGBUILD" size="687" />
   <entry md5="ab25768fcc255311f15cab4e392eef94" mtime="1447062138" name="_service" size="410" />
 </directory>

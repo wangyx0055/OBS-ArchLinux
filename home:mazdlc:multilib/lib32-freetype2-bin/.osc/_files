@@ -1,5 +1,5 @@
-<directory name="lib32-freetype2-bin" rev="3" srcmd5="67ae79ae27241b1cc87f855cd752fb63" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="3c2692f5a83bdddfe995ea4c37d841cd" />
+<directory name="lib32-freetype2-bin" rev="7" srcmd5="878aade6921237154669e842bf4de6d1" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="1adc21ada405f8513ef339e50767248b" />
   <entry md5="872a246d786d3fa9d4fadd0acf26e509" mtime="1446445936" name="PKGBUILD" size="402" />
   <entry md5="d50f2d4fd203b97b9e1069c2db203279" mtime="1446445938" name="_service" size="250" />
   <entry md5="6b490631ee6046b0900da30b40dd5223" mtime="1446723505" name="bump.sh" size="862" />

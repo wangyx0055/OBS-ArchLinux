@@ -1,5 +1,5 @@
-<directory name="cdemu-daemon" rev="12" srcmd5="0e40215b0e275183643fef225878b912" vrev="12">
-  <serviceinfo code="succeeded" xsrcmd5="239a7135e1541d67df8a3e05c8f2225c" />
+<directory name="cdemu-daemon" rev="14" srcmd5="158e77c4c67de564f95e8f1fc3546cc6" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="7735728ed1c6641c561b917496e4e54f" />
   <entry md5="91a91283ea7a5a6670889eb29812b1c7" mtime="1448406111" name="PKGBUILD" size="345" />
   <entry md5="e837b34f6dc06f8317226c1448438e34" mtime="1446780444" name="_service" size="248" />
 </directory>

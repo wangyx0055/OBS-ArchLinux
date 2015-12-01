@@ -1,0 +1,43 @@
+# Maintainer: fclad <fcladera at fcladera.com>
+# Contributor: Antonio Rojas
+# Contributor: prettyvanilla <prettyvanilla at posteo.at>
+# Contributor: vnoel <victor.noel at crazydwarves dot org>
+
+_pkgname=kile
+pkgname=kile-git
+pkgver=v2.1.r572.ga13b20c
+pkgrel=2
+pkgdesc="A TeX/LaTeX frontend for KDE"
+arch=('i686' 'x86_64')
+url="http://kile.sourceforge.net/"
+license=('GPL2')
+depends=('kinit' 'texlive-core' 'okular-frameworks-git' 'ktexteditor')
+makedepends=('git' 'extra-cmake-modules' 'kdoctools' 'python')
+install=$pkgname.install
+conflicts=('kile')
+provides=('kile')
+replaces=('kile-svn')
+source=kile-$pkgver.tar.xz
+md5sums=('SKIP')
+
+
+build() {
+  cd "$srcdir/$_pkgname-$pkgver"
+
+  [ -d build ] && rm -rf build
+  mkdir build
+  cd build
+
+  cmake .. \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DLIB_INSTALL_DIR=lib \
+    -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
+
+  make
+}
+
+package() {
+  cd "$srcdir/$_pkgname-$pkgver/build"
+  make DESTDIR="$pkgdir" install
+}

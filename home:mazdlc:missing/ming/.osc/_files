@@ -1,5 +1,5 @@
-<directory name="ming" rev="5" srcmd5="964c5ec8365f5d0cf07887d45b03eda1" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="8cf470e39af75821a2148b798f737da2" />
+<directory name="ming" rev="12" srcmd5="7ac424d0f1ef0d09ee9d223a50d2716d" vrev="12">
+  <serviceinfo code="succeeded" xsrcmd5="340f82ff7e58b9c0576334c9e67a7898" />
   <entry md5="95e677447d7c3b9c1343243589163fb1" mtime="1447925385" name="PKGBUILD" size="367" />
   <entry md5="de4ec2201d69d4eeedb2527d5ef56173" mtime="1447155088" name="_service" size="286" />
 </directory>

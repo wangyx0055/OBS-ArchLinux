@@ -1,7 +1,7 @@
 _pkgbase=openal
 pkgname=lib32-openal
-pkgver=1.16.0
-pkgrel=1
+pkgver=1.17.0
+pkgrel=2
 pkgdesc="32bit library for obs"
 arch=('x86_64')
 depends=(  lib32-glibc openal )

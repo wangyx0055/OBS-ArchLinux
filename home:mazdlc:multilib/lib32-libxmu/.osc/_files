@@ -1,5 +1,5 @@
-<directory name="lib32-libxmu" rev="5" srcmd5="34c73d133e464f254b3813a6a5e7d393" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="64ddf56d92c97833328188a3467e2faa" />
+<directory name="lib32-libxmu" rev="16" srcmd5="909ee7c81a609eb53890c6a2d65bc96d" vrev="16">
+  <serviceinfo code="succeeded" xsrcmd5="039b8bf39268769b61c53a58f5841104" />
   <entry md5="1c2cc179ced639c6701e15c018d4f28f" mtime="1446377774" name="PKGBUILD" size="375" />
   <entry md5="05f501636c5c4828476a5ee2f94b728a" mtime="1446379680" name="_service" size="248" />
 </directory>

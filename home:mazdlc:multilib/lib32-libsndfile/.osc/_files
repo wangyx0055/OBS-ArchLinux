@@ -1,5 +1,5 @@
-<directory name="lib32-libsndfile" rev="2" srcmd5="1241857181d9e0d5e5bf4ab168050674" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="d59cd4229b76835086b352011954a1c1" />
+<directory name="lib32-libsndfile" rev="5" srcmd5="d15ff9025ccf0cd5dc01fcf0211a50d8" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="d4a86ad48238bc1ac0376d88203d8ed4" />
   <entry md5="245ac5fcbce848c3b16b6fad6279a0e0" mtime="1446723446" name="PKGBUILD" size="408" />
   <entry md5="8e8b74916057a92e898e9b80a1bccf72" mtime="1446385682" name="_service" size="252" />
 </directory>

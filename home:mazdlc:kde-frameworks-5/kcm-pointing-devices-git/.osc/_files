@@ -1,5 +1,5 @@
-<directory name="kcm-pointing-devices-git" rev="34" srcmd5="3706738f7b95e08447d69b7a615c6c7f" vrev="34">
-  <serviceinfo code="succeeded" xsrcmd5="1a337a93c6394c61c5799278a0b66137" />
+<directory name="kcm-pointing-devices-git" rev="144" srcmd5="2a526b0c6871b3bb90ac115f9cff0b77" vrev="144">
+  <serviceinfo code="succeeded" xsrcmd5="1c606bd3468302daa269298fc80d62a7" />
   <entry md5="c88df7285c1539760a14c34ab2d1288c" mtime="1448000122" name="PKGBUILD" size="754" />
   <entry md5="1003d83722da54e89d08faa7d3cbcc43" mtime="1448000124" name="_service" size="433" />
 </directory>

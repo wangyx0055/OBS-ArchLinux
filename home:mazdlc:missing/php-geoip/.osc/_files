@@ -1,5 +1,5 @@
-<directory name="php-geoip" rev="9" srcmd5="4454d81002081df69678ff48fd777eb6" vrev="9">
-  <serviceinfo code="succeeded" xsrcmd5="5313b3deff350c5ca7fd6a9a8994bf04" />
+<directory name="php-geoip" rev="18" srcmd5="91c6f568fa48c093ee4564e0e41f7662" vrev="18">
+  <serviceinfo code="succeeded" xsrcmd5="1bbed7bf18dd7a90466c393b6e37b0fc" />
   <entry md5="6b0cfe07c2b72513e7161623117710ed" mtime="1446859471" name="PKGBUILD" size="331" />
   <entry md5="9fe1e110deeff2f3a6355b752f7100f7" mtime="1446859472" name="_service" size="245" />
 </directory>

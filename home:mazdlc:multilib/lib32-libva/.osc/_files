@@ -1,5 +1,5 @@
-<directory name="lib32-libva" rev="5" srcmd5="f86fa6fe3e0c4a1eb7fb2a90b323a16e" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="15a2c5af319e4839686ab39e65e1085e" />
+<directory name="lib32-libva" rev="37" srcmd5="49277fd53e7c2a74d899bbfe1beb0880" vrev="37">
+  <serviceinfo code="succeeded" xsrcmd5="8cdc65f78e11baeee777201598c04428" />
   <entry md5="99833602194e4596ad0f7ac92ad55111" mtime="1446441358" name="PKGBUILD" size="441" />
   <entry md5="10fe4f90cbf6989a8256262c66c14815" mtime="1446379546" name="_service" size="247" />
 </directory>

@@ -1,0 +1,14 @@
+pkgname=git-fake-kvirc
+pkgver=1
+pkgrel=1
+pkgdesc='git-fake-kvirc'
+arch=('i686' 'x86_64')
+url='https://build.opensuse.org/project/show/home:mazdlc:missing'
+license=('GPL')
+depends=('bash')
+conflicts=git
+source=git
+sha512sums=('SKIP')
+package() {
+	install -Dm755 $srcdir/git /$pkgdir/usr/bin/git
+}

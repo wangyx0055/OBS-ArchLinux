@@ -1,5 +1,5 @@
-<directory name="lib32-gettext" rev="1" srcmd5="939c7e8581c001e74a2a4bbb15dd47db" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="5d037b814f660ca29fb6c6d233188460" />
+<directory name="lib32-gettext" rev="22" srcmd5="aee547c3f373aac491a83c989f0b8616" vrev="22">
+  <serviceinfo code="succeeded" xsrcmd5="8fdd502739099691447baac20c4920b4" />
   <entry md5="7612fdd78dc113d8a982ace93231ec97" mtime="1446450233" name="PKGBUILD" size="382" />
   <entry md5="282fe470e0f83c5f8c04e4e566e0ae5a" mtime="1446450235" name="_service" size="248" />
 </directory>

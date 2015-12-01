@@ -1,5 +1,5 @@
-<directory name="kipi-plugins-git" rev="84" srcmd5="52ce0d97277899db9c705b31b6fe9969" vrev="84">
-  <serviceinfo code="succeeded" xsrcmd5="a94d7ae7cea257fb5bcdd4febc94316c" />
+<directory name="kipi-plugins-git" rev="237" srcmd5="a643a3ef32612c2ff1c41b8729e231b6" vrev="237">
+  <serviceinfo code="succeeded" xsrcmd5="f4b1c71a2f16e76584e868c8d4195dd8" />
   <entry md5="ea2c4acbe61eda531c4ad8acc6a97717" mtime="1447066772" name="PKGBUILD" size="1635" />
   <entry md5="8d71ae774724bb43a44b18286418222c" mtime="1447055657" name="_service" size="415" />
   <entry md5="accc30eb65b9b8ca85b8047b54840ba9" mtime="1447055660" name="kipi-plugins-git.install" size="148" />

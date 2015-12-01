@@ -1,5 +1,5 @@
-<directory name="lib32-p11-kit" rev="4" srcmd5="3e7bde11eaafa56640a1c9f7e8d3dc03" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="0087d64bbaf9c06400e1bc1fd4706b24" />
+<directory name="lib32-p11-kit" rev="6" srcmd5="38b9c1e141d8007db21e92d3f74a14f4" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="b4d862d667c4f944bbc9b25337cfddf2" />
   <entry md5="ccff90171558f6b729ce50150d69ff76" mtime="1446723602" name="PKGBUILD" size="397" />
   <entry md5="97c95aac573ca46c704e0b670c3e6a79" mtime="1446384212" name="_service" size="249" />
 </directory>

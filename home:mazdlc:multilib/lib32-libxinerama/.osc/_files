@@ -1,5 +1,5 @@
-<directory name="lib32-libxinerama" rev="5" srcmd5="af3408b604ee4c2e747f6ce0c08fccd3" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="67be0bd7dac631e527c74d7df9785749" />
+<directory name="lib32-libxinerama" rev="8" srcmd5="d10ff2bf738533e4de99ddc4527bc2a8" vrev="8">
+  <serviceinfo code="succeeded" xsrcmd5="458b2aad62b76748b07cc168b2627242" />
   <entry md5="f230ea88354457df399c0e996ba84c6b" mtime="1446451973" name="PKGBUILD" size="373" />
   <entry md5="1d23bac2745fdc74d8c5d9f95ca686d6" mtime="1446379666" name="_service" size="253" />
 </directory>

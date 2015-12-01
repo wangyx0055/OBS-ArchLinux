@@ -1,0 +1,5 @@
+<package name="opencv-contrib" project="home:mazdlc">
+  <title>opencv-contrib</title>
+  <description>Open Source Computer Vision Library including additional 'contrib' modules</description>
+</package>
+

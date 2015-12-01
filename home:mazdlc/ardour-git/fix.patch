@@ -1,0 +1,103 @@
+diff -Naur a/gtk2_ardour/ardour.appdata.xml.in b/gtk2_ardour/ardour.appdata.xml.in
+--- a/gtk2_ardour/ardour.appdata.xml.in	1970-01-01 08:00:00.000000000 +0800
++++ b/gtk2_ardour/ardour.appdata.xml.in	2015-11-30 17:49:15.971743808 +0800
+@@ -0,0 +1,36 @@
++<?xml version="1.0" encoding="utf-8"?>
++<component type="desktop">
++  <id>@ARDOUR_EXEC@.desktop</id>
++  <metadata_license>CC0-1.0</metadata_license>
++  <project_license>GPL-2.0+</project_license>
++  <name>Ardour</name>
++  <releases>
++    <release version="@VERSION@"/>
++  </releases>
++  <summary>Digital Audio Workstation</summary>
++  <description>
++    <p>
++      Ardour is a multi-channel digital audio workstation, allowing you to
++      record, edit, mix and master audio and MIDI projects.
++    </p>
++    <p xml:lang="de">Ardour ist eine mehrkanalige Digital Audio Workstation (DAW), die es Ihnen erlaubt, Audio- und MIDI-Projekte aufzunehmen, zu bearbeiten, zu mischen und zu mastern.</p>
++    <p>
++      It is targeted at audio engineers, musicians, soundtrack editors and
++      composers.
++    </p>
++    <p xml:lang="de">Es ist für Toningenieure, Musiker, Bearbeiter von Soundtracks und Komponisten gedacht.</p>
++  </description>
++  <url type="homepage">http://ardour.org</url>
++  <screenshots>
++      <screenshot type="default">
++        <image>http://community.ardour.org/files/images/ardour-editor-window-1600x900.png</image>
++        <caption>The Editor window where you can arrange audio and MIDI data along a timeline</caption>
++        <caption xml:lang="de">Das Editorfenster, in dem Sie Audio- und Midi-Daten entlang einer Zeitachse anordnen können</caption>
++      </screenshot>
++      <screenshot>
++        <image>http://community.ardour.org/files/images/ardour-mixer-window-1600x900.png</image>
++        <caption>The Mixer window which includes channel strips for each track and bus</caption>
++        <caption xml:lang="de">Das Mixerfenster, das die Kanalzüge für alle Spuren und Busse enthält</caption>
++      </screenshot>
++  </screenshots>
++</component>
+diff -Naur a/libs/ardour/config_text.cc b/libs/ardour/config_text.cc
+--- a/libs/ardour/config_text.cc	1970-01-01 08:00:00.000000000 +0800
++++ b/libs/ardour/config_text.cc	2015-11-30 17:49:15.315069213 +0800
+@@ -0,0 +1,53 @@
++#include "ardour/ardour.h"
++namespace ARDOUR {
++const char* const ardour_config_info = "\n\
++Build documentation: True\n\
++Debuggable build: False\n\
++Export all symbols (backtrace): False\n\
++Install prefix: /usr\n\
++Strict compiler flags: []\n\
++Internal Shared Libraries: True\n\
++Use External Libraries: True\n\
++Library exports hidden: True\n\
++ALSA Backend: True\n\
++ALSA DBus Reservation: True\n\
++Architecture flags: None\n\
++Aubio: True\n\
++AudioUnits: False\n\
++Free/Demo copy: False\n\
++Build target: x86_64\n\
++CoreAudio: False\n\
++CoreAudio 10.5 compat: False\n\
++CoreAudio/Midi Backend: False\n\
++Debug RT allocations: False\n\
++Debug Symbols: False\n\
++Dummy backend: True\n\
++Process thread timing: False\n\
++Denormal exceptions: False\n\
++FLAC: True\n\
++FPU optimization: True\n\
++Freedesktop files: True\n\
++JACK Backend: True\n\
++Libjack linking: weak\n\
++Libjack metadata: True\n\
++LV2 UI embedding: True\n\
++LV2 support: True\n\
++LXVST support: True\n\
++OGG: True\n\
++Phone home: True\n\
++Program name: Ardour\n\
++Samplerate: True\n\
++PT format: False\n\
++Translation: True\n\
++Unit tests: False\n\
++Mac i386 Architecture: False\n\
++Mac ppc Architecture: False\n\
++Waves Backend: False\n\
++Windows VST support: False\n\
++Wiimote support: True\n\
++Windows key: Mod4><Super\n\
++C compiler flags: ['-I/home/ling/PKGS/_REPO/ADD/home:mazdlc/ardour-git/src/ardour-20151129.g149f679', '-D_FORTIFY_SOURCE=2', '-march=x86-64', '-mtune=generic', '-O2', '-pipe', '-fstack-protector-strong', '-DWAF_BUILD', '-DNDEBUG', '-fshow-column', '-O3', '-fomit-frame-pointer', '-ffast-math', '-fstrength-reduce', '-pipe', '-DARCH_X86', '-mmmx', '-msse', '-mfpmath=sse', '-DUSE_XMMINTRIN', '-DBUILD_SSE_OPTIMIZATIONS', '-DLXVST_64BIT', '-Wall', '-Wpointer-arith', '-Wcast-qual', '-Wcast-align', '-Wno-unused-parameter', '-DBOOST_SYSTEM_NO_DEPRECATED', '-D_ISOC9X_SOURCE', '-D_LARGEFILE64_SOURCE', '-D_FILE_OFFSET_BITS=64', '-DENABLE_NLS', '-DPROGRAM_NAME=\"Ardour\"', u'-DPROGRAM_VERSION=\"4\"', '-Wstrict-prototypes', '-Wmissing-prototypes']\n\
++C++ compiler flags: ['-I/home/ling/PKGS/_REPO/ADD/home:mazdlc/ardour-git/src/ardour-20151129.g149f679', '-D_FORTIFY_SOURCE=2', '-march=x86-64', '-mtune=generic', '-O2', '-pipe', '-fstack-protector-strong', '-DWAF_BUILD', '-DNDEBUG', '-fshow-column', '-O3', '-fomit-frame-pointer', '-ffast-math', '-fstrength-reduce', '-pipe', '-DARCH_X86', '-mmmx', '-msse', '-mfpmath=sse', '-DUSE_XMMINTRIN', '-DBUILD_SSE_OPTIMIZATIONS', '-DLXVST_64BIT', '-Wall', '-Wpointer-arith', '-Wcast-qual', '-Wcast-align', '-Wno-unused-parameter', '-DBOOST_SYSTEM_NO_DEPRECATED', '-D_ISOC9X_SOURCE', '-D_LARGEFILE64_SOURCE', '-D_FILE_OFFSET_BITS=64', '-DENABLE_NLS', '-DPROGRAM_NAME=\"Ardour\"', u'-DPROGRAM_VERSION=\"4\"', '-std=c++11', '-DBOOST_NO_AUTO_PTR', '-Woverloaded-virtual', '-Wno-unused-local-typedefs', '-D__STDC_LIMIT_MACROS', '-D__STDC_FORMAT_MACROS', '-DCANVAS_COMPATIBILITY', '-DCANVAS_DEBUG']\n\
++Linker flags: ['-Wl,-O1,--sort-common,--as-needed,-z,relro', '-Wl,-O1,--sort-common,--as-needed,-z,relro']\n\
++";
++}
+diff -Naur a/libs/ardour/revision.cc b/libs/ardour/revision.cc
+--- a/libs/ardour/revision.cc	1970-01-01 08:00:00.000000000 +0800
++++ b/libs/ardour/revision.cc	2015-11-30 17:48:42.748021420 +0800
+@@ -0,0 +1,2 @@
++#include "ardour/revision.h"
++namespace ARDOUR { const char* revision = "4.4"; }

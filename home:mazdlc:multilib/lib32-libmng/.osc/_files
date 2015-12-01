@@ -1,5 +1,5 @@
-<directory name="lib32-libmng" rev="4" srcmd5="aed7de32cfd04d017c1e48049c4e9acf" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="64c0b6bb7b1d2290261a60ceb86a04bd" />
+<directory name="lib32-libmng" rev="7" srcmd5="c5535ecb8ddfe2d8be0e8a0d69174d54" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="820fea9ef314aef35420447ed01cfbc9" />
   <entry md5="351175718340b30196170f49c322e393" mtime="1446965113" name="PKGBUILD" size="343" />
   <entry md5="2a7a9fa08f7ee015dbdc8e9a6511d3a6" mtime="1446964004" name="_service" size="247" />
 </directory>

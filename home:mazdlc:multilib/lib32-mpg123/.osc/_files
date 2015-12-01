@@ -1,5 +1,5 @@
-<directory name="lib32-mpg123" rev="4" srcmd5="8105562f5b4e6c1a7bfd0459d43c9639" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="33ae2c4405b87d12d8242be7e2e3ad7c" />
+<directory name="lib32-mpg123" rev="6" srcmd5="1de30cb3bd55619e37557124d013c983" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="4b9491c98cdc98a3cf5f78122b6c4c1d" />
   <entry md5="7676743e78f88efd476012fe2d5163b0" mtime="1446378245" name="PKGBUILD" size="386" />
   <entry md5="5872d7bf453cf06aa6b717005f96bb9e" mtime="1446379759" name="_service" size="248" />
 </directory>

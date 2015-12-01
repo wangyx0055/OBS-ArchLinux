@@ -1,0 +1,22 @@
+pkgname=snapper
+pkgver=0.2.8
+pkgrel=2
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( btrfs-progs libxml2 dbus boost-libs acl )
+provides=(  )
+conflicts=(  )
+url="http://www.archlinux.org"
+license=('see original')
+source=("pkg.tar.xz")
+md5sums=('SKIP')
+noextract="pkg.tar.xz"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/pkg.tar.xz"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

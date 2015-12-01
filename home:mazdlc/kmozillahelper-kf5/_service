@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">https</param>
+    <param name="host">build.opensuse.org</param>
+    <param name="path">/source/openSUSE:Factory/mozilla-kde4-integration/kmozillahelper-0.6.4.tar.bz2</param>
+  </service>
+</services>

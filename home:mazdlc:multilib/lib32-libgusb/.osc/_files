@@ -1,5 +1,5 @@
-<directory name="lib32-libgusb" rev="1" srcmd5="55ec69ca278e9db21aaa48b19ad02e8c" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="5f2fc6618bba0630b6e195457a46e177" />
+<directory name="lib32-libgusb" rev="22" srcmd5="335ff801b5d469e4e05a20ff7603cf42" vrev="22">
+  <serviceinfo code="succeeded" xsrcmd5="54704e33d0e3aabd8883ae3684582a75" />
   <entry md5="9d212f79a2ff6e196fd47f3871f5b69c" mtime="1446444412" name="PKGBUILD" size="381" />
   <entry md5="ae85413f692ceb3cffdb1c4b0b45e6c7" mtime="1446444415" name="_service" size="248" />
 </directory>

@@ -1,5 +1,5 @@
-<directory name="bin32-edb-debugger-git" rev="24" srcmd5="b67a54af942582ddbba4abe7706360af" vrev="24">
-  <serviceinfo code="succeeded" xsrcmd5="23d806fce21c2696256b10a84b8f41f4" />
+<directory name="bin32-edb-debugger-git" rev="26" srcmd5="0dd38287fc8bb5530853fc9f4638524b" vrev="26">
+  <serviceinfo code="succeeded" xsrcmd5="f76669ba6cd1b9b7303dd56a35bead41" />
   <entry md5="eed2df1e07a820be62f9f1f2b259285c" mtime="1446909714" name="PKGBUILD" size="3095" />
   <entry md5="09e93206f8be934490fef11fd5755b43" mtime="1446908338" name="_service" size="505" />
   <entry md5="d2ab82709f43029a617ab919c15fdc9e" mtime="1446908340" name="edb.install" size="1378" />

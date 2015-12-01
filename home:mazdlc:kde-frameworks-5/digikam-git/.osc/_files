@@ -1,5 +1,5 @@
-<directory name="digikam-git" rev="71" srcmd5="375d7a89935a0cf5c4c05e6e10defbed" vrev="71">
-  <serviceinfo code="succeeded" xsrcmd5="aa4cf7ecaf4fe0cea2d7719da404509e" />
+<directory name="digikam-git" rev="243" srcmd5="10e06a9ffc5b7c449e325dc05bb1dd02" vrev="243">
+  <serviceinfo code="succeeded" xsrcmd5="79c6a7764b5279b2c20fa7f8bd0e658d" />
   <entry md5="b6338cd774b05d20a8b0b285465c34d2" mtime="1447071919" name="PKGBUILD" size="1308" />
   <entry md5="65f3604197a0b1b7ecb3468bcb67ea9e" mtime="1447055513" name="_service" size="405" />
   <entry md5="52696b685b0d68dee887497d4cbfc134" mtime="1447055514" name="digikam-git.install" size="189" />

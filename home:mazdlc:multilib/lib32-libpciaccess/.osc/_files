@@ -1,5 +1,5 @@
-<directory name="lib32-libpciaccess" rev="1" srcmd5="f6ee6ac0848ec2052dafc6e6b82db85c" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="f8df4ebdaef6240eb71e378eb110968c" />
+<directory name="lib32-libpciaccess" rev="4" srcmd5="268c82a761a8ffadd093861e0c40ef53" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="d68b3012361c652d5e622583d29b5551" />
   <entry md5="f7731ba89717b0ad7098bcafda79665a" mtime="1446436236" name="PKGBUILD" size="384" />
   <entry md5="4425a800f4f3be58318d41c8e56e0351" mtime="1446436243" name="_service" size="254" />
 </directory>

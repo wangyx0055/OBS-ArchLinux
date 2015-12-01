@@ -1,5 +1,5 @@
-<directory name="lib32-libtxc_dxtn" rev="2" srcmd5="8f8e9a201c836de8b111165c2c746d3c" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="870201fd8d984e73f1116667fd0ef626" />
+<directory name="lib32-libtxc_dxtn" rev="4" srcmd5="b77f87a139ec7ac0c3167b8a732a6973" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="c0f40368faf578e14b20779f76204ce3" />
   <entry md5="c294ac8615c1fcc5f9b88387a8eae34c" mtime="1446723469" name="PKGBUILD" size="368" />
   <entry md5="6d9d46d9299341002e4206ebbec1e8bf" mtime="1446385989" name="_service" size="253" />
 </directory>

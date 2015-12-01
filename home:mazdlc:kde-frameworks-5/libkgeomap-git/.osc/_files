@@ -1,5 +1,5 @@
-<directory name="libkgeomap-git" rev="39" srcmd5="29a5ff07ff3f92b9751d804a81958f33" vrev="39">
-  <serviceinfo code="succeeded" xsrcmd5="0668e172beb2a1f9036715bef686830a" />
+<directory name="libkgeomap-git" rev="87" srcmd5="ee917db08f4dc4366d1fdf4af599a246" vrev="87">
+  <serviceinfo code="succeeded" xsrcmd5="9646e6c696cb40653935b7e698eba1ed" />
   <entry md5="c2703a1159389f8440e18cb13c5ab210" mtime="1447071297" name="PKGBUILD" size="1024" />
   <entry md5="c3b6a1c04f0f3d0fe60691a8e4fdfe97" mtime="1447057497" name="_service" size="411" />
 </directory>

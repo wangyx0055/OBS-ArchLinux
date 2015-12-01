@@ -1,5 +1,5 @@
-<directory name="fancontrol-gui-git" rev="18" srcmd5="c01cccd95df693d4f5dd48b70c709a20" vrev="18">
-  <serviceinfo code="succeeded" xsrcmd5="38c1a470c865603881956d3853cb46a9" />
+<directory name="fancontrol-gui-git" rev="123" srcmd5="a83b3ce05ea62446f9c8fb79ac6322df" vrev="123">
+  <serviceinfo code="succeeded" xsrcmd5="946b1f7770210f2fad85b9ae1b323b41" />
   <entry md5="c964ea98366dcf566828e59f4dd4f909" mtime="1448070925" name="PKGBUILD" size="1010" />
   <entry md5="002fd577d458750a6b0a2e5871ee5d76" mtime="1448030814" name="_service" size="422" />
 </directory>

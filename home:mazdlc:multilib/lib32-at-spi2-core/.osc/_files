@@ -1,5 +1,5 @@
-<directory name="lib32-at-spi2-core" rev="1" srcmd5="7791ef197f06dca5435fc0c5812f57d4" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="b651a9ead034a60d8d2cd49c2345a95c" />
-  <entry md5="266a35404422e46a8afc61b37c36774d" mtime="1446438245" name="PKGBUILD" size="398" />
+<directory name="lib32-at-spi2-core" rev="20" srcmd5="b324881da26938cc5b8145f61592eef8" vrev="20">
+  <serviceinfo code="succeeded" xsrcmd5="50ec4fbc8d7fb0d15eb381a55600c7df" />
+  <entry md5="7139b7a120e2b8cdb6953e096af218f8" mtime="1447902201" name="PKGBUILD" size="398" />
   <entry md5="29b25ddc9a4c274f13c2b759aa672e27" mtime="1446438247" name="_service" size="254" />
 </directory>

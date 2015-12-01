@@ -1,0 +1,6 @@
+<directory name="kile-git" rev="7" srcmd5="4bfe526b5f50f5a4b60c3a62acea289a" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="1e425127317d13707a364763bf6f0216" />
+  <entry md5="d0029509898dba6be85e80e656b9c8ce" mtime="1448968097" name="PKGBUILD" size="982" />
+  <entry md5="5e363a4bcbe96bd7440e3ddcecaeea48" mtime="1448967975" name="_service" size="399" />
+  <entry md5="7d13adc5eb33c1716ab1c1ea1af94223" mtime="1448967930" name="kile-git.install" size="242" />
+</directory>

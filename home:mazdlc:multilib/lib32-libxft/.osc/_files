@@ -1,5 +1,5 @@
-<directory name="lib32-libxft" rev="1" srcmd5="6027b82613b876d8f8800f673aa6d686" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="01385cac7631e0c197c135228f458c69" />
+<directory name="lib32-libxft" rev="14" srcmd5="6b90bf8452ce2b85cde2dcd097b9f7b9" vrev="14">
+  <serviceinfo code="succeeded" xsrcmd5="96111134331b211818aa7fbf7dd9964a" />
   <entry md5="40514f963b381c11a7dc0705fd764a2f" mtime="1446438839" name="PKGBUILD" size="380" />
   <entry md5="ebd8583a3f4a6bb02d1f0da29e0cb7f9" mtime="1446438841" name="_service" size="248" />
 </directory>

@@ -1,0 +1,7 @@
+<services>
+  <service name="download_url">
+    <param name="protocol">http</param>
+    <param name="host">www.draftsight.com</param>
+    <param name="path">/download-linux-fedora</param>
+  </service>
+</services>

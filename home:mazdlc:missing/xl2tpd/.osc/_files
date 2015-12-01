@@ -1,5 +1,5 @@
-<directory name="xl2tpd" rev="13" srcmd5="8bbd2fe930f3867174edcbaf763aaa2c" vrev="13">
-  <serviceinfo code="succeeded" xsrcmd5="0cb44b3bab760ecfd9284584e68d9e67" />
+<directory name="xl2tpd" rev="29" srcmd5="5d82b3fc0231eb5a3c072db8559aec25" vrev="29">
+  <serviceinfo code="succeeded" xsrcmd5="24e44e00b9d9ba6ceff1fa465c683a5b" />
   <entry md5="35bbe065fede803950b5738762ba28fa" mtime="1446805661" name="PKGBUILD" size="322" />
   <entry md5="5ec05c4753f24abb400eca56845fefed" mtime="1446805663" name="_service" size="242" />
 </directory>

@@ -1,0 +1,22 @@
+pkgname=icoutils
+pkgver=0.31.0
+pkgrel=1
+pkgdesc="package for obs"
+arch=('x86_64')
+depends=( libpng>=1.0.0 perl-libwww>=5.64 )
+provides=(  )
+conflicts=(  )
+url="http://www.archlinux.org"
+license=('see original')
+source=("pkg.tar.xz")
+md5sums=('SKIP')
+noextract="pkg.tar.xz"
+
+
+package() {
+	cd ${pkgdir}
+	tar xvpJf "$startdir/pkg.tar.xz"
+	rm ./.MTREE
+	rm ./.PKGINFO
+	rm -f ./.INSTALL
+}

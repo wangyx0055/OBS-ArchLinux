@@ -1,0 +1,5 @@
+<package name="wine" project="home:mazdlc:multilib">
+  <title>wine</title>
+  <description>wine</description>
+</package>
+

@@ -1,5 +1,5 @@
-<directory name="lib32-gmp" rev="1" srcmd5="34d4e00d9a9a3b4d7c05f1bda29bd59e" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="5c8375bff8a9e244d50acd6183e0ecdc" />
+<directory name="lib32-gmp" rev="4" srcmd5="fe2a93b7886dc9021e9822f1e02dda9b" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="e4342529cd3b071f121505acd0b18218" />
   <entry md5="73b80dca88c95e86939885c96ea19220" mtime="1446386104" name="PKGBUILD" size="359" />
   <entry md5="09327d6f4bba14776df3c5bb5ea0c3bd" mtime="1446386106" name="_service" size="245" />
 </directory>

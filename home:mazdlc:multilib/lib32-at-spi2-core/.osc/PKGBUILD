@@ -1,6 +1,6 @@
 _pkgbase=at-spi2-core
 pkgname=lib32-at-spi2-core
-pkgver=2.18.1
+pkgver=2.18.3
 pkgrel=1
 pkgdesc="32bit library for obs"
 arch=('x86_64')

@@ -1,5 +1,5 @@
-<directory name="lib32-jack" rev="3" srcmd5="725b49cd1f15f9c5abf2084cbd03ba96" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="eefbc400a8edb764a11182b8377fdb06" />
+<directory name="lib32-jack" rev="6" srcmd5="82b0906bb4bdcc210377047a5e0a8ae2" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="2a6a3175cebdc7295f3f3b07ab171f34" />
   <entry md5="ef3a0fe282c157ec09996f6552b24ae4" mtime="1446597986" name="PKGBUILD" size="393" />
   <entry md5="01391a385c0c1d067601be6346faccb3" mtime="1446467251" name="_service" size="245" />
 </directory>

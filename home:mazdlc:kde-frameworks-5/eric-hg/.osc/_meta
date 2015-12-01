@@ -1,0 +1,5 @@
+<package name="eric-hg" project="home:mazdlc:kde-frameworks-5">
+  <title>eric-hg</title>
+  <description>Eric is a full featured Python editor and IDE, written in Python. </description>
+</package>
+

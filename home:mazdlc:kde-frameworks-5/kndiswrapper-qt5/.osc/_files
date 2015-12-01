@@ -1,6 +1,7 @@
-<directory name="kndiswrapper-qt5" rev="2" srcmd5="8c3a8a7f2a15399d61a000474c8efbbd" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="42b99387809909d6c959dda402655d42" />
-  <entry md5="4afc6155408726d0360b42805247b749" mtime="1448585200" name="PKGBUILD" size="606" />
+<directory name="kndiswrapper-qt5" rev="5" srcmd5="1bd99329dbd8800a2bcca17a26407fa2" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="2a8378853ad3bbc9f7a74f15e176f0d6" />
+  <entry md5="4a1929bb798e6278a2b728f8d8c559ba" mtime="1448770219" name="PKGBUILD" size="753" />
   <entry md5="d5278a3607e28e875254b0b933c2bef4" mtime="1448457260" name="_service" size="247" />
+  <entry md5="63c2aca61837d730380cf705f1672b72" mtime="1448797008" name="kndiswrapper.gui.policy" size="818" />
   <entry md5="b88edbd620e1119b138de9af8ebe7d3f" mtime="1448585216" name="qt5.patch" size="6177" />
 </directory>

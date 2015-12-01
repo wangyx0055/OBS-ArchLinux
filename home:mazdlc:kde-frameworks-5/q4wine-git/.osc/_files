@@ -1,0 +1,6 @@
+<directory name="q4wine-git" rev="7" srcmd5="0cf111c02529fd21a7e514791fba4a2f" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="a5f1b2967f01b6e45ac256cf251b6e28" />
+  <entry md5="51cfaf8fd097a0ee46fd453076a1d26c" mtime="1448967289" name="PKGBUILD" size="1291" />
+  <entry md5="b0bf78be49e680e8230f8bf4c2f8582b" mtime="1448952705" name="_service" size="406" />
+  <entry md5="193729407fb862966ff97ebedb2783e7" mtime="1448953102" name="q4wine-git.install" size="191" />
+</directory>

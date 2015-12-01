@@ -1,5 +1,5 @@
-<directory name="lib32-ncurses" rev="2" srcmd5="4a76df09a31f53c2ab05f3bce8452468" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="d84bd668275c447da223f4a3da54a81e" />
+<directory name="lib32-ncurses" rev="4" srcmd5="3f8419ff7f2babeabb34264dfd76e106" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="c78fbade82eebf6ed25d80798682e2a6" />
   <entry md5="dc4eabe554f89d5c91d515908b64653a" mtime="1446723579" name="PKGBUILD" size="366" />
   <entry md5="28550ae38b884dd77162778dd0e04ecc" mtime="1446436290" name="_service" size="249" />
 </directory>

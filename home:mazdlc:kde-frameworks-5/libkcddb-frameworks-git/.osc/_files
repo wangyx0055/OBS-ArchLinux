@@ -1,5 +1,5 @@
-<directory name="libkcddb-frameworks-git" rev="36" srcmd5="f96e5d3f78b470c93546bcce0ace6e97" vrev="36">
-  <serviceinfo code="succeeded" xsrcmd5="0fe48142b248cdc5f1443d0a202b5cd0" />
+<directory name="libkcddb-frameworks-git" rev="78" srcmd5="648f63e9cf7f303a247bdfce04361ebe" vrev="78">
+  <serviceinfo code="succeeded" xsrcmd5="9865dfcd332e79948bf98c672bf343d4" />
   <entry md5="605eabdaf8463ddeca3608efa3f60d7a" mtime="1446789862" name="PKGBUILD" size="868" />
   <entry md5="b28912ecae79bbd6745e0e412ba3f42c" mtime="1446790267" name="_service" size="442" />
 </directory>

@@ -1,6 +1,6 @@
 _pkgbase=gdk-pixbuf2
 pkgname=lib32-gdk-pixbuf2
-pkgver=2.32.1
+pkgver=2.32.2
 pkgrel=1
 pkgdesc="32bit library for obs"
 arch=('x86_64')

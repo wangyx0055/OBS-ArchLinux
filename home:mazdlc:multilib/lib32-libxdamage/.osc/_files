@@ -1,5 +1,5 @@
-<directory name="lib32-libxdamage" rev="3" srcmd5="5fdfc269bea667e69b52221e1f06bef5" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="a30b91582ecf8c2edf5a34a339a7d7e2" />
+<directory name="lib32-libxdamage" rev="5" srcmd5="a2a27061604f7018ddd2fb1c1cc7aaa5" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="f4f6979e91a4e11d53ffb9379c5475c6" />
   <entry md5="8919573853cfaa1dd9735614d5c3dcc9" mtime="1446723505" name="PKGBUILD" size="381" />
   <entry md5="9725276db2f9386d3a24a3c5409d2b8e" mtime="1446386012" name="_service" size="252" />
 </directory>

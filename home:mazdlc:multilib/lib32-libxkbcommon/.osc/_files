@@ -1,5 +1,5 @@
-<directory name="lib32-libxkbcommon" rev="4" srcmd5="6c934249feeb1d442c7ce379b94f0e84" vrev="4">
-  <serviceinfo code="succeeded" xsrcmd5="282159e6ac3af160a76f4f9e17a24e16" />
+<directory name="lib32-libxkbcommon" rev="6" srcmd5="f20a7df72b50c38379e52fc2761a9a14" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="1270ab94216348c36110c9dc0fa723b4" />
   <entry md5="33b735284bf2224c70cc227b9a3c7280" mtime="1446441464" name="PKGBUILD" size="385" />
   <entry md5="b0d54f2c89b730b864a1b4487d8cfe37" mtime="1446441549" name="_service" size="254" />
 </directory>

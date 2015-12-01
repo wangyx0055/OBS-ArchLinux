@@ -1,5 +1,5 @@
-<directory name="lib32-libxcomposite" rev="5" srcmd5="9ea658b6251f5c96099feeb3c98b883e" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="ad9f740a5b52789529b4ebc00cd62ff8" />
+<directory name="lib32-libxcomposite" rev="7" srcmd5="e7f6435acca086d9a4086319645d5da8" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="8987d137e09be131609dd00363ce8dfb" />
   <entry md5="7491d7c76f6c2236afd022a7c93452ab" mtime="1446723496" name="PKGBUILD" size="381" />
   <entry md5="da728bac0d5f980f73fdbbfa5080a71d" mtime="1446379638" name="_service" size="255" />
 </directory>

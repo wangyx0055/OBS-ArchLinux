@@ -1,5 +1,5 @@
-<directory name="lib32-libxcb" rev="2" srcmd5="1427f1c0c43f04feed16acc21b7a9a94" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="d24fa20290bd27bef6de7bd2afc232e5" />
+<directory name="lib32-libxcb" rev="4" srcmd5="79737418cb3dae68359d5b6259b0daa8" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="14f10cad59d3d58039682f1aebb4166b" />
   <entry md5="2de84c3acddf04ec97acdf9a6666de96" mtime="1446434930" name="PKGBUILD" size="382" />
   <entry md5="5ef7508056a58bf91258d0bc81f763ba" mtime="1446435021" name="_service" size="247" />
 </directory>

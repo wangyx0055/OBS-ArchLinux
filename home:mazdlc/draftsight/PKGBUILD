@@ -1,0 +1,72 @@
+# Maintainer: Justin R. St-Amant <jstamant24 at gmail dot com>
+# Contributor: Nicola Bignami <nicola@kernel-panic.no-ip.net>
+# Contributor: mickele
+# Contributor: Dan Serban
+# Contributor: Loui Chang <louipc dot ist at gmail company> (SPAMMERS!)
+
+pkgname=draftsight
+pkgver=2015SP3
+pkgrel=1
+pkgdesc="Freeware CAD software for your DWG/DXF files."
+arch=('x86_64')
+url="http://www.3ds.com/products/draftsight/"
+license=('custom')
+depends=('desktop-file-utils'
+         'fontconfig'
+         'gcc-libs'
+         'glib2'
+         'gstreamer0.10-base'
+         'gtk2'
+         'libcups'
+         'libgl'
+         'libice'
+         'libmariadbclient'
+         'libsm'
+         'libx11'
+         'libxext'
+         'libxrender'
+         'postgresql-libs'
+         'mesa'
+         'zlib')
+install='draftsight.install'
+source=("http://www.draftsight.com/download-linux-fedora"
+        "draftsight.desktop")
+md5sums=('SKIP'
+         'cfda3b8675a93ccfb768873c1a873199')
+
+_pkgprefix='opt/dassault-systemes/DraftSight'
+
+package()
+{
+  mkdir -p $pkgdir/usr/bin
+  echo "env vblank_mode=0 /${_pkgprefix}/Linux/DraftSight" > \
+       $pkgdir/usr/bin/draftsight
+  chmod 755 $pkgdir/usr/bin/draftsight
+
+  mkdir -p $pkgdir/$_pkgprefix
+  cd $srcdir/$_pkgprefix
+  install -Dm644 Eula/english/eula.htm $pkgdir/usr/share/licenses/draftsight/LICENSE || true
+  
+  ls Resources/pixmaps/ | while read line
+  do
+    install -Dm644 Resources/pixmaps/${line}/program.png $pkgdir/usr/share/icons/hicolor/${line}/apps/draftsight.png
+    ls Resources/pixmaps/${line}/ | while read fline
+    do
+      install -Dm644 Resources/pixmaps/${line}/${fline} $pkgdir/usr/share/icons/hicolor/${line}/mimetypes/${fline}
+    done
+    rm -f $pkgdir/usr/share/icons/hicolor/${line}/mimetypes/program.png
+  done
+  
+  ls Resources | grep -P 'dassault-systemes_draftsight-\S{3}\.xml' | while read line
+  do
+    install -Dm644 Resources/${line} $pkgdir/usr/share/mime/application/${line}
+  done
+  
+  
+  install -Dm644 $srcdir/draftsight.desktop $pkgdir/usr/share/applications/draftsight.desktop
+  # The provided .desktop entry is poorly written and does not disable vblank
+  # when called.
+  #install -Dm644 $srcdir/$_pkgprefix/Resources/dassault-systemes_draftsight.desktop $pkgdir/usr/share/applications/dassault-systemes_draftsight.desktop
+
+  cp -pr $srcdir/$_pkgprefix/* $pkgdir/$_pkgprefix/
+}

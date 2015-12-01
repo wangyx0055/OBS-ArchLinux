@@ -1,5 +1,5 @@
-<directory name="libksane-git" rev="26" srcmd5="ed8fe1905da5665133acc6706ff7d240" vrev="26">
-  <serviceinfo code="succeeded" xsrcmd5="013fee5d9ee7fa795c155fff6f8cbc18" />
+<directory name="libksane-git" rev="46" srcmd5="0ceea4798ccca779379e7a3066ef1dd0" vrev="46">
+  <serviceinfo code="succeeded" xsrcmd5="a5891bde375fe23c2de6cf3d06e09ca9" />
   <entry md5="f22f9a81cdf47471197b72870c6d3d4a" mtime="1447057608" name="PKGBUILD" size="901" />
   <entry md5="e7ce53c818498b7428b871d45338bfad" mtime="1447057609" name="_service" size="407" />
 </directory>

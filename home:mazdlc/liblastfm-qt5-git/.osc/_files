@@ -1,5 +1,5 @@
-<directory name="liblastfm-qt5-git" rev="19" srcmd5="d6982c1d7466744bd30cd2471c11559f" vrev="19">
-  <serviceinfo code="succeeded" xsrcmd5="394b5e46970f0166503aaa05c291cd12" />
+<directory name="liblastfm-qt5-git" rev="51" srcmd5="a10ad49b1fdc854a3a698315736ed1d9" vrev="51">
+  <serviceinfo code="succeeded" xsrcmd5="a7748ea7059e6ec60c6d3fdf4722556a" />
   <entry md5="a38367b4a682033fca362feb75a55f02" mtime="1448030519" name="PKGBUILD" size="949" />
   <entry md5="c47022f80e573ca8c144e58edc18c5b9" mtime="1448014242" name="_service" size="411" />
 </directory>

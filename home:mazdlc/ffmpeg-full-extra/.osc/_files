@@ -1,8 +1,8 @@
-<directory name="ffmpeg-full-extra" rev="21" srcmd5="e5610b7edd7b54b790c51935ecd08e9c" vrev="21">
-  <serviceinfo code="succeeded" xsrcmd5="9f2dee18cf9bfeba6def39f4907f04f6" />
-  <entry md5="65bdcd45d44f85d095750fa412c61911" mtime="1447732689" name="PKGBUILD" size="6678" />
+<directory name="ffmpeg-full-extra" rev="28" srcmd5="efa2e0f36ad750cb6af66cecfee8450d" vrev="28">
+  <serviceinfo code="succeeded" xsrcmd5="af6b30ebefdfa86abac7daa46c91d196" />
+  <entry md5="b8275adbfc6ee4e677ae05a19a6102c6" mtime="1448684653" name="PKGBUILD" size="6713" />
   <entry md5="4ec62a19aea656375174c04979e05563" mtime="1389464350" name="UNREDISTRIBUTABLE.txt" size="132" />
-  <entry md5="83e3ee21b740cff9117446dc00b84d98" mtime="1447719457" name="_service" size="211" />
-  <entry md5="bcf39146db12765171b743858c23e05c" mtime="1447719458" name="bump.sh" size="729" />
+  <entry md5="3188c6a0195ae17bcc1ea2088f222059" mtime="1448654439" name="_service" size="211" />
+  <entry md5="1982f143dee8e856081401b6f747bbc8" mtime="1448684701" name="bump.sh" size="712" />
   <entry md5="3c9491c0903f2ad0020f46c50c44d776" mtime="1447541808" name="ffmpeg-libvpx.patch" size="1801" />
 </directory>

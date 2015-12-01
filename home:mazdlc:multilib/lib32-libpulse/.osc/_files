@@ -1,5 +1,5 @@
-<directory name="lib32-libpulse" rev="5" srcmd5="95bf5dd7ca69c204253d9da0b981abb8" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="2938fef1e14a9315717919b6c6eeee8a" />
+<directory name="lib32-libpulse" rev="23" srcmd5="5d5cc6d4bd38b7dfcc126a76cc831462" vrev="23">
+  <serviceinfo code="succeeded" xsrcmd5="0988d4db16acf519ed7034a1dd5c6fe9" />
   <entry md5="7433a5596ad4e2952a8ddc2549dd9fe1" mtime="1446377442" name="PKGBUILD" size="463" />
   <entry md5="a8b50bf4d4bbe07726ac5d07d15ce089" mtime="1446379542" name="_service" size="250" />
 </directory>

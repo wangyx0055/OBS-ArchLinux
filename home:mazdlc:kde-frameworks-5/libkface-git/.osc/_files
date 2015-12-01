@@ -1,5 +1,5 @@
-<directory name="libkface-git" rev="44" srcmd5="aa3895e8dc90e0431ca5ae0a06e0ae0f" vrev="44">
-  <serviceinfo code="succeeded" xsrcmd5="8df756dc26471afcf977c1bae05c6742" />
+<directory name="libkface-git" rev="117" srcmd5="3c625193f201fd80537ded604bef358d" vrev="117">
+  <serviceinfo code="succeeded" xsrcmd5="7b0eb7046a7b7de852b0593a20c7126b" />
   <entry md5="e6cce7d943eb3778c73f2714267034d2" mtime="1447057693" name="PKGBUILD" size="1136" />
   <entry md5="5495536c1ed3327c8d134616f0f6d3bd" mtime="1447057695" name="_service" size="407" />
 </directory>

@@ -1,0 +1,5 @@
+<directory name="webcamoid-git" rev="155" srcmd5="fcfb5e9dc3bd4f2f7e3d8dfff9bd09dd" vrev="155">
+  <serviceinfo code="succeeded" xsrcmd5="4f731f8a5c77a2842e7527c01c906642" />
+  <entry md5="e75a02dcabb870321beeb3e827f018d7" mtime="1447720247" name="PKGBUILD" size="716" />
+  <entry md5="f304612836e4e4255fb0dc7b71584e6a" mtime="1447720303" name="_service" size="416" />
+</directory>

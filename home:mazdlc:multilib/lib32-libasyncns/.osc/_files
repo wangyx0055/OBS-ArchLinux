@@ -1,5 +1,5 @@
-<directory name="lib32-libasyncns" rev="2" srcmd5="6037bd27122570fcd55197ac60f433b1" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="4aebf60bfabe9c7acd8d8f75e5234f49" />
+<directory name="lib32-libasyncns" rev="5" srcmd5="3e89f9001c9a2b4d588094c1ccab562b" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="31e998f01a033591ca4dfe93103ee47d" />
   <entry md5="3ec88a4001e0e1f4df82af49e96f746d" mtime="1446723337" name="PKGBUILD" size="353" />
   <entry md5="51929004e4e75d61fe505c4e1bf35e53" mtime="1446385586" name="_service" size="252" />
 </directory>

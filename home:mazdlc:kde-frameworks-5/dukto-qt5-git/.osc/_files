@@ -1,2 +1,5 @@
-<directory name="dukto-qt5-git" srcmd5="d41d8cd98f00b204e9800998ecf8427e">
+<directory name="dukto-qt5-git" rev="97" srcmd5="d3c5e9175eec1f4b83e3e75c72f38cdc" vrev="97">
+  <serviceinfo code="succeeded" xsrcmd5="7afc9cb2246160285034ba55891f1983" />
+  <entry md5="bbea1fc00e9a0149176cd64b035008cc" mtime="1448631967" name="PKGBUILD" size="656" />
+  <entry md5="9f59d548763047bada365c466a4a7663" mtime="1448626270" name="_service" size="414" />
 </directory>

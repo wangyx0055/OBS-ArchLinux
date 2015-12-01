@@ -1,7 +1,7 @@
 _pkgbase=gtk3
 pkgname=lib32-gtk3
-pkgver=3.18.2
-pkgrel=2
+pkgver=3.18.5
+pkgrel=1
 pkgdesc="32bit library for obs"
 arch=('x86_64')
 depends=( gtk3 lib32-at-spi2-atk lib32-colord lib32-gdk-pixbuf2 lib32-json-glib lib32-libcups lib32-libepoxy lib32-librsvg lib32-libxcomposite lib32-libxcursor lib32-libxinerama lib32-libxkbcommon lib32-libxrandr lib32-pango lib32-rest )

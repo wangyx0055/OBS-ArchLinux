@@ -1,5 +1,5 @@
-<directory name="synnefo-qt5-git" rev="87" srcmd5="bd4c26379cef73a4f96f6065250594ab" vrev="87">
-  <serviceinfo code="succeeded" xsrcmd5="8fe74e1a52647ff5888f642478d60fcf" />
+<directory name="synnefo-qt5-git" rev="182" srcmd5="a731884df3264cf741b5adc5a4f0e042" vrev="182">
+  <serviceinfo code="succeeded" xsrcmd5="98af3e503a7e71e7a6717d294a733fb5" />
   <entry md5="e9970bef2d0a4b64fda6561933c4aa8c" mtime="1447062007" name="COPYING" size="1242" />
   <entry md5="0197b66b567135d701fce448de1ca591" mtime="1447062008" name="PKGBUILD" size="1019" />
   <entry md5="7b86567d9a18f7ac7985e657064f60ec" mtime="1447062010" name="_service" size="412" />

@@ -1,9 +1,9 @@
-<directory name="wine-gaming-nine" rev="46" srcmd5="a04dc393089c14a568d5bee5a3d407ad" vrev="46">
-  <serviceinfo code="succeeded" xsrcmd5="bf668ddce66e7cfd0c6bae3c0623bd83" />
+<directory name="wine-gaming-nine" rev="47" srcmd5="1a1247b17d4149db93a60f3ebd32d452" vrev="47">
+  <serviceinfo code="succeeded" xsrcmd5="d6c07a2f2a137fca0abde0c40a8f5de1" />
   <entry md5="414fc6ab3dc31010ba538eec7862bcac" mtime="1446316177" name="0001-loader-wine.inf.in-Added-localized-font-name-replaceme.txt" size="2216" />
   <entry md5="1ff4e467f59409272088d92173a0f801" mtime="1446316179" name="30-win32-aliases.conf" size="620" />
-  <entry md5="1181e2423abac81813d3eaae8254367a" mtime="1448374674" name="PKGBUILD" size="6721" />
-  <entry md5="342e98e7069fc1391b4aeb3a06fefb9b" mtime="1448370656" name="_service" size="502" />
+  <entry md5="82ae3be98d3ef8883843e03a57ebe142" mtime="1448856079" name="PKGBUILD" size="6721" />
+  <entry md5="27490b8a9b87132926f75c9737a231d3" mtime="1448856079" name="_service" size="502" />
   <entry md5="9320c343550ad66ab3e551b35960dc31" mtime="1448370942" name="bump.sh" size="721" />
   <entry md5="da13cd45647ecc0185e0ff6e34fbdf59" mtime="1446463983" name="gdi32-heap-corruption.patch" size="988" />
   <entry md5="f76cb8519c744cb93f34c2420b6866d8" mtime="1446316184" name="heap_perf.patch" size="2401" />

@@ -1,5 +1,5 @@
-<directory name="rssguard-git" rev="88" srcmd5="03400af8f2dd63401e2be8e5c18ad7aa" vrev="88">
-  <serviceinfo code="succeeded" xsrcmd5="573d42a6288fdf925be9bb411536016f" />
+<directory name="rssguard-git" rev="202" srcmd5="d9c2990ec0a0773f09aa169a3a6b3dd8" vrev="202">
+  <serviceinfo code="succeeded" xsrcmd5="1145fd1420c48651b0882956494b13c7" />
   <entry md5="132d40657a7ad21f3c10acc89cc32ea3" mtime="1446893098" name="PKGBUILD" size="959" />
   <entry md5="5fec3bd3cfe501b45e4a55fd0246bcbb" mtime="1446893100" name="_service" size="694" />
   <entry md5="0b6211b511da48346cecdc1d2f963c76" mtime="1446891718" name="rssguard.install" size="117" />

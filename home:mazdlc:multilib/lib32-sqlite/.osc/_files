@@ -1,5 +1,5 @@
-<directory name="lib32-sqlite" rev="3" srcmd5="ac14282c94106c99db5b332875c495ca" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="a36b01174c94809c02cb2a3f61a7f7d3" />
+<directory name="lib32-sqlite" rev="5" srcmd5="49c5cf2f9d6cada4a234c98d15bb57c4" vrev="5">
+  <serviceinfo code="succeeded" xsrcmd5="53e8a92df99d6002866a954d8be9f464" />
   <entry md5="00ef48c387f879d79bfc37f7ee460e1a" mtime="1446964781" name="PKGBUILD" size="378" />
   <entry md5="150b3d8217a6b76bbc7a284f3b5dc0f6" mtime="1446964110" name="_service" size="247" />
 </directory>

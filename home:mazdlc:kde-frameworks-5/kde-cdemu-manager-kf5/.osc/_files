@@ -1,6 +1,7 @@
-<directory name="kde-cdemu-manager-kf5" rev="3" srcmd5="6800350e22c8b3c3c1cd83564b07f9da" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="44e96b3a53a5abcd3e6e6d085800cb44" />
-  <entry md5="c569df047e4ba41a8ab347d2d9708473" mtime="1446389359" name="PKGBUILD" size="987" />
+<directory name="kde-cdemu-manager-kf5" rev="10" srcmd5="34081bfd3bd1a724b6dc39ebc2a34d82" vrev="10">
+  <serviceinfo code="succeeded" xsrcmd5="39b993e984dd1b740aabe51c70f66f2a" />
+  <entry md5="a8b1b82343ee52d8a0a71d8aafbdb613" mtime="1448887661" name="PKGBUILD" size="1210" />
   <entry md5="7bb03070e12e721cae17e629f12d0652" mtime="1446327207" name="_service" size="239" />
-  <entry md5="8d6c70628bbfd664efe0f1462708244d" mtime="1446326707" name="port_to_kf5.patch" size="3722" />
+  <entry md5="eea284ea063447ff73d009e2cf6f7c7a" mtime="1448886852" name="port_to_kf5.patch" size="3898" />
+  <entry md5="c464dcd73639c2afe60cdb2842cbbb0c" mtime="1448887640" name="zh_CN.po" size="3830" />
 </directory>

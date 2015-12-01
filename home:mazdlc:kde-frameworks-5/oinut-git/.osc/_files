@@ -1,0 +1,5 @@
+<directory name="oinut-git" rev="1" srcmd5="220215d1542438aad6bc6c6b19e2f875" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="c1fdd9ce6417c81b7d81d5f80960ba05" />
+  <entry md5="e5f923f8409aaefc67f360cfbc928bd2" mtime="1448965413" name="PKGBUILD" size="922" />
+  <entry md5="bda2d699218a09c5b8d35f28457a4e4d" mtime="1448965456" name="_service" size="408" />
+</directory>

@@ -1,5 +1,5 @@
-<directory name="silver-searcher-git" rev="50" srcmd5="61294a77acd6a585b3bed74cdc07ef3f" vrev="50">
-  <serviceinfo code="succeeded" xsrcmd5="7c6a787ce434bb5abfe6a4e4a494cfa0" />
+<directory name="silver-searcher-git" rev="120" srcmd5="599453035ec6fc980eb9069d5283393c" vrev="120">
+  <serviceinfo code="succeeded" xsrcmd5="5c754243c744e63c162e960586e9cab2" />
   <entry md5="cf72ac575f8f1a3de5a5d933569f2a64" mtime="1446524138" name="PKGBUILD" size="825" />
   <entry md5="3d390e8a740102b93f16eefab8c844a0" mtime="1446714456" name="_service" size="478" />
 </directory>

@@ -1,5 +1,5 @@
-<directory name="lib32-libice" rev="1" srcmd5="f1c262cddf589c2dd7204b413037e725" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="4173dab58bbe63bf1d34057767671ae0" />
+<directory name="lib32-libice" rev="4" srcmd5="bb59ba0765731a10cbb4f8a670f1f4c1" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="f01b58768e431bc1f6a66e3486c0375e" />
   <entry md5="3324f2da54f3c7ccc809d3a0720d64ca" mtime="1446386653" name="PKGBUILD" size="365" />
   <entry md5="113c10d93cb3b111dba9c46062aeaa39" mtime="1446386654" name="_service" size="248" />
 </directory>

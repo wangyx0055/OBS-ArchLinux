@@ -1,5 +1,5 @@
-<directory name="libkvkontakte-git" rev="39" srcmd5="d37aecd65a1d4fa6f4e673e8a58966af" vrev="39">
-  <serviceinfo code="succeeded" xsrcmd5="96ccc095f03975d1ba558cb87b9e2c1c" />
+<directory name="libkvkontakte-git" rev="126" srcmd5="b9dd3a8156b201314bcce885609436e6" vrev="126">
+  <serviceinfo code="succeeded" xsrcmd5="ff04ada3ab34dd97efed5e55f4f12b11" />
   <entry md5="93c5256e04ddca9acc60bfd39d690ef5" mtime="1447058029" name="PKGBUILD" size="909" />
   <entry md5="5f613b25ec3c7adbde778bb30631b2ce" mtime="1447058031" name="_service" size="417" />
 </directory>

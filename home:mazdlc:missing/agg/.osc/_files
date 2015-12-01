@@ -1,0 +1,5 @@
+<directory name="agg" rev="2" srcmd5="c9cf3fb3e950afd8cdae48d2dba7af4e" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="e2ba5699ed331e8a9211173be07991c5" />
+  <entry md5="12896f16cd3fc83a98b69c433e0e6037" mtime="1448960509" name="PKGBUILD" size="374" />
+  <entry md5="7dda92d7276e0467f686795c1d2c1141" mtime="1448939056" name="_service" size="285" />
+</directory>

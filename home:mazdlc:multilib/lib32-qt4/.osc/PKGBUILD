@@ -1,4 +1,4 @@
-pkgname=qt4
+pkgname=lib32-qt4
 pkgver=4.8.7
 pkgrel=2
 pkgdesc="library for obs"

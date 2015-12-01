@@ -9,7 +9,7 @@
 # -Wbemprox videocontroller query fix (see https://bugs.winehq.org/show_bug.cgi?id=38879 )
 
 pkgname=wine-gaming-nine
-pkgver=1.8rc1
+pkgver=1.8rc2
 pkgrel=1
 
 _pkgbasever=${pkgver/rc/-rc}

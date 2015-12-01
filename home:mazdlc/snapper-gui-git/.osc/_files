@@ -1,0 +1,9 @@
+<directory name="snapper-gui-git" rev="8" srcmd5="6ba4ad5e9d1d1e41ea8ab698768acbde" vrev="8">
+  <serviceinfo code="succeeded" xsrcmd5="507e44864edd09f957165ffbda4bea15" />
+  <entry md5="0f217ec6702ccb733a583e956cc92f8a" mtime="1448940081" name="PKGBUILD" size="1014" />
+  <entry md5="055e684785683e49e2c0291086195e02" mtime="1448938474" name="_service" size="418" />
+  <entry md5="fc49c2a97ccc2316abdcecb0f7879221" mtime="1448938475" name="snapper-gui.desktop" size="186" />
+  <entry md5="bd59d6bff503f490712b0d3e403547cf" mtime="1448938477" name="snapper-gui.install" size="320" />
+  <entry md5="1c960411a87fc49a1e3ef3faeaf670f6" mtime="1448938478" name="snapper-gui.svg" size="7021" />
+  <entry md5="f2f0ec031c6e2a1a7293e11d8f4d3dc5" mtime="1448938479" name="snapper.gui.policy" size="813" />
+</directory>

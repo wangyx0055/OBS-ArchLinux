@@ -1,0 +1,6 @@
+<directory name="opencv-contrib" rev="1" srcmd5="57e556107c029f17b520952f661faea8" vrev="1">
+  <serviceinfo code="succeeded" xsrcmd5="8157682be5392de33f02263f62c19443" />
+  <entry md5="02e7d797ea8a7773af973503ccf049e9" mtime="1448983173" name="PKGBUILD" size="3272" />
+  <entry md5="38bd0df2e805a5b78ad5b200d9196e53" mtime="1448983174" name="_service" size="519" />
+  <entry md5="4f8ebaf7ce0e1444ab952b8a519cec04" mtime="1448983175" name="bump.sh" size="454" />
+</directory>

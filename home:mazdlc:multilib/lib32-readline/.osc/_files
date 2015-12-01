@@ -1,5 +1,5 @@
-<directory name="lib32-readline" rev="2" srcmd5="124e303b0d1b982fcc01cddfbe382bec" vrev="2">
-  <serviceinfo code="succeeded" xsrcmd5="7db6a3c1520e65fa842ef4356edeff64" />
+<directory name="lib32-readline" rev="4" srcmd5="c56152509e9ff4720b95f62b76ef90bd" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="9d95e2e236e95c80d7d2050e9ea97020" />
   <entry md5="3b9ddd0758120e2f0f26dfd6e075f052" mtime="1446723641" name="PKGBUILD" size="387" />
   <entry md5="205987163daebef7856ba1540a5f817e" mtime="1446442420" name="_service" size="249" />
 </directory>

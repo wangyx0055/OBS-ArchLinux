@@ -1,5 +1,5 @@
-<directory name="xcalib-git" rev="8" srcmd5="e659ef6345de94275f48e1d0b4514e91" vrev="8">
-  <serviceinfo code="succeeded" xsrcmd5="6c89ee7723e5b3f3891548d125980a1d" />
+<directory name="xcalib-git" rev="29" srcmd5="8e01c7064849ec43ffa72ee9ec2ab37d" vrev="29">
+  <serviceinfo code="succeeded" xsrcmd5="0bf82f9905fb686f34eb2377cb5fac06" />
   <entry md5="b5ef64e245a48d2c5b635362d7127c59" mtime="1447065071" name="PKGBUILD" size="716" />
   <entry md5="ced2564de183a4a089a1d77fa5c6c90b" mtime="1447064725" name="_service" size="406" />
 </directory>

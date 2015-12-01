@@ -1,5 +1,5 @@
-<directory name="wireshark-git" rev="90" srcmd5="5dd5083300ff30d1d6d738fdd8b8d4bc" vrev="90">
-  <serviceinfo code="running" />
+<directory name="wireshark-git" rev="317" srcmd5="5a34d01f29b2f67dcda4000e652ad91b" vrev="317">
+  <serviceinfo code="succeeded" xsrcmd5="31ab190ccc271370898e1e71310dbfa7" />
   <entry md5="c82d31dff17ef2ba4463599a5a861606" mtime="1446480576" name="PKGBUILD" size="2364" />
   <entry md5="c41a001511b0d86bbd85c83e1379af00" mtime="1446714516" name="_service" size="461" />
   <entry md5="7c2a19069146c9625f5e5b9f6bfe244a" mtime="1446473199" name="disable-c++-compat.patch" size="410" />

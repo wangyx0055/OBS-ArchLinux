@@ -1,5 +1,5 @@
-<directory name="lib32-ocl-icd" rev="5" srcmd5="5fcec248aa516babf00404821f2c41d4" vrev="5">
-  <serviceinfo code="succeeded" xsrcmd5="f9ac08fa46343039be1f0c4db44dc2a0" />
+<directory name="lib32-ocl-icd" rev="7" srcmd5="53ccc684b7fb40cdf23ef2a85e8262d9" vrev="7">
+  <serviceinfo code="succeeded" xsrcmd5="67c323a247fde451bc35569508065673" />
   <entry md5="4928da5e75ba5b40d25946c374450ab8" mtime="1446707328" name="PKGBUILD" size="443" />
   <entry md5="ad1505796a59f143e825d7a8c6a1a329" mtime="1446700970" name="_service" size="248" />
 </directory>

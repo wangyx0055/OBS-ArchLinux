@@ -1,5 +1,5 @@
-<directory name="lib32-pango" rev="1" srcmd5="7d2becf87e391a28d5f53c5b1fd6c54a" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="3b71109702a922afbc546c783d6da841" />
+<directory name="lib32-pango" rev="21" srcmd5="c3c934737b71371ef100d1e7e513169c" vrev="21">
+  <serviceinfo code="succeeded" xsrcmd5="b12d3d43a2e003bcbdcbb1abadb412b8" />
   <entry md5="e3f1d5d291aaf1759e20a12e14bc050a" mtime="1446438750" name="PKGBUILD" size="402" />
   <entry md5="461bc1dc2a66c7a22c13d682a4872ff9" mtime="1446438757" name="_service" size="247" />
 </directory>

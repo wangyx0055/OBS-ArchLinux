@@ -1,9 +1,9 @@
 pkgname=ffmpeg
-pkgver=2.8.2
+pkgver=2.8.3
 pkgrel=1
 pkgdesc="package for obs"
 arch=('x86_64')
-depends=(alsa-lib bzip2 fontconfig fribidi gnutls gsm lame libass libbluray libmodplug libpulse libsoxr libssh libtheora libva libvdpau libwebp opencore-amr openjpeg opus schroedinger sdl speex v4l-utils xvidcore zlib libvidstab.so libvorbis.so libvorbisenc.so libvpx.so libx264.so libx265.so)
+depends=(dcadec alsa-lib bzip2 fontconfig fribidi gnutls gsm lame libass libbluray libmodplug libpulse libsoxr libssh libtheora libva libvdpau libwebp opencore-amr openjpeg opus schroedinger sdl speex v4l-utils xvidcore zlib libvidstab.so libvorbis.so libvorbisenc.so libvpx.so libx264.so libx265.so)
 provides=('libavcodec.so' 'libavdevice.so' 'libavfilter.so' 'libavformat.so'  'libavresample.so' 'libavutil.so' 'libpostproc.so' 'libswresample.so' 'libswscale.so')
 conflicts=('libavcodec.so' 'libavdevice.so' 'libavfilter.so' 'libavformat.so'  'libavresample.so' 'libavutil.so' 'libpostproc.so' 'libswresample.so' 'libswscale.so')
 url="http://www.archlinux.org"

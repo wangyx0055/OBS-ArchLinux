@@ -1,5 +1,5 @@
-<directory name="lib32-libsamplerate" rev="3" srcmd5="d0a0fedcaf79c5e939a8b2491b413d2d" vrev="3">
-  <serviceinfo code="succeeded" xsrcmd5="6c1fa906a989427c2c59120516f4c371" />
+<directory name="lib32-libsamplerate" rev="6" srcmd5="552da44c713915e0ab250e0d598a737f" vrev="6">
+  <serviceinfo code="succeeded" xsrcmd5="f13b80b374129f36571d9b87782b568f" />
   <entry md5="20debcdb0592d511a6412f42124de18a" mtime="1446723433" name="PKGBUILD" size="391" />
   <entry md5="f664f944b500ca92b66d65b5419cf809" mtime="1446467889" name="_service" size="254" />
 </directory>

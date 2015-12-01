@@ -1,0 +1,6 @@
+<directory name="kmozillahelper-kf5" rev="a9da7ed5bfad1950d8194ba2c248a494" srcmd5="a9da7ed5bfad1950d8194ba2c248a494">
+  <linkinfo baserev="646deebb1ffd1c95dbffb93f837d48da" lsrcmd5="2bffc9c64bd0575b64d27f92f3dfd454" package="kmozillahelper-kf5" project="home:mazdlc:kde-frameworks-5" srcmd5="646deebb1ffd1c95dbffb93f837d48da" />
+  <entry md5="3e6772803f180315490041b412847f2f" mtime="1448203182" name="PKGBUILD" size="1227" />
+  <entry md5="4713b8f481e1ff31c27ee77cb80f9e84" mtime="1448201829" name="_service" size="268" />
+  <entry md5="1ad83a0fe4e6dcb601a47e6f1d1e9224" mtime="1448201831" name="port_to_kf5.patch" size="8653" />
+</directory>

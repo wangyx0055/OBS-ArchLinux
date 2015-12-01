@@ -1,0 +1,5 @@
+<directory name="wine" rev="4" srcmd5="035417646373c341d933fbc92f8b8683" vrev="4">
+  <serviceinfo code="succeeded" xsrcmd5="b8a08485aa137fd0962ecf0ad5c4a7fd" />
+  <entry md5="a3e583089232c609ab3c56405e55f779" mtime="1448960774" name="PKGBUILD" size="723" />
+  <entry md5="f3ae906176f4291c05e9a4c8225a6987" mtime="1448945331" name="_service" size="285" />
+</directory>

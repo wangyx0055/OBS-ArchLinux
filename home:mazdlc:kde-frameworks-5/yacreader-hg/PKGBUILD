@@ -1,0 +1,33 @@
+# Maintainer: Felix Kauselmann <licorn at gmail dot com>
+_pkgname=yacreader
+pkgname=yacreader-hg
+pkgver=r8
+pkgrel=1
+pkgdesc=('A comic reader for cross-platform reading and managing your digital comic collection.')
+arch=('i686' 'x86_64')
+url="http://www.yacreader.com"
+license=('GPL3')
+depends=('qt5-base' 'qt5-multimedia' 'qt5-script' 'poppler-qt5' 'qt5-declarative' 'glu' 'libunarr-git' 'desktop-file-utils'  'qt5-quickcontrols')
+optdepends=('qt5-imageformats: Support for extra image formats'
+            'qrencode: YACReaderLibrary server info qr codes')
+provides=("yacreader")
+conflicts=("yacreader-bin" "yacreader")
+install=yacreader.install
+source=("$_pkgname-$pkgver.tar.xz")
+sha256sums=('SKIP')
+
+prepare() {
+  cd $srcdir/$_pkgname-$pkgver/YACReaderLibrary/server/lib/bfLogging
+  patch -p0 < $startdir/logger.patch
+}
+
+build() {
+  cd $srcdir/$_pkgname-$pkgver/
+  qmake-qt5
+  make
+}
+
+package() {
+  cd $srcdir/$_pkgname-$pkgver/
+  make INSTALL_ROOT="$pkgdir" install
+}

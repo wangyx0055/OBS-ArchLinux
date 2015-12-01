@@ -1,6 +1,6 @@
 _pkgbase=libpng
 pkgname=lib32-libpng
-pkgver=1.6.18
+pkgver=1.6.19
 pkgrel=1
 pkgdesc="32bit library for obs"
 arch=('x86_64')

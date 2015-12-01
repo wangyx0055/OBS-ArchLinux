@@ -1,0 +1,30 @@
+# Maintainer: Frederik Schwan <frederik dot schwan at linux dot com>
+# Contributor: rtfreedman  <rob<d0t>til<d0t>freedman< T>googlemail<d0t>com>
+# Contributor: Pyro Devil <p.devil@gmail.com>
+pkgname=exfat-dkms-git
+_gitname=exfat-git
+pkgver=156.42635ed
+pkgrel=1 
+pkgdesc='Native (nofuse) kernel module for EXtendedFAT support - use with DKMS'
+url="https://github.com/dorimanx/exfat-nofuse"
+arch=('any')
+license=('GPL2')
+depends=('dkms')
+makedepends=('git')
+conflicts=('exfat' 'exfat-git' 'exfat-dkms')
+provides=('exfat-dkms')
+install="${pkgname}.install"
+source=exfat-nofuse-$pkgver.tar.xz
+md5sums=('SKIP')
+options=('!strip')
+ 
+
+package() {
+
+  mkdir -p "$pkgdir"/usr/src
+  cp -r ${srcdir}/exfat-nofuse-$pkgver "$pkgdir"/usr/src/exfat-${pkgver}
+  
+  # update PACKAGE_VERSION to pkgver
+  cat $startdir/dkms.conf | sed "s/PACKAGE_VERSION=\"[-._ 0-9a-zA-Z]*\"/PACKAGE_VERSION=\"${pkgver}\"/g" \
+	>"$pkgdir"/usr/src/exfat-${pkgver}/dkms.conf
+}

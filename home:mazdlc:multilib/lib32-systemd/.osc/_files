@@ -1,5 +1,5 @@
-<directory name="lib32-systemd" rev="1" srcmd5="505f8281fd5cbccfd9dcca588b40ca85" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="150e3def6e337304fedf956de2475515" />
+<directory name="lib32-systemd" rev="3" srcmd5="584778858a8f874ec5a18b3c79a98e40" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="bbc932ea9f60cd7a66985ff43f5cda52" />
   <entry md5="8c984b03fb8b51de9ec8ee916ec9e605" mtime="1446385729" name="PKGBUILD" size="430" />
   <entry md5="24679e7d56c351818f821879c1a7321b" mtime="1446385731" name="_service" size="249" />
 </directory>

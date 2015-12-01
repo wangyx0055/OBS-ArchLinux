@@ -3,7 +3,6 @@
   <package name="antileech-git" state=" " />
   <package name="ffmpeg-full-extra" state=" " />
   <package name="gimp-painter-git" state=" " />
-  <package name="kmozillahelper-frameworks" state=" " />
   <package name="libaacplus" state=" " />
   <package name="myfbterm" state=" " />
   <package name="qarma-git" state=" " />
@@ -89,7 +88,6 @@
   <package name="mp4fpsmod-git" state=" " />
   <package name="notepadqq-git" state=" " />
   <package name="pencil2d-git" state=" " />
-  <package name="webcamoid-git" state=" " />
   <package name="arj" state=" " />
   <package name="clementine-qt5-git" state=" " />
   <package name="dpkg" state=" " />
@@ -105,4 +103,11 @@
   <package name="ttaenc" state=" " />
   <package name="uchardet-git" state=" " />
   <package name="vokoscreen-git" state=" " />
+  <package name="draftsight" state=" " />
+  <package name="enhanceio-dkms-git" state=" " />
+  <package name="exfat-dkms-git" state=" " />
+  <package name="kmozillahelper-kf5" state=" " />
+  <package name="krop" state=" " />
+  <package name="opencv-contrib" state=" " />
+  <package name="snapper-gui-git" state=" " />
 </project>

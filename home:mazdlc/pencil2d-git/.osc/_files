@@ -1,5 +1,5 @@
-<directory name="pencil2d-git" rev="38" srcmd5="37f46c21553f140ce80fb6fef0ac1872" vrev="38">
-  <serviceinfo code="succeeded" xsrcmd5="903c5ccce798dee76eec2f5a4563f03c" />
+<directory name="pencil2d-git" rev="126" srcmd5="20565eb2fbff702eb5456f5efb3a0c54" vrev="126">
+  <serviceinfo code="succeeded" xsrcmd5="0b83d14fa412a2982b269164a0611d68" />
   <entry md5="88cb28248baee3ed2b47271f12bb62d8" mtime="1447154891" name="PKGBUILD" size="1095" />
   <entry md5="5506ff9fc8877fdfbf2b1c507393a5d5" mtime="1447154893" name="_service" size="405" />
   <entry md5="98008076937080db82a939d8129ed2d0" mtime="1447154894" name="pencil2d.desktop" size="108" />

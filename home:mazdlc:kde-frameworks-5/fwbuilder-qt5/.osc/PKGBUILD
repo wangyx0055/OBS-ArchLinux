@@ -10,7 +10,7 @@ depends=('libxslt' 'net-snmp' 'qt5-base')
 conflicts=('libfwbuilder' 'fwbuilder')
 provides=('fwbuilder')
 install=fwbuilder.install
-source=("fwbuilder-${pkgver}.tar.gz::https://github.com/UNINETT/fwbuilder/archive/v${pkgver}.tar.gz"
+source=("https://github.com/UNINETT/fwbuilder/archive/v${pkgver}.tar.gz"
 		'fwbuilder.xml'
 		'fwbuilder-gcc47.patch')
 md5sums=('SKIP'

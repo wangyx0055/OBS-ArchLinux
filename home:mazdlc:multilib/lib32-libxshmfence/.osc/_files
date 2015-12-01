@@ -1,5 +1,5 @@
-<directory name="lib32-libxshmfence" rev="1" srcmd5="f8ef5e5dbd831aefd1bf3e89d485a576" vrev="1">
-  <serviceinfo code="succeeded" xsrcmd5="8d50ed0a6a608a3b829e12a6521e067d" />
+<directory name="lib32-libxshmfence" rev="3" srcmd5="49657f98e9c85a2f56fd9c3c7a77ca7f" vrev="3">
+  <serviceinfo code="succeeded" xsrcmd5="747d437c9afc7052e1d4dbb2b6155bdb" />
   <entry md5="2ca609e2beafd63c3aa3e39ad612cb3a" mtime="1446386036" name="PKGBUILD" size="381" />
   <entry md5="8a65ebbd99a74f34307f25430b64a1b7" mtime="1446386038" name="_service" size="254" />
 </directory>

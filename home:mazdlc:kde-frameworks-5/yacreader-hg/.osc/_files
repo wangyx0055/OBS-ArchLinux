@@ -1,0 +1,7 @@
+<directory name="yacreader-hg" rev="2" srcmd5="868adb54ad883f52e67d5e8a046e9b16" vrev="2">
+  <serviceinfo code="succeeded" xsrcmd5="ca2d98c29941712825a731eac1f3b603" />
+  <entry md5="a2ec53bbb0854e6f6a60520faad54621" mtime="1448933284" name="PKGBUILD" size="973" />
+  <entry md5="b8e2c3aac8b463a4830e5ca0e9fba55d" mtime="1448933285" name="_service" size="408" />
+  <entry md5="f4b18cf8f64d54357e85be609105e1c5" mtime="1448933286" name="logger.patch" size="238" />
+  <entry md5="f3ce37101e5ab060b9f557c8b5089b1a" mtime="1436752358" name="yacreader.install" size="341" />
+</directory>
